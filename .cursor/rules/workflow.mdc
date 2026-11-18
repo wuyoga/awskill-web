@@ -1,0 +1,63 @@
+---
+description: "awskill-web — 阶段 DoD、验收；P* 工程切片对齐 PRD M*"
+alwaysApply: true
+---
+
+# 推进约定（awskill-web）
+
+单仓窗口。开发分支默认 `dev`。
+
+## 阶段编号
+
+- **对外排期 / 验收以 `doc/PRD.md` 的 M0–M5 为准。**
+- **P0–P3 仅本仓工程切片**，方便 AI 按可运行增量推进；不得用 P* 替代或缩小 PRD 里程碑。
+
+| 本仓 P* | 大致对应 PRD | 说明 |
+|---------|--------------|------|
+| P0 | M0 准备 + M2 启动前的工程壳 | Vite→Next 脚手架、真实路由 |
+| P1 | M2 核心链路（静态数据） | 搜索/详情/安装/本地收藏 |
+| P2 | M3 决策增强 | 对比/评测/工作流/Agent/MCP 关联栏 |
+| P3 | M1 内容底座 | Strapi + 真实 Skill 闭环；Meilisearch 或明确延期 |
+| （未单列） | M0 未决、M4 账户、M5 上线 | 仍以 PRD 为准；未进入对应里程碑前不要提前做 |
+
+## 阶段完成定义（DoD）
+
+### P0 — Vite→Next 脚手架
+
+- [ ] `pnpm dev` 可开（Next，建议 `:3000`）
+- [ ] `pnpm lint` / `pnpm build` 通过（若已配置）
+- [ ] 目录为 `app` / `components` / `lib`；Vite 入口已移除或不再作为主路径
+- [ ] 真实路由可访问首页；hash 路由不再作为正式导航
+
+### P1 — 核心闭环（静态数据）
+
+- [ ] `/skills` 搜索/筛选/排序 + URL 状态
+- [ ] `/skills/[slug]` 兼容矩阵、安全权限、方案 B 安装复制、过期提示
+- [ ] 本地收藏可用
+- [ ] Header/Footer 全站共用；中英文切换不丢页
+
+### P2 — 决策增强页
+
+- [ ] `/compare`（2–3，URL 可分享）
+- [ ] `/reviews`、`/reviews/[slug]`
+- [ ] `/workflows`、`/workflows/[slug]`（含按 Agent 批量安装命令）
+- [ ] `/agents`、`/agents/[slug]`
+- [ ] Skill 详情 MCP 关联栏（非独立目录）
+
+### P3 — CMS / 搜索底座（对应 PRD M1）
+
+- [ ] Strapi 模型与 `lib/strapi` 封装；页面不裸 fetch
+- [ ] 至少一条真实 Skill 发布闭环
+- [ ] Meilisearch 索引与发布/下架同步策略落地或明确延期
+
+## 无 Figma / 无 CMS 时
+
+- **允许**：沿用现有原型 UI、静态 `lib/data*`、占位与「演示数据」标注
+- **禁止**：把演示结论写成生产事实；编造 Figma 节点或「已对稿」
+
+## 每单元验收
+
+1. 相关命令：`pnpm lint` / `pnpm build`（已配置时）
+2. 本地打开变更相关路由并手测关键交互
+3. 倒序追加 `doc/进度记录.md`（见 `progress-log.mdc`）
+4. 若改产品范围：同步 `doc/PRD.md` / `doc/analysis.md`

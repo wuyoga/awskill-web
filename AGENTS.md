@@ -1,37 +1,42 @@
-# figma-make-app
+<!-- BEGIN:nextjs-agent-rules -->
+# This is NOT the Next.js you know
 
-React + Vite + Tailwind CSS project running inside Figma Make.
+Target stack is Next.js **16.x** (App Router). APIs and conventions may differ from training data. After the Next scaffold lands, read guides under `node_modules/next/dist/docs/` before writing framework code. Heed deprecation notices.
+<!-- END:nextjs-agent-rules -->
 
-## Development Server
+## Repo quick facts (awskill-web)
 
-A Vite development server is **already running** on `$PORT` (default 8443). You don't need to start it manually.
+- **Product**: awskill（Agent Workflow Skills）— 中文 AI Agent Skill 评测与发现；域名 `awskill.com`
+- **Docs (source of truth)**: `doc/PRD.md`（做什么）、`doc/analysis.md`（为什么）、`doc/README.md`（索引）。`AGENTS.md` 只是 Agent 摘要，产品细节以 `doc/` 为准。
+- **Current code**: React 19 + Vite 8 高保真原型（hash 路由、静态 `src/data*.ts`）
+- **Target stack**: Next.js **16.2.x** App Router、React **19.2.x**、TypeScript strict、Tailwind CSS **v4**、后续 Strapi + PostgreSQL + Meilisearch
+- **Package manager**: **pnpm**（本仓锁定；勿擅自改 npm/yarn）
+- **First Agents**: Claude Code、Codex、Cursor、Windsurf
+- **Default locale**: 简体中文；英文为完整可切换版本
 
-- Preview URL: The user can access the running app through the preview panel
-- Hot reload: Changes to source files are reflected immediately
+## Cursor (this repo)
 
-## Project Structure
+| Kind | Path | Role |
+|------|------|------|
+| Rules | `code-conventions` | 工程硬约束、目录、RSC、env、目录迁移约定 |
+| | `product-guardrails` | PRD/决策硬约束；演示数据与未决项 |
+| | `workflow` | 阶段 DoD、验收；P*↔PRD M* |
+| | `progress-log` | `doc/进度记录.md` 模板 |
+| | `figma-honesty` | 不编造节点、不提交 MCP 临时图（涉及 Figma 时） |
 
-This is the canonical project structure. Start with task-relevant files below. Only follow imports or inspect other files when required, when a documented path is missing, or when the repository contradicts this guide.
+Progress: 每个可复述工作单元倒序追加 `doc/进度记录.md`。  
+Daily: 只打开本仓窗口。
 
-- `src/main.tsx` - React entrypoint; imports `src/index.css` and mounts `src/App.tsx` into the `#root` element
-- `src/App.tsx` - Primary application component and the usual starting point for UI work
-- `src/index.css` - Global CSS entrypoint and Tailwind CSS v4 import
-- `index.html` - Vite HTML shell containing the `#root` element and loading `src/main.tsx`
-- `package.json` - Project dependencies and the Vite build, development, preview, and formatting scripts
-- `vite.config.ts` - Vite configuration with React, Tailwind CSS v4, and Figma Make plugins plus the `@` alias for `src`
-- `.mise.toml` - Toolchain versions for Node.js and pnpm
+## Commands (current → target)
 
-## Dependencies
+| Phase | Dev | Notes |
+|-------|-----|--------|
+| 原型（现状） | `pnpm dev`（建议 `PORT=5173`；`8443` 本机可能 EACCES） | Vite |
+| Next 迁移后 | `pnpm dev` → `http://localhost:3000` | 以 `package.json` 为准 |
 
-- Runtime: React 19 and React DOM 19
-- Styling: Tailwind CSS v4 with the `@tailwindcss/vite` plugin
-- Build tooling: Vite 8, TypeScript 5.7, and `@vitejs/plugin-react`
-- Formatting: oxfmt
+## Must follow
 
-## Styling
-
-This project uses **Tailwind CSS v4** through the `@tailwindcss/vite` plugin configured in `vite.config.ts`. `src/index.css` imports Tailwind with `@import 'tailwindcss';`. Use Tailwind utility classes directly in JSX and put global CSS or Tailwind v4 theme customization in `src/index.css`. This scaffold does not need a Tailwind config file or PostCSS config.
-
-`src/main.tsx` imports `src/index.css`, so global font wiring belongs in `src/index.css`. Keep CSS `@import` statements first, then add any `@font-face` rules and font-family defaults there.
-
-Tailwind emits utility classes in `@layer utilities`, and CSS outside any cascade layer overrides every layer regardless of specificity. Put global element styles, such as resets and defaults for `body`, headings, `button`, or `input`, inside `@layer base { ... }` so utility classes on those elements still apply. Tailwind's Preflight already applies `box-sizing: border-box`, removes default margins, and sets `font: inherit` on form controls, so do not repeat those rules.
+1. 产品范围与验收以 `doc/PRD.md` 需求编号 / 里程碑 **M*** 为准；决策变更同步 `doc/analysis.md`。本仓 **P*** 只是工程切片（见 `workflow`）。
+2. 遵循 `.cursor/rules/*.mdc`；冲突时：**产品文档 > 本仓 rules**。
+3. **P0 完成前**：不以 Next API（`next/link`、`app/` 路由约定等）改写现有 Vite 运行路径，除非本单元目标就是 Vite→Next 迁移。
+4. 迁移期优先「可运行的 Next 壳 + 真实路由 + 现有静态数据」，再接 Strapi/Meilisearch（见 `workflow`）。

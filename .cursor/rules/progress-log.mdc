@@ -1,0 +1,31 @@
+---
+description: "awskill-web — doc/进度记录.md 模板"
+alwaysApply: true
+---
+
+# 进度记录
+
+仅本仓。每可复述工作单元倒序追加一条到 `doc/进度记录.md`。  
+禁止在进度里贴 Figma MCP 临时 URL。
+
+```md
+### YYYY-MM-DD
+
+- **Phase**: P0 | P1 | P2 | P3 | docs
+- **Type**: feat | fix | chore | docs
+- **Scope**: （路由或模块，如 `/` 壳、`lib/data`、AI 约束）
+- **Changes**:
+  - ...
+- **Files**:
+  - `path`
+- **Verification**:
+  - `pnpm lint` / `build` / `http://localhost:3000/...`（或当前 dev URL）
+  - （有稿时）nodeId + 稿面显示尺寸；无证据不得写「已对稿」
+- **PRD**: （相关 FR-/PAGE-/NFR-/OQ-/M- 编号，无则 N/A）
+- **Risks/Blockers**: None | CMS | Figma | OQ-… | …
+- **Next**:
+  - ...
+```
+
+纯文档/约束变更可用 **Phase: docs**，不必硬套 P0–P3。  
+可选日汇总：`doc/推进日志-YYYY-MM.md`。

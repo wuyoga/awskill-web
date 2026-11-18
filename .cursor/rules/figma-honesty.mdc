@@ -1,0 +1,14 @@
+---
+description: "awskill-web — Figma 读稿诚实；禁止编造与 MCP 临时图。涉及 Figma/对稿/设计稿时使用"
+alwaysApply: false
+---
+
+# Figma 读稿诚实性
+
+只约束「稿从哪来、图能否入库」。工程/产品见其它 rules。
+
+1. **读稿**：`get_design_context` / `get_metadata` / `use_figma`；`fileKey`+`nodeId` 来自链接或 MCP。禁止编造节点、像素、层级。
+2. **读不到**：对话说明尝试与错误；可写「待 Figma 核对」。禁止猜测写入 docs/代码并当作已对稿。
+3. **资源**：禁止提交 `https://www.figma.com/api/mcp/asset/...`；导出到 `public/` 或稳定 CDN。
+4. **显示尺寸 ≠ 资源尺寸**：样式用稿面节点 `w×h`；禁止把文件原图像素直接当显示尺寸。无 nodeId 尺寸证据不得写「已对稿」。
+5. **原型截图**：仓库内截图/演示图仅作参考，不视为已对稿证据。
