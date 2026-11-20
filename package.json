@@ -7,7 +7,10 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "format": "oxfmt"
+    "format": "oxfmt",
+    "collect": "node --experimental-strip-types tools/skill-collect/src/cli.ts",
+    "collect:batch": "node --experimental-strip-types tools/skill-collect/src/batch.ts",
+    "merge:local": "node --experimental-strip-types tools/skill-collect/src/merge-local.ts"
   },
   "dependencies": {
     "react": "^19.0.0",

@@ -1,0 +1,18 @@
+{
+  "siteKey": "fixture",
+  "sourceUrl": "https://example-benchmark.local/skills/frontend-design",
+  "externalId": "frontend-design",
+  "name": "frontend-design",
+  "owner": "anthropics",
+  "repo": "skills",
+  "repositoryUrl": "https://github.com/anthropics/skills",
+  "description": "对标站摘要：生成有视觉方向的生产级前端界面（演示 fixture，非真实抓取）。",
+  "tags": ["UI", "frontend", "design"],
+  "stars": "39.7K",
+  "installs": 18000,
+  "license": "Apache-2.0",
+  "agentsClaimed": ["Claude Code", "Codex", "Cursor"],
+  "raw": {
+    "note": "Replace this fixture with a real 对标站 adapter output when siteKey is registered."
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "siteKey": "fixture",
+  "sourceUrl": "https://example-benchmark.local/skills/agent-browser",
+  "externalId": "agent-browser",
+  "name": "agent-browser",
+  "owner": "vercel-labs",
+  "repo": "agent-browser",
+  "repositoryUrl": "https://github.com/vercel-labs/agent-browser",
+  "description": "对标站摘要：浏览器导航、表单、截图与提取（演示 fixture）。",
+  "tags": ["browser", "automation"],
+  "stars": "2.1K",
+  "installs": 3200,
+  "license": "Apache-2.0",
+  "agentsClaimed": ["Claude Code", "Codex", "Cursor", "Windsurf"],
+  "raw": {
+    "note": "Replace this fixture with a real 对标站 adapter output when siteKey is registered."
+  }
+}

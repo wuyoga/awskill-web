@@ -1,0 +1,10 @@
+{
+  "skills": [
+    {
+      "id": "handraw-style",
+      "benchmarks": [
+        { "siteKey": "skillhey", "ref": "handraw-style" }
+      ]
+    }
+  ]
+}

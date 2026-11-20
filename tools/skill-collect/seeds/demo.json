@@ -1,0 +1,50 @@
+{
+  "skills": [
+    {
+      "id": "frontend-design",
+      "github": {
+        "owner": "anthropics",
+        "repo": "skills",
+        "path": "skills/frontend-design"
+      },
+      "benchmarks": [
+        {
+          "siteKey": "skills-sh",
+          "ref": "anthropics/skills/frontend-design"
+        }
+      ]
+    },
+    {
+      "id": "impeccable",
+      "github": {
+        "owner": "pbakaus",
+        "repo": "impeccable",
+        "path": ""
+      },
+      "benchmarks": [
+        {
+          "siteKey": "skills-sh",
+          "ref": "pbakaus/impeccable/impeccable"
+        },
+        {
+          "siteKey": "skillhey",
+          "ref": "impeccable"
+        }
+      ]
+    },
+    {
+      "id": "agent-browser",
+      "github": {
+        "owner": "vercel-labs",
+        "repo": "agent-browser",
+        "path": ""
+      },
+      "benchmarks": [
+        {
+          "siteKey": "skills-sh",
+          "ref": "vercel-labs/agent-browser/agent-browser"
+        }
+      ]
+    }
+  ]
+}

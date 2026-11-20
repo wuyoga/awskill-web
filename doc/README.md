@@ -9,6 +9,7 @@
 | [analysis.md](./analysis.md) | 记录背景、现状盘点、需求推导、关键决策、风险与待确认事项 |
 | [PRD.md](./PRD.md) | 定义正式产品范围、功能需求、数据模型、非功能要求、里程碑和验收标准 |
 | [进度记录.md](./进度记录.md) | AI/人工开发进度（倒序追加；模板见 `.cursor/rules/progress-log.mdc`） |
+| [采集工作流.md](./采集工作流.md) | 双通道采集 → JSON 草稿 →（后置）CMS 导入 |
 
 ## AI 开发约束
 
@@ -18,6 +19,7 @@
 | --- | --- |
 | `code-conventions` | 工程硬约束、目录、RSC、env、Vite→Next 迁移 |
 | `product-guardrails` | PRD/决策 D-01～D-09、演示数据诚实、全部 OQ-* |
+| `change-scope` | 样式任务边界；评审建议 ≠ 实现许可 |
 | `workflow` | P0～P3 DoD；与 PRD M0–M5 对照；验收 |
 | `progress-log` | 进度记录模板 |
 | `figma-honesty` | Figma 读稿诚实性（按需，非 always） |
