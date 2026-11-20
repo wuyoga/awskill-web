@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:00:00.569Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/larksuite/cli/lark-approval",
+      "externalId": "larksuite/cli/lark-approval",
+      "name": "lark-approval",
+      "owner": "larksuite",
+      "repo": "cli",
+      "repositoryUrl": "https://github.com/larksuite/cli",
+      "description": "飞书审批：查询和处理审批待办/已办/实例，搜索可发起审批定义、查看定义详情并发起原生审批实例。当用户要处理审批任务、查看审批实例、搜索或发起审批时使用。审批待办不是飞书任务；非审批类待办走 lark-task。不负责创建审批定义；三方审批定义不走原生提单。",
+      "tags": [
+        "larksuite/cli"
+      ],
+      "stars": "18.2K",
+      "installs": 461000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "larksuite/cli/lark-approval",
+        "ogTitle": "lark-approval — larksuite/cli",
+        "npx": "npx skills add https://github.com/larksuite/cli --skill lark-approval",
+        "installsRaw": "461.0K",
+        "starsRaw": "18.2K",
+        "firstSeen": "Apr 2, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/larksuite/cli/lark-approval/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/larksuite/cli/lark-approval/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/larksuite/cli/lark-approval/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:00:00.568Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/larksuite/cli/lark-approval",
+        "externalId": "larksuite/cli/lark-approval",
+        "name": "lark-approval",
+        "owner": "larksuite",
+        "repo": "cli",
+        "repositoryUrl": "https://github.com/larksuite/cli",
+        "description": "飞书审批：查询和处理审批待办/已办/实例，搜索可发起审批定义、查看定义详情并发起原生审批实例。当用户要处理审批任务、查看审批实例、搜索或发起审批时使用。审批待办不是飞书任务；非审批类待办走 lark-task。不负责创建审批定义；三方审批定义不走原生提单。",
+        "tags": [
+          "larksuite/cli"
+        ],
+        "stars": "18.2K",
+        "installs": 461000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "larksuite/cli/lark-approval",
+          "ogTitle": "lark-approval — larksuite/cli",
+          "npx": "npx skills add https://github.com/larksuite/cli --skill lark-approval",
+          "installsRaw": "461.0K",
+          "starsRaw": "18.2K",
+          "firstSeen": "Apr 2, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/larksuite/cli/lark-approval/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/larksuite/cli/lark-approval/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/larksuite/cli/lark-approval/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:00:00.568Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "larksuite--cli--lark-approval",
+    "name": "lark-approval",
+    "owner": "larksuite",
+    "repo": "cli",
+    "category": "",
+    "description": "飞书审批：查询和处理审批待办/已办/实例，搜索可发起审批定义、查看定义详情并发起原生审批实例。当用户要处理审批任务、查看审批实例、搜索或发起审批时使用。审批待办不是飞书任务；非审批类待办走 lark-task。不负责创建审批定义；三方审批定义不走原生提单。",
+    "tags": [
+      "larksuite/cli"
+    ],
+    "keywords": [
+      "larksuite/cli"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "18.2K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/larksuite/cli",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:00:00.569Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:00:00.569Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:00:00.569Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:00:00.569Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:00:00.568Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:00:00.569Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:00:00.569Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=461000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

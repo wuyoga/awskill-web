@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:31:56.630Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone",
+      "externalId": "larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone",
+      "name": "lieflat-less-ai-tone",
+      "owner": "larashero3-dotcom",
+      "repo": "lieflat-less-ai-tone",
+      "repositoryUrl": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+      "description": "三层去 AI 味：脚本检测出分级报告（A 机械改/B 建议改/C 只报告/X 已否决/F 指纹）+ 语义层判读（同义重命名/衔接连环/结论冒号/同构三连），先向用户交付专业、可读的改前报告，列出本篇指标、研究显著性、原文例句和具体改法；收到用户回复后按白名单规则改写，复测并生成前后对比报告（默认…",
+      "tags": [
+        "larashero3-dotcom/lieflat-less-ai-tone"
+      ],
+      "stars": "8.0K",
+      "installs": 2300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone",
+        "ogTitle": "lieflat-less-ai-tone — larashero3-dotcom/lieflat-less-ai-tone",
+        "npx": "npx skills add https://github.com/larashero3-dotcom/lieflat-less-ai-tone --skill lieflat-less-ai-tone",
+        "installsRaw": "2.3K",
+        "starsRaw": "8.0K",
+        "firstSeen": "Aug 21, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:31:56.629Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone",
+        "externalId": "larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone",
+        "name": "lieflat-less-ai-tone",
+        "owner": "larashero3-dotcom",
+        "repo": "lieflat-less-ai-tone",
+        "repositoryUrl": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+        "description": "三层去 AI 味：脚本检测出分级报告（A 机械改/B 建议改/C 只报告/X 已否决/F 指纹）+ 语义层判读（同义重命名/衔接连环/结论冒号/同构三连），先向用户交付专业、可读的改前报告，列出本篇指标、研究显著性、原文例句和具体改法；收到用户回复后按白名单规则改写，复测并生成前后对比报告（默认…",
+        "tags": [
+          "larashero3-dotcom/lieflat-less-ai-tone"
+        ],
+        "stars": "8.0K",
+        "installs": 2300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone",
+          "ogTitle": "lieflat-less-ai-tone — larashero3-dotcom/lieflat-less-ai-tone",
+          "npx": "npx skills add https://github.com/larashero3-dotcom/lieflat-less-ai-tone --skill lieflat-less-ai-tone",
+          "installsRaw": "2.3K",
+          "starsRaw": "8.0K",
+          "firstSeen": "Aug 21, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/larashero3-dotcom/lieflat-less-ai-tone/lieflat-less-ai-tone/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:31:56.629Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "larashero3-dotcom--lieflat-less-ai-tone--lieflat-less-ai-tone",
+    "name": "lieflat-less-ai-tone",
+    "owner": "larashero3-dotcom",
+    "repo": "lieflat-less-ai-tone",
+    "category": "",
+    "description": "三层去 AI 味：脚本检测出分级报告（A 机械改/B 建议改/C 只报告/X 已否决/F 指纹）+ 语义层判读（同义重命名/衔接连环/结论冒号/同构三连），先向用户交付专业、可读的改前报告，列出本篇指标、研究显著性、原文例句和具体改法；收到用户回复后按白名单规则改写，复测并生成前后对比报告（默认…",
+    "tags": [
+      "larashero3-dotcom/lieflat-less-ai-tone"
+    ],
+    "keywords": [
+      "larashero3-dotcom/lieflat-less-ai-tone"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "8.0K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/larashero3-dotcom/lieflat-less-ai-tone",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:31:56.630Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:31:56.630Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:31:56.630Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:31:56.630Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:31:56.629Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:31:56.630Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:31:56.630Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

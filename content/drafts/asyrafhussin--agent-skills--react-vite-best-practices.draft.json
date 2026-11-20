@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:49:11.076Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/asyrafhussin/agent-skills/react-vite-best-practices",
+      "externalId": "asyrafhussin/agent-skills/react-vite-best-practices",
+      "name": "react-vite-best-practices",
+      "owner": "asyrafhussin",
+      "repo": "agent-skills",
+      "repositoryUrl": "https://github.com/asyrafhussin/agent-skills",
+      "description": "React and Vite performance optimization guidelines. Use when writing, reviewing, or optimizing React components built with Vite. Triggers on tasks involving…",
+      "tags": [
+        "asyrafhussin/agent-skills"
+      ],
+      "stars": "103",
+      "installs": 3000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "asyrafhussin/agent-skills/react-vite-best-practices",
+        "ogTitle": "react-vite-best-practices — asyrafhussin/agent-skills",
+        "npx": "npx skills add https://github.com/asyrafhussin/agent-skills --skill react-vite-best-practices",
+        "installsRaw": "3.0K",
+        "starsRaw": "103",
+        "firstSeen": "Jan 21, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/asyrafhussin/agent-skills/react-vite-best-practices/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/asyrafhussin/agent-skills/react-vite-best-practices/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/asyrafhussin/agent-skills/react-vite-best-practices/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:49:11.075Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/asyrafhussin/agent-skills/react-vite-best-practices",
+        "externalId": "asyrafhussin/agent-skills/react-vite-best-practices",
+        "name": "react-vite-best-practices",
+        "owner": "asyrafhussin",
+        "repo": "agent-skills",
+        "repositoryUrl": "https://github.com/asyrafhussin/agent-skills",
+        "description": "React and Vite performance optimization guidelines. Use when writing, reviewing, or optimizing React components built with Vite. Triggers on tasks involving…",
+        "tags": [
+          "asyrafhussin/agent-skills"
+        ],
+        "stars": "103",
+        "installs": 3000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "asyrafhussin/agent-skills/react-vite-best-practices",
+          "ogTitle": "react-vite-best-practices — asyrafhussin/agent-skills",
+          "npx": "npx skills add https://github.com/asyrafhussin/agent-skills --skill react-vite-best-practices",
+          "installsRaw": "3.0K",
+          "starsRaw": "103",
+          "firstSeen": "Jan 21, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/asyrafhussin/agent-skills/react-vite-best-practices/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/asyrafhussin/agent-skills/react-vite-best-practices/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/asyrafhussin/agent-skills/react-vite-best-practices/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:49:11.075Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "asyrafhussin--agent-skills--react-vite-best-practices",
+    "name": "react-vite-best-practices",
+    "owner": "asyrafhussin",
+    "repo": "agent-skills",
+    "category": "",
+    "description": "React and Vite performance optimization guidelines. Use when writing, reviewing, or optimizing React components built with Vite. Triggers on tasks involving…",
+    "tags": [
+      "asyrafhussin/agent-skills"
+    ],
+    "keywords": [
+      "asyrafhussin/agent-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "103",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/asyrafhussin/agent-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:49:11.076Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:49:11.076Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:49:11.076Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:49:11.076Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:49:11.075Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:49:11.076Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:49:11.076Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

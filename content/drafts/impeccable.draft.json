@@ -1,0 +1,322 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T23:58:30.640Z",
+  "sources": {
+    "github": {
+      "owner": "pbakaus",
+      "repo": "impeccable",
+      "path": "",
+      "htmlUrl": "https://github.com/pbakaus/impeccable",
+      "description": "The design vocabulary for your coding agent. Steer with polish and bolder, review with critique and audit, catch AI slop before it ships.",
+      "stars": 113042,
+      "license": "Apache-2.0",
+      "defaultBranch": "main",
+      "latestCommitSha": "b49177d32788f2dc585c42831d845dacf1ebed2c",
+      "latestCommitDate": "2026-11-18T21:58:19Z",
+      "skillMd": null,
+      "skillMdPath": null,
+      "readmeExcerpt": "# Impeccable\n\nThe design vocabulary for your coding agent. Steer with `polish` and `bolder`, review with `critique` and `audit`, and catch AI slop before it ships.\n\nFrom your project root:\n\n```bash\nnpx impeccable install\n```\n\nReload your coding tool, then run `/impeccable init` in your agent (`$impeccable init` on Codex).\n\nWorks with Claude Code, Cursor, Codex CLI, GitHub Copilot, Devin, Replit Agent, Gemini CLI, Grok Build, OpenCode, Google Antigravity, Kiro, Trae, Rovo Dev, Qoder, Mistral Vibe, Pi, Hermes Agent, DeepSeek Harness, and Veto. Full docs live at [impeccable.style/docs](https://impeccable.style/docs).\n\n| Without Impeccable | With Impeccable |\n|---|---|\n| ![Villa Castagneto built without Impeccable: cream background, a thin serif headline with an italic accent, two pill buttons, and flat vector illustrations in rounded cards](https://github.com/pbakaus/impeccable/raw/main/docs/images/readme-without.webp) | ![Villa Castagneto built with Impeccable: a full-bleed engraved night scene of the villa on its cliff above the sea, a condensed cream and vermilion headline, and a month strip along the bottom](https://github.com/pbakaus/impeccable/raw/main/docs/images/readme-with.webp) |\n\nSame model (Fable 5.1), same brief: a fourteen-room family guesthouse on the Ligurian coast. Without Impeccable, it builds the tasteful default: cream page, thin serif, italic accent, pill buttons. With it, the page is built around one picture: the house at night, seen from the water.\n\nFor a full project, see the [Neo Mirai case study](https://impeccable.style/cases/neo-mirai): a conference site taken from mockup to shipped page.\n\n## Why\n\nInter for everything. Purple-to-blue gradients. Cards nested in cards, gray text on colored backgrounds, a rounded-square icon tile above every heading. Ask an agent for a page with no other guidance and these show up again and again, across models and projects.\n\n- **Words for what you want.** \"Make it pop\" leaves your agent to guess. `/impeccable ",
+      "topics": [
+        "agent-skills",
+        "ai",
+        "anti-slop",
+        "design",
+        "slop"
+      ],
+      "fetchedAt": "2026-11-19T06:57:49.456Z"
+    },
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/pbakaus/impeccable/impeccable",
+      "externalId": "pbakaus/impeccable/impeccable",
+      "name": "impeccable",
+      "owner": "pbakaus",
+      "repo": "impeccable",
+      "repositoryUrl": "https://github.com/pbakaus/impeccable",
+      "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites,…",
+      "tags": [
+        "pbakaus/impeccable"
+      ],
+      "stars": "113.4K",
+      "installs": 420800,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "pbakaus/impeccable/impeccable",
+        "ogTitle": "impeccable — pbakaus/impeccable",
+        "npx": "npx skills add https://github.com/pbakaus/impeccable --skill impeccable",
+        "installsRaw": "420.8K",
+        "starsRaw": "113.4K",
+        "firstSeen": "Apr 8, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/pbakaus/impeccable/impeccable/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/pbakaus/impeccable/impeccable/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/pbakaus/impeccable/impeccable/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-19T23:58:30.640Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/pbakaus/impeccable/impeccable",
+        "externalId": "pbakaus/impeccable/impeccable",
+        "name": "impeccable",
+        "owner": "pbakaus",
+        "repo": "impeccable",
+        "repositoryUrl": "https://github.com/pbakaus/impeccable",
+        "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites,…",
+        "tags": [
+          "pbakaus/impeccable"
+        ],
+        "stars": "113.4K",
+        "installs": 420800,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "pbakaus/impeccable/impeccable",
+          "ogTitle": "impeccable — pbakaus/impeccable",
+          "npx": "npx skills add https://github.com/pbakaus/impeccable --skill impeccable",
+          "installsRaw": "420.8K",
+          "starsRaw": "113.4K",
+          "firstSeen": "Apr 8, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/pbakaus/impeccable/impeccable/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/pbakaus/impeccable/impeccable/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/pbakaus/impeccable/impeccable/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-19T23:58:30.640Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "impeccable",
+    "name": "impeccable",
+    "owner": "pbakaus",
+    "repo": "impeccable",
+    "category": "",
+    "description": "Use when the user wants to design, redesign, shape, critique, audit, polish, simplify, harden, animate, or otherwise improve a frontend interface: websites,…",
+    "tags": [
+      "pbakaus/impeccable",
+      "agent-skills",
+      "ai",
+      "anti-slop",
+      "design",
+      "slop"
+    ],
+    "keywords": [
+      "pbakaus/impeccable",
+      "agent-skills",
+      "ai",
+      "anti-slop",
+      "design",
+      "slop"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "113K",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": 0,
+    "license": "Apache-2.0",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "b49177d",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/pbakaus/impeccable",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T06:57:54.292Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T06:57:54.292Z"
+    },
+    "owner": {
+      "source": "github",
+      "collectedAt": "2026-11-19T06:57:54.292Z"
+    },
+    "repo": {
+      "source": "github",
+      "collectedAt": "2026-11-19T06:57:54.292Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T06:57:52.365Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T06:57:54.292Z"
+    },
+    "stars": {
+      "source": "github",
+      "collectedAt": "2026-11-19T06:57:54.292Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "github"
+    },
+    "latestCommit": {
+      "source": "github",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "github"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "benchmark",
+      "note": "benchmark evidence installs=420800 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "skills-sh claimed agents (not verified): Claude Code, Codex, Cursor, Windsurf, GitHub Copilot",
+      "skillhey claimed agents (not verified): Claude Code, Codex, Cursor, GitHub Copilot, Gemini"
+    ]
+  }
+}

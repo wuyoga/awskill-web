@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:15:28.085Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/tw93/waza/health",
+      "externalId": "tw93/waza/health",
+      "name": "health",
+      "owner": "tw93",
+      "repo": "waza",
+      "repositoryUrl": "https://github.com/tw93/waza",
+      "description": "Audits or prunes agent config, instruction drift, hooks or MCP, and AI maintainability. Use when Claude, Codex, or Pi setup looks wrong or guidance needs…",
+      "tags": [
+        "tw93/waza"
+      ],
+      "stars": "7.6K",
+      "installs": 16600,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "tw93/waza/health",
+        "ogTitle": "health — tw93/waza",
+        "npx": "npx skills add https://github.com/tw93/waza --skill health",
+        "installsRaw": "16.6K",
+        "starsRaw": "7.6K",
+        "firstSeen": "Apr 4, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/tw93/waza/health/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/tw93/waza/health/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/tw93/waza/health/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:15:28.085Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/tw93/waza/health",
+        "externalId": "tw93/waza/health",
+        "name": "health",
+        "owner": "tw93",
+        "repo": "waza",
+        "repositoryUrl": "https://github.com/tw93/waza",
+        "description": "Audits or prunes agent config, instruction drift, hooks or MCP, and AI maintainability. Use when Claude, Codex, or Pi setup looks wrong or guidance needs…",
+        "tags": [
+          "tw93/waza"
+        ],
+        "stars": "7.6K",
+        "installs": 16600,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "tw93/waza/health",
+          "ogTitle": "health — tw93/waza",
+          "npx": "npx skills add https://github.com/tw93/waza --skill health",
+          "installsRaw": "16.6K",
+          "starsRaw": "7.6K",
+          "firstSeen": "Apr 4, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/tw93/waza/health/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/tw93/waza/health/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/tw93/waza/health/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:15:28.085Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "tw93--waza--health",
+    "name": "health",
+    "owner": "tw93",
+    "repo": "waza",
+    "category": "",
+    "description": "Audits or prunes agent config, instruction drift, hooks or MCP, and AI maintainability. Use when Claude, Codex, or Pi setup looks wrong or guidance needs…",
+    "tags": [
+      "tw93/waza"
+    ],
+    "keywords": [
+      "tw93/waza"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "7.6K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/tw93/waza",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:15:28.085Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:15:28.085Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:15:28.085Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:15:28.085Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:15:28.085Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:15:28.085Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:15:28.085Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=16600 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

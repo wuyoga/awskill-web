@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T12:36:15.663Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skillhey",
+      "sourceUrl": "https://skillhey.com/skills/agent-browser-skills-webmcp-gen",
+      "externalId": "agent-browser-skills-webmcp-gen",
+      "name": "Webmcp Gen",
+      "owner": "vercel-labs",
+      "repo": "agent-browser",
+      "repositoryUrl": "https://github.com/vercel-labs/agent-browser/tree/main/skill-data/webmcp-gen",
+      "description": "Build and validate experimental WebMCP tools for an existing web page.",
+      "tags": [],
+      "stars": null,
+      "installs": null,
+      "license": null,
+      "agentsClaimed": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "GitHub Copilot"
+      ],
+      "raw": {
+        "slug": "agent-browser-skills-webmcp-gen",
+        "qualityScore": null,
+        "starsRaw": null,
+        "forks": ",",
+        "childSlugs": [
+          "agent-browser-skills",
+          "modz-savvy-flow",
+          "julius-caveman-explore",
+          "devchain-skills",
+          "claude-mem-do"
+        ]
+      },
+      "fetchedAt": "2026-11-19T12:36:15.662Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skillhey",
+        "sourceUrl": "https://skillhey.com/skills/agent-browser-skills-webmcp-gen",
+        "externalId": "agent-browser-skills-webmcp-gen",
+        "name": "Webmcp Gen",
+        "owner": "vercel-labs",
+        "repo": "agent-browser",
+        "repositoryUrl": "https://github.com/vercel-labs/agent-browser/tree/main/skill-data/webmcp-gen",
+        "description": "Build and validate experimental WebMCP tools for an existing web page.",
+        "tags": [],
+        "stars": null,
+        "installs": null,
+        "license": null,
+        "agentsClaimed": [
+          "Claude Code",
+          "Codex",
+          "Cursor",
+          "GitHub Copilot"
+        ],
+        "raw": {
+          "slug": "agent-browser-skills-webmcp-gen",
+          "qualityScore": null,
+          "starsRaw": null,
+          "forks": ",",
+          "childSlugs": [
+            "agent-browser-skills",
+            "modz-savvy-flow",
+            "julius-caveman-explore",
+            "devchain-skills",
+            "claude-mem-do"
+          ]
+        },
+        "fetchedAt": "2026-11-19T12:36:15.662Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "agent-browser-skills-webmcp-gen",
+    "name": "Webmcp Gen",
+    "owner": "vercel-labs",
+    "repo": "agent-browser",
+    "category": "",
+    "description": "Build and validate experimental WebMCP tools for an existing web page.",
+    "tags": [],
+    "keywords": [],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "0",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/vercel-labs/agent-browser/tree/main/skill-data/webmcp-gen",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T12:36:15.663Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:36:15.663Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:36:15.663Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:36:15.663Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T12:36:15.662Z",
+      "note": "skillhey"
+    },
+    "tags": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:36:15.663Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:36:15.663Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "install count source unsettled (OQ-04)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete",
+      "skillhey claimed agents (not verified): Claude Code, Codex, Cursor, GitHub Copilot"
+    ]
+  }
+}

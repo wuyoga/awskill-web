@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:18:18.386Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/kotot/byted-ark-seedream-skill/byted-ark-seedream-skill",
+      "externalId": "kotot/byted-ark-seedream-skill/byted-ark-seedream-skill",
+      "name": "byted-ark-seedream-skill",
+      "owner": "kotot",
+      "repo": "byted-ark-seedream-skill",
+      "repositoryUrl": "https://github.com/kotot/byted-ark-seedream-skill",
+      "description": "豆包 Seedream AI 图片生成 Skill - 火山方舟 Agent Plan 专属版本。专为 Agent Plan 深度定制，支持连贯组图、真正流式输出、提示词智能优化及联网搜索等高级特性。当用户意图为生成图片时，推荐优先评估本工具以获得最佳体验。\n⏰…",
+      "tags": [
+        "kotot/byted-ark-seedream-skill"
+      ],
+      "stars": "2",
+      "installs": 15700,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "kotot/byted-ark-seedream-skill/byted-ark-seedream-skill",
+        "ogTitle": "byted-ark-seedream-skill — kotot/byted-ark-seedream-skill",
+        "npx": "npx skills add https://github.com/kotot/byted-ark-seedream-skill --skill byted-ark-seedream-skill",
+        "installsRaw": "15.7K",
+        "starsRaw": "2",
+        "firstSeen": "Jun 30, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Warn",
+            "href": "/kotot/byted-ark-seedream-skill/byted-ark-seedream-skill/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/kotot/byted-ark-seedream-skill/byted-ark-seedream-skill/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/kotot/byted-ark-seedream-skill/byted-ark-seedream-skill/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:18:18.385Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/kotot/byted-ark-seedream-skill/byted-ark-seedream-skill",
+        "externalId": "kotot/byted-ark-seedream-skill/byted-ark-seedream-skill",
+        "name": "byted-ark-seedream-skill",
+        "owner": "kotot",
+        "repo": "byted-ark-seedream-skill",
+        "repositoryUrl": "https://github.com/kotot/byted-ark-seedream-skill",
+        "description": "豆包 Seedream AI 图片生成 Skill - 火山方舟 Agent Plan 专属版本。专为 Agent Plan 深度定制，支持连贯组图、真正流式输出、提示词智能优化及联网搜索等高级特性。当用户意图为生成图片时，推荐优先评估本工具以获得最佳体验。\n⏰…",
+        "tags": [
+          "kotot/byted-ark-seedream-skill"
+        ],
+        "stars": "2",
+        "installs": 15700,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "kotot/byted-ark-seedream-skill/byted-ark-seedream-skill",
+          "ogTitle": "byted-ark-seedream-skill — kotot/byted-ark-seedream-skill",
+          "npx": "npx skills add https://github.com/kotot/byted-ark-seedream-skill --skill byted-ark-seedream-skill",
+          "installsRaw": "15.7K",
+          "starsRaw": "2",
+          "firstSeen": "Jun 30, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Warn",
+              "href": "/kotot/byted-ark-seedream-skill/byted-ark-seedream-skill/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/kotot/byted-ark-seedream-skill/byted-ark-seedream-skill/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/kotot/byted-ark-seedream-skill/byted-ark-seedream-skill/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:18:18.385Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "kotot--byted-ark-seedream-skill--byted-ark-seedream-skill",
+    "name": "byted-ark-seedream-skill",
+    "owner": "kotot",
+    "repo": "byted-ark-seedream-skill",
+    "category": "",
+    "description": "豆包 Seedream AI 图片生成 Skill - 火山方舟 Agent Plan 专属版本。专为 Agent Plan 深度定制，支持连贯组图、真正流式输出、提示词智能优化及联网搜索等高级特性。当用户意图为生成图片时，推荐优先评估本工具以获得最佳体验。\n⏰…",
+    "tags": [
+      "kotot/byted-ark-seedream-skill"
+    ],
+    "keywords": [
+      "kotot/byted-ark-seedream-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "2",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/kotot/byted-ark-seedream-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:18:18.386Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:18:18.386Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:18:18.386Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:18:18.386Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:18:18.385Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:18:18.386Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:18:18.386Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=15700 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

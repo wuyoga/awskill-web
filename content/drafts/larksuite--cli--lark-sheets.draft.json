@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T23:59:50.040Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/larksuite/cli/lark-sheets",
+      "externalId": "larksuite/cli/lark-sheets",
+      "name": "lark-sheets",
+      "owner": "larksuite",
+      "repo": "cli",
+      "repositoryUrl": "https://github.com/larksuite/cli",
+      "description": "飞书电子表格：创建和操作电子表格。支持工作表与行列结构（增删/合并/尺寸/隐藏/冻结/分组）、单元格读写（值/公式/样式/批注/单元格图片）、区域复制移动排序填充、查找替换、批量更新，图表、透视表、条件格式、筛选器与筛选视图、下拉列表、迷你图、浮动图片等对象的创建与维护，以及公式校验、历史版本回滚、本地…",
+      "tags": [
+        "larksuite/cli"
+      ],
+      "stars": "18.2K",
+      "installs": 493200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "larksuite/cli/lark-sheets",
+        "ogTitle": "lark-sheets — larksuite/cli",
+        "npx": "npx skills add https://github.com/larksuite/cli --skill lark-sheets",
+        "installsRaw": "493.2K",
+        "starsRaw": "18.2K",
+        "firstSeen": "Mar 28, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/larksuite/cli/lark-sheets/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/larksuite/cli/lark-sheets/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/larksuite/cli/lark-sheets/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-19T23:59:50.040Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/larksuite/cli/lark-sheets",
+        "externalId": "larksuite/cli/lark-sheets",
+        "name": "lark-sheets",
+        "owner": "larksuite",
+        "repo": "cli",
+        "repositoryUrl": "https://github.com/larksuite/cli",
+        "description": "飞书电子表格：创建和操作电子表格。支持工作表与行列结构（增删/合并/尺寸/隐藏/冻结/分组）、单元格读写（值/公式/样式/批注/单元格图片）、区域复制移动排序填充、查找替换、批量更新，图表、透视表、条件格式、筛选器与筛选视图、下拉列表、迷你图、浮动图片等对象的创建与维护，以及公式校验、历史版本回滚、本地…",
+        "tags": [
+          "larksuite/cli"
+        ],
+        "stars": "18.2K",
+        "installs": 493200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "larksuite/cli/lark-sheets",
+          "ogTitle": "lark-sheets — larksuite/cli",
+          "npx": "npx skills add https://github.com/larksuite/cli --skill lark-sheets",
+          "installsRaw": "493.2K",
+          "starsRaw": "18.2K",
+          "firstSeen": "Mar 28, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/larksuite/cli/lark-sheets/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/larksuite/cli/lark-sheets/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/larksuite/cli/lark-sheets/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-19T23:59:50.040Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "larksuite--cli--lark-sheets",
+    "name": "lark-sheets",
+    "owner": "larksuite",
+    "repo": "cli",
+    "category": "",
+    "description": "飞书电子表格：创建和操作电子表格。支持工作表与行列结构（增删/合并/尺寸/隐藏/冻结/分组）、单元格读写（值/公式/样式/批注/单元格图片）、区域复制移动排序填充、查找替换、批量更新，图表、透视表、条件格式、筛选器与筛选视图、下拉列表、迷你图、浮动图片等对象的创建与维护，以及公式校验、历史版本回滚、本地…",
+    "tags": [
+      "larksuite/cli"
+    ],
+    "keywords": [
+      "larksuite/cli"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "18.2K",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/larksuite/cli",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T23:59:50.040Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T23:59:50.040Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T23:59:50.040Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T23:59:50.040Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T23:59:50.040Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T23:59:50.040Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T23:59:50.040Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=493200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

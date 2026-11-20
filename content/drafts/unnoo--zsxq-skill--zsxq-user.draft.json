@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:02:53.190Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/unnoo/zsxq-skill/zsxq-user",
+      "externalId": "unnoo/zsxq-skill/zsxq-user",
+      "name": "zsxq-user",
+      "owner": "unnoo",
+      "repo": "zsxq-skill",
+      "repositoryUrl": "https://github.com/unnoo/zsxq-skill",
+      "description": "知识星球用户信息与反馈：查看当前登录用户的个人资料、查询跨星球的最近发主题足迹、提交 NPS 反馈（推荐分数 + 建议）。当用户需要查看自己的用户 ID、昵称、头像、认证状态，查看自己最近在各星球发过的主题，或向知识星球官方提交 NPS 评分/产品建议时使用。",
+      "tags": [
+        "unnoo/zsxq-skill"
+      ],
+      "stars": "329",
+      "installs": 4500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "unnoo/zsxq-skill/zsxq-user",
+        "ogTitle": "zsxq-user — unnoo/zsxq-skill",
+        "npx": "npx skills add https://github.com/unnoo/zsxq-skill --skill zsxq-user",
+        "installsRaw": "4.5K",
+        "starsRaw": "329",
+        "firstSeen": "Apr 10, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/unnoo/zsxq-skill/zsxq-user/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/unnoo/zsxq-skill/zsxq-user/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/unnoo/zsxq-skill/zsxq-user/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:02:53.189Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/unnoo/zsxq-skill/zsxq-user",
+        "externalId": "unnoo/zsxq-skill/zsxq-user",
+        "name": "zsxq-user",
+        "owner": "unnoo",
+        "repo": "zsxq-skill",
+        "repositoryUrl": "https://github.com/unnoo/zsxq-skill",
+        "description": "知识星球用户信息与反馈：查看当前登录用户的个人资料、查询跨星球的最近发主题足迹、提交 NPS 反馈（推荐分数 + 建议）。当用户需要查看自己的用户 ID、昵称、头像、认证状态，查看自己最近在各星球发过的主题，或向知识星球官方提交 NPS 评分/产品建议时使用。",
+        "tags": [
+          "unnoo/zsxq-skill"
+        ],
+        "stars": "329",
+        "installs": 4500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "unnoo/zsxq-skill/zsxq-user",
+          "ogTitle": "zsxq-user — unnoo/zsxq-skill",
+          "npx": "npx skills add https://github.com/unnoo/zsxq-skill --skill zsxq-user",
+          "installsRaw": "4.5K",
+          "starsRaw": "329",
+          "firstSeen": "Apr 10, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/unnoo/zsxq-skill/zsxq-user/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/unnoo/zsxq-skill/zsxq-user/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/unnoo/zsxq-skill/zsxq-user/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:02:53.189Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "unnoo--zsxq-skill--zsxq-user",
+    "name": "zsxq-user",
+    "owner": "unnoo",
+    "repo": "zsxq-skill",
+    "category": "",
+    "description": "知识星球用户信息与反馈：查看当前登录用户的个人资料、查询跨星球的最近发主题足迹、提交 NPS 反馈（推荐分数 + 建议）。当用户需要查看自己的用户 ID、昵称、头像、认证状态，查看自己最近在各星球发过的主题，或向知识星球官方提交 NPS 评分/产品建议时使用。",
+    "tags": [
+      "unnoo/zsxq-skill"
+    ],
+    "keywords": [
+      "unnoo/zsxq-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "329",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/unnoo/zsxq-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:02:53.190Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:02:53.190Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:02:53.190Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:02:53.190Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:02:53.189Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:02:53.190Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:02:53.190Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=4500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

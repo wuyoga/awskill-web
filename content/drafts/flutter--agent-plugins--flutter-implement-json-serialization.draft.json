@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:08:16.724Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/flutter/agent-plugins/flutter-implement-json-serialization",
+      "externalId": "flutter/agent-plugins/flutter-implement-json-serialization",
+      "name": "flutter-implement-json-serialization",
+      "owner": "flutter",
+      "repo": "agent-plugins",
+      "repositoryUrl": "https://github.com/flutter/agent-plugins",
+      "description": "Create model classes with `fromJson` and `toJson` methods using `dart:convert`. Use when manually mapping JSON keys to class properties for simple data…",
+      "tags": [
+        "flutter/agent-plugins"
+      ],
+      "stars": "3.2K",
+      "installs": 40800,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "flutter/agent-plugins/flutter-implement-json-serialization",
+        "ogTitle": "flutter-implement-json-serialization — flutter/agent-plugins",
+        "npx": "npx skills add https://github.com/flutter/agent-plugins --skill flutter-implement-json-serialization",
+        "installsRaw": "40.8K",
+        "starsRaw": "3.2K",
+        "firstSeen": "Apr 24, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/flutter/agent-plugins/flutter-implement-json-serialization/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/flutter/agent-plugins/flutter-implement-json-serialization/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/flutter/agent-plugins/flutter-implement-json-serialization/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:08:16.724Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/flutter/agent-plugins/flutter-implement-json-serialization",
+        "externalId": "flutter/agent-plugins/flutter-implement-json-serialization",
+        "name": "flutter-implement-json-serialization",
+        "owner": "flutter",
+        "repo": "agent-plugins",
+        "repositoryUrl": "https://github.com/flutter/agent-plugins",
+        "description": "Create model classes with `fromJson` and `toJson` methods using `dart:convert`. Use when manually mapping JSON keys to class properties for simple data…",
+        "tags": [
+          "flutter/agent-plugins"
+        ],
+        "stars": "3.2K",
+        "installs": 40800,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "flutter/agent-plugins/flutter-implement-json-serialization",
+          "ogTitle": "flutter-implement-json-serialization — flutter/agent-plugins",
+          "npx": "npx skills add https://github.com/flutter/agent-plugins --skill flutter-implement-json-serialization",
+          "installsRaw": "40.8K",
+          "starsRaw": "3.2K",
+          "firstSeen": "Apr 24, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/flutter/agent-plugins/flutter-implement-json-serialization/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/flutter/agent-plugins/flutter-implement-json-serialization/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/flutter/agent-plugins/flutter-implement-json-serialization/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:08:16.724Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "flutter--agent-plugins--flutter-implement-json-serialization",
+    "name": "flutter-implement-json-serialization",
+    "owner": "flutter",
+    "repo": "agent-plugins",
+    "category": "",
+    "description": "Create model classes with `fromJson` and `toJson` methods using `dart:convert`. Use when manually mapping JSON keys to class properties for simple data…",
+    "tags": [
+      "flutter/agent-plugins"
+    ],
+    "keywords": [
+      "flutter/agent-plugins"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "3.2K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/flutter/agent-plugins",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:08:16.724Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:08:16.724Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:08:16.724Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:08:16.724Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:08:16.724Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:08:16.724Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:08:16.724Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=40800 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

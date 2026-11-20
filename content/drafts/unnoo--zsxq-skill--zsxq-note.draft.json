@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:02:46.756Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/unnoo/zsxq-skill/zsxq-note",
+      "externalId": "unnoo/zsxq-skill/zsxq-note",
+      "name": "zsxq-note",
+      "owner": "unnoo",
+      "repo": "zsxq-skill",
+      "repositoryUrl": "https://github.com/unnoo/zsxq-skill",
+      "description": "知识星球公开笔记管理：创建笔记、编辑笔记、查看笔记详情、查看笔记列表、删除笔记。当用户需要在知识星球创建可分享的公开笔记、编辑笔记、查看笔记详情、删除笔记、或查看历史笔记时使用。注意：笔记是公开内容，任何持有链接的人都可访问。",
+      "tags": [
+        "unnoo/zsxq-skill"
+      ],
+      "stars": "329",
+      "installs": 4600,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "unnoo/zsxq-skill/zsxq-note",
+        "ogTitle": "zsxq-note — unnoo/zsxq-skill",
+        "npx": "npx skills add https://github.com/unnoo/zsxq-skill --skill zsxq-note",
+        "installsRaw": "4.6K",
+        "starsRaw": "329",
+        "firstSeen": "Apr 10, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/unnoo/zsxq-skill/zsxq-note/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/unnoo/zsxq-skill/zsxq-note/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/unnoo/zsxq-skill/zsxq-note/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:02:46.755Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/unnoo/zsxq-skill/zsxq-note",
+        "externalId": "unnoo/zsxq-skill/zsxq-note",
+        "name": "zsxq-note",
+        "owner": "unnoo",
+        "repo": "zsxq-skill",
+        "repositoryUrl": "https://github.com/unnoo/zsxq-skill",
+        "description": "知识星球公开笔记管理：创建笔记、编辑笔记、查看笔记详情、查看笔记列表、删除笔记。当用户需要在知识星球创建可分享的公开笔记、编辑笔记、查看笔记详情、删除笔记、或查看历史笔记时使用。注意：笔记是公开内容，任何持有链接的人都可访问。",
+        "tags": [
+          "unnoo/zsxq-skill"
+        ],
+        "stars": "329",
+        "installs": 4600,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "unnoo/zsxq-skill/zsxq-note",
+          "ogTitle": "zsxq-note — unnoo/zsxq-skill",
+          "npx": "npx skills add https://github.com/unnoo/zsxq-skill --skill zsxq-note",
+          "installsRaw": "4.6K",
+          "starsRaw": "329",
+          "firstSeen": "Apr 10, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/unnoo/zsxq-skill/zsxq-note/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/unnoo/zsxq-skill/zsxq-note/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/unnoo/zsxq-skill/zsxq-note/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:02:46.755Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "unnoo--zsxq-skill--zsxq-note",
+    "name": "zsxq-note",
+    "owner": "unnoo",
+    "repo": "zsxq-skill",
+    "category": "",
+    "description": "知识星球公开笔记管理：创建笔记、编辑笔记、查看笔记详情、查看笔记列表、删除笔记。当用户需要在知识星球创建可分享的公开笔记、编辑笔记、查看笔记详情、删除笔记、或查看历史笔记时使用。注意：笔记是公开内容，任何持有链接的人都可访问。",
+    "tags": [
+      "unnoo/zsxq-skill"
+    ],
+    "keywords": [
+      "unnoo/zsxq-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "329",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/unnoo/zsxq-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:02:46.756Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:02:46.756Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:02:46.756Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:02:46.756Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:02:46.755Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:02:46.756Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:02:46.756Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=4600 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

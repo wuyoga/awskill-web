@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:43:29.321Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/microsoft/vscode/hygiene",
+      "externalId": "microsoft/vscode/hygiene",
+      "name": "hygiene",
+      "owner": "microsoft",
+      "repo": "vscode",
+      "repositoryUrl": "https://github.com/microsoft/vscode",
+      "description": "Use when making code changes to ensure they pass VS Code&#x27;s hygiene checks. Covers the pre-commit hook, unicode restrictions, string quoting rules, copyright…",
+      "tags": [
+        "microsoft/vscode"
+      ],
+      "stars": "195.6K",
+      "installs": 2200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "microsoft/vscode/hygiene",
+        "ogTitle": "hygiene — microsoft/vscode",
+        "npx": "npx skills add https://github.com/microsoft/vscode --skill hygiene",
+        "installsRaw": "2.2K",
+        "starsRaw": "195.6K",
+        "firstSeen": "Feb 20, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/microsoft/vscode/hygiene/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/microsoft/vscode/hygiene/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/microsoft/vscode/hygiene/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:43:29.320Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/microsoft/vscode/hygiene",
+        "externalId": "microsoft/vscode/hygiene",
+        "name": "hygiene",
+        "owner": "microsoft",
+        "repo": "vscode",
+        "repositoryUrl": "https://github.com/microsoft/vscode",
+        "description": "Use when making code changes to ensure they pass VS Code&#x27;s hygiene checks. Covers the pre-commit hook, unicode restrictions, string quoting rules, copyright…",
+        "tags": [
+          "microsoft/vscode"
+        ],
+        "stars": "195.6K",
+        "installs": 2200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "microsoft/vscode/hygiene",
+          "ogTitle": "hygiene — microsoft/vscode",
+          "npx": "npx skills add https://github.com/microsoft/vscode --skill hygiene",
+          "installsRaw": "2.2K",
+          "starsRaw": "195.6K",
+          "firstSeen": "Feb 20, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/microsoft/vscode/hygiene/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/microsoft/vscode/hygiene/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/microsoft/vscode/hygiene/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:43:29.320Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "microsoft--vscode--hygiene",
+    "name": "hygiene",
+    "owner": "microsoft",
+    "repo": "vscode",
+    "category": "",
+    "description": "Use when making code changes to ensure they pass VS Code&#x27;s hygiene checks. Covers the pre-commit hook, unicode restrictions, string quoting rules, copyright…",
+    "tags": [
+      "microsoft/vscode"
+    ],
+    "keywords": [
+      "microsoft/vscode"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "195.6K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/microsoft/vscode",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:43:29.321Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:43:29.321Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:43:29.321Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:43:29.321Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:43:29.320Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:43:29.321Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:43:29.321Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

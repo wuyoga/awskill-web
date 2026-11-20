@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:41:59.560Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/google/skills/assuredworkloads-frameworks-author",
+      "externalId": "google/skills/assuredworkloads-frameworks-author",
+      "name": "assuredworkloads-frameworks-author",
+      "owner": "google",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/google/skills",
+      "description": "Authors custom cloud controls and customized frameworks for Assured Workloads when built-in resources cannot satisfy core requirements. Use when creating or…",
+      "tags": [
+        "google/skills"
+      ],
+      "stars": "24.4K",
+      "installs": 1500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "google/skills/assuredworkloads-frameworks-author",
+        "ogTitle": "assuredworkloads-frameworks-author — google/skills",
+        "npx": "npx skills add https://github.com/google/skills --skill assuredworkloads-frameworks-author",
+        "installsRaw": "1.5K",
+        "starsRaw": "24.4K",
+        "firstSeen": "Oct 19, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/google/skills/assuredworkloads-frameworks-author/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/google/skills/assuredworkloads-frameworks-author/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Fail",
+            "href": "/google/skills/assuredworkloads-frameworks-author/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:41:59.560Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/google/skills/assuredworkloads-frameworks-author",
+        "externalId": "google/skills/assuredworkloads-frameworks-author",
+        "name": "assuredworkloads-frameworks-author",
+        "owner": "google",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/google/skills",
+        "description": "Authors custom cloud controls and customized frameworks for Assured Workloads when built-in resources cannot satisfy core requirements. Use when creating or…",
+        "tags": [
+          "google/skills"
+        ],
+        "stars": "24.4K",
+        "installs": 1500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "google/skills/assuredworkloads-frameworks-author",
+          "ogTitle": "assuredworkloads-frameworks-author — google/skills",
+          "npx": "npx skills add https://github.com/google/skills --skill assuredworkloads-frameworks-author",
+          "installsRaw": "1.5K",
+          "starsRaw": "24.4K",
+          "firstSeen": "Oct 19, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/google/skills/assuredworkloads-frameworks-author/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/google/skills/assuredworkloads-frameworks-author/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Fail",
+              "href": "/google/skills/assuredworkloads-frameworks-author/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:41:59.560Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "google--skills--assuredworkloads-frameworks-author",
+    "name": "assuredworkloads-frameworks-author",
+    "owner": "google",
+    "repo": "skills",
+    "category": "",
+    "description": "Authors custom cloud controls and customized frameworks for Assured Workloads when built-in resources cannot satisfy core requirements. Use when creating or…",
+    "tags": [
+      "google/skills"
+    ],
+    "keywords": [
+      "google/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "24.4K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/google/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:41:59.560Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:41:59.560Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:41:59.560Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:41:59.560Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:41:59.560Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:41:59.560Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:41:59.560Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

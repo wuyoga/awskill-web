@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:33:55.926Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/getsentry/sentry-agent-skills/sentry-react-setup",
+      "externalId": "getsentry/sentry-agent-skills/sentry-react-setup",
+      "name": "sentry-react-setup",
+      "owner": "getsentry",
+      "repo": "sentry-agent-skills",
+      "repositoryUrl": "https://github.com/getsentry/sentry-agent-skills",
+      "description": "Setup Sentry in React apps. Use when asked to add Sentry to React, install @sentry/react, or configure error monitoring, error boundaries, session replay, or…",
+      "tags": [
+        "getsentry/sentry-agent-skills"
+      ],
+      "stars": "25",
+      "installs": 1100,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "getsentry/sentry-agent-skills/sentry-react-setup",
+        "ogTitle": "sentry-react-setup — getsentry/sentry-agent-skills",
+        "npx": "npx skills add https://github.com/getsentry/sentry-agent-skills --skill sentry-react-setup",
+        "installsRaw": "1.1K",
+        "starsRaw": "25",
+        "firstSeen": "Jan 20, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/getsentry/sentry-agent-skills/sentry-react-setup/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/getsentry/sentry-agent-skills/sentry-react-setup/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/getsentry/sentry-agent-skills/sentry-react-setup/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:33:55.925Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/getsentry/sentry-agent-skills/sentry-react-setup",
+        "externalId": "getsentry/sentry-agent-skills/sentry-react-setup",
+        "name": "sentry-react-setup",
+        "owner": "getsentry",
+        "repo": "sentry-agent-skills",
+        "repositoryUrl": "https://github.com/getsentry/sentry-agent-skills",
+        "description": "Setup Sentry in React apps. Use when asked to add Sentry to React, install @sentry/react, or configure error monitoring, error boundaries, session replay, or…",
+        "tags": [
+          "getsentry/sentry-agent-skills"
+        ],
+        "stars": "25",
+        "installs": 1100,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "getsentry/sentry-agent-skills/sentry-react-setup",
+          "ogTitle": "sentry-react-setup — getsentry/sentry-agent-skills",
+          "npx": "npx skills add https://github.com/getsentry/sentry-agent-skills --skill sentry-react-setup",
+          "installsRaw": "1.1K",
+          "starsRaw": "25",
+          "firstSeen": "Jan 20, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/getsentry/sentry-agent-skills/sentry-react-setup/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/getsentry/sentry-agent-skills/sentry-react-setup/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/getsentry/sentry-agent-skills/sentry-react-setup/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:33:55.925Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "getsentry--sentry-agent-skills--sentry-react-setup",
+    "name": "sentry-react-setup",
+    "owner": "getsentry",
+    "repo": "sentry-agent-skills",
+    "category": "",
+    "description": "Setup Sentry in React apps. Use when asked to add Sentry to React, install @sentry/react, or configure error monitoring, error boundaries, session replay, or…",
+    "tags": [
+      "getsentry/sentry-agent-skills"
+    ],
+    "keywords": [
+      "getsentry/sentry-agent-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "25",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/getsentry/sentry-agent-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:33:55.926Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:33:55.926Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:33:55.926Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:33:55.926Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:33:55.925Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:33:55.926Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:33:55.926Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1100 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

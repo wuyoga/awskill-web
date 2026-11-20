@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:54:27.135Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/lijigang/ljg-skills/ljg-paper-flow",
+      "externalId": "lijigang/ljg-skills/ljg-paper-flow",
+      "name": "ljg-paper-flow",
+      "owner": "lijigang",
+      "repo": "ljg-skills",
+      "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+      "description": "Paper workflow: read papers + cast 取景框 library cards in one go. Takes one or more arxiv links, paper URLs, PDFs, or paper names. For each paper, runs ljg-paper…",
+      "tags": [
+        "lijigang/ljg-skills"
+      ],
+      "stars": "7.8K",
+      "installs": 5300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "lijigang/ljg-skills/ljg-paper-flow",
+        "ogTitle": "ljg-paper-flow — lijigang/ljg-skills",
+        "npx": "npx skills add https://github.com/lijigang/ljg-skills --skill ljg-paper-flow",
+        "installsRaw": "5.3K",
+        "starsRaw": "7.8K",
+        "firstSeen": "Mar 19, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/lijigang/ljg-skills/ljg-paper-flow/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/lijigang/ljg-skills/ljg-paper-flow/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/lijigang/ljg-skills/ljg-paper-flow/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:54:27.134Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/lijigang/ljg-skills/ljg-paper-flow",
+        "externalId": "lijigang/ljg-skills/ljg-paper-flow",
+        "name": "ljg-paper-flow",
+        "owner": "lijigang",
+        "repo": "ljg-skills",
+        "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+        "description": "Paper workflow: read papers + cast 取景框 library cards in one go. Takes one or more arxiv links, paper URLs, PDFs, or paper names. For each paper, runs ljg-paper…",
+        "tags": [
+          "lijigang/ljg-skills"
+        ],
+        "stars": "7.8K",
+        "installs": 5300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "lijigang/ljg-skills/ljg-paper-flow",
+          "ogTitle": "ljg-paper-flow — lijigang/ljg-skills",
+          "npx": "npx skills add https://github.com/lijigang/ljg-skills --skill ljg-paper-flow",
+          "installsRaw": "5.3K",
+          "starsRaw": "7.8K",
+          "firstSeen": "Mar 19, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/lijigang/ljg-skills/ljg-paper-flow/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/lijigang/ljg-skills/ljg-paper-flow/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/lijigang/ljg-skills/ljg-paper-flow/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:54:27.134Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "lijigang--ljg-skills--ljg-paper-flow",
+    "name": "ljg-paper-flow",
+    "owner": "lijigang",
+    "repo": "ljg-skills",
+    "category": "",
+    "description": "Paper workflow: read papers + cast 取景框 library cards in one go. Takes one or more arxiv links, paper URLs, PDFs, or paper names. For each paper, runs ljg-paper…",
+    "tags": [
+      "lijigang/ljg-skills"
+    ],
+    "keywords": [
+      "lijigang/ljg-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "7.8K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:54:27.135Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:54:27.135Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:54:27.135Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:54:27.135Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:54:27.134Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:54:27.135Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:54:27.135Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=5300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

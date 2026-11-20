@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:52:04.160Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/conardli/garden-skills/motion-showreel",
+      "externalId": "conardli/garden-skills/motion-showreel",
+      "name": "motion-showreel",
+      "owner": "conardli",
+      "repo": "garden-skills",
+      "repositoryUrl": "https://github.com/conardli/garden-skills",
+      "description": "用代码制作图形、文字或界面动画视频，输出 MP4 和可编辑源码，最长 20 分钟。适用于动效作品集、产品片、UI 动效、动态排版、Logo 片头、生成艺术与讲解视频；支持独立选择 BGM/音效来源、用户口播，以及用用户提供的口播稿通过 TTS 合成语音。不用于实拍制作、写实人物生成或一般视频剪辑。",
+      "tags": [
+        "conardli/garden-skills"
+      ],
+      "stars": "15.5K",
+      "installs": 1300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "conardli/garden-skills/motion-showreel",
+        "ogTitle": "motion-showreel — conardli/garden-skills",
+        "npx": "npx skills add https://github.com/conardli/garden-skills --skill motion-showreel",
+        "installsRaw": "1.3K",
+        "starsRaw": "15.5K",
+        "firstSeen": "Oct 11, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/conardli/garden-skills/motion-showreel/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/conardli/garden-skills/motion-showreel/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/conardli/garden-skills/motion-showreel/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:52:04.160Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/conardli/garden-skills/motion-showreel",
+        "externalId": "conardli/garden-skills/motion-showreel",
+        "name": "motion-showreel",
+        "owner": "conardli",
+        "repo": "garden-skills",
+        "repositoryUrl": "https://github.com/conardli/garden-skills",
+        "description": "用代码制作图形、文字或界面动画视频，输出 MP4 和可编辑源码，最长 20 分钟。适用于动效作品集、产品片、UI 动效、动态排版、Logo 片头、生成艺术与讲解视频；支持独立选择 BGM/音效来源、用户口播，以及用用户提供的口播稿通过 TTS 合成语音。不用于实拍制作、写实人物生成或一般视频剪辑。",
+        "tags": [
+          "conardli/garden-skills"
+        ],
+        "stars": "15.5K",
+        "installs": 1300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "conardli/garden-skills/motion-showreel",
+          "ogTitle": "motion-showreel — conardli/garden-skills",
+          "npx": "npx skills add https://github.com/conardli/garden-skills --skill motion-showreel",
+          "installsRaw": "1.3K",
+          "starsRaw": "15.5K",
+          "firstSeen": "Oct 11, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/conardli/garden-skills/motion-showreel/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/conardli/garden-skills/motion-showreel/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/conardli/garden-skills/motion-showreel/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:52:04.160Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "conardli--garden-skills--motion-showreel",
+    "name": "motion-showreel",
+    "owner": "conardli",
+    "repo": "garden-skills",
+    "category": "",
+    "description": "用代码制作图形、文字或界面动画视频，输出 MP4 和可编辑源码，最长 20 分钟。适用于动效作品集、产品片、UI 动效、动态排版、Logo 片头、生成艺术与讲解视频；支持独立选择 BGM/音效来源、用户口播，以及用用户提供的口播稿通过 TTS 合成语音。不用于实拍制作、写实人物生成或一般视频剪辑。",
+    "tags": [
+      "conardli/garden-skills"
+    ],
+    "keywords": [
+      "conardli/garden-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "15.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/conardli/garden-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:52:04.160Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:52:04.160Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:52:04.160Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:52:04.160Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:52:04.160Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:52:04.160Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:52:04.160Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

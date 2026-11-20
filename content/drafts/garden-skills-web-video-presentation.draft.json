@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T12:37:59.326Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skillhey",
+      "sourceUrl": "https://skillhey.com/skills/garden-skills-web-video-presentation",
+      "externalId": "garden-skills-web-video-presentation",
+      "name": "Web Video Presentation",
+      "owner": "ConardLi",
+      "repo": "garden-skills",
+      "repositoryUrl": "https://github.com/ConardLi/garden-skills/tree/main/skills/web-video-presentation",
+      "description": "Turn articles or scripts into click-driven web presentations with optional synthesized narration.",
+      "tags": [],
+      "stars": null,
+      "installs": null,
+      "license": null,
+      "agentsClaimed": [
+        "Claude Code",
+        "Codex",
+        "Cursor"
+      ],
+      "raw": {
+        "slug": "garden-skills-web-video-presentation",
+        "qualityScore": null,
+        "starsRaw": null,
+        "forks": ",",
+        "childSlugs": [
+          "garden-skills",
+          "frontend-slides",
+          "guizang-ppt-skill",
+          "codex-ppt",
+          "ui-ux-pro-max-slides"
+        ]
+      },
+      "fetchedAt": "2026-11-19T12:37:59.325Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skillhey",
+        "sourceUrl": "https://skillhey.com/skills/garden-skills-web-video-presentation",
+        "externalId": "garden-skills-web-video-presentation",
+        "name": "Web Video Presentation",
+        "owner": "ConardLi",
+        "repo": "garden-skills",
+        "repositoryUrl": "https://github.com/ConardLi/garden-skills/tree/main/skills/web-video-presentation",
+        "description": "Turn articles or scripts into click-driven web presentations with optional synthesized narration.",
+        "tags": [],
+        "stars": null,
+        "installs": null,
+        "license": null,
+        "agentsClaimed": [
+          "Claude Code",
+          "Codex",
+          "Cursor"
+        ],
+        "raw": {
+          "slug": "garden-skills-web-video-presentation",
+          "qualityScore": null,
+          "starsRaw": null,
+          "forks": ",",
+          "childSlugs": [
+            "garden-skills",
+            "frontend-slides",
+            "guizang-ppt-skill",
+            "codex-ppt",
+            "ui-ux-pro-max-slides"
+          ]
+        },
+        "fetchedAt": "2026-11-19T12:37:59.325Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "garden-skills-web-video-presentation",
+    "name": "Web Video Presentation",
+    "owner": "ConardLi",
+    "repo": "garden-skills",
+    "category": "",
+    "description": "Turn articles or scripts into click-driven web presentations with optional synthesized narration.",
+    "tags": [],
+    "keywords": [],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "0",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/ConardLi/garden-skills/tree/main/skills/web-video-presentation",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T12:37:59.326Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:37:59.326Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:37:59.326Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:37:59.326Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T12:37:59.325Z",
+      "note": "skillhey"
+    },
+    "tags": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:37:59.326Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:37:59.326Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "install count source unsettled (OQ-04)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete",
+      "skillhey claimed agents (not verified): Claude Code, Codex, Cursor"
+    ]
+  }
+}

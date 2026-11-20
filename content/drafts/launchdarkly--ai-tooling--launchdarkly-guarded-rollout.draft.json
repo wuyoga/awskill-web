@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:04:17.619Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/launchdarkly/ai-tooling/launchdarkly-guarded-rollout",
+      "externalId": "launchdarkly/ai-tooling/launchdarkly-guarded-rollout",
+      "name": "launchdarkly-guarded-rollout",
+      "owner": "launchdarkly",
+      "repo": "ai-tooling",
+      "repositoryUrl": "https://github.com/launchdarkly/ai-tooling",
+      "description": "Configure guarded rollouts with progressive traffic increases, metric monitoring, and automatic rollback. Use when releasing features gradually with safety…",
+      "tags": [
+        "launchdarkly/ai-tooling"
+      ],
+      "stars": "31",
+      "installs": 2800,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "launchdarkly/ai-tooling/launchdarkly-guarded-rollout",
+        "ogTitle": "launchdarkly-guarded-rollout — launchdarkly/ai-tooling",
+        "npx": "npx skills add https://github.com/launchdarkly/ai-tooling --skill launchdarkly-guarded-rollout",
+        "installsRaw": "2.8K",
+        "starsRaw": "31",
+        "firstSeen": "May 7, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/launchdarkly/ai-tooling/launchdarkly-guarded-rollout/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/launchdarkly/ai-tooling/launchdarkly-guarded-rollout/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/launchdarkly/ai-tooling/launchdarkly-guarded-rollout/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:04:17.618Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/launchdarkly/ai-tooling/launchdarkly-guarded-rollout",
+        "externalId": "launchdarkly/ai-tooling/launchdarkly-guarded-rollout",
+        "name": "launchdarkly-guarded-rollout",
+        "owner": "launchdarkly",
+        "repo": "ai-tooling",
+        "repositoryUrl": "https://github.com/launchdarkly/ai-tooling",
+        "description": "Configure guarded rollouts with progressive traffic increases, metric monitoring, and automatic rollback. Use when releasing features gradually with safety…",
+        "tags": [
+          "launchdarkly/ai-tooling"
+        ],
+        "stars": "31",
+        "installs": 2800,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "launchdarkly/ai-tooling/launchdarkly-guarded-rollout",
+          "ogTitle": "launchdarkly-guarded-rollout — launchdarkly/ai-tooling",
+          "npx": "npx skills add https://github.com/launchdarkly/ai-tooling --skill launchdarkly-guarded-rollout",
+          "installsRaw": "2.8K",
+          "starsRaw": "31",
+          "firstSeen": "May 7, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/launchdarkly/ai-tooling/launchdarkly-guarded-rollout/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/launchdarkly/ai-tooling/launchdarkly-guarded-rollout/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/launchdarkly/ai-tooling/launchdarkly-guarded-rollout/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:04:17.618Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "launchdarkly--ai-tooling--launchdarkly-guarded-rollout",
+    "name": "launchdarkly-guarded-rollout",
+    "owner": "launchdarkly",
+    "repo": "ai-tooling",
+    "category": "",
+    "description": "Configure guarded rollouts with progressive traffic increases, metric monitoring, and automatic rollback. Use when releasing features gradually with safety…",
+    "tags": [
+      "launchdarkly/ai-tooling"
+    ],
+    "keywords": [
+      "launchdarkly/ai-tooling"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "31",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/launchdarkly/ai-tooling",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:04:17.619Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:04:17.619Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:04:17.619Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:04:17.619Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:04:17.618Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:04:17.619Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:04:17.619Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2800 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

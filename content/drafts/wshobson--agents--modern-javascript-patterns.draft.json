@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:13:57.861Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/wshobson/agents/modern-javascript-patterns",
+      "externalId": "wshobson/agents/modern-javascript-patterns",
+      "name": "modern-javascript-patterns",
+      "owner": "wshobson",
+      "repo": "agents",
+      "repositoryUrl": "https://github.com/wshobson/agents",
+      "description": "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional…",
+      "tags": [
+        "wshobson/agents"
+      ],
+      "stars": "42.7K",
+      "installs": 23700,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "wshobson/agents/modern-javascript-patterns",
+        "ogTitle": "modern-javascript-patterns — wshobson/agents",
+        "npx": "npx skills add https://github.com/wshobson/agents --skill modern-javascript-patterns",
+        "installsRaw": "23.7K",
+        "starsRaw": "42.7K",
+        "firstSeen": "Jan 20, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/wshobson/agents/modern-javascript-patterns/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/wshobson/agents/modern-javascript-patterns/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/wshobson/agents/modern-javascript-patterns/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:13:57.860Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/wshobson/agents/modern-javascript-patterns",
+        "externalId": "wshobson/agents/modern-javascript-patterns",
+        "name": "modern-javascript-patterns",
+        "owner": "wshobson",
+        "repo": "agents",
+        "repositoryUrl": "https://github.com/wshobson/agents",
+        "description": "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional…",
+        "tags": [
+          "wshobson/agents"
+        ],
+        "stars": "42.7K",
+        "installs": 23700,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "wshobson/agents/modern-javascript-patterns",
+          "ogTitle": "modern-javascript-patterns — wshobson/agents",
+          "npx": "npx skills add https://github.com/wshobson/agents --skill modern-javascript-patterns",
+          "installsRaw": "23.7K",
+          "starsRaw": "42.7K",
+          "firstSeen": "Jan 20, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/wshobson/agents/modern-javascript-patterns/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/wshobson/agents/modern-javascript-patterns/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/wshobson/agents/modern-javascript-patterns/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:13:57.860Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "wshobson--agents--modern-javascript-patterns",
+    "name": "modern-javascript-patterns",
+    "owner": "wshobson",
+    "repo": "agents",
+    "category": "",
+    "description": "Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iterators, generators, and functional…",
+    "tags": [
+      "wshobson/agents"
+    ],
+    "keywords": [
+      "wshobson/agents"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "42.7K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/wshobson/agents",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:13:57.861Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:13:57.861Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:13:57.861Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:13:57.861Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:13:57.860Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:13:57.861Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:13:57.861Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=23700 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

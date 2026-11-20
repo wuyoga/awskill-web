@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T23:58:53.100Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/genmedia-labs/skills/ai-video-generation",
+      "externalId": "genmedia-labs/skills/ai-video-generation",
+      "name": "ai-video-generation",
+      "owner": "genmedia-labs",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/genmedia-labs/skills",
+      "description": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio),…",
+      "tags": [
+        "genmedia-labs/skills"
+      ],
+      "stars": "27",
+      "installs": 13,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "genmedia-labs/skills/ai-video-generation",
+        "ogTitle": "ai-video-generation — genmedia-labs/skills",
+        "npx": "npx skills add https://github.com/genmedia-labs/skills --skill ai-video-generation",
+        "installsRaw": "13",
+        "starsRaw": "27",
+        "firstSeen": "Aug 12, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/genmedia-labs/skills/ai-video-generation/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/genmedia-labs/skills/ai-video-generation/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/genmedia-labs/skills/ai-video-generation/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-19T23:58:53.099Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/genmedia-labs/skills/ai-video-generation",
+        "externalId": "genmedia-labs/skills/ai-video-generation",
+        "name": "ai-video-generation",
+        "owner": "genmedia-labs",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/genmedia-labs/skills",
+        "description": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio),…",
+        "tags": [
+          "genmedia-labs/skills"
+        ],
+        "stars": "27",
+        "installs": 13,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "genmedia-labs/skills/ai-video-generation",
+          "ogTitle": "ai-video-generation — genmedia-labs/skills",
+          "npx": "npx skills add https://github.com/genmedia-labs/skills --skill ai-video-generation",
+          "installsRaw": "13",
+          "starsRaw": "27",
+          "firstSeen": "Aug 12, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/genmedia-labs/skills/ai-video-generation/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/genmedia-labs/skills/ai-video-generation/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/genmedia-labs/skills/ai-video-generation/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-19T23:58:53.099Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "genmedia-labs--skills--ai-video-generation",
+    "name": "ai-video-generation",
+    "owner": "genmedia-labs",
+    "repo": "skills",
+    "category": "",
+    "description": "Generate AI videos on RunComfy via the `runcomfy` CLI — a smart router across the full video-model catalog: HappyHorse 1.0 (Arena #1, native in-pass audio),…",
+    "tags": [
+      "genmedia-labs/skills"
+    ],
+    "keywords": [
+      "genmedia-labs/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "27",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/genmedia-labs/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T23:58:53.100Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T23:58:53.100Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T23:58:53.100Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T23:58:53.100Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T23:58:53.099Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T23:58:53.100Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T23:58:53.100Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=13 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

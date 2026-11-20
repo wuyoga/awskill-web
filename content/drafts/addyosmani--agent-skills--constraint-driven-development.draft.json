@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:07:09.532Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/addyosmani/agent-skills/constraint-driven-development",
+      "externalId": "addyosmani/agent-skills/constraint-driven-development",
+      "name": "constraint-driven-development",
+      "owner": "addyosmani",
+      "repo": "agent-skills",
+      "repositoryUrl": "https://github.com/addyosmani/agent-skills",
+      "description": "Establishes a project&#x27;s quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane…",
+      "tags": [
+        "addyosmani/agent-skills"
+      ],
+      "stars": "119.0K",
+      "installs": 48500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "addyosmani/agent-skills/constraint-driven-development",
+        "ogTitle": "constraint-driven-development — addyosmani/agent-skills",
+        "npx": "npx skills add https://github.com/addyosmani/agent-skills --skill constraint-driven-development",
+        "installsRaw": "48.5K",
+        "starsRaw": "119.0K",
+        "firstSeen": "Aug 28, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/addyosmani/agent-skills/constraint-driven-development/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/addyosmani/agent-skills/constraint-driven-development/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/addyosmani/agent-skills/constraint-driven-development/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:07:09.532Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/addyosmani/agent-skills/constraint-driven-development",
+        "externalId": "addyosmani/agent-skills/constraint-driven-development",
+        "name": "constraint-driven-development",
+        "owner": "addyosmani",
+        "repo": "agent-skills",
+        "repositoryUrl": "https://github.com/addyosmani/agent-skills",
+        "description": "Establishes a project&#x27;s quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane…",
+        "tags": [
+          "addyosmani/agent-skills"
+        ],
+        "stars": "119.0K",
+        "installs": 48500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "addyosmani/agent-skills/constraint-driven-development",
+          "ogTitle": "constraint-driven-development — addyosmani/agent-skills",
+          "npx": "npx skills add https://github.com/addyosmani/agent-skills --skill constraint-driven-development",
+          "installsRaw": "48.5K",
+          "starsRaw": "119.0K",
+          "firstSeen": "Aug 28, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/addyosmani/agent-skills/constraint-driven-development/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/addyosmani/agent-skills/constraint-driven-development/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/addyosmani/agent-skills/constraint-driven-development/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:07:09.532Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "addyosmani--agent-skills--constraint-driven-development",
+    "name": "constraint-driven-development",
+    "owner": "addyosmani",
+    "repo": "agent-skills",
+    "category": "",
+    "description": "Establishes a project&#x27;s quality bar as a written contract and stops agents quietly lowering it. Interviews the user on which dimensions matter, supplies sane…",
+    "tags": [
+      "addyosmani/agent-skills"
+    ],
+    "keywords": [
+      "addyosmani/agent-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "119.0K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/addyosmani/agent-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:07:09.532Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:07:09.532Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:07:09.532Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:07:09.532Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:07:09.532Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:07:09.532Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:07:09.532Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=48500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

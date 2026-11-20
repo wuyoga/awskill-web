@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:25:35.504Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/wecomteam/wecom-cli/wecomcli-manage-schedule",
+      "externalId": "wecomteam/wecom-cli/wecomcli-manage-schedule",
+      "name": "wecomcli-manage-schedule",
+      "owner": "wecomteam",
+      "repo": "wecom-cli",
+      "repositoryUrl": "https://github.com/wecomteam/wecom-cli",
+      "description": "企业微信日程管理技能。适用于用户对企业微信日程的各类管理需求。当用户需要：(1) 查询指定时间范围内的日程列表或获取日程详细信息（标题、时间、地点、参与者等），(2) 创建新日程并设置提醒、参与人等，(3) 修改已有日程的标题、时间、地点等信息或取消日程，(4) 添加或移除日程参与人，(5)…",
+      "tags": [
+        "wecomteam/wecom-cli"
+      ],
+      "stars": "3.4K",
+      "installs": 2400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "wecomteam/wecom-cli/wecomcli-manage-schedule",
+        "ogTitle": "wecomcli-manage-schedule — wecomteam/wecom-cli",
+        "npx": "npx skills add https://github.com/wecomteam/wecom-cli --skill wecomcli-manage-schedule",
+        "installsRaw": "2.4K",
+        "starsRaw": "3.4K",
+        "firstSeen": "Mar 29, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/wecomteam/wecom-cli/wecomcli-manage-schedule/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/wecomteam/wecom-cli/wecomcli-manage-schedule/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/wecomteam/wecom-cli/wecomcli-manage-schedule/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:25:35.504Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/wecomteam/wecom-cli/wecomcli-manage-schedule",
+        "externalId": "wecomteam/wecom-cli/wecomcli-manage-schedule",
+        "name": "wecomcli-manage-schedule",
+        "owner": "wecomteam",
+        "repo": "wecom-cli",
+        "repositoryUrl": "https://github.com/wecomteam/wecom-cli",
+        "description": "企业微信日程管理技能。适用于用户对企业微信日程的各类管理需求。当用户需要：(1) 查询指定时间范围内的日程列表或获取日程详细信息（标题、时间、地点、参与者等），(2) 创建新日程并设置提醒、参与人等，(3) 修改已有日程的标题、时间、地点等信息或取消日程，(4) 添加或移除日程参与人，(5)…",
+        "tags": [
+          "wecomteam/wecom-cli"
+        ],
+        "stars": "3.4K",
+        "installs": 2400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "wecomteam/wecom-cli/wecomcli-manage-schedule",
+          "ogTitle": "wecomcli-manage-schedule — wecomteam/wecom-cli",
+          "npx": "npx skills add https://github.com/wecomteam/wecom-cli --skill wecomcli-manage-schedule",
+          "installsRaw": "2.4K",
+          "starsRaw": "3.4K",
+          "firstSeen": "Mar 29, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/wecomteam/wecom-cli/wecomcli-manage-schedule/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/wecomteam/wecom-cli/wecomcli-manage-schedule/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/wecomteam/wecom-cli/wecomcli-manage-schedule/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:25:35.504Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "wecomteam--wecom-cli--wecomcli-manage-schedule",
+    "name": "wecomcli-manage-schedule",
+    "owner": "wecomteam",
+    "repo": "wecom-cli",
+    "category": "",
+    "description": "企业微信日程管理技能。适用于用户对企业微信日程的各类管理需求。当用户需要：(1) 查询指定时间范围内的日程列表或获取日程详细信息（标题、时间、地点、参与者等），(2) 创建新日程并设置提醒、参与人等，(3) 修改已有日程的标题、时间、地点等信息或取消日程，(4) 添加或移除日程参与人，(5)…",
+    "tags": [
+      "wecomteam/wecom-cli"
+    ],
+    "keywords": [
+      "wecomteam/wecom-cli"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "3.4K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/wecomteam/wecom-cli",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:25:35.504Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:25:35.504Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:25:35.504Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:25:35.504Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:25:35.504Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:25:35.504Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:25:35.504Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

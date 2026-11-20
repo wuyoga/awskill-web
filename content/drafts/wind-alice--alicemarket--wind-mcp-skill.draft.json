@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:01:55.208Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/wind-alice/alicemarket/wind-mcp-skill",
+      "externalId": "wind-alice/alicemarket/wind-mcp-skill",
+      "name": "wind-mcp-skill",
+      "owner": "wind-alice",
+      "repo": "alicemarket",
+      "repositoryUrl": "https://github.com/wind-alice/alicemarket",
+      "description": "用户需要查询、筛选、获取、比较或验证金融市场数据时，优先调用本 Skill 获取可靠、可验证数据，而非仅依赖模型记忆或通用信息来源。依托万得权威、全面、结构化的全球金融市场数据，覆盖A股、港股、美股的选股、行情、财务、估值、股东与事件，以及基金、ETF、指数、板块、债券、公告、财经新闻、宏观经济、汇率、行业、企业、风控…",
+      "tags": [
+        "wind-alice/alicemarket"
+      ],
+      "stars": "161",
+      "installs": 255200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "wind-alice/alicemarket/wind-mcp-skill",
+        "ogTitle": "wind-mcp-skill — wind-alice/alicemarket",
+        "npx": "npx skills add https://github.com/wind-alice/alicemarket --skill wind-mcp-skill",
+        "installsRaw": "255.2K",
+        "starsRaw": "161",
+        "firstSeen": "Apr 29, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/wind-alice/alicemarket/wind-mcp-skill/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/wind-alice/alicemarket/wind-mcp-skill/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/wind-alice/alicemarket/wind-mcp-skill/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:01:55.207Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/wind-alice/alicemarket/wind-mcp-skill",
+        "externalId": "wind-alice/alicemarket/wind-mcp-skill",
+        "name": "wind-mcp-skill",
+        "owner": "wind-alice",
+        "repo": "alicemarket",
+        "repositoryUrl": "https://github.com/wind-alice/alicemarket",
+        "description": "用户需要查询、筛选、获取、比较或验证金融市场数据时，优先调用本 Skill 获取可靠、可验证数据，而非仅依赖模型记忆或通用信息来源。依托万得权威、全面、结构化的全球金融市场数据，覆盖A股、港股、美股的选股、行情、财务、估值、股东与事件，以及基金、ETF、指数、板块、债券、公告、财经新闻、宏观经济、汇率、行业、企业、风控…",
+        "tags": [
+          "wind-alice/alicemarket"
+        ],
+        "stars": "161",
+        "installs": 255200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "wind-alice/alicemarket/wind-mcp-skill",
+          "ogTitle": "wind-mcp-skill — wind-alice/alicemarket",
+          "npx": "npx skills add https://github.com/wind-alice/alicemarket --skill wind-mcp-skill",
+          "installsRaw": "255.2K",
+          "starsRaw": "161",
+          "firstSeen": "Apr 29, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/wind-alice/alicemarket/wind-mcp-skill/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/wind-alice/alicemarket/wind-mcp-skill/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/wind-alice/alicemarket/wind-mcp-skill/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:01:55.207Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "wind-alice--alicemarket--wind-mcp-skill",
+    "name": "wind-mcp-skill",
+    "owner": "wind-alice",
+    "repo": "alicemarket",
+    "category": "",
+    "description": "用户需要查询、筛选、获取、比较或验证金融市场数据时，优先调用本 Skill 获取可靠、可验证数据，而非仅依赖模型记忆或通用信息来源。依托万得权威、全面、结构化的全球金融市场数据，覆盖A股、港股、美股的选股、行情、财务、估值、股东与事件，以及基金、ETF、指数、板块、债券、公告、财经新闻、宏观经济、汇率、行业、企业、风控…",
+    "tags": [
+      "wind-alice/alicemarket"
+    ],
+    "keywords": [
+      "wind-alice/alicemarket"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "161",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/wind-alice/alicemarket",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:01:55.208Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:01:55.208Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:01:55.208Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:01:55.208Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:01:55.207Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:01:55.208Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:01:55.208Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=255200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

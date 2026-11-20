@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:53:01.574Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/aahl/skills/mcp-vods",
+      "externalId": "aahl/skills/mcp-vods",
+      "name": "mcp-vods",
+      "owner": "aahl",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/aahl/skills",
+      "description": "用于追剧/追番的技能，为AI提供搜索影视播放地址的能力，并支持在小米电视上直接播放。当用户想搜索影视、动漫、短剧、综艺等节目信息或更新进度时使用此技能。",
+      "tags": [
+        "aahl/skills"
+      ],
+      "stars": "165",
+      "installs": 3000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "aahl/skills/mcp-vods",
+        "ogTitle": "mcp-vods — aahl/skills",
+        "npx": "npx skills add https://github.com/aahl/skills --skill mcp-vods",
+        "installsRaw": "3.0K",
+        "starsRaw": "165",
+        "firstSeen": "Feb 9, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Warn",
+            "href": "/aahl/skills/mcp-vods/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/aahl/skills/mcp-vods/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/aahl/skills/mcp-vods/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:53:01.573Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/aahl/skills/mcp-vods",
+        "externalId": "aahl/skills/mcp-vods",
+        "name": "mcp-vods",
+        "owner": "aahl",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/aahl/skills",
+        "description": "用于追剧/追番的技能，为AI提供搜索影视播放地址的能力，并支持在小米电视上直接播放。当用户想搜索影视、动漫、短剧、综艺等节目信息或更新进度时使用此技能。",
+        "tags": [
+          "aahl/skills"
+        ],
+        "stars": "165",
+        "installs": 3000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "aahl/skills/mcp-vods",
+          "ogTitle": "mcp-vods — aahl/skills",
+          "npx": "npx skills add https://github.com/aahl/skills --skill mcp-vods",
+          "installsRaw": "3.0K",
+          "starsRaw": "165",
+          "firstSeen": "Feb 9, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Warn",
+              "href": "/aahl/skills/mcp-vods/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/aahl/skills/mcp-vods/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/aahl/skills/mcp-vods/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:53:01.573Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "aahl--skills--mcp-vods",
+    "name": "mcp-vods",
+    "owner": "aahl",
+    "repo": "skills",
+    "category": "",
+    "description": "用于追剧/追番的技能，为AI提供搜索影视播放地址的能力，并支持在小米电视上直接播放。当用户想搜索影视、动漫、短剧、综艺等节目信息或更新进度时使用此技能。",
+    "tags": [
+      "aahl/skills"
+    ],
+    "keywords": [
+      "aahl/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "165",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/aahl/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:53:01.574Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:53:01.574Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:53:01.574Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:53:01.574Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:53:01.573Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:53:01.574Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:53:01.574Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

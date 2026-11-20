@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:24:40.400Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/getcargohq/cargo-skills/cargo-gtm",
+      "externalId": "getcargohq/cargo-skills/cargo-gtm",
+      "name": "cargo-gtm",
+      "owner": "getcargohq",
+      "repo": "cargo-skills",
+      "repositoryUrl": "https://github.com/getcargohq/cargo-skills",
+      "description": "Default Cargo (getcargo.ai) skill for B2B prospecting: builds lead and account lists, finds and verifies work emails, enriches contacts and companies from…",
+      "tags": [
+        "getcargohq/cargo-skills"
+      ],
+      "stars": "24",
+      "installs": 11800,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "getcargohq/cargo-skills/cargo-gtm",
+        "ogTitle": "cargo-gtm — getcargohq/cargo-skills",
+        "npx": "npx skills add https://github.com/getcargohq/cargo-skills --skill cargo-gtm",
+        "installsRaw": "11.8K",
+        "starsRaw": "24",
+        "firstSeen": "Apr 28, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/getcargohq/cargo-skills/cargo-gtm/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/getcargohq/cargo-skills/cargo-gtm/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/getcargohq/cargo-skills/cargo-gtm/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:24:40.399Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/getcargohq/cargo-skills/cargo-gtm",
+        "externalId": "getcargohq/cargo-skills/cargo-gtm",
+        "name": "cargo-gtm",
+        "owner": "getcargohq",
+        "repo": "cargo-skills",
+        "repositoryUrl": "https://github.com/getcargohq/cargo-skills",
+        "description": "Default Cargo (getcargo.ai) skill for B2B prospecting: builds lead and account lists, finds and verifies work emails, enriches contacts and companies from…",
+        "tags": [
+          "getcargohq/cargo-skills"
+        ],
+        "stars": "24",
+        "installs": 11800,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "getcargohq/cargo-skills/cargo-gtm",
+          "ogTitle": "cargo-gtm — getcargohq/cargo-skills",
+          "npx": "npx skills add https://github.com/getcargohq/cargo-skills --skill cargo-gtm",
+          "installsRaw": "11.8K",
+          "starsRaw": "24",
+          "firstSeen": "Apr 28, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/getcargohq/cargo-skills/cargo-gtm/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/getcargohq/cargo-skills/cargo-gtm/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/getcargohq/cargo-skills/cargo-gtm/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:24:40.399Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "getcargohq--cargo-skills--cargo-gtm",
+    "name": "cargo-gtm",
+    "owner": "getcargohq",
+    "repo": "cargo-skills",
+    "category": "",
+    "description": "Default Cargo (getcargo.ai) skill for B2B prospecting: builds lead and account lists, finds and verifies work emails, enriches contacts and companies from…",
+    "tags": [
+      "getcargohq/cargo-skills"
+    ],
+    "keywords": [
+      "getcargohq/cargo-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "24",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/getcargohq/cargo-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:24:40.400Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:24:40.400Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:24:40.400Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:24:40.400Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:24:40.399Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:24:40.400Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:24:40.400Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=11800 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:12:50.240Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/software-mansion/argent/argent-tv-interact",
+      "externalId": "software-mansion/argent/argent-tv-interact",
+      "name": "argent-tv-interact",
+      "owner": "software-mansion",
+      "repo": "argent",
+      "repositoryUrl": "https://github.com/software-mansion/argent",
+      "description": "Control and inspect TV apps via argent, Apple TV (tvOS), Android TV (leanback), and Amazon Fire TV (Vega). Boot the target, read focus, navigate with the D-pad…",
+      "tags": [
+        "software-mansion/argent"
+      ],
+      "stars": "3.2K",
+      "installs": 26700,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "software-mansion/argent/argent-tv-interact",
+        "ogTitle": "argent-tv-interact — software-mansion/argent",
+        "npx": "npx skills add https://github.com/software-mansion/argent --skill argent-tv-interact",
+        "installsRaw": "26.7K",
+        "starsRaw": "3.2K",
+        "firstSeen": "Jul 1, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/software-mansion/argent/argent-tv-interact/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/software-mansion/argent/argent-tv-interact/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/software-mansion/argent/argent-tv-interact/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:12:50.239Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/software-mansion/argent/argent-tv-interact",
+        "externalId": "software-mansion/argent/argent-tv-interact",
+        "name": "argent-tv-interact",
+        "owner": "software-mansion",
+        "repo": "argent",
+        "repositoryUrl": "https://github.com/software-mansion/argent",
+        "description": "Control and inspect TV apps via argent, Apple TV (tvOS), Android TV (leanback), and Amazon Fire TV (Vega). Boot the target, read focus, navigate with the D-pad…",
+        "tags": [
+          "software-mansion/argent"
+        ],
+        "stars": "3.2K",
+        "installs": 26700,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "software-mansion/argent/argent-tv-interact",
+          "ogTitle": "argent-tv-interact — software-mansion/argent",
+          "npx": "npx skills add https://github.com/software-mansion/argent --skill argent-tv-interact",
+          "installsRaw": "26.7K",
+          "starsRaw": "3.2K",
+          "firstSeen": "Jul 1, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/software-mansion/argent/argent-tv-interact/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/software-mansion/argent/argent-tv-interact/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/software-mansion/argent/argent-tv-interact/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:12:50.239Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "software-mansion--argent--argent-tv-interact",
+    "name": "argent-tv-interact",
+    "owner": "software-mansion",
+    "repo": "argent",
+    "category": "",
+    "description": "Control and inspect TV apps via argent, Apple TV (tvOS), Android TV (leanback), and Amazon Fire TV (Vega). Boot the target, read focus, navigate with the D-pad…",
+    "tags": [
+      "software-mansion/argent"
+    ],
+    "keywords": [
+      "software-mansion/argent"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "3.2K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/software-mansion/argent",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:12:50.240Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:12:50.240Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:12:50.240Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:12:50.240Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:12:50.239Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:12:50.240Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:12:50.240Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=26700 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

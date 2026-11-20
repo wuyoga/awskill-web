@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:05:37.898Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/simonlin1212/a-stock-data/a-stock-data",
+      "externalId": "simonlin1212/a-stock-data/a-stock-data",
+      "name": "a-stock-data",
+      "owner": "simonlin1212",
+      "repo": "a-stock-data",
+      "repositoryUrl": "https://github.com/simonlin1212/a-stock-data",
+      "description": "当任务需要写代码实际获取A股及相关市场数据时使用——行情/K线/逐笔(腾讯日周月前后复权+分钟线+当日逐笔、通达信官网全市场盘后包、百度)、研报(东财+新浪+同花顺+iwencai)、信号(热点/北向/龙虎榜/解禁/行业/板块资金流)、资金面(融资融券/大宗/股东户数/分红/资金流/ETF份额)、新闻(财联社/东财/华…",
+      "tags": [
+        "simonlin1212/a-stock-data"
+      ],
+      "stars": "11.9K",
+      "installs": 1200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "simonlin1212/a-stock-data/a-stock-data",
+        "ogTitle": "a-stock-data — simonlin1212/a-stock-data",
+        "npx": "npx skills add https://github.com/simonlin1212/a-stock-data --skill a-stock-data",
+        "installsRaw": "1.2K",
+        "starsRaw": "11.9K",
+        "firstSeen": "May 11, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/simonlin1212/a-stock-data/a-stock-data/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/simonlin1212/a-stock-data/a-stock-data/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/simonlin1212/a-stock-data/a-stock-data/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:05:37.897Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/simonlin1212/a-stock-data/a-stock-data",
+        "externalId": "simonlin1212/a-stock-data/a-stock-data",
+        "name": "a-stock-data",
+        "owner": "simonlin1212",
+        "repo": "a-stock-data",
+        "repositoryUrl": "https://github.com/simonlin1212/a-stock-data",
+        "description": "当任务需要写代码实际获取A股及相关市场数据时使用——行情/K线/逐笔(腾讯日周月前后复权+分钟线+当日逐笔、通达信官网全市场盘后包、百度)、研报(东财+新浪+同花顺+iwencai)、信号(热点/北向/龙虎榜/解禁/行业/板块资金流)、资金面(融资融券/大宗/股东户数/分红/资金流/ETF份额)、新闻(财联社/东财/华…",
+        "tags": [
+          "simonlin1212/a-stock-data"
+        ],
+        "stars": "11.9K",
+        "installs": 1200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "simonlin1212/a-stock-data/a-stock-data",
+          "ogTitle": "a-stock-data — simonlin1212/a-stock-data",
+          "npx": "npx skills add https://github.com/simonlin1212/a-stock-data --skill a-stock-data",
+          "installsRaw": "1.2K",
+          "starsRaw": "11.9K",
+          "firstSeen": "May 11, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/simonlin1212/a-stock-data/a-stock-data/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/simonlin1212/a-stock-data/a-stock-data/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/simonlin1212/a-stock-data/a-stock-data/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:05:37.897Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "simonlin1212--a-stock-data--a-stock-data",
+    "name": "a-stock-data",
+    "owner": "simonlin1212",
+    "repo": "a-stock-data",
+    "category": "",
+    "description": "当任务需要写代码实际获取A股及相关市场数据时使用——行情/K线/逐笔(腾讯日周月前后复权+分钟线+当日逐笔、通达信官网全市场盘后包、百度)、研报(东财+新浪+同花顺+iwencai)、信号(热点/北向/龙虎榜/解禁/行业/板块资金流)、资金面(融资融券/大宗/股东户数/分红/资金流/ETF份额)、新闻(财联社/东财/华…",
+    "tags": [
+      "simonlin1212/a-stock-data"
+    ],
+    "keywords": [
+      "simonlin1212/a-stock-data"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "11.9K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/simonlin1212/a-stock-data",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:05:37.898Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:05:37.898Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:05:37.898Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:05:37.898Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:05:37.897Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:05:37.898Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:05:37.898Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:03:17.554Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/stripe/ai/stripe-directory",
+      "externalId": "stripe/ai/stripe-directory",
+      "name": "stripe-directory",
+      "owner": "stripe",
+      "repo": "ai",
+      "repositoryUrl": "https://github.com/stripe/ai",
+      "description": "Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the documented way to engage them — to pay, donate,…",
+      "tags": [
+        "stripe/ai"
+      ],
+      "stars": "2.1K",
+      "installs": 4500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "stripe/ai/stripe-directory",
+        "ogTitle": "stripe-directory — stripe/ai",
+        "npx": "npx skills add https://github.com/stripe/ai --skill stripe-directory",
+        "installsRaw": "4.5K",
+        "starsRaw": "2.1K",
+        "firstSeen": "Jun 10, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/stripe/ai/stripe-directory/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/stripe/ai/stripe-directory/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Fail",
+            "href": "/stripe/ai/stripe-directory/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:03:17.554Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/stripe/ai/stripe-directory",
+        "externalId": "stripe/ai/stripe-directory",
+        "name": "stripe-directory",
+        "owner": "stripe",
+        "repo": "ai",
+        "repositoryUrl": "https://github.com/stripe/ai",
+        "description": "Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the documented way to engage them — to pay, donate,…",
+        "tags": [
+          "stripe/ai"
+        ],
+        "stars": "2.1K",
+        "installs": 4500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "stripe/ai/stripe-directory",
+          "ogTitle": "stripe-directory — stripe/ai",
+          "npx": "npx skills add https://github.com/stripe/ai --skill stripe-directory",
+          "installsRaw": "4.5K",
+          "starsRaw": "2.1K",
+          "firstSeen": "Jun 10, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/stripe/ai/stripe-directory/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/stripe/ai/stripe-directory/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Fail",
+              "href": "/stripe/ai/stripe-directory/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:03:17.554Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "stripe--ai--stripe-directory",
+    "name": "stripe-directory",
+    "owner": "stripe",
+    "repo": "ai",
+    "category": "",
+    "description": "Identifies external providers, merchants, nonprofits, platforms, APIs, and software services, and resolves the documented way to engage them — to pay, donate,…",
+    "tags": [
+      "stripe/ai"
+    ],
+    "keywords": [
+      "stripe/ai"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "2.1K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/stripe/ai",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:03:17.554Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:03:17.554Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:03:17.554Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:03:17.554Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:03:17.554Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:03:17.554Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:03:17.554Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=4500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

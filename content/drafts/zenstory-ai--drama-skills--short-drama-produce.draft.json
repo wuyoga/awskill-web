@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:57:38.873Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/zenstory-ai/drama-skills/short-drama-produce",
+      "externalId": "zenstory-ai/drama-skills/short-drama-produce",
+      "name": "short-drama-produce",
+      "owner": "zenstory-ai",
+      "repo": "drama-skills",
+      "repositoryUrl": "https://github.com/zenstory-ai/drama-skills",
+      "description": "在创作者明确确认后，单条或按批次执行短剧项目的图片、视频、TTS/配音或成片配乐生成任务，并把产出文件与运行记录存回项目。用户说“生成这张图/这段视频/这句配音/这段配乐”“开始跑图/跑视频/合成语音/生成音乐”“把定稿提示词送去生成”，或要求批量执行已确认媒体任务时使用；不负责编写提示词、拆镜头、改台词、写歌词或定角…",
+      "tags": [
+        "zenstory-ai/drama-skills"
+      ],
+      "stars": "4.5K",
+      "installs": 2900,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "zenstory-ai/drama-skills/short-drama-produce",
+        "ogTitle": "short-drama-produce — zenstory-ai/drama-skills",
+        "npx": "npx skills add https://github.com/zenstory-ai/drama-skills --skill short-drama-produce",
+        "installsRaw": "2.9K",
+        "starsRaw": "4.5K",
+        "firstSeen": "Aug 16, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/zenstory-ai/drama-skills/short-drama-produce/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/zenstory-ai/drama-skills/short-drama-produce/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/zenstory-ai/drama-skills/short-drama-produce/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:57:38.873Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/zenstory-ai/drama-skills/short-drama-produce",
+        "externalId": "zenstory-ai/drama-skills/short-drama-produce",
+        "name": "short-drama-produce",
+        "owner": "zenstory-ai",
+        "repo": "drama-skills",
+        "repositoryUrl": "https://github.com/zenstory-ai/drama-skills",
+        "description": "在创作者明确确认后，单条或按批次执行短剧项目的图片、视频、TTS/配音或成片配乐生成任务，并把产出文件与运行记录存回项目。用户说“生成这张图/这段视频/这句配音/这段配乐”“开始跑图/跑视频/合成语音/生成音乐”“把定稿提示词送去生成”，或要求批量执行已确认媒体任务时使用；不负责编写提示词、拆镜头、改台词、写歌词或定角…",
+        "tags": [
+          "zenstory-ai/drama-skills"
+        ],
+        "stars": "4.5K",
+        "installs": 2900,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "zenstory-ai/drama-skills/short-drama-produce",
+          "ogTitle": "short-drama-produce — zenstory-ai/drama-skills",
+          "npx": "npx skills add https://github.com/zenstory-ai/drama-skills --skill short-drama-produce",
+          "installsRaw": "2.9K",
+          "starsRaw": "4.5K",
+          "firstSeen": "Aug 16, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/zenstory-ai/drama-skills/short-drama-produce/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/zenstory-ai/drama-skills/short-drama-produce/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/zenstory-ai/drama-skills/short-drama-produce/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:57:38.873Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "zenstory-ai--drama-skills--short-drama-produce",
+    "name": "short-drama-produce",
+    "owner": "zenstory-ai",
+    "repo": "drama-skills",
+    "category": "",
+    "description": "在创作者明确确认后，单条或按批次执行短剧项目的图片、视频、TTS/配音或成片配乐生成任务，并把产出文件与运行记录存回项目。用户说“生成这张图/这段视频/这句配音/这段配乐”“开始跑图/跑视频/合成语音/生成音乐”“把定稿提示词送去生成”，或要求批量执行已确认媒体任务时使用；不负责编写提示词、拆镜头、改台词、写歌词或定角…",
+    "tags": [
+      "zenstory-ai/drama-skills"
+    ],
+    "keywords": [
+      "zenstory-ai/drama-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "4.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/zenstory-ai/drama-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:57:38.873Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:57:38.873Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:57:38.873Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:57:38.873Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:57:38.873Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:57:38.873Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:57:38.873Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2900 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

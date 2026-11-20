@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:30:33.458Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/reason-machines/trending-skills/724-office-ai-agent",
+      "externalId": "reason-machines/trending-skills/724-office-ai-agent",
+      "name": "724-office-ai-agent",
+      "owner": "reason-machines",
+      "repo": "trending-skills",
+      "repositoryUrl": "https://github.com/reason-machines/trending-skills",
+      "description": "Self-evolving AI agent system with 26 tools, three-layer memory, MCP plugins, and 24/7 self-repair in pure Python.",
+      "tags": [
+        "reason-machines/trending-skills"
+      ],
+      "stars": "95",
+      "installs": 1100,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "reason-machines/trending-skills/724-office-ai-agent",
+        "ogTitle": "724-office-ai-agent — reason-machines/trending-skills",
+        "npx": "npx skills add https://github.com/reason-machines/trending-skills --skill 724-office-ai-agent",
+        "installsRaw": "1.1K",
+        "starsRaw": "95",
+        "firstSeen": "Mar 22, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Fail",
+            "href": "/reason-machines/trending-skills/724-office-ai-agent/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/reason-machines/trending-skills/724-office-ai-agent/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/reason-machines/trending-skills/724-office-ai-agent/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:30:33.458Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/reason-machines/trending-skills/724-office-ai-agent",
+        "externalId": "reason-machines/trending-skills/724-office-ai-agent",
+        "name": "724-office-ai-agent",
+        "owner": "reason-machines",
+        "repo": "trending-skills",
+        "repositoryUrl": "https://github.com/reason-machines/trending-skills",
+        "description": "Self-evolving AI agent system with 26 tools, three-layer memory, MCP plugins, and 24/7 self-repair in pure Python.",
+        "tags": [
+          "reason-machines/trending-skills"
+        ],
+        "stars": "95",
+        "installs": 1100,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "reason-machines/trending-skills/724-office-ai-agent",
+          "ogTitle": "724-office-ai-agent — reason-machines/trending-skills",
+          "npx": "npx skills add https://github.com/reason-machines/trending-skills --skill 724-office-ai-agent",
+          "installsRaw": "1.1K",
+          "starsRaw": "95",
+          "firstSeen": "Mar 22, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Fail",
+              "href": "/reason-machines/trending-skills/724-office-ai-agent/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/reason-machines/trending-skills/724-office-ai-agent/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/reason-machines/trending-skills/724-office-ai-agent/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:30:33.458Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "reason-machines--trending-skills--724-office-ai-agent",
+    "name": "724-office-ai-agent",
+    "owner": "reason-machines",
+    "repo": "trending-skills",
+    "category": "",
+    "description": "Self-evolving AI agent system with 26 tools, three-layer memory, MCP plugins, and 24/7 self-repair in pure Python.",
+    "tags": [
+      "reason-machines/trending-skills"
+    ],
+    "keywords": [
+      "reason-machines/trending-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "95",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/reason-machines/trending-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:30:33.458Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:30:33.458Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:30:33.458Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:30:33.458Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:30:33.458Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:30:33.458Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:30:33.458Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1100 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

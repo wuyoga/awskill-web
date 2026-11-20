@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:16:25.732Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/larksuite/meegle-cli/meegle",
+      "externalId": "larksuite/meegle-cli/meegle",
+      "name": "meegle",
+      "owner": "larksuite",
+      "repo": "meegle-cli",
+      "repositoryUrl": "https://github.com/larksuite/meegle-cli",
+      "description": "飞书项目（Meego/Meegle）操作工具。支持查询和管理工作项、节点流转、视图查询、个人待办、排期统计等功能。 Use when user needs to work with Feishu/Lark Meego project management — including querying work…",
+      "tags": [
+        "larksuite/meegle-cli"
+      ],
+      "stars": "261",
+      "installs": 17900,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "larksuite/meegle-cli/meegle",
+        "ogTitle": "meegle — larksuite/meegle-cli",
+        "npx": "npx skills add https://github.com/larksuite/meegle-cli --skill meegle",
+        "installsRaw": "17.9K",
+        "starsRaw": "261",
+        "firstSeen": "Apr 22, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/larksuite/meegle-cli/meegle/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/larksuite/meegle-cli/meegle/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/larksuite/meegle-cli/meegle/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:16:25.731Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/larksuite/meegle-cli/meegle",
+        "externalId": "larksuite/meegle-cli/meegle",
+        "name": "meegle",
+        "owner": "larksuite",
+        "repo": "meegle-cli",
+        "repositoryUrl": "https://github.com/larksuite/meegle-cli",
+        "description": "飞书项目（Meego/Meegle）操作工具。支持查询和管理工作项、节点流转、视图查询、个人待办、排期统计等功能。 Use when user needs to work with Feishu/Lark Meego project management — including querying work…",
+        "tags": [
+          "larksuite/meegle-cli"
+        ],
+        "stars": "261",
+        "installs": 17900,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "larksuite/meegle-cli/meegle",
+          "ogTitle": "meegle — larksuite/meegle-cli",
+          "npx": "npx skills add https://github.com/larksuite/meegle-cli --skill meegle",
+          "installsRaw": "17.9K",
+          "starsRaw": "261",
+          "firstSeen": "Apr 22, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/larksuite/meegle-cli/meegle/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/larksuite/meegle-cli/meegle/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/larksuite/meegle-cli/meegle/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:16:25.731Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "larksuite--meegle-cli--meegle",
+    "name": "meegle",
+    "owner": "larksuite",
+    "repo": "meegle-cli",
+    "category": "",
+    "description": "飞书项目（Meego/Meegle）操作工具。支持查询和管理工作项、节点流转、视图查询、个人待办、排期统计等功能。 Use when user needs to work with Feishu/Lark Meego project management — including querying work…",
+    "tags": [
+      "larksuite/meegle-cli"
+    ],
+    "keywords": [
+      "larksuite/meegle-cli"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "261",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/larksuite/meegle-cli",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:16:25.732Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:16:25.732Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:16:25.732Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:16:25.732Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:16:25.731Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:16:25.732Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:16:25.732Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=17900 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

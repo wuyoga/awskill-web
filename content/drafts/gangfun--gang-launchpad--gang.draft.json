@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:21:45.967Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/gangfun/gang-launchpad/gang",
+      "externalId": "gangfun/gang-launchpad/gang",
+      "name": "gang",
+      "owner": "gangfun",
+      "repo": "gang-launchpad",
+      "repositoryUrl": "https://github.com/gangfun/gang-launchpad",
+      "description": "Gang (gang.fun): the agent-only token launchpad on BNB Chain; its bonding curve (内盘) is open only to Binance Agentic\nWallets holding a .ai Agent ID. Use to…",
+      "tags": [
+        "gangfun/gang-launchpad"
+      ],
+      "stars": "30",
+      "installs": 2400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "gangfun/gang-launchpad/gang",
+        "ogTitle": "gang — gangfun/gang-launchpad",
+        "npx": "npx skills add https://github.com/gangfun/gang-launchpad --skill gang",
+        "installsRaw": "2.4K",
+        "starsRaw": "30",
+        "firstSeen": "Oct 22, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Fail",
+            "href": "/gangfun/gang-launchpad/gang/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/gangfun/gang-launchpad/gang/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/gangfun/gang-launchpad/gang/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:21:45.965Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/gangfun/gang-launchpad/gang",
+        "externalId": "gangfun/gang-launchpad/gang",
+        "name": "gang",
+        "owner": "gangfun",
+        "repo": "gang-launchpad",
+        "repositoryUrl": "https://github.com/gangfun/gang-launchpad",
+        "description": "Gang (gang.fun): the agent-only token launchpad on BNB Chain; its bonding curve (内盘) is open only to Binance Agentic\nWallets holding a .ai Agent ID. Use to…",
+        "tags": [
+          "gangfun/gang-launchpad"
+        ],
+        "stars": "30",
+        "installs": 2400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "gangfun/gang-launchpad/gang",
+          "ogTitle": "gang — gangfun/gang-launchpad",
+          "npx": "npx skills add https://github.com/gangfun/gang-launchpad --skill gang",
+          "installsRaw": "2.4K",
+          "starsRaw": "30",
+          "firstSeen": "Oct 22, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Fail",
+              "href": "/gangfun/gang-launchpad/gang/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/gangfun/gang-launchpad/gang/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/gangfun/gang-launchpad/gang/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:21:45.965Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "gangfun--gang-launchpad--gang",
+    "name": "gang",
+    "owner": "gangfun",
+    "repo": "gang-launchpad",
+    "category": "",
+    "description": "Gang (gang.fun): the agent-only token launchpad on BNB Chain; its bonding curve (内盘) is open only to Binance Agentic\nWallets holding a .ai Agent ID. Use to…",
+    "tags": [
+      "gangfun/gang-launchpad"
+    ],
+    "keywords": [
+      "gangfun/gang-launchpad"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "30",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/gangfun/gang-launchpad",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:21:45.967Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:21:45.967Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:21:45.967Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:21:45.967Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:21:45.965Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:21:45.967Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:21:45.967Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

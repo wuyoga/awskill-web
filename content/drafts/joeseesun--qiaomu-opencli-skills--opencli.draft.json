@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:34:52.510Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/joeseesun/qiaomu-opencli-skills/opencli",
+      "externalId": "joeseesun/qiaomu-opencli-skills/opencli",
+      "name": "opencli",
+      "owner": "joeseesun",
+      "repo": "qiaomu-opencli-skills",
+      "repositoryUrl": "https://github.com/joeseesun/qiaomu-opencli-skills",
+      "description": "Use opencli CLI to interact with social/content websites (Bilibili, Zhihu, Twitter/X, YouTube, Weibo, 小红书, V2EX, Reddit, HackerNews, 雪球, BOSS直聘 etc.) via the…",
+      "tags": [
+        "joeseesun/qiaomu-opencli-skills"
+      ],
+      "stars": "999",
+      "installs": 3300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "joeseesun/qiaomu-opencli-skills/opencli",
+        "ogTitle": "opencli — joeseesun/qiaomu-opencli-skills",
+        "npx": "npx skills add https://github.com/joeseesun/qiaomu-opencli-skills --skill opencli",
+        "installsRaw": "3.3K",
+        "starsRaw": "999",
+        "firstSeen": "Mar 16, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Warn",
+            "href": "/joeseesun/qiaomu-opencli-skills/opencli/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/joeseesun/qiaomu-opencli-skills/opencli/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/joeseesun/qiaomu-opencli-skills/opencli/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:34:52.510Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/joeseesun/qiaomu-opencli-skills/opencli",
+        "externalId": "joeseesun/qiaomu-opencli-skills/opencli",
+        "name": "opencli",
+        "owner": "joeseesun",
+        "repo": "qiaomu-opencli-skills",
+        "repositoryUrl": "https://github.com/joeseesun/qiaomu-opencli-skills",
+        "description": "Use opencli CLI to interact with social/content websites (Bilibili, Zhihu, Twitter/X, YouTube, Weibo, 小红书, V2EX, Reddit, HackerNews, 雪球, BOSS直聘 etc.) via the…",
+        "tags": [
+          "joeseesun/qiaomu-opencli-skills"
+        ],
+        "stars": "999",
+        "installs": 3300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "joeseesun/qiaomu-opencli-skills/opencli",
+          "ogTitle": "opencli — joeseesun/qiaomu-opencli-skills",
+          "npx": "npx skills add https://github.com/joeseesun/qiaomu-opencli-skills --skill opencli",
+          "installsRaw": "3.3K",
+          "starsRaw": "999",
+          "firstSeen": "Mar 16, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Warn",
+              "href": "/joeseesun/qiaomu-opencli-skills/opencli/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/joeseesun/qiaomu-opencli-skills/opencli/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/joeseesun/qiaomu-opencli-skills/opencli/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:34:52.510Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "joeseesun--qiaomu-opencli-skills--opencli",
+    "name": "opencli",
+    "owner": "joeseesun",
+    "repo": "qiaomu-opencli-skills",
+    "category": "",
+    "description": "Use opencli CLI to interact with social/content websites (Bilibili, Zhihu, Twitter/X, YouTube, Weibo, 小红书, V2EX, Reddit, HackerNews, 雪球, BOSS直聘 etc.) via the…",
+    "tags": [
+      "joeseesun/qiaomu-opencli-skills"
+    ],
+    "keywords": [
+      "joeseesun/qiaomu-opencli-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "999",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/joeseesun/qiaomu-opencli-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:34:52.510Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:34:52.510Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:34:52.510Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:34:52.510Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:34:52.510Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:34:52.510Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:34:52.510Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:44:10.990Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/aaron-he-zhu/seo-geo-claude-skills/keyword-research",
+      "externalId": "aaron-he-zhu/seo-geo-claude-skills/keyword-research",
+      "name": "keyword-research",
+      "owner": "aaron-he-zhu",
+      "repo": "seo-geo-claude-skills",
+      "repositoryUrl": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
+      "description": "keyword-research — an installable skill for AI agents, published by aaron-he-zhu/seo-geo-claude-skills.",
+      "tags": [
+        "aaron-he-zhu/seo-geo-claude-skills"
+      ],
+      "stars": "251",
+      "installs": 6800,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "aaron-he-zhu/seo-geo-claude-skills/keyword-research",
+        "ogTitle": "keyword-research — aaron-he-zhu/seo-geo-claude-skills",
+        "npx": "npx skills add https://github.com/aaron-he-zhu/seo-geo-claude-skills --skill keyword-research",
+        "installsRaw": "6.8K",
+        "starsRaw": "251",
+        "firstSeen": "Jan 23, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/aaron-he-zhu/seo-geo-claude-skills/keyword-research/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/aaron-he-zhu/seo-geo-claude-skills/keyword-research/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/aaron-he-zhu/seo-geo-claude-skills/keyword-research/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:44:10.990Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/aaron-he-zhu/seo-geo-claude-skills/keyword-research",
+        "externalId": "aaron-he-zhu/seo-geo-claude-skills/keyword-research",
+        "name": "keyword-research",
+        "owner": "aaron-he-zhu",
+        "repo": "seo-geo-claude-skills",
+        "repositoryUrl": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
+        "description": "keyword-research — an installable skill for AI agents, published by aaron-he-zhu/seo-geo-claude-skills.",
+        "tags": [
+          "aaron-he-zhu/seo-geo-claude-skills"
+        ],
+        "stars": "251",
+        "installs": 6800,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "aaron-he-zhu/seo-geo-claude-skills/keyword-research",
+          "ogTitle": "keyword-research — aaron-he-zhu/seo-geo-claude-skills",
+          "npx": "npx skills add https://github.com/aaron-he-zhu/seo-geo-claude-skills --skill keyword-research",
+          "installsRaw": "6.8K",
+          "starsRaw": "251",
+          "firstSeen": "Jan 23, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/aaron-he-zhu/seo-geo-claude-skills/keyword-research/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/aaron-he-zhu/seo-geo-claude-skills/keyword-research/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/aaron-he-zhu/seo-geo-claude-skills/keyword-research/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:44:10.990Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "aaron-he-zhu--seo-geo-claude-skills--keyword-research",
+    "name": "keyword-research",
+    "owner": "aaron-he-zhu",
+    "repo": "seo-geo-claude-skills",
+    "category": "",
+    "description": "keyword-research — an installable skill for AI agents, published by aaron-he-zhu/seo-geo-claude-skills.",
+    "tags": [
+      "aaron-he-zhu/seo-geo-claude-skills"
+    ],
+    "keywords": [
+      "aaron-he-zhu/seo-geo-claude-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "251",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/aaron-he-zhu/seo-geo-claude-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:44:10.990Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:44:10.990Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:44:10.990Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:44:10.990Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:44:10.990Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:44:10.990Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:44:10.990Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=6800 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

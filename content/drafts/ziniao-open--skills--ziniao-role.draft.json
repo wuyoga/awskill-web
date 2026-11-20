@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:56:30.435Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/ziniao-open/skills/ziniao-role",
+      "externalId": "ziniao-open/skills/ziniao-role",
+      "name": "ziniao-role",
+      "owner": "ziniao-open",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/ziniao-open/skills",
+      "description": "紫鸟角色管理：角色的查询、创建、修改、分配和权限查看。当用户需要查看角色列表、创建/修改角色、将角色分配给员工或查看角色成员时使用。",
+      "tags": [
+        "ziniao-open/skills"
+      ],
+      "stars": "9",
+      "installs": 5000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "ziniao-open/skills/ziniao-role",
+        "ogTitle": "ziniao-role — ziniao-open/skills",
+        "npx": "npx skills add https://github.com/ziniao-open/skills --skill ziniao-role",
+        "installsRaw": "5.0K",
+        "starsRaw": "9",
+        "firstSeen": "Jun 10, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/ziniao-open/skills/ziniao-role/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/ziniao-open/skills/ziniao-role/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/ziniao-open/skills/ziniao-role/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:56:30.435Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/ziniao-open/skills/ziniao-role",
+        "externalId": "ziniao-open/skills/ziniao-role",
+        "name": "ziniao-role",
+        "owner": "ziniao-open",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/ziniao-open/skills",
+        "description": "紫鸟角色管理：角色的查询、创建、修改、分配和权限查看。当用户需要查看角色列表、创建/修改角色、将角色分配给员工或查看角色成员时使用。",
+        "tags": [
+          "ziniao-open/skills"
+        ],
+        "stars": "9",
+        "installs": 5000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "ziniao-open/skills/ziniao-role",
+          "ogTitle": "ziniao-role — ziniao-open/skills",
+          "npx": "npx skills add https://github.com/ziniao-open/skills --skill ziniao-role",
+          "installsRaw": "5.0K",
+          "starsRaw": "9",
+          "firstSeen": "Jun 10, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/ziniao-open/skills/ziniao-role/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/ziniao-open/skills/ziniao-role/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/ziniao-open/skills/ziniao-role/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:56:30.435Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "ziniao-open--skills--ziniao-role",
+    "name": "ziniao-role",
+    "owner": "ziniao-open",
+    "repo": "skills",
+    "category": "",
+    "description": "紫鸟角色管理：角色的查询、创建、修改、分配和权限查看。当用户需要查看角色列表、创建/修改角色、将角色分配给员工或查看角色成员时使用。",
+    "tags": [
+      "ziniao-open/skills"
+    ],
+    "keywords": [
+      "ziniao-open/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "9",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/ziniao-open/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:56:30.435Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:56:30.435Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:56:30.435Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:56:30.435Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:56:30.435Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:56:30.435Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:56:30.435Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=5000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

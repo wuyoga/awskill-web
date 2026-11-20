@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:59:11.140Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/k-dense-ai/scientific-agent-skills/autoskill",
+      "externalId": "k-dense-ai/scientific-agent-skills/autoskill",
+      "name": "autoskill",
+      "owner": "k-dense-ai",
+      "repo": "scientific-agent-skills",
+      "repositoryUrl": "https://github.com/k-dense-ai/scientific-agent-skills",
+      "description": "Analyzes user-requested Screenpipe history windows to detect repeated research workflows, match existing scientific skills, and stage new skill drafts or…",
+      "tags": [
+        "k-dense-ai/scientific-agent-skills"
+      ],
+      "stars": "57.8K",
+      "installs": 2000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "k-dense-ai/scientific-agent-skills/autoskill",
+        "ogTitle": "autoskill — k-dense-ai/scientific-agent-skills",
+        "npx": "npx skills add https://github.com/k-dense-ai/scientific-agent-skills --skill autoskill",
+        "installsRaw": "2.0K",
+        "starsRaw": "57.8K",
+        "firstSeen": "May 3, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/k-dense-ai/scientific-agent-skills/autoskill/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/k-dense-ai/scientific-agent-skills/autoskill/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/k-dense-ai/scientific-agent-skills/autoskill/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:59:11.140Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/k-dense-ai/scientific-agent-skills/autoskill",
+        "externalId": "k-dense-ai/scientific-agent-skills/autoskill",
+        "name": "autoskill",
+        "owner": "k-dense-ai",
+        "repo": "scientific-agent-skills",
+        "repositoryUrl": "https://github.com/k-dense-ai/scientific-agent-skills",
+        "description": "Analyzes user-requested Screenpipe history windows to detect repeated research workflows, match existing scientific skills, and stage new skill drafts or…",
+        "tags": [
+          "k-dense-ai/scientific-agent-skills"
+        ],
+        "stars": "57.8K",
+        "installs": 2000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "k-dense-ai/scientific-agent-skills/autoskill",
+          "ogTitle": "autoskill — k-dense-ai/scientific-agent-skills",
+          "npx": "npx skills add https://github.com/k-dense-ai/scientific-agent-skills --skill autoskill",
+          "installsRaw": "2.0K",
+          "starsRaw": "57.8K",
+          "firstSeen": "May 3, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/k-dense-ai/scientific-agent-skills/autoskill/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/k-dense-ai/scientific-agent-skills/autoskill/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/k-dense-ai/scientific-agent-skills/autoskill/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:59:11.140Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "k-dense-ai--scientific-agent-skills--autoskill",
+    "name": "autoskill",
+    "owner": "k-dense-ai",
+    "repo": "scientific-agent-skills",
+    "category": "",
+    "description": "Analyzes user-requested Screenpipe history windows to detect repeated research workflows, match existing scientific skills, and stage new skill drafts or…",
+    "tags": [
+      "k-dense-ai/scientific-agent-skills"
+    ],
+    "keywords": [
+      "k-dense-ai/scientific-agent-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "57.8K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/k-dense-ai/scientific-agent-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:59:11.140Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:59:11.140Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:59:11.140Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:59:11.140Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:59:11.140Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:59:11.140Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:59:11.140Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

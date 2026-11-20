@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:02:31.647Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/aj-geddes/useful-ai-prompts/ansible-automation",
+      "externalId": "aj-geddes/useful-ai-prompts/ansible-automation",
+      "name": "ansible-automation",
+      "owner": "aj-geddes",
+      "repo": "useful-ai-prompts",
+      "repositoryUrl": "https://github.com/aj-geddes/useful-ai-prompts",
+      "description": "Infrastructure automation and configuration management using Ansible playbooks, roles, and inventory. Use for deploying applications, patching, and managing…",
+      "tags": [
+        "aj-geddes/useful-ai-prompts"
+      ],
+      "stars": "387",
+      "installs": 1900,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "aj-geddes/useful-ai-prompts/ansible-automation",
+        "ogTitle": "ansible-automation — aj-geddes/useful-ai-prompts",
+        "npx": "npx skills add https://github.com/aj-geddes/useful-ai-prompts --skill ansible-automation",
+        "installsRaw": "1.9K",
+        "starsRaw": "387",
+        "firstSeen": "Jan 21, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/aj-geddes/useful-ai-prompts/ansible-automation/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/aj-geddes/useful-ai-prompts/ansible-automation/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/aj-geddes/useful-ai-prompts/ansible-automation/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:02:31.647Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/aj-geddes/useful-ai-prompts/ansible-automation",
+        "externalId": "aj-geddes/useful-ai-prompts/ansible-automation",
+        "name": "ansible-automation",
+        "owner": "aj-geddes",
+        "repo": "useful-ai-prompts",
+        "repositoryUrl": "https://github.com/aj-geddes/useful-ai-prompts",
+        "description": "Infrastructure automation and configuration management using Ansible playbooks, roles, and inventory. Use for deploying applications, patching, and managing…",
+        "tags": [
+          "aj-geddes/useful-ai-prompts"
+        ],
+        "stars": "387",
+        "installs": 1900,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "aj-geddes/useful-ai-prompts/ansible-automation",
+          "ogTitle": "ansible-automation — aj-geddes/useful-ai-prompts",
+          "npx": "npx skills add https://github.com/aj-geddes/useful-ai-prompts --skill ansible-automation",
+          "installsRaw": "1.9K",
+          "starsRaw": "387",
+          "firstSeen": "Jan 21, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/aj-geddes/useful-ai-prompts/ansible-automation/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/aj-geddes/useful-ai-prompts/ansible-automation/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/aj-geddes/useful-ai-prompts/ansible-automation/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:02:31.647Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "aj-geddes--useful-ai-prompts--ansible-automation",
+    "name": "ansible-automation",
+    "owner": "aj-geddes",
+    "repo": "useful-ai-prompts",
+    "category": "",
+    "description": "Infrastructure automation and configuration management using Ansible playbooks, roles, and inventory. Use for deploying applications, patching, and managing…",
+    "tags": [
+      "aj-geddes/useful-ai-prompts"
+    ],
+    "keywords": [
+      "aj-geddes/useful-ai-prompts"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "387",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/aj-geddes/useful-ai-prompts",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:02:31.647Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:02:31.647Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:02:31.647Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:02:31.647Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:02:31.647Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:02:31.647Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:02:31.647Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1900 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

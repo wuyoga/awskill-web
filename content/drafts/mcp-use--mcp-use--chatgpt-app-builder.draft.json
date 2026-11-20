@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:33:15.407Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/mcp-use/mcp-use/chatgpt-app-builder",
+      "externalId": "mcp-use/mcp-use/chatgpt-app-builder",
+      "name": "chatgpt-app-builder",
+      "owner": "mcp-use",
+      "repo": "mcp-use",
+      "repositoryUrl": "https://github.com/mcp-use/mcp-use",
+      "description": "Build, modify, debug, migrate, review, or verify TypeScript MCP servers and MCP Apps with mcp-use. Use for tools, resources, prompts, middleware, Views,…",
+      "tags": [
+        "mcp-use/mcp-use"
+      ],
+      "stars": "11.0K",
+      "installs": 9400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "mcp-use/mcp-use/chatgpt-app-builder",
+        "ogTitle": "chatgpt-app-builder — mcp-use/mcp-use",
+        "npx": "npx skills add https://github.com/mcp-use/mcp-use --skill chatgpt-app-builder",
+        "installsRaw": "9.4K",
+        "starsRaw": "11.0K",
+        "firstSeen": "Feb 2, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Warn",
+            "href": "/mcp-use/mcp-use/chatgpt-app-builder/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/mcp-use/mcp-use/chatgpt-app-builder/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/mcp-use/mcp-use/chatgpt-app-builder/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:33:15.406Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/mcp-use/mcp-use/chatgpt-app-builder",
+        "externalId": "mcp-use/mcp-use/chatgpt-app-builder",
+        "name": "chatgpt-app-builder",
+        "owner": "mcp-use",
+        "repo": "mcp-use",
+        "repositoryUrl": "https://github.com/mcp-use/mcp-use",
+        "description": "Build, modify, debug, migrate, review, or verify TypeScript MCP servers and MCP Apps with mcp-use. Use for tools, resources, prompts, middleware, Views,…",
+        "tags": [
+          "mcp-use/mcp-use"
+        ],
+        "stars": "11.0K",
+        "installs": 9400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "mcp-use/mcp-use/chatgpt-app-builder",
+          "ogTitle": "chatgpt-app-builder — mcp-use/mcp-use",
+          "npx": "npx skills add https://github.com/mcp-use/mcp-use --skill chatgpt-app-builder",
+          "installsRaw": "9.4K",
+          "starsRaw": "11.0K",
+          "firstSeen": "Feb 2, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Warn",
+              "href": "/mcp-use/mcp-use/chatgpt-app-builder/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/mcp-use/mcp-use/chatgpt-app-builder/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/mcp-use/mcp-use/chatgpt-app-builder/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:33:15.406Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "mcp-use--mcp-use--chatgpt-app-builder",
+    "name": "chatgpt-app-builder",
+    "owner": "mcp-use",
+    "repo": "mcp-use",
+    "category": "",
+    "description": "Build, modify, debug, migrate, review, or verify TypeScript MCP servers and MCP Apps with mcp-use. Use for tools, resources, prompts, middleware, Views,…",
+    "tags": [
+      "mcp-use/mcp-use"
+    ],
+    "keywords": [
+      "mcp-use/mcp-use"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "11.0K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/mcp-use/mcp-use",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:33:15.407Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:33:15.407Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:33:15.407Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:33:15.407Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:33:15.406Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:33:15.407Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:33:15.407Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=9400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,241 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T07:43:16.861Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skillhey",
+      "sourceUrl": "https://skillhey.com/skills/strategic-research-report-generator",
+      "externalId": "strategic-research-report-generator",
+      "name": "Research Report Generator",
+      "owner": "o2alexanderfedin",
+      "repo": "strategic-research-automation-template",
+      "repositoryUrl": "https://github.com/o2alexanderfedin/strategic-research-automation-template/tree/main/.claude/skills/report-generator",
+      "description": "Combine sprint research into an executive-oriented strategic assessment.",
+      "tags": [],
+      "stars": null,
+      "installs": null,
+      "license": null,
+      "agentsClaimed": [
+        "Claude Code"
+      ],
+      "raw": {
+        "slug": "strategic-research-report-generator",
+        "qualityScore": null,
+        "starsRaw": null,
+        "forks": ","
+      },
+      "fetchedAt": "2026-11-19T07:43:16.859Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skillhey",
+        "sourceUrl": "https://skillhey.com/skills/strategic-research-report-generator",
+        "externalId": "strategic-research-report-generator",
+        "name": "Research Report Generator",
+        "owner": "o2alexanderfedin",
+        "repo": "strategic-research-automation-template",
+        "repositoryUrl": "https://github.com/o2alexanderfedin/strategic-research-automation-template/tree/main/.claude/skills/report-generator",
+        "description": "Combine sprint research into an executive-oriented strategic assessment.",
+        "tags": [],
+        "stars": null,
+        "installs": null,
+        "license": null,
+        "agentsClaimed": [
+          "Claude Code"
+        ],
+        "raw": {
+          "slug": "strategic-research-report-generator",
+          "qualityScore": null,
+          "starsRaw": null,
+          "forks": ","
+        },
+        "fetchedAt": "2026-11-19T07:43:16.859Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "strategic-research-report-generator",
+    "name": "Research Report Generator",
+    "owner": "o2alexanderfedin",
+    "repo": "strategic-research-automation-template",
+    "category": "",
+    "description": "Combine sprint research into an executive-oriented strategic assessment.",
+    "tags": [],
+    "keywords": [],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "0",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/o2alexanderfedin/strategic-research-automation-template/tree/main/.claude/skills/report-generator",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T07:43:16.861Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T07:43:16.861Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T07:43:16.861Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T07:43:16.861Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T07:43:16.859Z",
+      "note": "skillhey"
+    },
+    "tags": {
+      "source": "default",
+      "collectedAt": "2026-11-19T07:43:16.861Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T07:43:16.861Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "install count source unsettled (OQ-04)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete",
+      "skillhey claimed agents (not verified): Claude Code"
+    ]
+  }
+}

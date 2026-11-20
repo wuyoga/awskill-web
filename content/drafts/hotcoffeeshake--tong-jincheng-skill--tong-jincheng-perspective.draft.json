@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:05:40.696Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective",
+      "externalId": "hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective",
+      "name": "tong-jincheng-perspective",
+      "owner": "hotcoffeeshake",
+      "repo": "tong-jincheng-skill",
+      "repositoryUrl": "https://github.com/hotcoffeeshake/tong-jincheng-skill",
+      "description": "童锦程视角：以\"深情祖师爷\"、直播情感内容创作者的思维框架看待人际关系、社会动态与个人成长。\n素材来源：9个一手视频字幕（直播/约会vlog/搭讪解析），约20万字。\n核心模型：5个。决策启发式：9条。\n触发词：「童锦程」「深情祖师爷」「用童锦程的方式」「从童锦程视角」「景辰怎么看」\n局限：素材以情感/人际内容为主，商…",
+      "tags": [
+        "hotcoffeeshake/tong-jincheng-skill"
+      ],
+      "stars": "3.0K",
+      "installs": 4300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective",
+        "ogTitle": "tong-jincheng-perspective — hotcoffeeshake/tong-jincheng-skill",
+        "npx": "npx skills add https://github.com/hotcoffeeshake/tong-jincheng-skill --skill tong-jincheng-perspective",
+        "installsRaw": "4.3K",
+        "starsRaw": "3.0K",
+        "firstSeen": "Apr 5, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:05:40.696Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective",
+        "externalId": "hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective",
+        "name": "tong-jincheng-perspective",
+        "owner": "hotcoffeeshake",
+        "repo": "tong-jincheng-skill",
+        "repositoryUrl": "https://github.com/hotcoffeeshake/tong-jincheng-skill",
+        "description": "童锦程视角：以\"深情祖师爷\"、直播情感内容创作者的思维框架看待人际关系、社会动态与个人成长。\n素材来源：9个一手视频字幕（直播/约会vlog/搭讪解析），约20万字。\n核心模型：5个。决策启发式：9条。\n触发词：「童锦程」「深情祖师爷」「用童锦程的方式」「从童锦程视角」「景辰怎么看」\n局限：素材以情感/人际内容为主，商…",
+        "tags": [
+          "hotcoffeeshake/tong-jincheng-skill"
+        ],
+        "stars": "3.0K",
+        "installs": 4300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective",
+          "ogTitle": "tong-jincheng-perspective — hotcoffeeshake/tong-jincheng-skill",
+          "npx": "npx skills add https://github.com/hotcoffeeshake/tong-jincheng-skill --skill tong-jincheng-perspective",
+          "installsRaw": "4.3K",
+          "starsRaw": "3.0K",
+          "firstSeen": "Apr 5, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/hotcoffeeshake/tong-jincheng-skill/tong-jincheng-perspective/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:05:40.696Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "hotcoffeeshake--tong-jincheng-skill--tong-jincheng-perspective",
+    "name": "tong-jincheng-perspective",
+    "owner": "hotcoffeeshake",
+    "repo": "tong-jincheng-skill",
+    "category": "",
+    "description": "童锦程视角：以\"深情祖师爷\"、直播情感内容创作者的思维框架看待人际关系、社会动态与个人成长。\n素材来源：9个一手视频字幕（直播/约会vlog/搭讪解析），约20万字。\n核心模型：5个。决策启发式：9条。\n触发词：「童锦程」「深情祖师爷」「用童锦程的方式」「从童锦程视角」「景辰怎么看」\n局限：素材以情感/人际内容为主，商…",
+    "tags": [
+      "hotcoffeeshake/tong-jincheng-skill"
+    ],
+    "keywords": [
+      "hotcoffeeshake/tong-jincheng-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "3.0K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/hotcoffeeshake/tong-jincheng-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:05:40.696Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:05:40.696Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:05:40.696Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:05:40.696Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:05:40.696Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:05:40.696Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:05:40.696Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=4300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:28:08.304Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/wecomteam/wecom-cli/wecomcli-calendar",
+      "externalId": "wecomteam/wecom-cli/wecomcli-calendar",
+      "name": "wecomcli-calendar",
+      "owner": "wecomteam",
+      "repo": "wecom-cli",
+      "repositoryUrl": "https://github.com/wecomteam/wecom-cli",
+      "description": "企业微信日程管理。当用户需要预约日程、预订会议室、查看/更新/取消日程或查忙闲时触发。本技能负责『日程』——即不含在线会议链接的安排（也涵盖纯线下面对面碰头）；若用户要的是『在线会议』（含会议号/入会链接、可远程或视频参会），改用 wecomcli-meeting…",
+      "tags": [
+        "wecomteam/wecom-cli"
+      ],
+      "stars": "3.4K",
+      "installs": 10900,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "wecomteam/wecom-cli/wecomcli-calendar",
+        "ogTitle": "wecomcli-calendar — wecomteam/wecom-cli",
+        "npx": "npx skills add https://github.com/wecomteam/wecom-cli --skill wecomcli-calendar",
+        "installsRaw": "10.9K",
+        "starsRaw": "3.4K",
+        "firstSeen": "Aug 17, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/wecomteam/wecom-cli/wecomcli-calendar/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/wecomteam/wecom-cli/wecomcli-calendar/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/wecomteam/wecom-cli/wecomcli-calendar/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:28:08.304Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/wecomteam/wecom-cli/wecomcli-calendar",
+        "externalId": "wecomteam/wecom-cli/wecomcli-calendar",
+        "name": "wecomcli-calendar",
+        "owner": "wecomteam",
+        "repo": "wecom-cli",
+        "repositoryUrl": "https://github.com/wecomteam/wecom-cli",
+        "description": "企业微信日程管理。当用户需要预约日程、预订会议室、查看/更新/取消日程或查忙闲时触发。本技能负责『日程』——即不含在线会议链接的安排（也涵盖纯线下面对面碰头）；若用户要的是『在线会议』（含会议号/入会链接、可远程或视频参会），改用 wecomcli-meeting…",
+        "tags": [
+          "wecomteam/wecom-cli"
+        ],
+        "stars": "3.4K",
+        "installs": 10900,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "wecomteam/wecom-cli/wecomcli-calendar",
+          "ogTitle": "wecomcli-calendar — wecomteam/wecom-cli",
+          "npx": "npx skills add https://github.com/wecomteam/wecom-cli --skill wecomcli-calendar",
+          "installsRaw": "10.9K",
+          "starsRaw": "3.4K",
+          "firstSeen": "Aug 17, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/wecomteam/wecom-cli/wecomcli-calendar/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/wecomteam/wecom-cli/wecomcli-calendar/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/wecomteam/wecom-cli/wecomcli-calendar/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:28:08.304Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "wecomteam--wecom-cli--wecomcli-calendar",
+    "name": "wecomcli-calendar",
+    "owner": "wecomteam",
+    "repo": "wecom-cli",
+    "category": "",
+    "description": "企业微信日程管理。当用户需要预约日程、预订会议室、查看/更新/取消日程或查忙闲时触发。本技能负责『日程』——即不含在线会议链接的安排（也涵盖纯线下面对面碰头）；若用户要的是『在线会议』（含会议号/入会链接、可远程或视频参会），改用 wecomcli-meeting…",
+    "tags": [
+      "wecomteam/wecom-cli"
+    ],
+    "keywords": [
+      "wecomteam/wecom-cli"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "3.4K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/wecomteam/wecom-cli",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:28:08.304Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:28:08.304Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:28:08.304Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:28:08.304Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:28:08.304Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:28:08.304Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:28:08.304Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=10900 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

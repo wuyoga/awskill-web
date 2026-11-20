@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:32:10.784Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/breath57/dingtalk-skills/dingtalk-message",
+      "externalId": "breath57/dingtalk-skills/dingtalk-message",
+      "name": "dingtalk-message",
+      "owner": "breath57",
+      "repo": "dingtalk-skills",
+      "repositoryUrl": "https://github.com/breath57/dingtalk-skills",
+      "description": "钉钉消息发送。当用户提到\"钉钉消息\"、\"发消息\"、\"发通知\"、\"群通知\"、\"群消息\"、\"Webhook\"、\"机器人消息\"、\"机器人发消息\"、\"工作通知\"、\"单聊消息\"、\"群聊消息\"、\"撤回消息\"、\"消息已读\"、\"发送Markdown\"、\"发卡片消息\"、\"ActionCard\"、\"@某人\"、\"@员工\"、\"at某人\"、\"提…",
+      "tags": [
+        "breath57/dingtalk-skills"
+      ],
+      "stars": "102",
+      "installs": 1600,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "breath57/dingtalk-skills/dingtalk-message",
+        "ogTitle": "dingtalk-message — breath57/dingtalk-skills",
+        "npx": "npx skills add https://github.com/breath57/dingtalk-skills --skill dingtalk-message",
+        "installsRaw": "1.6K",
+        "starsRaw": "102",
+        "firstSeen": "Mar 11, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/breath57/dingtalk-skills/dingtalk-message/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/breath57/dingtalk-skills/dingtalk-message/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/breath57/dingtalk-skills/dingtalk-message/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:32:10.784Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/breath57/dingtalk-skills/dingtalk-message",
+        "externalId": "breath57/dingtalk-skills/dingtalk-message",
+        "name": "dingtalk-message",
+        "owner": "breath57",
+        "repo": "dingtalk-skills",
+        "repositoryUrl": "https://github.com/breath57/dingtalk-skills",
+        "description": "钉钉消息发送。当用户提到\"钉钉消息\"、\"发消息\"、\"发通知\"、\"群通知\"、\"群消息\"、\"Webhook\"、\"机器人消息\"、\"机器人发消息\"、\"工作通知\"、\"单聊消息\"、\"群聊消息\"、\"撤回消息\"、\"消息已读\"、\"发送Markdown\"、\"发卡片消息\"、\"ActionCard\"、\"@某人\"、\"@员工\"、\"at某人\"、\"提…",
+        "tags": [
+          "breath57/dingtalk-skills"
+        ],
+        "stars": "102",
+        "installs": 1600,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "breath57/dingtalk-skills/dingtalk-message",
+          "ogTitle": "dingtalk-message — breath57/dingtalk-skills",
+          "npx": "npx skills add https://github.com/breath57/dingtalk-skills --skill dingtalk-message",
+          "installsRaw": "1.6K",
+          "starsRaw": "102",
+          "firstSeen": "Mar 11, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/breath57/dingtalk-skills/dingtalk-message/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/breath57/dingtalk-skills/dingtalk-message/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/breath57/dingtalk-skills/dingtalk-message/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:32:10.784Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "breath57--dingtalk-skills--dingtalk-message",
+    "name": "dingtalk-message",
+    "owner": "breath57",
+    "repo": "dingtalk-skills",
+    "category": "",
+    "description": "钉钉消息发送。当用户提到\"钉钉消息\"、\"发消息\"、\"发通知\"、\"群通知\"、\"群消息\"、\"Webhook\"、\"机器人消息\"、\"机器人发消息\"、\"工作通知\"、\"单聊消息\"、\"群聊消息\"、\"撤回消息\"、\"消息已读\"、\"发送Markdown\"、\"发卡片消息\"、\"ActionCard\"、\"@某人\"、\"@员工\"、\"at某人\"、\"提…",
+    "tags": [
+      "breath57/dingtalk-skills"
+    ],
+    "keywords": [
+      "breath57/dingtalk-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "102",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/breath57/dingtalk-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:32:10.784Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:32:10.784Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:32:10.784Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:32:10.784Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:32:10.784Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:32:10.784Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:32:10.784Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1600 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

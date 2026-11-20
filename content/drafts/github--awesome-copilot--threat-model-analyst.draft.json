@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:38:51.749Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/github/awesome-copilot/threat-model-analyst",
+      "externalId": "github/awesome-copilot/threat-model-analyst",
+      "name": "threat-model-analyst",
+      "owner": "github",
+      "repo": "awesome-copilot",
+      "repositoryUrl": "https://github.com/github/awesome-copilot",
+      "description": "Full STRIDE-A threat model analysis and incremental update skill for repositories and systems. Supports two modes: (1) Single analysis — full STRIDE-A threat…",
+      "tags": [
+        "github/awesome-copilot"
+      ],
+      "stars": "41.4K",
+      "installs": 1500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "github/awesome-copilot/threat-model-analyst",
+        "ogTitle": "threat-model-analyst — github/awesome-copilot",
+        "npx": "npx skills add https://github.com/github/awesome-copilot --skill threat-model-analyst",
+        "installsRaw": "1.5K",
+        "starsRaw": "41.4K",
+        "firstSeen": "Mar 29, 2026",
+        "securityAudits": []
+      },
+      "fetchedAt": "2026-11-20T03:38:51.748Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/github/awesome-copilot/threat-model-analyst",
+        "externalId": "github/awesome-copilot/threat-model-analyst",
+        "name": "threat-model-analyst",
+        "owner": "github",
+        "repo": "awesome-copilot",
+        "repositoryUrl": "https://github.com/github/awesome-copilot",
+        "description": "Full STRIDE-A threat model analysis and incremental update skill for repositories and systems. Supports two modes: (1) Single analysis — full STRIDE-A threat…",
+        "tags": [
+          "github/awesome-copilot"
+        ],
+        "stars": "41.4K",
+        "installs": 1500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "github/awesome-copilot/threat-model-analyst",
+          "ogTitle": "threat-model-analyst — github/awesome-copilot",
+          "npx": "npx skills add https://github.com/github/awesome-copilot --skill threat-model-analyst",
+          "installsRaw": "1.5K",
+          "starsRaw": "41.4K",
+          "firstSeen": "Mar 29, 2026",
+          "securityAudits": []
+        },
+        "fetchedAt": "2026-11-20T03:38:51.748Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "github--awesome-copilot--threat-model-analyst",
+    "name": "threat-model-analyst",
+    "owner": "github",
+    "repo": "awesome-copilot",
+    "category": "",
+    "description": "Full STRIDE-A threat model analysis and incremental update skill for repositories and systems. Supports two modes: (1) Single analysis — full STRIDE-A threat…",
+    "tags": [
+      "github/awesome-copilot"
+    ],
+    "keywords": [
+      "github/awesome-copilot"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "41.4K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/github/awesome-copilot",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:38:51.749Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:38:51.749Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:38:51.749Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:38:51.749Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:38:51.748Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:38:51.749Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:38:51.749Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

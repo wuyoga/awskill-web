@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:14:17.633Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl",
+      "externalId": "dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl",
+      "name": "webgpu-threejs-tsl",
+      "owner": "dgreenheck",
+      "repo": "webgpu-claude-skill",
+      "repositoryUrl": "https://github.com/dgreenheck/webgpu-claude-skill",
+      "description": "Comprehensive guide for developing WebGPU-enabled Three.js applications using TSL (Three.js Shading Language). Covers WebGPU renderer setup, TSL syntax and…",
+      "tags": [
+        "dgreenheck/webgpu-claude-skill"
+      ],
+      "stars": "1.3K",
+      "installs": 1800,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl",
+        "ogTitle": "webgpu-threejs-tsl — dgreenheck/webgpu-claude-skill",
+        "npx": "npx skills add https://github.com/dgreenheck/webgpu-claude-skill --skill webgpu-threejs-tsl",
+        "installsRaw": "1.8K",
+        "starsRaw": "1.3K",
+        "firstSeen": "Jan 24, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:14:17.632Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl",
+        "externalId": "dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl",
+        "name": "webgpu-threejs-tsl",
+        "owner": "dgreenheck",
+        "repo": "webgpu-claude-skill",
+        "repositoryUrl": "https://github.com/dgreenheck/webgpu-claude-skill",
+        "description": "Comprehensive guide for developing WebGPU-enabled Three.js applications using TSL (Three.js Shading Language). Covers WebGPU renderer setup, TSL syntax and…",
+        "tags": [
+          "dgreenheck/webgpu-claude-skill"
+        ],
+        "stars": "1.3K",
+        "installs": 1800,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl",
+          "ogTitle": "webgpu-threejs-tsl — dgreenheck/webgpu-claude-skill",
+          "npx": "npx skills add https://github.com/dgreenheck/webgpu-claude-skill --skill webgpu-threejs-tsl",
+          "installsRaw": "1.8K",
+          "starsRaw": "1.3K",
+          "firstSeen": "Jan 24, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/dgreenheck/webgpu-claude-skill/webgpu-threejs-tsl/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:14:17.632Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "dgreenheck--webgpu-claude-skill--webgpu-threejs-tsl",
+    "name": "webgpu-threejs-tsl",
+    "owner": "dgreenheck",
+    "repo": "webgpu-claude-skill",
+    "category": "",
+    "description": "Comprehensive guide for developing WebGPU-enabled Three.js applications using TSL (Three.js Shading Language). Covers WebGPU renderer setup, TSL syntax and…",
+    "tags": [
+      "dgreenheck/webgpu-claude-skill"
+    ],
+    "keywords": [
+      "dgreenheck/webgpu-claude-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "1.3K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/dgreenheck/webgpu-claude-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:14:17.633Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:14:17.633Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:14:17.633Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:14:17.633Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:14:17.632Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:14:17.633Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:14:17.633Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1800 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

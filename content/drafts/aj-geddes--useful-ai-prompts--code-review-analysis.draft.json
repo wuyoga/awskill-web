@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:23:32.280Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/aj-geddes/useful-ai-prompts/code-review-analysis",
+      "externalId": "aj-geddes/useful-ai-prompts/code-review-analysis",
+      "name": "code-review-analysis",
+      "owner": "aj-geddes",
+      "repo": "useful-ai-prompts",
+      "repositoryUrl": "https://github.com/aj-geddes/useful-ai-prompts",
+      "description": "Perform comprehensive code reviews with best practices, security checks, and constructive feedback. Use when reviewing pull requests, analyzing code quality,…",
+      "tags": [
+        "aj-geddes/useful-ai-prompts"
+      ],
+      "stars": "387",
+      "installs": 2400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "aj-geddes/useful-ai-prompts/code-review-analysis",
+        "ogTitle": "code-review-analysis — aj-geddes/useful-ai-prompts",
+        "npx": "npx skills add https://github.com/aj-geddes/useful-ai-prompts --skill code-review-analysis",
+        "installsRaw": "2.4K",
+        "starsRaw": "387",
+        "firstSeen": "Jan 21, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/aj-geddes/useful-ai-prompts/code-review-analysis/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/aj-geddes/useful-ai-prompts/code-review-analysis/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/aj-geddes/useful-ai-prompts/code-review-analysis/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:23:32.280Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/aj-geddes/useful-ai-prompts/code-review-analysis",
+        "externalId": "aj-geddes/useful-ai-prompts/code-review-analysis",
+        "name": "code-review-analysis",
+        "owner": "aj-geddes",
+        "repo": "useful-ai-prompts",
+        "repositoryUrl": "https://github.com/aj-geddes/useful-ai-prompts",
+        "description": "Perform comprehensive code reviews with best practices, security checks, and constructive feedback. Use when reviewing pull requests, analyzing code quality,…",
+        "tags": [
+          "aj-geddes/useful-ai-prompts"
+        ],
+        "stars": "387",
+        "installs": 2400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "aj-geddes/useful-ai-prompts/code-review-analysis",
+          "ogTitle": "code-review-analysis — aj-geddes/useful-ai-prompts",
+          "npx": "npx skills add https://github.com/aj-geddes/useful-ai-prompts --skill code-review-analysis",
+          "installsRaw": "2.4K",
+          "starsRaw": "387",
+          "firstSeen": "Jan 21, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/aj-geddes/useful-ai-prompts/code-review-analysis/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/aj-geddes/useful-ai-prompts/code-review-analysis/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/aj-geddes/useful-ai-prompts/code-review-analysis/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:23:32.280Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "aj-geddes--useful-ai-prompts--code-review-analysis",
+    "name": "code-review-analysis",
+    "owner": "aj-geddes",
+    "repo": "useful-ai-prompts",
+    "category": "",
+    "description": "Perform comprehensive code reviews with best practices, security checks, and constructive feedback. Use when reviewing pull requests, analyzing code quality,…",
+    "tags": [
+      "aj-geddes/useful-ai-prompts"
+    ],
+    "keywords": [
+      "aj-geddes/useful-ai-prompts"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "387",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/aj-geddes/useful-ai-prompts",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:23:32.280Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:23:32.280Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:23:32.280Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:23:32.280Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:23:32.280Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:23:32.280Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:23:32.280Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

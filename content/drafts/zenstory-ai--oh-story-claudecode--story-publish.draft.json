@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:39:04.102Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/zenstory-ai/oh-story-claudecode/story-publish",
+      "externalId": "zenstory-ai/oh-story-claudecode/story-publish",
+      "name": "story-publish",
+      "owner": "zenstory-ai",
+      "repo": "oh-story-claudecode",
+      "repositoryUrl": "https://github.com/zenstory-ai/oh-story-claudecode",
+      "description": "小说发布准备：调用即生成并保存发布资料，缺失字段留空；按平台整理书名、笔名、分类、标签及所需简介。触发方式：/story-publish、/发布资料、「填写平台建书资料」「建书表单」「起书名/写简介/选标签用于发布」；正文累计约 2…",
+      "tags": [
+        "zenstory-ai/oh-story-claudecode"
+      ],
+      "stars": "8.8K",
+      "installs": 1500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "zenstory-ai/oh-story-claudecode/story-publish",
+        "ogTitle": "story-publish — zenstory-ai/oh-story-claudecode",
+        "npx": "npx skills add https://github.com/zenstory-ai/oh-story-claudecode --skill story-publish",
+        "installsRaw": "1.5K",
+        "starsRaw": "8.8K",
+        "firstSeen": "Oct 30, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/zenstory-ai/oh-story-claudecode/story-publish/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/zenstory-ai/oh-story-claudecode/story-publish/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/zenstory-ai/oh-story-claudecode/story-publish/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:39:04.101Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/zenstory-ai/oh-story-claudecode/story-publish",
+        "externalId": "zenstory-ai/oh-story-claudecode/story-publish",
+        "name": "story-publish",
+        "owner": "zenstory-ai",
+        "repo": "oh-story-claudecode",
+        "repositoryUrl": "https://github.com/zenstory-ai/oh-story-claudecode",
+        "description": "小说发布准备：调用即生成并保存发布资料，缺失字段留空；按平台整理书名、笔名、分类、标签及所需简介。触发方式：/story-publish、/发布资料、「填写平台建书资料」「建书表单」「起书名/写简介/选标签用于发布」；正文累计约 2…",
+        "tags": [
+          "zenstory-ai/oh-story-claudecode"
+        ],
+        "stars": "8.8K",
+        "installs": 1500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "zenstory-ai/oh-story-claudecode/story-publish",
+          "ogTitle": "story-publish — zenstory-ai/oh-story-claudecode",
+          "npx": "npx skills add https://github.com/zenstory-ai/oh-story-claudecode --skill story-publish",
+          "installsRaw": "1.5K",
+          "starsRaw": "8.8K",
+          "firstSeen": "Oct 30, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/zenstory-ai/oh-story-claudecode/story-publish/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/zenstory-ai/oh-story-claudecode/story-publish/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/zenstory-ai/oh-story-claudecode/story-publish/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:39:04.101Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "zenstory-ai--oh-story-claudecode--story-publish",
+    "name": "story-publish",
+    "owner": "zenstory-ai",
+    "repo": "oh-story-claudecode",
+    "category": "",
+    "description": "小说发布准备：调用即生成并保存发布资料，缺失字段留空；按平台整理书名、笔名、分类、标签及所需简介。触发方式：/story-publish、/发布资料、「填写平台建书资料」「建书表单」「起书名/写简介/选标签用于发布」；正文累计约 2…",
+    "tags": [
+      "zenstory-ai/oh-story-claudecode"
+    ],
+    "keywords": [
+      "zenstory-ai/oh-story-claudecode"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "8.8K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/zenstory-ai/oh-story-claudecode",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:39:04.102Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:39:04.102Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:39:04.102Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:39:04.102Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:39:04.101Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:39:04.102Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:39:04.102Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

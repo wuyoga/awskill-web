@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:46:00.139Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer",
+      "externalId": "buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer",
+      "name": "ecommerce-competitor-analyzer",
+      "owner": "buluslan",
+      "repo": "ecommerce-competitor-analyzer",
+      "repositoryUrl": "https://github.com/buluslan/ecommerce-competitor-analyzer",
+      "description": "ecommerce-competitor-analyzer是由buluslan（公众号：新西楼.AI）研发的电商竞品分析Skill，他会帮你拆解竞对的定价、评论、流量结构和差异化空间，把\"对手到底强在哪\"变成一份可执行的竞品分析报告。\n更多跨境电商 AI…",
+      "tags": [
+        "buluslan/ecommerce-competitor-analyzer"
+      ],
+      "stars": "62",
+      "installs": 1400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer",
+        "ogTitle": "ecommerce-competitor-analyzer — buluslan/ecommerce-competitor-analyzer",
+        "npx": "npx skills add https://github.com/buluslan/ecommerce-competitor-analyzer --skill ecommerce-competitor-analyzer",
+        "installsRaw": "1.4K",
+        "starsRaw": "62",
+        "firstSeen": "Jan 30, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:46:00.139Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer",
+        "externalId": "buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer",
+        "name": "ecommerce-competitor-analyzer",
+        "owner": "buluslan",
+        "repo": "ecommerce-competitor-analyzer",
+        "repositoryUrl": "https://github.com/buluslan/ecommerce-competitor-analyzer",
+        "description": "ecommerce-competitor-analyzer是由buluslan（公众号：新西楼.AI）研发的电商竞品分析Skill，他会帮你拆解竞对的定价、评论、流量结构和差异化空间，把\"对手到底强在哪\"变成一份可执行的竞品分析报告。\n更多跨境电商 AI…",
+        "tags": [
+          "buluslan/ecommerce-competitor-analyzer"
+        ],
+        "stars": "62",
+        "installs": 1400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer",
+          "ogTitle": "ecommerce-competitor-analyzer — buluslan/ecommerce-competitor-analyzer",
+          "npx": "npx skills add https://github.com/buluslan/ecommerce-competitor-analyzer --skill ecommerce-competitor-analyzer",
+          "installsRaw": "1.4K",
+          "starsRaw": "62",
+          "firstSeen": "Jan 30, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/buluslan/ecommerce-competitor-analyzer/ecommerce-competitor-analyzer/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:46:00.139Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "buluslan--ecommerce-competitor-analyzer--ecommerce-competitor-analyzer",
+    "name": "ecommerce-competitor-analyzer",
+    "owner": "buluslan",
+    "repo": "ecommerce-competitor-analyzer",
+    "category": "",
+    "description": "ecommerce-competitor-analyzer是由buluslan（公众号：新西楼.AI）研发的电商竞品分析Skill，他会帮你拆解竞对的定价、评论、流量结构和差异化空间，把\"对手到底强在哪\"变成一份可执行的竞品分析报告。\n更多跨境电商 AI…",
+    "tags": [
+      "buluslan/ecommerce-competitor-analyzer"
+    ],
+    "keywords": [
+      "buluslan/ecommerce-competitor-analyzer"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "62",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/buluslan/ecommerce-competitor-analyzer",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:46:00.139Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:46:00.139Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:46:00.139Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:46:00.139Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:46:00.139Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:46:00.139Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:46:00.139Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

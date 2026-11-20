@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:26:37.279Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/msw-git/msw-ai-coding-plugins-official/msw-search",
+      "externalId": "msw-git/msw-ai-coding-plugins-official/msw-search",
+      "name": "msw-search",
+      "owner": "msw-git",
+      "repo": "msw-ai-coding-plugins-official",
+      "repositoryUrl": "https://github.com/msw-git/msw-ai-coding-plugins-official",
+      "description": "MSW search integration — (1) vector search for API docs and implementation guides via the msw-mcp MCP server (mlua_api_retriever / mlua_document_retriever),…",
+      "tags": [
+        "msw-git/msw-ai-coding-plugins-official"
+      ],
+      "stars": "38",
+      "installs": 11300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "msw-git/msw-ai-coding-plugins-official/msw-search",
+        "ogTitle": "msw-search — msw-git/msw-ai-coding-plugins-official",
+        "npx": "npx skills add https://github.com/msw-git/msw-ai-coding-plugins-official --skill msw-search",
+        "installsRaw": "11.3K",
+        "starsRaw": "38",
+        "firstSeen": "Apr 28, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/msw-git/msw-ai-coding-plugins-official/msw-search/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/msw-git/msw-ai-coding-plugins-official/msw-search/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/msw-git/msw-ai-coding-plugins-official/msw-search/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:26:37.278Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/msw-git/msw-ai-coding-plugins-official/msw-search",
+        "externalId": "msw-git/msw-ai-coding-plugins-official/msw-search",
+        "name": "msw-search",
+        "owner": "msw-git",
+        "repo": "msw-ai-coding-plugins-official",
+        "repositoryUrl": "https://github.com/msw-git/msw-ai-coding-plugins-official",
+        "description": "MSW search integration — (1) vector search for API docs and implementation guides via the msw-mcp MCP server (mlua_api_retriever / mlua_document_retriever),…",
+        "tags": [
+          "msw-git/msw-ai-coding-plugins-official"
+        ],
+        "stars": "38",
+        "installs": 11300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "msw-git/msw-ai-coding-plugins-official/msw-search",
+          "ogTitle": "msw-search — msw-git/msw-ai-coding-plugins-official",
+          "npx": "npx skills add https://github.com/msw-git/msw-ai-coding-plugins-official --skill msw-search",
+          "installsRaw": "11.3K",
+          "starsRaw": "38",
+          "firstSeen": "Apr 28, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/msw-git/msw-ai-coding-plugins-official/msw-search/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/msw-git/msw-ai-coding-plugins-official/msw-search/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/msw-git/msw-ai-coding-plugins-official/msw-search/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:26:37.278Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "msw-git--msw-ai-coding-plugins-official--msw-search",
+    "name": "msw-search",
+    "owner": "msw-git",
+    "repo": "msw-ai-coding-plugins-official",
+    "category": "",
+    "description": "MSW search integration — (1) vector search for API docs and implementation guides via the msw-mcp MCP server (mlua_api_retriever / mlua_document_retriever),…",
+    "tags": [
+      "msw-git/msw-ai-coding-plugins-official"
+    ],
+    "keywords": [
+      "msw-git/msw-ai-coding-plugins-official"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "38",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/msw-git/msw-ai-coding-plugins-official",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:26:37.279Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:26:37.279Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:26:37.279Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:26:37.279Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:26:37.278Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:26:37.279Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:26:37.279Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=11300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

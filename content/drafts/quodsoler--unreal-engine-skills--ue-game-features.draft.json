@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:55:07.176Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/quodsoler/unreal-engine-skills/ue-game-features",
+      "externalId": "quodsoler/unreal-engine-skills/ue-game-features",
+      "name": "ue-game-features",
+      "owner": "quodsoler",
+      "repo": "unreal-engine-skills",
+      "repositoryUrl": "https://github.com/quodsoler/unreal-engine-skills",
+      "description": "Use when building, activating or debugging Game Feature plugins and modular gameplay. Also use when the user mentions &#x27;GameFeatureAction&#x27;, &#x27;UGameFeatureData&#x27;,…",
+      "tags": [
+        "quodsoler/unreal-engine-skills"
+      ],
+      "stars": "468",
+      "installs": 1300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "quodsoler/unreal-engine-skills/ue-game-features",
+        "ogTitle": "ue-game-features — quodsoler/unreal-engine-skills",
+        "npx": "npx skills add https://github.com/quodsoler/unreal-engine-skills --skill ue-game-features",
+        "installsRaw": "1.3K",
+        "starsRaw": "468",
+        "firstSeen": "Mar 9, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/quodsoler/unreal-engine-skills/ue-game-features/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/quodsoler/unreal-engine-skills/ue-game-features/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/quodsoler/unreal-engine-skills/ue-game-features/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:55:07.176Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/quodsoler/unreal-engine-skills/ue-game-features",
+        "externalId": "quodsoler/unreal-engine-skills/ue-game-features",
+        "name": "ue-game-features",
+        "owner": "quodsoler",
+        "repo": "unreal-engine-skills",
+        "repositoryUrl": "https://github.com/quodsoler/unreal-engine-skills",
+        "description": "Use when building, activating or debugging Game Feature plugins and modular gameplay. Also use when the user mentions &#x27;GameFeatureAction&#x27;, &#x27;UGameFeatureData&#x27;,…",
+        "tags": [
+          "quodsoler/unreal-engine-skills"
+        ],
+        "stars": "468",
+        "installs": 1300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "quodsoler/unreal-engine-skills/ue-game-features",
+          "ogTitle": "ue-game-features — quodsoler/unreal-engine-skills",
+          "npx": "npx skills add https://github.com/quodsoler/unreal-engine-skills --skill ue-game-features",
+          "installsRaw": "1.3K",
+          "starsRaw": "468",
+          "firstSeen": "Mar 9, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/quodsoler/unreal-engine-skills/ue-game-features/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/quodsoler/unreal-engine-skills/ue-game-features/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/quodsoler/unreal-engine-skills/ue-game-features/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:55:07.176Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "quodsoler--unreal-engine-skills--ue-game-features",
+    "name": "ue-game-features",
+    "owner": "quodsoler",
+    "repo": "unreal-engine-skills",
+    "category": "",
+    "description": "Use when building, activating or debugging Game Feature plugins and modular gameplay. Also use when the user mentions &#x27;GameFeatureAction&#x27;, &#x27;UGameFeatureData&#x27;,…",
+    "tags": [
+      "quodsoler/unreal-engine-skills"
+    ],
+    "keywords": [
+      "quodsoler/unreal-engine-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "468",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/quodsoler/unreal-engine-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:55:07.176Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:55:07.176Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:55:07.176Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:55:07.176Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:55:07.176Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:55:07.176Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:55:07.176Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

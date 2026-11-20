@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:03:31.135Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/vyralcontent/content-skills/viral-short-form-ideas",
+      "externalId": "vyralcontent/content-skills/viral-short-form-ideas",
+      "name": "viral-short-form-ideas",
+      "owner": "vyralcontent",
+      "repo": "content-skills",
+      "repositoryUrl": "https://github.com/vyralcontent/content-skills",
+      "description": "Generate short-form video ideas at volume and stop the blank-page problem for good. Use whenever someone says they&#x27;re stuck for ideas, asks for 20 TikTok ideas…",
+      "tags": [
+        "vyralcontent/content-skills"
+      ],
+      "stars": "257",
+      "installs": 11,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "vyralcontent/content-skills/viral-short-form-ideas",
+        "ogTitle": "viral-short-form-ideas — vyralcontent/content-skills",
+        "npx": "npx skills add https://github.com/vyralcontent/content-skills --skill viral-short-form-ideas",
+        "installsRaw": "11",
+        "starsRaw": "257",
+        "firstSeen": "Jun 22, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/vyralcontent/content-skills/viral-short-form-ideas/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/vyralcontent/content-skills/viral-short-form-ideas/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/vyralcontent/content-skills/viral-short-form-ideas/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:03:31.135Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/vyralcontent/content-skills/viral-short-form-ideas",
+        "externalId": "vyralcontent/content-skills/viral-short-form-ideas",
+        "name": "viral-short-form-ideas",
+        "owner": "vyralcontent",
+        "repo": "content-skills",
+        "repositoryUrl": "https://github.com/vyralcontent/content-skills",
+        "description": "Generate short-form video ideas at volume and stop the blank-page problem for good. Use whenever someone says they&#x27;re stuck for ideas, asks for 20 TikTok ideas…",
+        "tags": [
+          "vyralcontent/content-skills"
+        ],
+        "stars": "257",
+        "installs": 11,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "vyralcontent/content-skills/viral-short-form-ideas",
+          "ogTitle": "viral-short-form-ideas — vyralcontent/content-skills",
+          "npx": "npx skills add https://github.com/vyralcontent/content-skills --skill viral-short-form-ideas",
+          "installsRaw": "11",
+          "starsRaw": "257",
+          "firstSeen": "Jun 22, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/vyralcontent/content-skills/viral-short-form-ideas/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/vyralcontent/content-skills/viral-short-form-ideas/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/vyralcontent/content-skills/viral-short-form-ideas/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:03:31.135Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "vyralcontent--content-skills--viral-short-form-ideas",
+    "name": "viral-short-form-ideas",
+    "owner": "vyralcontent",
+    "repo": "content-skills",
+    "category": "",
+    "description": "Generate short-form video ideas at volume and stop the blank-page problem for good. Use whenever someone says they&#x27;re stuck for ideas, asks for 20 TikTok ideas…",
+    "tags": [
+      "vyralcontent/content-skills"
+    ],
+    "keywords": [
+      "vyralcontent/content-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "257",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/vyralcontent/content-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:03:31.135Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:03:31.135Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:03:31.135Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:03:31.135Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:03:31.135Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:03:31.135Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:03:31.135Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=11 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

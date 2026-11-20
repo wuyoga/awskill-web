@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:11:44.626Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/dontbesilent2025/dbskill/dbs-ai-check",
+      "externalId": "dontbesilent2025/dbskill/dbs-ai-check",
+      "name": "dbs-ai-check",
+      "owner": "dontbesilent2025",
+      "repo": "dbskill",
+      "repositoryUrl": "https://github.com/dontbesilent2025/dbskill",
+      "description": "扫描公众号长文、短视频文稿、推文等文案中的 AI 写作特征并输出检测报告，默认只诊断不改写；用户看完报告说「我想改」后，逐条追问写法背后的意图并给出修改方向。用户要求检查 AI 味、AI 痕迹或机器化表达时使用。",
+      "tags": [
+        "dontbesilent2025/dbskill"
+      ],
+      "stars": "11.5K",
+      "installs": 29300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "dontbesilent2025/dbskill/dbs-ai-check",
+        "ogTitle": "dbs-ai-check — dontbesilent2025/dbskill",
+        "npx": "npx skills add https://github.com/dontbesilent2025/dbskill --skill dbs-ai-check",
+        "installsRaw": "29.3K",
+        "starsRaw": "11.5K",
+        "firstSeen": "Apr 10, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/dontbesilent2025/dbskill/dbs-ai-check/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/dontbesilent2025/dbskill/dbs-ai-check/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/dontbesilent2025/dbskill/dbs-ai-check/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:11:44.626Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/dontbesilent2025/dbskill/dbs-ai-check",
+        "externalId": "dontbesilent2025/dbskill/dbs-ai-check",
+        "name": "dbs-ai-check",
+        "owner": "dontbesilent2025",
+        "repo": "dbskill",
+        "repositoryUrl": "https://github.com/dontbesilent2025/dbskill",
+        "description": "扫描公众号长文、短视频文稿、推文等文案中的 AI 写作特征并输出检测报告，默认只诊断不改写；用户看完报告说「我想改」后，逐条追问写法背后的意图并给出修改方向。用户要求检查 AI 味、AI 痕迹或机器化表达时使用。",
+        "tags": [
+          "dontbesilent2025/dbskill"
+        ],
+        "stars": "11.5K",
+        "installs": 29300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "dontbesilent2025/dbskill/dbs-ai-check",
+          "ogTitle": "dbs-ai-check — dontbesilent2025/dbskill",
+          "npx": "npx skills add https://github.com/dontbesilent2025/dbskill --skill dbs-ai-check",
+          "installsRaw": "29.3K",
+          "starsRaw": "11.5K",
+          "firstSeen": "Apr 10, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/dontbesilent2025/dbskill/dbs-ai-check/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/dontbesilent2025/dbskill/dbs-ai-check/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/dontbesilent2025/dbskill/dbs-ai-check/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:11:44.626Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "dontbesilent2025--dbskill--dbs-ai-check",
+    "name": "dbs-ai-check",
+    "owner": "dontbesilent2025",
+    "repo": "dbskill",
+    "category": "",
+    "description": "扫描公众号长文、短视频文稿、推文等文案中的 AI 写作特征并输出检测报告，默认只诊断不改写；用户看完报告说「我想改」后，逐条追问写法背后的意图并给出修改方向。用户要求检查 AI 味、AI 痕迹或机器化表达时使用。",
+    "tags": [
+      "dontbesilent2025/dbskill"
+    ],
+    "keywords": [
+      "dontbesilent2025/dbskill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "11.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/dontbesilent2025/dbskill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:11:44.626Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:11:44.626Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:11:44.626Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:11:44.626Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:11:44.626Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:11:44.626Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:11:44.626Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=29300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

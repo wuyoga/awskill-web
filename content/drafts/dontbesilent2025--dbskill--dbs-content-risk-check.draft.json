@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:23:17.691Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/dontbesilent2025/dbskill/dbs-content-risk-check",
+      "externalId": "dontbesilent2025/dbskill/dbs-content-risk-check",
+      "name": "dbs-content-risk-check",
+      "owner": "dontbesilent2025",
+      "repo": "dbskill",
+      "repositoryUrl": "https://github.com/dontbesilent2025/dbskill",
+      "description": "面向创作者的内容发布风险检查。逐句检查自媒体、社交媒体和内容平台的标题、正文、图片文字、字幕、口播、评论、账号资料及视频画面，分别判断平台机器可能识别什么、内容本身存在什么实质问题，并给出具体位置和最小修改动作；需要明确视频语境边界时，额外生成真实准确的三行贴片小字。用户询问「检查敏感词」「发布前排雷」「这篇内容哪里可…",
+      "tags": [
+        "dontbesilent2025/dbskill"
+      ],
+      "stars": "11.5K",
+      "installs": 12500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "dontbesilent2025/dbskill/dbs-content-risk-check",
+        "ogTitle": "dbs-content-risk-check — dontbesilent2025/dbskill",
+        "npx": "npx skills add https://github.com/dontbesilent2025/dbskill --skill dbs-content-risk-check",
+        "installsRaw": "12.5K",
+        "starsRaw": "11.5K",
+        "firstSeen": "Aug 11, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/dontbesilent2025/dbskill/dbs-content-risk-check/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/dontbesilent2025/dbskill/dbs-content-risk-check/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/dontbesilent2025/dbskill/dbs-content-risk-check/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:23:17.691Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/dontbesilent2025/dbskill/dbs-content-risk-check",
+        "externalId": "dontbesilent2025/dbskill/dbs-content-risk-check",
+        "name": "dbs-content-risk-check",
+        "owner": "dontbesilent2025",
+        "repo": "dbskill",
+        "repositoryUrl": "https://github.com/dontbesilent2025/dbskill",
+        "description": "面向创作者的内容发布风险检查。逐句检查自媒体、社交媒体和内容平台的标题、正文、图片文字、字幕、口播、评论、账号资料及视频画面，分别判断平台机器可能识别什么、内容本身存在什么实质问题，并给出具体位置和最小修改动作；需要明确视频语境边界时，额外生成真实准确的三行贴片小字。用户询问「检查敏感词」「发布前排雷」「这篇内容哪里可…",
+        "tags": [
+          "dontbesilent2025/dbskill"
+        ],
+        "stars": "11.5K",
+        "installs": 12500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "dontbesilent2025/dbskill/dbs-content-risk-check",
+          "ogTitle": "dbs-content-risk-check — dontbesilent2025/dbskill",
+          "npx": "npx skills add https://github.com/dontbesilent2025/dbskill --skill dbs-content-risk-check",
+          "installsRaw": "12.5K",
+          "starsRaw": "11.5K",
+          "firstSeen": "Aug 11, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/dontbesilent2025/dbskill/dbs-content-risk-check/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/dontbesilent2025/dbskill/dbs-content-risk-check/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/dontbesilent2025/dbskill/dbs-content-risk-check/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:23:17.691Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "dontbesilent2025--dbskill--dbs-content-risk-check",
+    "name": "dbs-content-risk-check",
+    "owner": "dontbesilent2025",
+    "repo": "dbskill",
+    "category": "",
+    "description": "面向创作者的内容发布风险检查。逐句检查自媒体、社交媒体和内容平台的标题、正文、图片文字、字幕、口播、评论、账号资料及视频画面，分别判断平台机器可能识别什么、内容本身存在什么实质问题，并给出具体位置和最小修改动作；需要明确视频语境边界时，额外生成真实准确的三行贴片小字。用户询问「检查敏感词」「发布前排雷」「这篇内容哪里可…",
+    "tags": [
+      "dontbesilent2025/dbskill"
+    ],
+    "keywords": [
+      "dontbesilent2025/dbskill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "11.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/dontbesilent2025/dbskill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:23:17.691Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:23:17.691Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:23:17.691Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:23:17.691Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:23:17.691Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:23:17.691Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:23:17.691Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=12500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:54:23.447Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/tursodatabase/turso/debugging",
+      "externalId": "tursodatabase/turso/debugging",
+      "name": "debugging",
+      "owner": "tursodatabase",
+      "repo": "turso",
+      "repositoryUrl": "https://github.com/tursodatabase/turso",
+      "description": "How to debug tursodb using Bytecode comparison, logging, ThreadSanitizer, deterministic simulation, and corruption analysis tools",
+      "tags": [
+        "tursodatabase/turso"
+      ],
+      "stars": "25.3K",
+      "installs": 1300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "tursodatabase/turso/debugging",
+        "ogTitle": "debugging — tursodatabase/turso",
+        "npx": "npx skills add https://github.com/tursodatabase/turso --skill debugging",
+        "installsRaw": "1.3K",
+        "starsRaw": "25.3K",
+        "firstSeen": "Jan 28, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/tursodatabase/turso/debugging/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/tursodatabase/turso/debugging/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/tursodatabase/turso/debugging/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:54:23.447Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/tursodatabase/turso/debugging",
+        "externalId": "tursodatabase/turso/debugging",
+        "name": "debugging",
+        "owner": "tursodatabase",
+        "repo": "turso",
+        "repositoryUrl": "https://github.com/tursodatabase/turso",
+        "description": "How to debug tursodb using Bytecode comparison, logging, ThreadSanitizer, deterministic simulation, and corruption analysis tools",
+        "tags": [
+          "tursodatabase/turso"
+        ],
+        "stars": "25.3K",
+        "installs": 1300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "tursodatabase/turso/debugging",
+          "ogTitle": "debugging — tursodatabase/turso",
+          "npx": "npx skills add https://github.com/tursodatabase/turso --skill debugging",
+          "installsRaw": "1.3K",
+          "starsRaw": "25.3K",
+          "firstSeen": "Jan 28, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/tursodatabase/turso/debugging/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/tursodatabase/turso/debugging/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/tursodatabase/turso/debugging/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:54:23.447Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "tursodatabase--turso--debugging",
+    "name": "debugging",
+    "owner": "tursodatabase",
+    "repo": "turso",
+    "category": "",
+    "description": "How to debug tursodb using Bytecode comparison, logging, ThreadSanitizer, deterministic simulation, and corruption analysis tools",
+    "tags": [
+      "tursodatabase/turso"
+    ],
+    "keywords": [
+      "tursodatabase/turso"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "25.3K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/tursodatabase/turso",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:54:23.447Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:54:23.447Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:54:23.447Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:54:23.447Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:54:23.447Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:54:23.447Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:54:23.447Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

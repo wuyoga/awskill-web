@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:27:09.711Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/wuchubuzai2018/expert-skills-hub/wechat-article-search",
+      "externalId": "wuchubuzai2018/expert-skills-hub/wechat-article-search",
+      "name": "wechat-article-search",
+      "owner": "wuchubuzai2018",
+      "repo": "expert-skills-hub",
+      "repositoryUrl": "https://github.com/wuchubuzai2018/expert-skills-hub",
+      "description": "搜索微信公众号文章技能。通过微信搜索获取文章列表，覆盖科技/AI、社会热点、财经、教育、职场等各类中文资讯；可按关键词检索并返回标题、概要、发布时间、来源公众号与链接。当用户需要查找微信公众号文章、整理参考资料或快速获取文章信息时使用此技能。",
+      "tags": [
+        "wuchubuzai2018/expert-skills-hub"
+      ],
+      "stars": "43",
+      "installs": 1600,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "wuchubuzai2018/expert-skills-hub/wechat-article-search",
+        "ogTitle": "wechat-article-search — wuchubuzai2018/expert-skills-hub",
+        "npx": "npx skills add https://github.com/wuchubuzai2018/expert-skills-hub --skill wechat-article-search",
+        "installsRaw": "1.6K",
+        "starsRaw": "43",
+        "firstSeen": "Feb 8, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/wuchubuzai2018/expert-skills-hub/wechat-article-search/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/wuchubuzai2018/expert-skills-hub/wechat-article-search/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/wuchubuzai2018/expert-skills-hub/wechat-article-search/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:27:09.711Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/wuchubuzai2018/expert-skills-hub/wechat-article-search",
+        "externalId": "wuchubuzai2018/expert-skills-hub/wechat-article-search",
+        "name": "wechat-article-search",
+        "owner": "wuchubuzai2018",
+        "repo": "expert-skills-hub",
+        "repositoryUrl": "https://github.com/wuchubuzai2018/expert-skills-hub",
+        "description": "搜索微信公众号文章技能。通过微信搜索获取文章列表，覆盖科技/AI、社会热点、财经、教育、职场等各类中文资讯；可按关键词检索并返回标题、概要、发布时间、来源公众号与链接。当用户需要查找微信公众号文章、整理参考资料或快速获取文章信息时使用此技能。",
+        "tags": [
+          "wuchubuzai2018/expert-skills-hub"
+        ],
+        "stars": "43",
+        "installs": 1600,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "wuchubuzai2018/expert-skills-hub/wechat-article-search",
+          "ogTitle": "wechat-article-search — wuchubuzai2018/expert-skills-hub",
+          "npx": "npx skills add https://github.com/wuchubuzai2018/expert-skills-hub --skill wechat-article-search",
+          "installsRaw": "1.6K",
+          "starsRaw": "43",
+          "firstSeen": "Feb 8, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/wuchubuzai2018/expert-skills-hub/wechat-article-search/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/wuchubuzai2018/expert-skills-hub/wechat-article-search/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/wuchubuzai2018/expert-skills-hub/wechat-article-search/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:27:09.711Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "wuchubuzai2018--expert-skills-hub--wechat-article-search",
+    "name": "wechat-article-search",
+    "owner": "wuchubuzai2018",
+    "repo": "expert-skills-hub",
+    "category": "",
+    "description": "搜索微信公众号文章技能。通过微信搜索获取文章列表，覆盖科技/AI、社会热点、财经、教育、职场等各类中文资讯；可按关键词检索并返回标题、概要、发布时间、来源公众号与链接。当用户需要查找微信公众号文章、整理参考资料或快速获取文章信息时使用此技能。",
+    "tags": [
+      "wuchubuzai2018/expert-skills-hub"
+    ],
+    "keywords": [
+      "wuchubuzai2018/expert-skills-hub"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "43",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/wuchubuzai2018/expert-skills-hub",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:27:09.711Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:27:09.711Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:27:09.711Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:27:09.711Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:27:09.711Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:27:09.711Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:27:09.711Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1600 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

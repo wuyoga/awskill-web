@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:33:14.582Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/posit-dev/skills/brand-yml",
+      "externalId": "posit-dev/skills/brand-yml",
+      "name": "brand-yml",
+      "owner": "posit-dev",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/posit-dev/skills",
+      "description": "Create and use brand.yml files for consistent branding across Shiny apps and Quarto documents. Covers: (1) Creating new _brand.yml files, (2) Applying to Shiny…",
+      "tags": [
+        "posit-dev/skills"
+      ],
+      "stars": "568",
+      "installs": 1000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "posit-dev/skills/brand-yml",
+        "ogTitle": "brand-yml — posit-dev/skills",
+        "npx": "npx skills add https://github.com/posit-dev/skills --skill brand-yml",
+        "installsRaw": "1.0K",
+        "starsRaw": "568",
+        "firstSeen": "Feb 10, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/posit-dev/skills/brand-yml/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/posit-dev/skills/brand-yml/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/posit-dev/skills/brand-yml/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:33:14.582Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/posit-dev/skills/brand-yml",
+        "externalId": "posit-dev/skills/brand-yml",
+        "name": "brand-yml",
+        "owner": "posit-dev",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/posit-dev/skills",
+        "description": "Create and use brand.yml files for consistent branding across Shiny apps and Quarto documents. Covers: (1) Creating new _brand.yml files, (2) Applying to Shiny…",
+        "tags": [
+          "posit-dev/skills"
+        ],
+        "stars": "568",
+        "installs": 1000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "posit-dev/skills/brand-yml",
+          "ogTitle": "brand-yml — posit-dev/skills",
+          "npx": "npx skills add https://github.com/posit-dev/skills --skill brand-yml",
+          "installsRaw": "1.0K",
+          "starsRaw": "568",
+          "firstSeen": "Feb 10, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/posit-dev/skills/brand-yml/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/posit-dev/skills/brand-yml/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/posit-dev/skills/brand-yml/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:33:14.582Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "posit-dev--skills--brand-yml",
+    "name": "brand-yml",
+    "owner": "posit-dev",
+    "repo": "skills",
+    "category": "",
+    "description": "Create and use brand.yml files for consistent branding across Shiny apps and Quarto documents. Covers: (1) Creating new _brand.yml files, (2) Applying to Shiny…",
+    "tags": [
+      "posit-dev/skills"
+    ],
+    "keywords": [
+      "posit-dev/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "568",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/posit-dev/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:33:14.582Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:33:14.582Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:33:14.582Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:33:14.582Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:33:14.582Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:33:14.582Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:33:14.582Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

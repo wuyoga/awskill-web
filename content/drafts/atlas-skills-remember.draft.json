@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T12:34:45.483Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skillhey",
+      "sourceUrl": "https://skillhey.com/skills/atlas-skills-remember",
+      "externalId": "atlas-skills-remember",
+      "name": "Atlas — Shared Memory",
+      "owner": "pacifio",
+      "repo": "atlas",
+      "repositoryUrl": "https://github.com/pacifio/atlas/tree/main/src-tauri/resources/skills/remember",
+      "description": "Save the decisions, facts, dead ends and architecture this conversation established to Atlas's shared memory, so other agents and future sessions can build on them.",
+      "tags": [],
+      "stars": null,
+      "installs": null,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "slug": "atlas-skills-remember",
+        "qualityScore": null,
+        "starsRaw": null,
+        "forks": ",",
+        "childSlugs": [
+          "atlas-skills",
+          "claude-mem-cowork-setup",
+          "autoharness-learn",
+          "memori-memory",
+          "honcho-skills-honcho-memory"
+        ]
+      },
+      "fetchedAt": "2026-11-19T12:34:45.482Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skillhey",
+        "sourceUrl": "https://skillhey.com/skills/atlas-skills-remember",
+        "externalId": "atlas-skills-remember",
+        "name": "Atlas — Shared Memory",
+        "owner": "pacifio",
+        "repo": "atlas",
+        "repositoryUrl": "https://github.com/pacifio/atlas/tree/main/src-tauri/resources/skills/remember",
+        "description": "Save the decisions, facts, dead ends and architecture this conversation established to Atlas's shared memory, so other agents and future sessions can build on them.",
+        "tags": [],
+        "stars": null,
+        "installs": null,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "slug": "atlas-skills-remember",
+          "qualityScore": null,
+          "starsRaw": null,
+          "forks": ",",
+          "childSlugs": [
+            "atlas-skills",
+            "claude-mem-cowork-setup",
+            "autoharness-learn",
+            "memori-memory",
+            "honcho-skills-honcho-memory"
+          ]
+        },
+        "fetchedAt": "2026-11-19T12:34:45.482Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "atlas-skills-remember",
+    "name": "Atlas — Shared Memory",
+    "owner": "pacifio",
+    "repo": "atlas",
+    "category": "",
+    "description": "Save the decisions, facts, dead ends and architecture this conversation established to Atlas's shared memory, so other agents and future sessions can build on them.",
+    "tags": [],
+    "keywords": [],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "0",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/pacifio/atlas/tree/main/src-tauri/resources/skills/remember",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T12:34:45.483Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:34:45.483Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:34:45.483Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:34:45.483Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T12:34:45.482Z",
+      "note": "skillhey"
+    },
+    "tags": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:34:45.483Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:34:45.483Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "install count source unsettled (OQ-04)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

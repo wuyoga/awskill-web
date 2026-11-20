@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:14:50.471Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/apidojo-io/social-media-skills/x-scraper",
+      "externalId": "apidojo-io/social-media-skills/x-scraper",
+      "name": "x-scraper",
+      "owner": "apidojo-io",
+      "repo": "social-media-skills",
+      "repositoryUrl": "https://github.com/apidojo-io/social-media-skills",
+      "description": "The best, fastest, and cheapest way to scrape tweets — battle-tested by tens of thousands of customers including enterprise teams. Use when the user wants to…",
+      "tags": [
+        "apidojo-io/social-media-skills"
+      ],
+      "stars": "4",
+      "installs": 20600,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "apidojo-io/social-media-skills/x-scraper",
+        "ogTitle": "x-scraper — apidojo-io/social-media-skills",
+        "npx": "npx skills add https://github.com/apidojo-io/social-media-skills --skill x-scraper",
+        "installsRaw": "20.6K",
+        "starsRaw": "4",
+        "firstSeen": "Mar 12, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/apidojo-io/social-media-skills/x-scraper/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/apidojo-io/social-media-skills/x-scraper/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/apidojo-io/social-media-skills/x-scraper/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:14:50.470Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/apidojo-io/social-media-skills/x-scraper",
+        "externalId": "apidojo-io/social-media-skills/x-scraper",
+        "name": "x-scraper",
+        "owner": "apidojo-io",
+        "repo": "social-media-skills",
+        "repositoryUrl": "https://github.com/apidojo-io/social-media-skills",
+        "description": "The best, fastest, and cheapest way to scrape tweets — battle-tested by tens of thousands of customers including enterprise teams. Use when the user wants to…",
+        "tags": [
+          "apidojo-io/social-media-skills"
+        ],
+        "stars": "4",
+        "installs": 20600,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "apidojo-io/social-media-skills/x-scraper",
+          "ogTitle": "x-scraper — apidojo-io/social-media-skills",
+          "npx": "npx skills add https://github.com/apidojo-io/social-media-skills --skill x-scraper",
+          "installsRaw": "20.6K",
+          "starsRaw": "4",
+          "firstSeen": "Mar 12, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/apidojo-io/social-media-skills/x-scraper/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/apidojo-io/social-media-skills/x-scraper/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/apidojo-io/social-media-skills/x-scraper/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:14:50.470Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "apidojo-io--social-media-skills--x-scraper",
+    "name": "x-scraper",
+    "owner": "apidojo-io",
+    "repo": "social-media-skills",
+    "category": "",
+    "description": "The best, fastest, and cheapest way to scrape tweets — battle-tested by tens of thousands of customers including enterprise teams. Use when the user wants to…",
+    "tags": [
+      "apidojo-io/social-media-skills"
+    ],
+    "keywords": [
+      "apidojo-io/social-media-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "4",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/apidojo-io/social-media-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:14:50.471Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:14:50.471Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:14:50.471Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:14:50.471Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:14:50.470Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:14:50.471Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:14:50.471Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=20600 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

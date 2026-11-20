@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:07:09.854Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/mitsuhiko/agent-stuff/openscad",
+      "externalId": "mitsuhiko/agent-stuff/openscad",
+      "name": "openscad",
+      "owner": "mitsuhiko",
+      "repo": "agent-stuff",
+      "repositoryUrl": "https://github.com/mitsuhiko/agent-stuff",
+      "description": "Create and render OpenSCAD 3D models. Generate preview images from multiple angles, extract customizable parameters, validate syntax, and export STL files for…",
+      "tags": [
+        "mitsuhiko/agent-stuff"
+      ],
+      "stars": "3.2K",
+      "installs": 1200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "mitsuhiko/agent-stuff/openscad",
+        "ogTitle": "openscad — mitsuhiko/agent-stuff",
+        "npx": "npx skills add https://github.com/mitsuhiko/agent-stuff --skill openscad",
+        "installsRaw": "1.2K",
+        "starsRaw": "3.2K",
+        "firstSeen": "Jan 23, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/mitsuhiko/agent-stuff/openscad/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/mitsuhiko/agent-stuff/openscad/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/mitsuhiko/agent-stuff/openscad/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:07:09.854Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/mitsuhiko/agent-stuff/openscad",
+        "externalId": "mitsuhiko/agent-stuff/openscad",
+        "name": "openscad",
+        "owner": "mitsuhiko",
+        "repo": "agent-stuff",
+        "repositoryUrl": "https://github.com/mitsuhiko/agent-stuff",
+        "description": "Create and render OpenSCAD 3D models. Generate preview images from multiple angles, extract customizable parameters, validate syntax, and export STL files for…",
+        "tags": [
+          "mitsuhiko/agent-stuff"
+        ],
+        "stars": "3.2K",
+        "installs": 1200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "mitsuhiko/agent-stuff/openscad",
+          "ogTitle": "openscad — mitsuhiko/agent-stuff",
+          "npx": "npx skills add https://github.com/mitsuhiko/agent-stuff --skill openscad",
+          "installsRaw": "1.2K",
+          "starsRaw": "3.2K",
+          "firstSeen": "Jan 23, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/mitsuhiko/agent-stuff/openscad/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/mitsuhiko/agent-stuff/openscad/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/mitsuhiko/agent-stuff/openscad/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:07:09.854Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "mitsuhiko--agent-stuff--openscad",
+    "name": "openscad",
+    "owner": "mitsuhiko",
+    "repo": "agent-stuff",
+    "category": "",
+    "description": "Create and render OpenSCAD 3D models. Generate preview images from multiple angles, extract customizable parameters, validate syntax, and export STL files for…",
+    "tags": [
+      "mitsuhiko/agent-stuff"
+    ],
+    "keywords": [
+      "mitsuhiko/agent-stuff"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "3.2K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/mitsuhiko/agent-stuff",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:07:09.854Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:07:09.854Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:07:09.854Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:07:09.854Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:07:09.854Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:07:09.854Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:07:09.854Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

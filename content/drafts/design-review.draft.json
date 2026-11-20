@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T12:41:13.049Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skillhey",
+      "sourceUrl": "https://skillhey.com/skills/design-review",
+      "externalId": "design-review",
+      "name": "Design Review",
+      "owner": "pproenca",
+      "repo": "dot-skills",
+      "repositoryUrl": "https://github.com/pproenca/dot-skills/tree/master/skills/.curated/design-review",
+      "description": "Structured UI design review — existing code (React/JSX, CSS, Tailwind) and, when behaviour matters, the running app in a real browser — reported as a prioritised Before / After / Why table. Covers visual hierarchy, spacing, typography, colour & contrast, component states, motion, responsiveness, accessibility, multi-page flow & navigation, and interaction continuity — grounded in Refactoring UI and Emil Kowalski's principles. For animation/jank/FPS, focus order, and cross-page UX it can drive Chrome via chrome-devtools-mcp to capture what a screenshot can't. Trigger when the user asks to \"review this UI\", \"design review\", \"critique this component/screen/page or multi-page flow\", asks why something \"looks off\", \"looks AI-generated\", or \"looks like a wireframe\", or wants to raise visual polish. For building UI from scratch use web-taste; for the full animation set see emilkowal-animations.",
+      "tags": [],
+      "stars": null,
+      "installs": null,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "slug": "design-review",
+        "qualityScore": null,
+        "starsRaw": null,
+        "forks": ",",
+        "childSlugs": [
+          "no-ai-design-slop",
+          "improve-animations",
+          "anti-slop-guards",
+          "typography-audit"
+        ]
+      },
+      "fetchedAt": "2026-11-19T12:41:13.047Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skillhey",
+        "sourceUrl": "https://skillhey.com/skills/design-review",
+        "externalId": "design-review",
+        "name": "Design Review",
+        "owner": "pproenca",
+        "repo": "dot-skills",
+        "repositoryUrl": "https://github.com/pproenca/dot-skills/tree/master/skills/.curated/design-review",
+        "description": "Structured UI design review — existing code (React/JSX, CSS, Tailwind) and, when behaviour matters, the running app in a real browser — reported as a prioritised Before / After / Why table. Covers visual hierarchy, spacing, typography, colour & contrast, component states, motion, responsiveness, accessibility, multi-page flow & navigation, and interaction continuity — grounded in Refactoring UI and Emil Kowalski's principles. For animation/jank/FPS, focus order, and cross-page UX it can drive Chrome via chrome-devtools-mcp to capture what a screenshot can't. Trigger when the user asks to \"review this UI\", \"design review\", \"critique this component/screen/page or multi-page flow\", asks why something \"looks off\", \"looks AI-generated\", or \"looks like a wireframe\", or wants to raise visual polish. For building UI from scratch use web-taste; for the full animation set see emilkowal-animations.",
+        "tags": [],
+        "stars": null,
+        "installs": null,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "slug": "design-review",
+          "qualityScore": null,
+          "starsRaw": null,
+          "forks": ",",
+          "childSlugs": [
+            "no-ai-design-slop",
+            "improve-animations",
+            "anti-slop-guards",
+            "typography-audit"
+          ]
+        },
+        "fetchedAt": "2026-11-19T12:41:13.047Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "design-review",
+    "name": "Design Review",
+    "owner": "pproenca",
+    "repo": "dot-skills",
+    "category": "",
+    "description": "Structured UI design review — existing code (React/JSX, CSS, Tailwind) and, when behaviour matters, the running app in a real browser — reported as a prioritised Before / After / Why table. Covers visual hierarchy, spacing, typography, colour & contrast, component states, motion, responsiveness, accessibility, multi-page flow & navigation, and interaction continuity — grounded in Refactoring UI and Emil Kowalski's principles. For animation/jank/FPS, focus order, and cross-page UX it can drive Chrome via chrome-devtools-mcp to capture what a screenshot can't. Trigger when the user asks to \"review this UI\", \"design review\", \"critique this component/screen/page or multi-page flow\", asks why something \"looks off\", \"looks AI-generated\", or \"looks like a wireframe\", or wants to raise visual polish. For building UI from scratch use web-taste; for the full animation set see emilkowal-animations.",
+    "tags": [],
+    "keywords": [],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "0",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/pproenca/dot-skills/tree/master/skills/.curated/design-review",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T12:41:13.049Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:41:13.049Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:41:13.049Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:41:13.049Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T12:41:13.047Z",
+      "note": "skillhey"
+    },
+    "tags": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:41:13.049Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:41:13.049Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "install count source unsettled (OQ-04)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

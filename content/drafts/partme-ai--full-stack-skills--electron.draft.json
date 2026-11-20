@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:29:48.341Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/partme-ai/full-stack-skills/electron",
+      "externalId": "partme-ai/full-stack-skills/electron",
+      "name": "electron",
+      "owner": "partme-ai",
+      "repo": "full-stack-skills",
+      "repositoryUrl": "https://github.com/partme-ai/full-stack-skills",
+      "description": "Build cross-platform desktop applications with Electron, covering main/renderer process architecture, IPC communication, BrowserWindow management, menus, tray…",
+      "tags": [
+        "partme-ai/full-stack-skills"
+      ],
+      "stars": "739",
+      "installs": 2400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "partme-ai/full-stack-skills/electron",
+        "ogTitle": "electron — partme-ai/full-stack-skills",
+        "npx": "npx skills add https://github.com/partme-ai/full-stack-skills --skill electron",
+        "installsRaw": "2.4K",
+        "starsRaw": "739",
+        "firstSeen": "Jan 24, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/partme-ai/full-stack-skills/electron/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/partme-ai/full-stack-skills/electron/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/partme-ai/full-stack-skills/electron/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:29:48.341Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/partme-ai/full-stack-skills/electron",
+        "externalId": "partme-ai/full-stack-skills/electron",
+        "name": "electron",
+        "owner": "partme-ai",
+        "repo": "full-stack-skills",
+        "repositoryUrl": "https://github.com/partme-ai/full-stack-skills",
+        "description": "Build cross-platform desktop applications with Electron, covering main/renderer process architecture, IPC communication, BrowserWindow management, menus, tray…",
+        "tags": [
+          "partme-ai/full-stack-skills"
+        ],
+        "stars": "739",
+        "installs": 2400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "partme-ai/full-stack-skills/electron",
+          "ogTitle": "electron — partme-ai/full-stack-skills",
+          "npx": "npx skills add https://github.com/partme-ai/full-stack-skills --skill electron",
+          "installsRaw": "2.4K",
+          "starsRaw": "739",
+          "firstSeen": "Jan 24, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/partme-ai/full-stack-skills/electron/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/partme-ai/full-stack-skills/electron/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/partme-ai/full-stack-skills/electron/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:29:48.341Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "partme-ai--full-stack-skills--electron",
+    "name": "electron",
+    "owner": "partme-ai",
+    "repo": "full-stack-skills",
+    "category": "",
+    "description": "Build cross-platform desktop applications with Electron, covering main/renderer process architecture, IPC communication, BrowserWindow management, menus, tray…",
+    "tags": [
+      "partme-ai/full-stack-skills"
+    ],
+    "keywords": [
+      "partme-ai/full-stack-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "739",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/partme-ai/full-stack-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:29:48.341Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:29:48.341Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:29:48.341Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:29:48.341Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:29:48.341Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:29:48.341Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:29:48.341Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

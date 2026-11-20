@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:31:53.343Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/dash0hq/agent-skills/otel-instrumentation",
+      "externalId": "dash0hq/agent-skills/otel-instrumentation",
+      "name": "otel-instrumentation",
+      "owner": "dash0hq",
+      "repo": "agent-skills",
+      "repositoryUrl": "https://github.com/dash0hq/agent-skills",
+      "description": "Configures trace spans, defines custom metrics, sets up log exporters, and optimizes sampling strategies for OpenTelemetry instrumentation. Use when…",
+      "tags": [
+        "dash0hq/agent-skills"
+      ],
+      "stars": "101",
+      "installs": 1000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "dash0hq/agent-skills/otel-instrumentation",
+        "ogTitle": "otel-instrumentation — dash0hq/agent-skills",
+        "npx": "npx skills add https://github.com/dash0hq/agent-skills --skill otel-instrumentation",
+        "installsRaw": "1.0K",
+        "starsRaw": "101",
+        "firstSeen": "Mar 13, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/dash0hq/agent-skills/otel-instrumentation/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/dash0hq/agent-skills/otel-instrumentation/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/dash0hq/agent-skills/otel-instrumentation/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:31:53.342Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/dash0hq/agent-skills/otel-instrumentation",
+        "externalId": "dash0hq/agent-skills/otel-instrumentation",
+        "name": "otel-instrumentation",
+        "owner": "dash0hq",
+        "repo": "agent-skills",
+        "repositoryUrl": "https://github.com/dash0hq/agent-skills",
+        "description": "Configures trace spans, defines custom metrics, sets up log exporters, and optimizes sampling strategies for OpenTelemetry instrumentation. Use when…",
+        "tags": [
+          "dash0hq/agent-skills"
+        ],
+        "stars": "101",
+        "installs": 1000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "dash0hq/agent-skills/otel-instrumentation",
+          "ogTitle": "otel-instrumentation — dash0hq/agent-skills",
+          "npx": "npx skills add https://github.com/dash0hq/agent-skills --skill otel-instrumentation",
+          "installsRaw": "1.0K",
+          "starsRaw": "101",
+          "firstSeen": "Mar 13, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/dash0hq/agent-skills/otel-instrumentation/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/dash0hq/agent-skills/otel-instrumentation/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/dash0hq/agent-skills/otel-instrumentation/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:31:53.342Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "dash0hq--agent-skills--otel-instrumentation",
+    "name": "otel-instrumentation",
+    "owner": "dash0hq",
+    "repo": "agent-skills",
+    "category": "",
+    "description": "Configures trace spans, defines custom metrics, sets up log exporters, and optimizes sampling strategies for OpenTelemetry instrumentation. Use when…",
+    "tags": [
+      "dash0hq/agent-skills"
+    ],
+    "keywords": [
+      "dash0hq/agent-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "101",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/dash0hq/agent-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:31:53.343Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:31:53.343Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:31:53.343Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:31:53.343Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:31:53.342Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:31:53.343Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:31:53.343Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

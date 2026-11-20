@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:15:38.055Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/zenstory-ai/oh-story-claudecode/story-long-analyze",
+      "externalId": "zenstory-ai/oh-story-claudecode/story-long-analyze",
+      "name": "story-long-analyze",
+      "owner": "zenstory-ai",
+      "repo": "oh-story-claudecode",
+      "repositoryUrl": "https://github.com/zenstory-ai/oh-story-claudecode",
+      "description": "长篇网文拆文。保留黄金三章、逐章摘要、剧情、情绪、节奏、角色、设定和文风接口，以连续章节块完成因果、双时间线、关系与三维节奏分析；兼容旧成果直接使用、按需增强和断点续跑。含可选三层灵感库管道（灵感库、跨书灵感聚合、更新灵感库）。触发方式：/story-long-analyze、/长篇拆文、「帮我拆这本书」「拆这本书」「…",
+      "tags": [
+        "zenstory-ai/oh-story-claudecode"
+      ],
+      "stars": "8.8K",
+      "installs": 19000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "zenstory-ai/oh-story-claudecode/story-long-analyze",
+        "ogTitle": "story-long-analyze — zenstory-ai/oh-story-claudecode",
+        "npx": "npx skills add https://github.com/zenstory-ai/oh-story-claudecode --skill story-long-analyze",
+        "installsRaw": "19.0K",
+        "starsRaw": "8.8K",
+        "firstSeen": "Apr 24, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/zenstory-ai/oh-story-claudecode/story-long-analyze/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/zenstory-ai/oh-story-claudecode/story-long-analyze/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/zenstory-ai/oh-story-claudecode/story-long-analyze/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:15:38.055Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/zenstory-ai/oh-story-claudecode/story-long-analyze",
+        "externalId": "zenstory-ai/oh-story-claudecode/story-long-analyze",
+        "name": "story-long-analyze",
+        "owner": "zenstory-ai",
+        "repo": "oh-story-claudecode",
+        "repositoryUrl": "https://github.com/zenstory-ai/oh-story-claudecode",
+        "description": "长篇网文拆文。保留黄金三章、逐章摘要、剧情、情绪、节奏、角色、设定和文风接口，以连续章节块完成因果、双时间线、关系与三维节奏分析；兼容旧成果直接使用、按需增强和断点续跑。含可选三层灵感库管道（灵感库、跨书灵感聚合、更新灵感库）。触发方式：/story-long-analyze、/长篇拆文、「帮我拆这本书」「拆这本书」「…",
+        "tags": [
+          "zenstory-ai/oh-story-claudecode"
+        ],
+        "stars": "8.8K",
+        "installs": 19000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "zenstory-ai/oh-story-claudecode/story-long-analyze",
+          "ogTitle": "story-long-analyze — zenstory-ai/oh-story-claudecode",
+          "npx": "npx skills add https://github.com/zenstory-ai/oh-story-claudecode --skill story-long-analyze",
+          "installsRaw": "19.0K",
+          "starsRaw": "8.8K",
+          "firstSeen": "Apr 24, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/zenstory-ai/oh-story-claudecode/story-long-analyze/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/zenstory-ai/oh-story-claudecode/story-long-analyze/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/zenstory-ai/oh-story-claudecode/story-long-analyze/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:15:38.055Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "zenstory-ai--oh-story-claudecode--story-long-analyze",
+    "name": "story-long-analyze",
+    "owner": "zenstory-ai",
+    "repo": "oh-story-claudecode",
+    "category": "",
+    "description": "长篇网文拆文。保留黄金三章、逐章摘要、剧情、情绪、节奏、角色、设定和文风接口，以连续章节块完成因果、双时间线、关系与三维节奏分析；兼容旧成果直接使用、按需增强和断点续跑。含可选三层灵感库管道（灵感库、跨书灵感聚合、更新灵感库）。触发方式：/story-long-analyze、/长篇拆文、「帮我拆这本书」「拆这本书」「…",
+    "tags": [
+      "zenstory-ai/oh-story-claudecode"
+    ],
+    "keywords": [
+      "zenstory-ai/oh-story-claudecode"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "8.8K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/zenstory-ai/oh-story-claudecode",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:15:38.055Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:15:38.055Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:15:38.055Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:15:38.055Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:15:38.055Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:15:38.055Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:15:38.055Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=19000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

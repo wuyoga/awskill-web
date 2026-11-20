@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:18:26.955Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/wecomteam/wecom-unified/wecom-unified",
+      "externalId": "wecomteam/wecom-unified/wecom-unified",
+      "name": "wecom-unified",
+      "owner": "wecomteam",
+      "repo": "wecom-unified",
+      "repositoryUrl": "https://github.com/wecomteam/wecom-unified",
+      "description": "企业微信全能套件，覆盖通讯录、文档、在线表格、智能表格、智能文档、PPT 演示文稿、日程、会议、待办、微盘、邮件、消息、媒体文件等业务域。链接包含 doc.weixin.qq.com 或 page.weixin.qq.com 必触发。提及企业微信或命中以下功能必触发：查找联系人信息。搜索、重命名和授权文档，新建与读写…",
+      "tags": [
+        "wecomteam/wecom-unified"
+      ],
+      "stars": "134",
+      "installs": 15400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "wecomteam/wecom-unified/wecom-unified",
+        "ogTitle": "wecom-unified — wecomteam/wecom-unified",
+        "npx": "npx skills add https://github.com/wecomteam/wecom-unified --skill wecom-unified",
+        "installsRaw": "15.4K",
+        "starsRaw": "134",
+        "firstSeen": "Apr 22, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Warn",
+            "href": "/wecomteam/wecom-unified/wecom-unified/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/wecomteam/wecom-unified/wecom-unified/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/wecomteam/wecom-unified/wecom-unified/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:18:26.954Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/wecomteam/wecom-unified/wecom-unified",
+        "externalId": "wecomteam/wecom-unified/wecom-unified",
+        "name": "wecom-unified",
+        "owner": "wecomteam",
+        "repo": "wecom-unified",
+        "repositoryUrl": "https://github.com/wecomteam/wecom-unified",
+        "description": "企业微信全能套件，覆盖通讯录、文档、在线表格、智能表格、智能文档、PPT 演示文稿、日程、会议、待办、微盘、邮件、消息、媒体文件等业务域。链接包含 doc.weixin.qq.com 或 page.weixin.qq.com 必触发。提及企业微信或命中以下功能必触发：查找联系人信息。搜索、重命名和授权文档，新建与读写…",
+        "tags": [
+          "wecomteam/wecom-unified"
+        ],
+        "stars": "134",
+        "installs": 15400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "wecomteam/wecom-unified/wecom-unified",
+          "ogTitle": "wecom-unified — wecomteam/wecom-unified",
+          "npx": "npx skills add https://github.com/wecomteam/wecom-unified --skill wecom-unified",
+          "installsRaw": "15.4K",
+          "starsRaw": "134",
+          "firstSeen": "Apr 22, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Warn",
+              "href": "/wecomteam/wecom-unified/wecom-unified/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/wecomteam/wecom-unified/wecom-unified/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/wecomteam/wecom-unified/wecom-unified/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:18:26.954Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "wecomteam--wecom-unified--wecom-unified",
+    "name": "wecom-unified",
+    "owner": "wecomteam",
+    "repo": "wecom-unified",
+    "category": "",
+    "description": "企业微信全能套件，覆盖通讯录、文档、在线表格、智能表格、智能文档、PPT 演示文稿、日程、会议、待办、微盘、邮件、消息、媒体文件等业务域。链接包含 doc.weixin.qq.com 或 page.weixin.qq.com 必触发。提及企业微信或命中以下功能必触发：查找联系人信息。搜索、重命名和授权文档，新建与读写…",
+    "tags": [
+      "wecomteam/wecom-unified"
+    ],
+    "keywords": [
+      "wecomteam/wecom-unified"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "134",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/wecomteam/wecom-unified",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:18:26.955Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:18:26.955Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:18:26.955Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:18:26.955Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:18:26.954Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:18:26.955Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:18:26.955Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=15400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

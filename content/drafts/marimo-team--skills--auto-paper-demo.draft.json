@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:37:49.652Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/marimo-team/skills/auto-paper-demo",
+      "externalId": "marimo-team/skills/auto-paper-demo",
+      "name": "auto-paper-demo",
+      "owner": "marimo-team",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/marimo-team/skills",
+      "description": "Make a demo of a research paper in a marimo notebook fully automatically without extra user input.",
+      "tags": [
+        "marimo-team/skills"
+      ],
+      "stars": "178",
+      "installs": 2300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "marimo-team/skills/auto-paper-demo",
+        "ogTitle": "auto-paper-demo — marimo-team/skills",
+        "npx": "npx skills add https://github.com/marimo-team/skills --skill auto-paper-demo",
+        "installsRaw": "2.3K",
+        "starsRaw": "178",
+        "firstSeen": "Mar 26, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/marimo-team/skills/auto-paper-demo/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/marimo-team/skills/auto-paper-demo/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/marimo-team/skills/auto-paper-demo/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:37:49.651Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/marimo-team/skills/auto-paper-demo",
+        "externalId": "marimo-team/skills/auto-paper-demo",
+        "name": "auto-paper-demo",
+        "owner": "marimo-team",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/marimo-team/skills",
+        "description": "Make a demo of a research paper in a marimo notebook fully automatically without extra user input.",
+        "tags": [
+          "marimo-team/skills"
+        ],
+        "stars": "178",
+        "installs": 2300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "marimo-team/skills/auto-paper-demo",
+          "ogTitle": "auto-paper-demo — marimo-team/skills",
+          "npx": "npx skills add https://github.com/marimo-team/skills --skill auto-paper-demo",
+          "installsRaw": "2.3K",
+          "starsRaw": "178",
+          "firstSeen": "Mar 26, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/marimo-team/skills/auto-paper-demo/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/marimo-team/skills/auto-paper-demo/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/marimo-team/skills/auto-paper-demo/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:37:49.651Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "marimo-team--skills--auto-paper-demo",
+    "name": "auto-paper-demo",
+    "owner": "marimo-team",
+    "repo": "skills",
+    "category": "",
+    "description": "Make a demo of a research paper in a marimo notebook fully automatically without extra user input.",
+    "tags": [
+      "marimo-team/skills"
+    ],
+    "keywords": [
+      "marimo-team/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "178",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/marimo-team/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:37:49.652Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:37:49.652Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:37:49.652Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:37:49.652Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:37:49.651Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:37:49.652Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:37:49.652Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

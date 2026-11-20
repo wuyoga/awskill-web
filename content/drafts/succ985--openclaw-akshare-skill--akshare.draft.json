@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:09:05.810Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/succ985/openclaw-akshare-skill/akshare",
+      "externalId": "succ985/openclaw-akshare-skill/akshare",
+      "name": "akshare",
+      "owner": "succ985",
+      "repo": "openclaw-akshare-skill",
+      "repositoryUrl": "https://github.com/succ985/openclaw-akshare-skill",
+      "description": "Chinese financial data access using AkShare library. Fetch real-time and historical data for A-shares, Hong Kong stocks, US stocks, futures, funds, and…",
+      "tags": [
+        "succ985/openclaw-akshare-skill"
+      ],
+      "stars": "11",
+      "installs": 1800,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "succ985/openclaw-akshare-skill/akshare",
+        "ogTitle": "akshare — succ985/openclaw-akshare-skill",
+        "npx": "npx skills add https://github.com/succ985/openclaw-akshare-skill --skill akshare",
+        "installsRaw": "1.8K",
+        "starsRaw": "11",
+        "firstSeen": "Feb 28, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/succ985/openclaw-akshare-skill/akshare/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/succ985/openclaw-akshare-skill/akshare/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/succ985/openclaw-akshare-skill/akshare/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:09:05.809Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/succ985/openclaw-akshare-skill/akshare",
+        "externalId": "succ985/openclaw-akshare-skill/akshare",
+        "name": "akshare",
+        "owner": "succ985",
+        "repo": "openclaw-akshare-skill",
+        "repositoryUrl": "https://github.com/succ985/openclaw-akshare-skill",
+        "description": "Chinese financial data access using AkShare library. Fetch real-time and historical data for A-shares, Hong Kong stocks, US stocks, futures, funds, and…",
+        "tags": [
+          "succ985/openclaw-akshare-skill"
+        ],
+        "stars": "11",
+        "installs": 1800,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "succ985/openclaw-akshare-skill/akshare",
+          "ogTitle": "akshare — succ985/openclaw-akshare-skill",
+          "npx": "npx skills add https://github.com/succ985/openclaw-akshare-skill --skill akshare",
+          "installsRaw": "1.8K",
+          "starsRaw": "11",
+          "firstSeen": "Feb 28, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/succ985/openclaw-akshare-skill/akshare/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/succ985/openclaw-akshare-skill/akshare/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/succ985/openclaw-akshare-skill/akshare/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:09:05.809Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "succ985--openclaw-akshare-skill--akshare",
+    "name": "akshare",
+    "owner": "succ985",
+    "repo": "openclaw-akshare-skill",
+    "category": "",
+    "description": "Chinese financial data access using AkShare library. Fetch real-time and historical data for A-shares, Hong Kong stocks, US stocks, futures, funds, and…",
+    "tags": [
+      "succ985/openclaw-akshare-skill"
+    ],
+    "keywords": [
+      "succ985/openclaw-akshare-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "11",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/succ985/openclaw-akshare-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:09:05.810Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:09:05.810Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:09:05.810Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:09:05.810Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:09:05.809Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:09:05.810Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:09:05.810Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1800 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

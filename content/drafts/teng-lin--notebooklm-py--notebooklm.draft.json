@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:30:50.569Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/teng-lin/notebooklm-py/notebooklm",
+      "externalId": "teng-lin/notebooklm-py/notebooklm",
+      "name": "notebooklm",
+      "owner": "teng-lin",
+      "repo": "notebooklm-py",
+      "repositoryUrl": "https://github.com/teng-lin/notebooklm-py",
+      "description": "notebooklm — an installable skill for AI agents, published by teng-lin/notebooklm-py.",
+      "tags": [
+        "teng-lin/notebooklm-py"
+      ],
+      "stars": "20.3K",
+      "installs": 10200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "teng-lin/notebooklm-py/notebooklm",
+        "ogTitle": "notebooklm — teng-lin/notebooklm-py",
+        "npx": "npx skills add https://github.com/teng-lin/notebooklm-py --skill notebooklm",
+        "installsRaw": "10.2K",
+        "starsRaw": "20.3K",
+        "firstSeen": "Jan 21, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/teng-lin/notebooklm-py/notebooklm/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/teng-lin/notebooklm-py/notebooklm/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/teng-lin/notebooklm-py/notebooklm/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:30:50.569Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/teng-lin/notebooklm-py/notebooklm",
+        "externalId": "teng-lin/notebooklm-py/notebooklm",
+        "name": "notebooklm",
+        "owner": "teng-lin",
+        "repo": "notebooklm-py",
+        "repositoryUrl": "https://github.com/teng-lin/notebooklm-py",
+        "description": "notebooklm — an installable skill for AI agents, published by teng-lin/notebooklm-py.",
+        "tags": [
+          "teng-lin/notebooklm-py"
+        ],
+        "stars": "20.3K",
+        "installs": 10200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "teng-lin/notebooklm-py/notebooklm",
+          "ogTitle": "notebooklm — teng-lin/notebooklm-py",
+          "npx": "npx skills add https://github.com/teng-lin/notebooklm-py --skill notebooklm",
+          "installsRaw": "10.2K",
+          "starsRaw": "20.3K",
+          "firstSeen": "Jan 21, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/teng-lin/notebooklm-py/notebooklm/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/teng-lin/notebooklm-py/notebooklm/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/teng-lin/notebooklm-py/notebooklm/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:30:50.569Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "teng-lin--notebooklm-py--notebooklm",
+    "name": "notebooklm",
+    "owner": "teng-lin",
+    "repo": "notebooklm-py",
+    "category": "",
+    "description": "notebooklm — an installable skill for AI agents, published by teng-lin/notebooklm-py.",
+    "tags": [
+      "teng-lin/notebooklm-py"
+    ],
+    "keywords": [
+      "teng-lin/notebooklm-py"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "20.3K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/teng-lin/notebooklm-py",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:30:50.569Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:30:50.569Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:30:50.569Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:30:50.569Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:30:50.569Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:30:50.569Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:30:50.569Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=10200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

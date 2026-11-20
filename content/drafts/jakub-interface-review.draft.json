@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T07:37:55.743Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skillhey",
+      "sourceUrl": "https://skillhey.com/skills/jakub-interface-review",
+      "externalId": "jakub-interface-review",
+      "name": "Interface Review",
+      "owner": "jakubkrehel",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/jakubkrehel/skills/tree/main/skills/interface-review",
+      "description": "Review a branch, pull request or uncommitted change for introduced UI regressions.",
+      "tags": [],
+      "stars": null,
+      "installs": null,
+      "license": null,
+      "agentsClaimed": [
+        "Claude Code",
+        "Codex"
+      ],
+      "raw": {
+        "slug": "jakub-interface-review",
+        "qualityScore": null,
+        "starsRaw": null,
+        "forks": ","
+      },
+      "fetchedAt": "2026-11-19T07:37:55.738Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skillhey",
+        "sourceUrl": "https://skillhey.com/skills/jakub-interface-review",
+        "externalId": "jakub-interface-review",
+        "name": "Interface Review",
+        "owner": "jakubkrehel",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/jakubkrehel/skills/tree/main/skills/interface-review",
+        "description": "Review a branch, pull request or uncommitted change for introduced UI regressions.",
+        "tags": [],
+        "stars": null,
+        "installs": null,
+        "license": null,
+        "agentsClaimed": [
+          "Claude Code",
+          "Codex"
+        ],
+        "raw": {
+          "slug": "jakub-interface-review",
+          "qualityScore": null,
+          "starsRaw": null,
+          "forks": ","
+        },
+        "fetchedAt": "2026-11-19T07:37:55.738Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "jakub-interface-review",
+    "name": "Interface Review",
+    "owner": "jakubkrehel",
+    "repo": "skills",
+    "category": "",
+    "description": "Review a branch, pull request or uncommitted change for introduced UI regressions.",
+    "tags": [],
+    "keywords": [],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "0",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/jakubkrehel/skills/tree/main/skills/interface-review",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T07:37:55.743Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T07:37:55.743Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T07:37:55.743Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T07:37:55.743Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T07:37:55.738Z",
+      "note": "skillhey"
+    },
+    "tags": {
+      "source": "default",
+      "collectedAt": "2026-11-19T07:37:55.743Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T07:37:55.743Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "install count source unsettled (OQ-04)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete",
+      "skillhey claimed agents (not verified): Claude Code, Codex"
+    ]
+  }
+}

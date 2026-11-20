@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:03:42.730Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/solana-foundation/solana-dev-skill/solana-dev",
+      "externalId": "solana-foundation/solana-dev-skill/solana-dev",
+      "name": "solana-dev",
+      "owner": "solana-foundation",
+      "repo": "solana-dev-skill",
+      "repositoryUrl": "https://github.com/solana-foundation/solana-dev-skill",
+      "description": "Use when user asks to \"build a Solana dapp\", \"write an Anchor program\", \"create a token\", \"debug Solana errors\", \"set up wallet connection\", \"test my Solana…",
+      "tags": [
+        "solana-foundation/solana-dev-skill"
+      ],
+      "stars": "592",
+      "installs": 113600,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "solana-foundation/solana-dev-skill/solana-dev",
+        "ogTitle": "solana-dev — solana-foundation/solana-dev-skill",
+        "npx": "npx skills add https://github.com/solana-foundation/solana-dev-skill --skill solana-dev",
+        "installsRaw": "113.6K",
+        "starsRaw": "592",
+        "firstSeen": "Jan 20, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/solana-foundation/solana-dev-skill/solana-dev/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/solana-foundation/solana-dev-skill/solana-dev/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/solana-foundation/solana-dev-skill/solana-dev/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:03:42.729Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/solana-foundation/solana-dev-skill/solana-dev",
+        "externalId": "solana-foundation/solana-dev-skill/solana-dev",
+        "name": "solana-dev",
+        "owner": "solana-foundation",
+        "repo": "solana-dev-skill",
+        "repositoryUrl": "https://github.com/solana-foundation/solana-dev-skill",
+        "description": "Use when user asks to \"build a Solana dapp\", \"write an Anchor program\", \"create a token\", \"debug Solana errors\", \"set up wallet connection\", \"test my Solana…",
+        "tags": [
+          "solana-foundation/solana-dev-skill"
+        ],
+        "stars": "592",
+        "installs": 113600,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "solana-foundation/solana-dev-skill/solana-dev",
+          "ogTitle": "solana-dev — solana-foundation/solana-dev-skill",
+          "npx": "npx skills add https://github.com/solana-foundation/solana-dev-skill --skill solana-dev",
+          "installsRaw": "113.6K",
+          "starsRaw": "592",
+          "firstSeen": "Jan 20, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/solana-foundation/solana-dev-skill/solana-dev/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/solana-foundation/solana-dev-skill/solana-dev/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/solana-foundation/solana-dev-skill/solana-dev/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:03:42.729Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "solana-foundation--solana-dev-skill--solana-dev",
+    "name": "solana-dev",
+    "owner": "solana-foundation",
+    "repo": "solana-dev-skill",
+    "category": "",
+    "description": "Use when user asks to \"build a Solana dapp\", \"write an Anchor program\", \"create a token\", \"debug Solana errors\", \"set up wallet connection\", \"test my Solana…",
+    "tags": [
+      "solana-foundation/solana-dev-skill"
+    ],
+    "keywords": [
+      "solana-foundation/solana-dev-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "592",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/solana-foundation/solana-dev-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:03:42.730Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:03:42.730Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:03:42.730Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:03:42.730Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:03:42.729Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:03:42.730Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:03:42.730Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=113600 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

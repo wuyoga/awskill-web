@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:32:54.420Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/reason-machines/trending-skills/my-brain-is-full-crew",
+      "externalId": "reason-machines/trending-skills/my-brain-is-full-crew",
+      "name": "my-brain-is-full-crew",
+      "owner": "reason-machines",
+      "repo": "trending-skills",
+      "repositoryUrl": "https://github.com/reason-machines/trending-skills",
+      "description": "A team of 10 AI agents that manage your Obsidian vault for knowledge, nutrition, and mental wellness using Claude Code",
+      "tags": [
+        "reason-machines/trending-skills"
+      ],
+      "stars": "95",
+      "installs": 1100,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "reason-machines/trending-skills/my-brain-is-full-crew",
+        "ogTitle": "my-brain-is-full-crew — reason-machines/trending-skills",
+        "npx": "npx skills add https://github.com/reason-machines/trending-skills --skill my-brain-is-full-crew",
+        "installsRaw": "1.1K",
+        "starsRaw": "95",
+        "firstSeen": "Mar 22, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Fail",
+            "href": "/reason-machines/trending-skills/my-brain-is-full-crew/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/reason-machines/trending-skills/my-brain-is-full-crew/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/reason-machines/trending-skills/my-brain-is-full-crew/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:32:54.420Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/reason-machines/trending-skills/my-brain-is-full-crew",
+        "externalId": "reason-machines/trending-skills/my-brain-is-full-crew",
+        "name": "my-brain-is-full-crew",
+        "owner": "reason-machines",
+        "repo": "trending-skills",
+        "repositoryUrl": "https://github.com/reason-machines/trending-skills",
+        "description": "A team of 10 AI agents that manage your Obsidian vault for knowledge, nutrition, and mental wellness using Claude Code",
+        "tags": [
+          "reason-machines/trending-skills"
+        ],
+        "stars": "95",
+        "installs": 1100,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "reason-machines/trending-skills/my-brain-is-full-crew",
+          "ogTitle": "my-brain-is-full-crew — reason-machines/trending-skills",
+          "npx": "npx skills add https://github.com/reason-machines/trending-skills --skill my-brain-is-full-crew",
+          "installsRaw": "1.1K",
+          "starsRaw": "95",
+          "firstSeen": "Mar 22, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Fail",
+              "href": "/reason-machines/trending-skills/my-brain-is-full-crew/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/reason-machines/trending-skills/my-brain-is-full-crew/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/reason-machines/trending-skills/my-brain-is-full-crew/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:32:54.420Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "reason-machines--trending-skills--my-brain-is-full-crew",
+    "name": "my-brain-is-full-crew",
+    "owner": "reason-machines",
+    "repo": "trending-skills",
+    "category": "",
+    "description": "A team of 10 AI agents that manage your Obsidian vault for knowledge, nutrition, and mental wellness using Claude Code",
+    "tags": [
+      "reason-machines/trending-skills"
+    ],
+    "keywords": [
+      "reason-machines/trending-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "95",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/reason-machines/trending-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:32:54.420Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:32:54.420Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:32:54.420Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:32:54.420Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:32:54.420Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:32:54.420Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:32:54.420Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1100 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

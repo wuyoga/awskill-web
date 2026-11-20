@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:51:44.156Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/google/skills/gke-ai-troubleshooting-tpu-vbar-oom",
+      "externalId": "google/skills/gke-ai-troubleshooting-tpu-vbar-oom",
+      "name": "gke-ai-troubleshooting-tpu-vbar-oom",
+      "owner": "google",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/google/skills",
+      "description": "Diagnoses and prevents vbar_control_agent segfaults, out-of-memory (OOM) errors, and TPU device initialization failures on TPU v6e nodes in GKE caused by race…",
+      "tags": [
+        "google/skills"
+      ],
+      "stars": "24.4K",
+      "installs": 5700,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "google/skills/gke-ai-troubleshooting-tpu-vbar-oom",
+        "ogTitle": "gke-ai-troubleshooting-tpu-vbar-oom — google/skills",
+        "npx": "npx skills add https://github.com/google/skills --skill gke-ai-troubleshooting-tpu-vbar-oom",
+        "installsRaw": "5.7K",
+        "starsRaw": "24.4K",
+        "firstSeen": "Aug 4, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/google/skills/gke-ai-troubleshooting-tpu-vbar-oom/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/google/skills/gke-ai-troubleshooting-tpu-vbar-oom/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/google/skills/gke-ai-troubleshooting-tpu-vbar-oom/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:51:44.155Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/google/skills/gke-ai-troubleshooting-tpu-vbar-oom",
+        "externalId": "google/skills/gke-ai-troubleshooting-tpu-vbar-oom",
+        "name": "gke-ai-troubleshooting-tpu-vbar-oom",
+        "owner": "google",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/google/skills",
+        "description": "Diagnoses and prevents vbar_control_agent segfaults, out-of-memory (OOM) errors, and TPU device initialization failures on TPU v6e nodes in GKE caused by race…",
+        "tags": [
+          "google/skills"
+        ],
+        "stars": "24.4K",
+        "installs": 5700,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "google/skills/gke-ai-troubleshooting-tpu-vbar-oom",
+          "ogTitle": "gke-ai-troubleshooting-tpu-vbar-oom — google/skills",
+          "npx": "npx skills add https://github.com/google/skills --skill gke-ai-troubleshooting-tpu-vbar-oom",
+          "installsRaw": "5.7K",
+          "starsRaw": "24.4K",
+          "firstSeen": "Aug 4, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/google/skills/gke-ai-troubleshooting-tpu-vbar-oom/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/google/skills/gke-ai-troubleshooting-tpu-vbar-oom/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/google/skills/gke-ai-troubleshooting-tpu-vbar-oom/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:51:44.155Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "google--skills--gke-ai-troubleshooting-tpu-vbar-oom",
+    "name": "gke-ai-troubleshooting-tpu-vbar-oom",
+    "owner": "google",
+    "repo": "skills",
+    "category": "",
+    "description": "Diagnoses and prevents vbar_control_agent segfaults, out-of-memory (OOM) errors, and TPU device initialization failures on TPU v6e nodes in GKE caused by race…",
+    "tags": [
+      "google/skills"
+    ],
+    "keywords": [
+      "google/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "24.4K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/google/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:51:44.156Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:51:44.156Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:51:44.156Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:51:44.156Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:51:44.155Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:51:44.156Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:51:44.156Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=5700 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

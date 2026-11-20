@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:48:41.834Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/google/skills/cloud-logging-cross-project-configuration",
+      "externalId": "google/skills/cloud-logging-cross-project-configuration",
+      "name": "cloud-logging-cross-project-configuration",
+      "owner": "google",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/google/skills",
+      "description": "Configure and troubleshoot Google Cloud cross-project centralized logging and read-time aggregation. Use when: - Setting up log routing from multiple…",
+      "tags": [
+        "google/skills"
+      ],
+      "stars": "24.4K",
+      "installs": 6200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "google/skills/cloud-logging-cross-project-configuration",
+        "ogTitle": "cloud-logging-cross-project-configuration — google/skills",
+        "npx": "npx skills add https://github.com/google/skills --skill cloud-logging-cross-project-configuration",
+        "installsRaw": "6.2K",
+        "starsRaw": "24.4K",
+        "firstSeen": "Jul 29, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/google/skills/cloud-logging-cross-project-configuration/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/google/skills/cloud-logging-cross-project-configuration/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/google/skills/cloud-logging-cross-project-configuration/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:48:41.834Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/google/skills/cloud-logging-cross-project-configuration",
+        "externalId": "google/skills/cloud-logging-cross-project-configuration",
+        "name": "cloud-logging-cross-project-configuration",
+        "owner": "google",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/google/skills",
+        "description": "Configure and troubleshoot Google Cloud cross-project centralized logging and read-time aggregation. Use when: - Setting up log routing from multiple…",
+        "tags": [
+          "google/skills"
+        ],
+        "stars": "24.4K",
+        "installs": 6200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "google/skills/cloud-logging-cross-project-configuration",
+          "ogTitle": "cloud-logging-cross-project-configuration — google/skills",
+          "npx": "npx skills add https://github.com/google/skills --skill cloud-logging-cross-project-configuration",
+          "installsRaw": "6.2K",
+          "starsRaw": "24.4K",
+          "firstSeen": "Jul 29, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/google/skills/cloud-logging-cross-project-configuration/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/google/skills/cloud-logging-cross-project-configuration/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/google/skills/cloud-logging-cross-project-configuration/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:48:41.834Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "google--skills--cloud-logging-cross-project-configuration",
+    "name": "cloud-logging-cross-project-configuration",
+    "owner": "google",
+    "repo": "skills",
+    "category": "",
+    "description": "Configure and troubleshoot Google Cloud cross-project centralized logging and read-time aggregation. Use when: - Setting up log routing from multiple…",
+    "tags": [
+      "google/skills"
+    ],
+    "keywords": [
+      "google/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "24.4K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/google/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:48:41.834Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:48:41.834Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:48:41.834Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:48:41.834Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:48:41.834Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:48:41.834Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:48:41.834Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=6200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

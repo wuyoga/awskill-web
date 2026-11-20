@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:55:36.187Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/iswalle/getnote-cli/getnote-note",
+      "externalId": "iswalle/getnote-cli/getnote-note",
+      "name": "getnote-note",
+      "owner": "iswalle",
+      "repo": "getnote-cli",
+      "repositoryUrl": "https://github.com/iswalle/getnote-cli",
+      "description": "使用得到大脑保存文字、链接、图片和长笔记，按录音台或录音卡来源查找笔记，查看笔记详情、原文、录音转写、附件、时间线、标记、发芽报告、快捷笔记和会议待办，并安全更新、删除或分享笔记。标记、发芽与时间线分别读取。",
+      "tags": [
+        "iswalle/getnote-cli"
+      ],
+      "stars": "181",
+      "installs": 1300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "iswalle/getnote-cli/getnote-note",
+        "ogTitle": "getnote-note — iswalle/getnote-cli",
+        "npx": "npx skills add https://github.com/iswalle/getnote-cli --skill getnote-note",
+        "installsRaw": "1.3K",
+        "starsRaw": "181",
+        "firstSeen": "Apr 2, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/iswalle/getnote-cli/getnote-note/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/iswalle/getnote-cli/getnote-note/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/iswalle/getnote-cli/getnote-note/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:55:36.187Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/iswalle/getnote-cli/getnote-note",
+        "externalId": "iswalle/getnote-cli/getnote-note",
+        "name": "getnote-note",
+        "owner": "iswalle",
+        "repo": "getnote-cli",
+        "repositoryUrl": "https://github.com/iswalle/getnote-cli",
+        "description": "使用得到大脑保存文字、链接、图片和长笔记，按录音台或录音卡来源查找笔记，查看笔记详情、原文、录音转写、附件、时间线、标记、发芽报告、快捷笔记和会议待办，并安全更新、删除或分享笔记。标记、发芽与时间线分别读取。",
+        "tags": [
+          "iswalle/getnote-cli"
+        ],
+        "stars": "181",
+        "installs": 1300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "iswalle/getnote-cli/getnote-note",
+          "ogTitle": "getnote-note — iswalle/getnote-cli",
+          "npx": "npx skills add https://github.com/iswalle/getnote-cli --skill getnote-note",
+          "installsRaw": "1.3K",
+          "starsRaw": "181",
+          "firstSeen": "Apr 2, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/iswalle/getnote-cli/getnote-note/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/iswalle/getnote-cli/getnote-note/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/iswalle/getnote-cli/getnote-note/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:55:36.187Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "iswalle--getnote-cli--getnote-note",
+    "name": "getnote-note",
+    "owner": "iswalle",
+    "repo": "getnote-cli",
+    "category": "",
+    "description": "使用得到大脑保存文字、链接、图片和长笔记，按录音台或录音卡来源查找笔记，查看笔记详情、原文、录音转写、附件、时间线、标记、发芽报告、快捷笔记和会议待办，并安全更新、删除或分享笔记。标记、发芽与时间线分别读取。",
+    "tags": [
+      "iswalle/getnote-cli"
+    ],
+    "keywords": [
+      "iswalle/getnote-cli"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "181",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/iswalle/getnote-cli",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:55:36.187Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:55:36.187Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:55:36.187Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:55:36.187Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:55:36.187Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:55:36.187Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:55:36.187Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

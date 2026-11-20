@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:28:00.520Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/google-gemini/gemini-cli/pr-creator",
+      "externalId": "google-gemini/gemini-cli/pr-creator",
+      "name": "pr-creator",
+      "owner": "google-gemini",
+      "repo": "gemini-cli",
+      "repositoryUrl": "https://github.com/google-gemini/gemini-cli",
+      "description": "Use this skill when asked to create a pull request (PR). It ensures all PRs follow the repository&#x27;s established templates and standards.",
+      "tags": [
+        "google-gemini/gemini-cli"
+      ],
+      "stars": "108.9K",
+      "installs": 2400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "google-gemini/gemini-cli/pr-creator",
+        "ogTitle": "pr-creator — google-gemini/gemini-cli",
+        "npx": "npx skills add https://github.com/google-gemini/gemini-cli --skill pr-creator",
+        "installsRaw": "2.4K",
+        "starsRaw": "108.9K",
+        "firstSeen": "Jan 21, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/google-gemini/gemini-cli/pr-creator/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/google-gemini/gemini-cli/pr-creator/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/google-gemini/gemini-cli/pr-creator/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:28:00.519Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/google-gemini/gemini-cli/pr-creator",
+        "externalId": "google-gemini/gemini-cli/pr-creator",
+        "name": "pr-creator",
+        "owner": "google-gemini",
+        "repo": "gemini-cli",
+        "repositoryUrl": "https://github.com/google-gemini/gemini-cli",
+        "description": "Use this skill when asked to create a pull request (PR). It ensures all PRs follow the repository&#x27;s established templates and standards.",
+        "tags": [
+          "google-gemini/gemini-cli"
+        ],
+        "stars": "108.9K",
+        "installs": 2400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "google-gemini/gemini-cli/pr-creator",
+          "ogTitle": "pr-creator — google-gemini/gemini-cli",
+          "npx": "npx skills add https://github.com/google-gemini/gemini-cli --skill pr-creator",
+          "installsRaw": "2.4K",
+          "starsRaw": "108.9K",
+          "firstSeen": "Jan 21, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/google-gemini/gemini-cli/pr-creator/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/google-gemini/gemini-cli/pr-creator/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/google-gemini/gemini-cli/pr-creator/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:28:00.519Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "google-gemini--gemini-cli--pr-creator",
+    "name": "pr-creator",
+    "owner": "google-gemini",
+    "repo": "gemini-cli",
+    "category": "",
+    "description": "Use this skill when asked to create a pull request (PR). It ensures all PRs follow the repository&#x27;s established templates and standards.",
+    "tags": [
+      "google-gemini/gemini-cli"
+    ],
+    "keywords": [
+      "google-gemini/gemini-cli"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "108.9K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/google-gemini/gemini-cli",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:28:00.520Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:28:00.520Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:28:00.520Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:28:00.520Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:28:00.519Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:28:00.520Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:28:00.520Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

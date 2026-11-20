@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:13:38.006Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor",
+      "externalId": "liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor",
+      "name": "stock-research-executor",
+      "owner": "liangdabiao",
+      "repo": "claude-code-stock-deep-research-agent",
+      "repositoryUrl": "https://github.com/liangdabiao/claude-code-stock-deep-research-agent",
+      "description": "股票投资调研执行引擎，执行8阶段投资尽调流程。接收stock-question-refiner生成的结构化调研指令，部署多智能体并行研究，生成带引用的投资尽调报告。覆盖：公司事实底座、行业周期、业务拆解、财务质量、股权治理、市场分歧、估值护城河、综合报告。当用户需要进行股票投资研究、基本面分析、投资尽调时使用此技能。",
+      "tags": [
+        "liangdabiao/claude-code-stock-deep-research-agent"
+      ],
+      "stars": "379",
+      "installs": 1800,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor",
+        "ogTitle": "stock-research-executor — liangdabiao/claude-code-stock-deep-research-agent",
+        "npx": "npx skills add https://github.com/liangdabiao/claude-code-stock-deep-research-agent --skill stock-research-executor",
+        "installsRaw": "1.8K",
+        "starsRaw": "379",
+        "firstSeen": "Jan 21, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:13:38.005Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor",
+        "externalId": "liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor",
+        "name": "stock-research-executor",
+        "owner": "liangdabiao",
+        "repo": "claude-code-stock-deep-research-agent",
+        "repositoryUrl": "https://github.com/liangdabiao/claude-code-stock-deep-research-agent",
+        "description": "股票投资调研执行引擎，执行8阶段投资尽调流程。接收stock-question-refiner生成的结构化调研指令，部署多智能体并行研究，生成带引用的投资尽调报告。覆盖：公司事实底座、行业周期、业务拆解、财务质量、股权治理、市场分歧、估值护城河、综合报告。当用户需要进行股票投资研究、基本面分析、投资尽调时使用此技能。",
+        "tags": [
+          "liangdabiao/claude-code-stock-deep-research-agent"
+        ],
+        "stars": "379",
+        "installs": 1800,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor",
+          "ogTitle": "stock-research-executor — liangdabiao/claude-code-stock-deep-research-agent",
+          "npx": "npx skills add https://github.com/liangdabiao/claude-code-stock-deep-research-agent --skill stock-research-executor",
+          "installsRaw": "1.8K",
+          "starsRaw": "379",
+          "firstSeen": "Jan 21, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/liangdabiao/claude-code-stock-deep-research-agent/stock-research-executor/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:13:38.005Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "liangdabiao--claude-code-stock-deep-research-agent--stock-research-executor",
+    "name": "stock-research-executor",
+    "owner": "liangdabiao",
+    "repo": "claude-code-stock-deep-research-agent",
+    "category": "",
+    "description": "股票投资调研执行引擎，执行8阶段投资尽调流程。接收stock-question-refiner生成的结构化调研指令，部署多智能体并行研究，生成带引用的投资尽调报告。覆盖：公司事实底座、行业周期、业务拆解、财务质量、股权治理、市场分歧、估值护城河、综合报告。当用户需要进行股票投资研究、基本面分析、投资尽调时使用此技能。",
+    "tags": [
+      "liangdabiao/claude-code-stock-deep-research-agent"
+    ],
+    "keywords": [
+      "liangdabiao/claude-code-stock-deep-research-agent"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "379",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/liangdabiao/claude-code-stock-deep-research-agent",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:13:38.006Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:13:38.006Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:13:38.006Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:13:38.006Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:13:38.005Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:13:38.006Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:13:38.006Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1800 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:40:32.741Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/refoundai/lenny-skills/running-offsites",
+      "externalId": "refoundai/lenny-skills/running-offsites",
+      "name": "running-offsites",
+      "owner": "refoundai",
+      "repo": "lenny-skills",
+      "repositoryUrl": "https://github.com/refoundai/lenny-skills",
+      "description": "Help users plan and run effective team offsites. Use when someone is organizing a team retreat, planning a strategy offsite, trying to improve remote team…",
+      "tags": [
+        "refoundai/lenny-skills"
+      ],
+      "stars": "1.5K",
+      "installs": 1500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "refoundai/lenny-skills/running-offsites",
+        "ogTitle": "running-offsites — refoundai/lenny-skills",
+        "npx": "npx skills add https://github.com/refoundai/lenny-skills --skill running-offsites",
+        "installsRaw": "1.5K",
+        "starsRaw": "1.5K",
+        "firstSeen": "Jan 29, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/refoundai/lenny-skills/running-offsites/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/refoundai/lenny-skills/running-offsites/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/refoundai/lenny-skills/running-offsites/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:40:32.741Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/refoundai/lenny-skills/running-offsites",
+        "externalId": "refoundai/lenny-skills/running-offsites",
+        "name": "running-offsites",
+        "owner": "refoundai",
+        "repo": "lenny-skills",
+        "repositoryUrl": "https://github.com/refoundai/lenny-skills",
+        "description": "Help users plan and run effective team offsites. Use when someone is organizing a team retreat, planning a strategy offsite, trying to improve remote team…",
+        "tags": [
+          "refoundai/lenny-skills"
+        ],
+        "stars": "1.5K",
+        "installs": 1500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "refoundai/lenny-skills/running-offsites",
+          "ogTitle": "running-offsites — refoundai/lenny-skills",
+          "npx": "npx skills add https://github.com/refoundai/lenny-skills --skill running-offsites",
+          "installsRaw": "1.5K",
+          "starsRaw": "1.5K",
+          "firstSeen": "Jan 29, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/refoundai/lenny-skills/running-offsites/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/refoundai/lenny-skills/running-offsites/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/refoundai/lenny-skills/running-offsites/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:40:32.741Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "refoundai--lenny-skills--running-offsites",
+    "name": "running-offsites",
+    "owner": "refoundai",
+    "repo": "lenny-skills",
+    "category": "",
+    "description": "Help users plan and run effective team offsites. Use when someone is organizing a team retreat, planning a strategy offsite, trying to improve remote team…",
+    "tags": [
+      "refoundai/lenny-skills"
+    ],
+    "keywords": [
+      "refoundai/lenny-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "1.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/refoundai/lenny-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:40:32.741Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:40:32.741Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:40:32.741Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:40:32.741Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:40:32.741Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:40:32.741Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:40:32.741Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

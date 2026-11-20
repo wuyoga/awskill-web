@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:48:13.818Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/prisma/prisma-next/prisma-next-upgrade",
+      "externalId": "prisma/prisma-next/prisma-next-upgrade",
+      "name": "prisma-next-upgrade",
+      "owner": "prisma",
+      "repo": "prisma-next",
+      "repositoryUrl": "https://github.com/prisma/prisma-next",
+      "description": "Upgrade Prisma Next in your app. Bumps every `@prisma-next/*` dependency from the version pinned in the lockfile to the requested target (or npm `latest`),…",
+      "tags": [
+        "prisma/prisma-next"
+      ],
+      "stars": "409",
+      "installs": 1400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "prisma/prisma-next/prisma-next-upgrade",
+        "ogTitle": "prisma-next-upgrade — prisma/prisma-next",
+        "npx": "npx skills add https://github.com/prisma/prisma-next --skill prisma-next-upgrade",
+        "installsRaw": "1.4K",
+        "starsRaw": "409",
+        "firstSeen": "May 20, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/prisma/prisma-next/prisma-next-upgrade/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/prisma/prisma-next/prisma-next-upgrade/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/prisma/prisma-next/prisma-next-upgrade/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:48:13.818Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/prisma/prisma-next/prisma-next-upgrade",
+        "externalId": "prisma/prisma-next/prisma-next-upgrade",
+        "name": "prisma-next-upgrade",
+        "owner": "prisma",
+        "repo": "prisma-next",
+        "repositoryUrl": "https://github.com/prisma/prisma-next",
+        "description": "Upgrade Prisma Next in your app. Bumps every `@prisma-next/*` dependency from the version pinned in the lockfile to the requested target (or npm `latest`),…",
+        "tags": [
+          "prisma/prisma-next"
+        ],
+        "stars": "409",
+        "installs": 1400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "prisma/prisma-next/prisma-next-upgrade",
+          "ogTitle": "prisma-next-upgrade — prisma/prisma-next",
+          "npx": "npx skills add https://github.com/prisma/prisma-next --skill prisma-next-upgrade",
+          "installsRaw": "1.4K",
+          "starsRaw": "409",
+          "firstSeen": "May 20, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/prisma/prisma-next/prisma-next-upgrade/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/prisma/prisma-next/prisma-next-upgrade/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/prisma/prisma-next/prisma-next-upgrade/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:48:13.818Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "prisma--prisma-next--prisma-next-upgrade",
+    "name": "prisma-next-upgrade",
+    "owner": "prisma",
+    "repo": "prisma-next",
+    "category": "",
+    "description": "Upgrade Prisma Next in your app. Bumps every `@prisma-next/*` dependency from the version pinned in the lockfile to the requested target (or npm `latest`),…",
+    "tags": [
+      "prisma/prisma-next"
+    ],
+    "keywords": [
+      "prisma/prisma-next"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "409",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/prisma/prisma-next",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:48:13.818Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:48:13.818Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:48:13.818Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:48:13.818Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:48:13.818Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:48:13.818Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:48:13.818Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

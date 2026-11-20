@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:04:50.064Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/alchaincyf/steve-jobs-skill/steve-jobs-perspective",
+      "externalId": "alchaincyf/steve-jobs-skill/steve-jobs-perspective",
+      "name": "steve-jobs-perspective",
+      "owner": "alchaincyf",
+      "repo": "steve-jobs-skill",
+      "repositoryUrl": "https://github.com/alchaincyf/steve-jobs-skill",
+      "description": "乔布斯的视角：产品判断与评审、取舍决策、对人对事的直接反馈。说「用乔布斯的视角」「乔布斯会怎么看」「切换到乔布斯」「让乔布斯评一下」时使用；不在一般性问题上自动触发。",
+      "tags": [
+        "alchaincyf/steve-jobs-skill"
+      ],
+      "stars": "982",
+      "installs": 4400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "alchaincyf/steve-jobs-skill/steve-jobs-perspective",
+        "ogTitle": "steve-jobs-perspective — alchaincyf/steve-jobs-skill",
+        "npx": "npx skills add https://github.com/alchaincyf/steve-jobs-skill --skill steve-jobs-perspective",
+        "installsRaw": "4.4K",
+        "starsRaw": "982",
+        "firstSeen": "Apr 5, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/alchaincyf/steve-jobs-skill/steve-jobs-perspective/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/alchaincyf/steve-jobs-skill/steve-jobs-perspective/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/alchaincyf/steve-jobs-skill/steve-jobs-perspective/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:04:50.064Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/alchaincyf/steve-jobs-skill/steve-jobs-perspective",
+        "externalId": "alchaincyf/steve-jobs-skill/steve-jobs-perspective",
+        "name": "steve-jobs-perspective",
+        "owner": "alchaincyf",
+        "repo": "steve-jobs-skill",
+        "repositoryUrl": "https://github.com/alchaincyf/steve-jobs-skill",
+        "description": "乔布斯的视角：产品判断与评审、取舍决策、对人对事的直接反馈。说「用乔布斯的视角」「乔布斯会怎么看」「切换到乔布斯」「让乔布斯评一下」时使用；不在一般性问题上自动触发。",
+        "tags": [
+          "alchaincyf/steve-jobs-skill"
+        ],
+        "stars": "982",
+        "installs": 4400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "alchaincyf/steve-jobs-skill/steve-jobs-perspective",
+          "ogTitle": "steve-jobs-perspective — alchaincyf/steve-jobs-skill",
+          "npx": "npx skills add https://github.com/alchaincyf/steve-jobs-skill --skill steve-jobs-perspective",
+          "installsRaw": "4.4K",
+          "starsRaw": "982",
+          "firstSeen": "Apr 5, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/alchaincyf/steve-jobs-skill/steve-jobs-perspective/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/alchaincyf/steve-jobs-skill/steve-jobs-perspective/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/alchaincyf/steve-jobs-skill/steve-jobs-perspective/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:04:50.064Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "alchaincyf--steve-jobs-skill--steve-jobs-perspective",
+    "name": "steve-jobs-perspective",
+    "owner": "alchaincyf",
+    "repo": "steve-jobs-skill",
+    "category": "",
+    "description": "乔布斯的视角：产品判断与评审、取舍决策、对人对事的直接反馈。说「用乔布斯的视角」「乔布斯会怎么看」「切换到乔布斯」「让乔布斯评一下」时使用；不在一般性问题上自动触发。",
+    "tags": [
+      "alchaincyf/steve-jobs-skill"
+    ],
+    "keywords": [
+      "alchaincyf/steve-jobs-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "982",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/alchaincyf/steve-jobs-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:04:50.064Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:04:50.064Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:04:50.064Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:04:50.064Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:04:50.064Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:04:50.064Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:04:50.064Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=4400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

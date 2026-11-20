@@ -1,0 +1,263 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T12:36:12.071Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skillhey",
+      "sourceUrl": "https://skillhey.com/skills/nuwa-zhangxuefeng-perspective",
+      "externalId": "nuwa-zhangxuefeng-perspective",
+      "name": "Zhang Xuefeng Perspective",
+      "owner": "alchaincyf",
+      "repo": "nuwa-skill",
+      "repositoryUrl": "https://github.com/alchaincyf/nuwa-skill/tree/main/examples/zhangxuefeng-perspective",
+      "description": "Review education and career choices by working backward from employment, comparing constraints and checking current data.",
+      "tags": [],
+      "stars": null,
+      "installs": null,
+      "license": null,
+      "agentsClaimed": [
+        "Claude Code",
+        "Codex",
+        "Cursor",
+        "GitHub Copilot",
+        "Gemini"
+      ],
+      "raw": {
+        "slug": "nuwa-zhangxuefeng-perspective",
+        "qualityScore": null,
+        "starsRaw": null,
+        "forks": ",",
+        "childSlugs": [
+          "nuwa-skill",
+          "sundial-org-technical-analyst",
+          "patent-creator-patent-search",
+          "tavily-official-entity",
+          "atomicstrata-llm-wiki-compiler"
+        ]
+      },
+      "fetchedAt": "2026-11-19T12:36:12.070Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skillhey",
+        "sourceUrl": "https://skillhey.com/skills/nuwa-zhangxuefeng-perspective",
+        "externalId": "nuwa-zhangxuefeng-perspective",
+        "name": "Zhang Xuefeng Perspective",
+        "owner": "alchaincyf",
+        "repo": "nuwa-skill",
+        "repositoryUrl": "https://github.com/alchaincyf/nuwa-skill/tree/main/examples/zhangxuefeng-perspective",
+        "description": "Review education and career choices by working backward from employment, comparing constraints and checking current data.",
+        "tags": [],
+        "stars": null,
+        "installs": null,
+        "license": null,
+        "agentsClaimed": [
+          "Claude Code",
+          "Codex",
+          "Cursor",
+          "GitHub Copilot",
+          "Gemini"
+        ],
+        "raw": {
+          "slug": "nuwa-zhangxuefeng-perspective",
+          "qualityScore": null,
+          "starsRaw": null,
+          "forks": ",",
+          "childSlugs": [
+            "nuwa-skill",
+            "sundial-org-technical-analyst",
+            "patent-creator-patent-search",
+            "tavily-official-entity",
+            "atomicstrata-llm-wiki-compiler"
+          ]
+        },
+        "fetchedAt": "2026-11-19T12:36:12.070Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "nuwa-zhangxuefeng-perspective",
+    "name": "Zhang Xuefeng Perspective",
+    "owner": "alchaincyf",
+    "repo": "nuwa-skill",
+    "category": "",
+    "description": "Review education and career choices by working backward from employment, comparing constraints and checking current data.",
+    "tags": [],
+    "keywords": [],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "0",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/alchaincyf/nuwa-skill/tree/main/examples/zhangxuefeng-perspective",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T12:36:12.071Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:36:12.071Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:36:12.071Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:36:12.071Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T12:36:12.070Z",
+      "note": "skillhey"
+    },
+    "tags": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:36:12.071Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:36:12.071Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "install count source unsettled (OQ-04)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete",
+      "skillhey claimed agents (not verified): Claude Code, Codex, Cursor, GitHub Copilot, Gemini"
+    ]
+  }
+}

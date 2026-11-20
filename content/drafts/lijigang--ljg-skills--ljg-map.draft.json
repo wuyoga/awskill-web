@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:08:04.036Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/lijigang/ljg-skills/ljg-map",
+      "externalId": "lijigang/ljg-skills/ljg-map",
+      "name": "ljg-map",
+      "owner": "lijigang",
+      "repo": "ljg-skills",
+      "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+      "description": "以《学习观》的知识观洞察用户文稿，提炼概念、判别依据与有条件的联结，按文稿自身的关系绘制通俗的形式化知识地图；每个节点都有白话定义、短公式和具体语义，图形不预设层级。USE WHEN 用户调用 /ljg-map，或要求把文章、笔记、讲稿画成形式化地图、思考地形图、概念判别与关系图。NOT FOR…",
+      "tags": [
+        "lijigang/ljg-skills"
+      ],
+      "stars": "7.8K",
+      "installs": 1200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "lijigang/ljg-skills/ljg-map",
+        "ogTitle": "ljg-map — lijigang/ljg-skills",
+        "npx": "npx skills add https://github.com/lijigang/ljg-skills --skill ljg-map",
+        "installsRaw": "1.2K",
+        "starsRaw": "7.8K",
+        "firstSeen": "Jun 24, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/lijigang/ljg-skills/ljg-map/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/lijigang/ljg-skills/ljg-map/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/lijigang/ljg-skills/ljg-map/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:08:04.036Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/lijigang/ljg-skills/ljg-map",
+        "externalId": "lijigang/ljg-skills/ljg-map",
+        "name": "ljg-map",
+        "owner": "lijigang",
+        "repo": "ljg-skills",
+        "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+        "description": "以《学习观》的知识观洞察用户文稿，提炼概念、判别依据与有条件的联结，按文稿自身的关系绘制通俗的形式化知识地图；每个节点都有白话定义、短公式和具体语义，图形不预设层级。USE WHEN 用户调用 /ljg-map，或要求把文章、笔记、讲稿画成形式化地图、思考地形图、概念判别与关系图。NOT FOR…",
+        "tags": [
+          "lijigang/ljg-skills"
+        ],
+        "stars": "7.8K",
+        "installs": 1200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "lijigang/ljg-skills/ljg-map",
+          "ogTitle": "ljg-map — lijigang/ljg-skills",
+          "npx": "npx skills add https://github.com/lijigang/ljg-skills --skill ljg-map",
+          "installsRaw": "1.2K",
+          "starsRaw": "7.8K",
+          "firstSeen": "Jun 24, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/lijigang/ljg-skills/ljg-map/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/lijigang/ljg-skills/ljg-map/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/lijigang/ljg-skills/ljg-map/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:08:04.036Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "lijigang--ljg-skills--ljg-map",
+    "name": "ljg-map",
+    "owner": "lijigang",
+    "repo": "ljg-skills",
+    "category": "",
+    "description": "以《学习观》的知识观洞察用户文稿，提炼概念、判别依据与有条件的联结，按文稿自身的关系绘制通俗的形式化知识地图；每个节点都有白话定义、短公式和具体语义，图形不预设层级。USE WHEN 用户调用 /ljg-map，或要求把文章、笔记、讲稿画成形式化地图、思考地形图、概念判别与关系图。NOT FOR…",
+    "tags": [
+      "lijigang/ljg-skills"
+    ],
+    "keywords": [
+      "lijigang/ljg-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "7.8K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:08:04.036Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:08:04.036Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:08:04.036Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:08:04.036Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:08:04.036Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:08:04.036Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:08:04.036Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

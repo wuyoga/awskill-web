@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:15:55.198Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/huaweicloud/huaweicloud-skills/huawei-cloud-computing-query",
+      "externalId": "huaweicloud/huaweicloud-skills/huawei-cloud-computing-query",
+      "name": "huawei-cloud-computing-query",
+      "owner": "huaweicloud",
+      "repo": "huaweicloud-skills",
+      "repositoryUrl": "https://github.com/huaweicloud/huaweicloud-skills",
+      "description": "Queries Huawei Cloud computing resources (ECS/BMS/IMS/AS/CCE), Covers ECS instances, flavors, keypairs, quotas, server groups, block devices, NICs, VNC…",
+      "tags": [
+        "huaweicloud/huaweicloud-skills"
+      ],
+      "stars": "59",
+      "installs": 18500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "huaweicloud/huaweicloud-skills/huawei-cloud-computing-query",
+        "ogTitle": "huawei-cloud-computing-query — huaweicloud/huaweicloud-skills",
+        "npx": "npx skills add https://github.com/huaweicloud/huaweicloud-skills --skill huawei-cloud-computing-query",
+        "installsRaw": "18.5K",
+        "starsRaw": "59",
+        "firstSeen": "May 29, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/huaweicloud/huaweicloud-skills/huawei-cloud-computing-query/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/huaweicloud/huaweicloud-skills/huawei-cloud-computing-query/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Fail",
+            "href": "/huaweicloud/huaweicloud-skills/huawei-cloud-computing-query/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:15:55.198Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/huaweicloud/huaweicloud-skills/huawei-cloud-computing-query",
+        "externalId": "huaweicloud/huaweicloud-skills/huawei-cloud-computing-query",
+        "name": "huawei-cloud-computing-query",
+        "owner": "huaweicloud",
+        "repo": "huaweicloud-skills",
+        "repositoryUrl": "https://github.com/huaweicloud/huaweicloud-skills",
+        "description": "Queries Huawei Cloud computing resources (ECS/BMS/IMS/AS/CCE), Covers ECS instances, flavors, keypairs, quotas, server groups, block devices, NICs, VNC…",
+        "tags": [
+          "huaweicloud/huaweicloud-skills"
+        ],
+        "stars": "59",
+        "installs": 18500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "huaweicloud/huaweicloud-skills/huawei-cloud-computing-query",
+          "ogTitle": "huawei-cloud-computing-query — huaweicloud/huaweicloud-skills",
+          "npx": "npx skills add https://github.com/huaweicloud/huaweicloud-skills --skill huawei-cloud-computing-query",
+          "installsRaw": "18.5K",
+          "starsRaw": "59",
+          "firstSeen": "May 29, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/huaweicloud/huaweicloud-skills/huawei-cloud-computing-query/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/huaweicloud/huaweicloud-skills/huawei-cloud-computing-query/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Fail",
+              "href": "/huaweicloud/huaweicloud-skills/huawei-cloud-computing-query/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:15:55.198Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "huaweicloud--huaweicloud-skills--huawei-cloud-computing-query",
+    "name": "huawei-cloud-computing-query",
+    "owner": "huaweicloud",
+    "repo": "huaweicloud-skills",
+    "category": "",
+    "description": "Queries Huawei Cloud computing resources (ECS/BMS/IMS/AS/CCE), Covers ECS instances, flavors, keypairs, quotas, server groups, block devices, NICs, VNC…",
+    "tags": [
+      "huaweicloud/huaweicloud-skills"
+    ],
+    "keywords": [
+      "huaweicloud/huaweicloud-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "59",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/huaweicloud/huaweicloud-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:15:55.198Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:15:55.198Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:15:55.198Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:15:55.198Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:15:55.198Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:15:55.198Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:15:55.198Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=18500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:11:57.998Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/nomadamas/k-skill/used-car-price-search",
+      "externalId": "nomadamas/k-skill/used-car-price-search",
+      "name": "used-car-price-search",
+      "owner": "nomadamas",
+      "repo": "k-skill",
+      "repositoryUrl": "https://github.com/nomadamas/k-skill",
+      "description": "주요 한국 렌터카 업체를 비교한 뒤 SK렌터카 다이렉트 타고BUY inventory snapshot 으로 중고차 가격/인수가를 조회한다. 돌쇠에서는 공식 표면을 통한 후속 액션까지 진행한다.",
+      "tags": [
+        "nomadamas/k-skill"
+      ],
+      "stars": "8.5K",
+      "installs": 3900,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "nomadamas/k-skill/used-car-price-search",
+        "ogTitle": "used-car-price-search — nomadamas/k-skill",
+        "npx": "npx skills add https://github.com/nomadamas/k-skill --skill used-car-price-search",
+        "installsRaw": "3.9K",
+        "starsRaw": "8.5K",
+        "firstSeen": "Apr 2, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/nomadamas/k-skill/used-car-price-search/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/nomadamas/k-skill/used-car-price-search/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/nomadamas/k-skill/used-car-price-search/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:11:57.997Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/nomadamas/k-skill/used-car-price-search",
+        "externalId": "nomadamas/k-skill/used-car-price-search",
+        "name": "used-car-price-search",
+        "owner": "nomadamas",
+        "repo": "k-skill",
+        "repositoryUrl": "https://github.com/nomadamas/k-skill",
+        "description": "주요 한국 렌터카 업체를 비교한 뒤 SK렌터카 다이렉트 타고BUY inventory snapshot 으로 중고차 가격/인수가를 조회한다. 돌쇠에서는 공식 표면을 통한 후속 액션까지 진행한다.",
+        "tags": [
+          "nomadamas/k-skill"
+        ],
+        "stars": "8.5K",
+        "installs": 3900,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "nomadamas/k-skill/used-car-price-search",
+          "ogTitle": "used-car-price-search — nomadamas/k-skill",
+          "npx": "npx skills add https://github.com/nomadamas/k-skill --skill used-car-price-search",
+          "installsRaw": "3.9K",
+          "starsRaw": "8.5K",
+          "firstSeen": "Apr 2, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/nomadamas/k-skill/used-car-price-search/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/nomadamas/k-skill/used-car-price-search/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/nomadamas/k-skill/used-car-price-search/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:11:57.997Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "nomadamas--k-skill--used-car-price-search",
+    "name": "used-car-price-search",
+    "owner": "nomadamas",
+    "repo": "k-skill",
+    "category": "",
+    "description": "주요 한국 렌터카 업체를 비교한 뒤 SK렌터카 다이렉트 타고BUY inventory snapshot 으로 중고차 가격/인수가를 조회한다. 돌쇠에서는 공식 표면을 통한 후속 액션까지 진행한다.",
+    "tags": [
+      "nomadamas/k-skill"
+    ],
+    "keywords": [
+      "nomadamas/k-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "8.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/nomadamas/k-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:11:57.998Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:11:57.998Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:11:57.998Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:11:57.998Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:11:57.997Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:11:57.998Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:11:57.998Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3900 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

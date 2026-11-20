@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:50:13.261Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/lijigang/ljg-skills/ljg-read",
+      "externalId": "lijigang/ljg-skills/ljg-read",
+      "name": "ljg-read",
+      "owner": "lijigang",
+      "repo": "ljg-skills",
+      "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+      "description": "用《学习观》的「下上结构」讲透用户提供的文本：从具体情境接通概念、判别依据与有条件的关系，让读者理解原意并能迁移判断；默认直接在对话中展示。USE WHEN 用户说「伴读」「陪我读」「读这篇」「讲透这段」「read with me」或提供文本希望深入浅出地讲解。NOT FOR 单纯翻译、整本书拆解或只画概念地图。",
+      "tags": [
+        "lijigang/ljg-skills"
+      ],
+      "stars": "7.8K",
+      "installs": 5900,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "lijigang/ljg-skills/ljg-read",
+        "ogTitle": "ljg-read — lijigang/ljg-skills",
+        "npx": "npx skills add https://github.com/lijigang/ljg-skills --skill ljg-read",
+        "installsRaw": "5.9K",
+        "starsRaw": "7.8K",
+        "firstSeen": "Apr 13, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/lijigang/ljg-skills/ljg-read/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/lijigang/ljg-skills/ljg-read/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/lijigang/ljg-skills/ljg-read/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:50:13.260Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/lijigang/ljg-skills/ljg-read",
+        "externalId": "lijigang/ljg-skills/ljg-read",
+        "name": "ljg-read",
+        "owner": "lijigang",
+        "repo": "ljg-skills",
+        "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+        "description": "用《学习观》的「下上结构」讲透用户提供的文本：从具体情境接通概念、判别依据与有条件的关系，让读者理解原意并能迁移判断；默认直接在对话中展示。USE WHEN 用户说「伴读」「陪我读」「读这篇」「讲透这段」「read with me」或提供文本希望深入浅出地讲解。NOT FOR 单纯翻译、整本书拆解或只画概念地图。",
+        "tags": [
+          "lijigang/ljg-skills"
+        ],
+        "stars": "7.8K",
+        "installs": 5900,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "lijigang/ljg-skills/ljg-read",
+          "ogTitle": "ljg-read — lijigang/ljg-skills",
+          "npx": "npx skills add https://github.com/lijigang/ljg-skills --skill ljg-read",
+          "installsRaw": "5.9K",
+          "starsRaw": "7.8K",
+          "firstSeen": "Apr 13, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/lijigang/ljg-skills/ljg-read/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/lijigang/ljg-skills/ljg-read/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/lijigang/ljg-skills/ljg-read/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:50:13.260Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "lijigang--ljg-skills--ljg-read",
+    "name": "ljg-read",
+    "owner": "lijigang",
+    "repo": "ljg-skills",
+    "category": "",
+    "description": "用《学习观》的「下上结构」讲透用户提供的文本：从具体情境接通概念、判别依据与有条件的关系，让读者理解原意并能迁移判断；默认直接在对话中展示。USE WHEN 用户说「伴读」「陪我读」「读这篇」「讲透这段」「read with me」或提供文本希望深入浅出地讲解。NOT FOR 单纯翻译、整本书拆解或只画概念地图。",
+    "tags": [
+      "lijigang/ljg-skills"
+    ],
+    "keywords": [
+      "lijigang/ljg-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "7.8K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:50:13.261Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:50:13.261Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:50:13.261Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:50:13.261Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:50:13.260Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:50:13.261Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:50:13.261Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=5900 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:31:08.879Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/modelstudioai/skills/bailian-model-recommend",
+      "externalId": "modelstudioai/skills/bailian-model-recommend",
+      "name": "bailian-model-recommend",
+      "owner": "modelstudioai",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/modelstudioai/skills",
+      "description": "阿里云百炼模型选型与推荐。当用户需要\"选择、推荐、对比\"模型，或描述一个 AI 场景/功能需求（隐含需要帮其决策用哪个模型）时激活。核心意图是帮用户做决策， 不是单纯查资料。触发词：推荐模型、选哪个、哪个适合、对比、做一个XX、实现XX 功能、用什么模型好、XX场景方案。当用户同时涉及模型查询和模型选择时，优先…",
+      "tags": [
+        "modelstudioai/skills"
+      ],
+      "stars": "59",
+      "installs": 1000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "modelstudioai/skills/bailian-model-recommend",
+        "ogTitle": "bailian-model-recommend — modelstudioai/skills",
+        "npx": "npx skills add https://github.com/modelstudioai/skills --skill bailian-model-recommend",
+        "installsRaw": "1.0K",
+        "starsRaw": "59",
+        "firstSeen": "Jun 5, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/modelstudioai/skills/bailian-model-recommend/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/modelstudioai/skills/bailian-model-recommend/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/modelstudioai/skills/bailian-model-recommend/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:31:08.879Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/modelstudioai/skills/bailian-model-recommend",
+        "externalId": "modelstudioai/skills/bailian-model-recommend",
+        "name": "bailian-model-recommend",
+        "owner": "modelstudioai",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/modelstudioai/skills",
+        "description": "阿里云百炼模型选型与推荐。当用户需要\"选择、推荐、对比\"模型，或描述一个 AI 场景/功能需求（隐含需要帮其决策用哪个模型）时激活。核心意图是帮用户做决策， 不是单纯查资料。触发词：推荐模型、选哪个、哪个适合、对比、做一个XX、实现XX 功能、用什么模型好、XX场景方案。当用户同时涉及模型查询和模型选择时，优先…",
+        "tags": [
+          "modelstudioai/skills"
+        ],
+        "stars": "59",
+        "installs": 1000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "modelstudioai/skills/bailian-model-recommend",
+          "ogTitle": "bailian-model-recommend — modelstudioai/skills",
+          "npx": "npx skills add https://github.com/modelstudioai/skills --skill bailian-model-recommend",
+          "installsRaw": "1.0K",
+          "starsRaw": "59",
+          "firstSeen": "Jun 5, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/modelstudioai/skills/bailian-model-recommend/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/modelstudioai/skills/bailian-model-recommend/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/modelstudioai/skills/bailian-model-recommend/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:31:08.879Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "modelstudioai--skills--bailian-model-recommend",
+    "name": "bailian-model-recommend",
+    "owner": "modelstudioai",
+    "repo": "skills",
+    "category": "",
+    "description": "阿里云百炼模型选型与推荐。当用户需要\"选择、推荐、对比\"模型，或描述一个 AI 场景/功能需求（隐含需要帮其决策用哪个模型）时激活。核心意图是帮用户做决策， 不是单纯查资料。触发词：推荐模型、选哪个、哪个适合、对比、做一个XX、实现XX 功能、用什么模型好、XX场景方案。当用户同时涉及模型查询和模型选择时，优先…",
+    "tags": [
+      "modelstudioai/skills"
+    ],
+    "keywords": [
+      "modelstudioai/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "59",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/modelstudioai/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:31:08.879Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:31:08.879Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:31:08.879Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:31:08.879Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:31:08.879Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:31:08.879Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:31:08.879Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

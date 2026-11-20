@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:48:15.473Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/jasonjgardner/blockbench-mcp-project/blockbench-texturing",
+      "externalId": "jasonjgardner/blockbench-mcp-project/blockbench-texturing",
+      "name": "blockbench-texturing",
+      "owner": "jasonjgardner",
+      "repo": "blockbench-mcp-project",
+      "repositoryUrl": "https://github.com/jasonjgardner/blockbench-mcp-project",
+      "description": "Create and paint textures in Blockbench using MCP tools. Use when creating textures, painting on models, using brush tools, filling colors, drawing shapes,…",
+      "tags": [
+        "jasonjgardner/blockbench-mcp-project"
+      ],
+      "stars": "28",
+      "installs": 1400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "jasonjgardner/blockbench-mcp-project/blockbench-texturing",
+        "ogTitle": "blockbench-texturing — jasonjgardner/blockbench-mcp-project",
+        "npx": "npx skills add https://github.com/jasonjgardner/blockbench-mcp-project --skill blockbench-texturing",
+        "installsRaw": "1.4K",
+        "starsRaw": "28",
+        "firstSeen": "Jan 24, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/jasonjgardner/blockbench-mcp-project/blockbench-texturing/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/jasonjgardner/blockbench-mcp-project/blockbench-texturing/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/jasonjgardner/blockbench-mcp-project/blockbench-texturing/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:48:15.473Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/jasonjgardner/blockbench-mcp-project/blockbench-texturing",
+        "externalId": "jasonjgardner/blockbench-mcp-project/blockbench-texturing",
+        "name": "blockbench-texturing",
+        "owner": "jasonjgardner",
+        "repo": "blockbench-mcp-project",
+        "repositoryUrl": "https://github.com/jasonjgardner/blockbench-mcp-project",
+        "description": "Create and paint textures in Blockbench using MCP tools. Use when creating textures, painting on models, using brush tools, filling colors, drawing shapes,…",
+        "tags": [
+          "jasonjgardner/blockbench-mcp-project"
+        ],
+        "stars": "28",
+        "installs": 1400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "jasonjgardner/blockbench-mcp-project/blockbench-texturing",
+          "ogTitle": "blockbench-texturing — jasonjgardner/blockbench-mcp-project",
+          "npx": "npx skills add https://github.com/jasonjgardner/blockbench-mcp-project --skill blockbench-texturing",
+          "installsRaw": "1.4K",
+          "starsRaw": "28",
+          "firstSeen": "Jan 24, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/jasonjgardner/blockbench-mcp-project/blockbench-texturing/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/jasonjgardner/blockbench-mcp-project/blockbench-texturing/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/jasonjgardner/blockbench-mcp-project/blockbench-texturing/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:48:15.473Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "jasonjgardner--blockbench-mcp-project--blockbench-texturing",
+    "name": "blockbench-texturing",
+    "owner": "jasonjgardner",
+    "repo": "blockbench-mcp-project",
+    "category": "",
+    "description": "Create and paint textures in Blockbench using MCP tools. Use when creating textures, painting on models, using brush tools, filling colors, drawing shapes,…",
+    "tags": [
+      "jasonjgardner/blockbench-mcp-project"
+    ],
+    "keywords": [
+      "jasonjgardner/blockbench-mcp-project"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "28",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/jasonjgardner/blockbench-mcp-project",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:48:15.473Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:48:15.473Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:48:15.473Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:48:15.473Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:48:15.473Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:48:15.473Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:48:15.473Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

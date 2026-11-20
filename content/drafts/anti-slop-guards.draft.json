@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T12:41:14.163Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skillhey",
+      "sourceUrl": "https://skillhey.com/skills/anti-slop-guards",
+      "externalId": "anti-slop-guards",
+      "name": "Anti-slop check",
+      "owner": "Gesso-Build",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/Gesso-Build/skills/tree/main/skills/anti-slop",
+      "description": "Deterministic design critique for HTML/CSS screens. Runs 73 slop guards extracted from the set of rules professional designers use in production-grade designs to catch the tells that make UI read as AI-generated (gradient-clipped headlines, the default indigo accent, puffy shadows, emoji icons, fake dot charts and decorated gauges, badges floated over the hero, eyebrow kickers above the H1, fake magazine mastheads, colored edge-stripe rails, two-tone headlines, over-designed list rows, layout-collapse bugs, em-dash copy, placeholder imagery), auto-fixes what can be safely rewritten, and reports the rest with concrete edits. Use whenever generated or hand-written HTML/CSS is about to be shown, exported, shipped, or committed, or when asked to critique a design, check it for slop, or give a second opinion on a generated screen.",
+      "tags": [],
+      "stars": null,
+      "installs": null,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "slug": "anti-slop-guards",
+        "qualityScore": null,
+        "starsRaw": null,
+        "forks": ",",
+        "childSlugs": [
+          "no-ai-design-slop",
+          "improve-animations",
+          "design-review",
+          "typography-audit"
+        ]
+      },
+      "fetchedAt": "2026-11-19T12:41:14.161Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skillhey",
+        "sourceUrl": "https://skillhey.com/skills/anti-slop-guards",
+        "externalId": "anti-slop-guards",
+        "name": "Anti-slop check",
+        "owner": "Gesso-Build",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/Gesso-Build/skills/tree/main/skills/anti-slop",
+        "description": "Deterministic design critique for HTML/CSS screens. Runs 73 slop guards extracted from the set of rules professional designers use in production-grade designs to catch the tells that make UI read as AI-generated (gradient-clipped headlines, the default indigo accent, puffy shadows, emoji icons, fake dot charts and decorated gauges, badges floated over the hero, eyebrow kickers above the H1, fake magazine mastheads, colored edge-stripe rails, two-tone headlines, over-designed list rows, layout-collapse bugs, em-dash copy, placeholder imagery), auto-fixes what can be safely rewritten, and reports the rest with concrete edits. Use whenever generated or hand-written HTML/CSS is about to be shown, exported, shipped, or committed, or when asked to critique a design, check it for slop, or give a second opinion on a generated screen.",
+        "tags": [],
+        "stars": null,
+        "installs": null,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "slug": "anti-slop-guards",
+          "qualityScore": null,
+          "starsRaw": null,
+          "forks": ",",
+          "childSlugs": [
+            "no-ai-design-slop",
+            "improve-animations",
+            "design-review",
+            "typography-audit"
+          ]
+        },
+        "fetchedAt": "2026-11-19T12:41:14.161Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "anti-slop-guards",
+    "name": "Anti-slop check",
+    "owner": "Gesso-Build",
+    "repo": "skills",
+    "category": "",
+    "description": "Deterministic design critique for HTML/CSS screens. Runs 73 slop guards extracted from the set of rules professional designers use in production-grade designs to catch the tells that make UI read as AI-generated (gradient-clipped headlines, the default indigo accent, puffy shadows, emoji icons, fake dot charts and decorated gauges, badges floated over the hero, eyebrow kickers above the H1, fake magazine mastheads, colored edge-stripe rails, two-tone headlines, over-designed list rows, layout-collapse bugs, em-dash copy, placeholder imagery), auto-fixes what can be safely rewritten, and reports the rest with concrete edits. Use whenever generated or hand-written HTML/CSS is about to be shown, exported, shipped, or committed, or when asked to critique a design, check it for slop, or give a second opinion on a generated screen.",
+    "tags": [],
+    "keywords": [],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "0",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/Gesso-Build/skills/tree/main/skills/anti-slop",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T12:41:14.163Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:41:14.163Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:41:14.163Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:41:14.163Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T12:41:14.161Z",
+      "note": "skillhey"
+    },
+    "tags": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:41:14.163Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:41:14.163Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "install count source unsettled (OQ-04)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

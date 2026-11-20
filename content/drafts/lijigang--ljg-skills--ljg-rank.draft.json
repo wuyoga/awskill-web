@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:47:06.255Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/lijigang/ljg-skills/ljg-rank",
+      "externalId": "lijigang/ljg-skills/ljg-rank",
+      "name": "ljg-rank",
+      "owner": "lijigang",
+      "repo": "ljg-skills",
+      "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+      "description": "给一个领域，找出背后真正撑着它的几根独立的力。十几个现象砍到不可再少的生成器——砍完能把现象一个个生回来，才算数。Use when user says &#x27;降秩&#x27;, &#x27;找秩&#x27;, &#x27;秩是什么&#x27;, &#x27;这个领域靠什么撑着&#x27;, &#x27;背后是什么&#x27;, or wants to decompose any domain to its…",
+      "tags": [
+        "lijigang/ljg-skills"
+      ],
+      "stars": "7.8K",
+      "installs": 6400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "lijigang/ljg-skills/ljg-rank",
+        "ogTitle": "ljg-rank — lijigang/ljg-skills",
+        "npx": "npx skills add https://github.com/lijigang/ljg-skills --skill ljg-rank",
+        "installsRaw": "6.4K",
+        "starsRaw": "7.8K",
+        "firstSeen": "Mar 23, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/lijigang/ljg-skills/ljg-rank/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/lijigang/ljg-skills/ljg-rank/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/lijigang/ljg-skills/ljg-rank/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:47:06.255Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/lijigang/ljg-skills/ljg-rank",
+        "externalId": "lijigang/ljg-skills/ljg-rank",
+        "name": "ljg-rank",
+        "owner": "lijigang",
+        "repo": "ljg-skills",
+        "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+        "description": "给一个领域，找出背后真正撑着它的几根独立的力。十几个现象砍到不可再少的生成器——砍完能把现象一个个生回来，才算数。Use when user says &#x27;降秩&#x27;, &#x27;找秩&#x27;, &#x27;秩是什么&#x27;, &#x27;这个领域靠什么撑着&#x27;, &#x27;背后是什么&#x27;, or wants to decompose any domain to its…",
+        "tags": [
+          "lijigang/ljg-skills"
+        ],
+        "stars": "7.8K",
+        "installs": 6400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "lijigang/ljg-skills/ljg-rank",
+          "ogTitle": "ljg-rank — lijigang/ljg-skills",
+          "npx": "npx skills add https://github.com/lijigang/ljg-skills --skill ljg-rank",
+          "installsRaw": "6.4K",
+          "starsRaw": "7.8K",
+          "firstSeen": "Mar 23, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/lijigang/ljg-skills/ljg-rank/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/lijigang/ljg-skills/ljg-rank/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/lijigang/ljg-skills/ljg-rank/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:47:06.255Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "lijigang--ljg-skills--ljg-rank",
+    "name": "ljg-rank",
+    "owner": "lijigang",
+    "repo": "ljg-skills",
+    "category": "",
+    "description": "给一个领域，找出背后真正撑着它的几根独立的力。十几个现象砍到不可再少的生成器——砍完能把现象一个个生回来，才算数。Use when user says &#x27;降秩&#x27;, &#x27;找秩&#x27;, &#x27;秩是什么&#x27;, &#x27;这个领域靠什么撑着&#x27;, &#x27;背后是什么&#x27;, or wants to decompose any domain to its…",
+    "tags": [
+      "lijigang/ljg-skills"
+    ],
+    "keywords": [
+      "lijigang/ljg-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "7.8K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/lijigang/ljg-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:47:06.255Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:47:06.255Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:47:06.255Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:47:06.255Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:47:06.255Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:47:06.255Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:47:06.255Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=6400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

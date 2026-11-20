@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:04:31.653Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/deanpeters/product-manager-skills/finance-metrics-quickref",
+      "externalId": "deanpeters/product-manager-skills/finance-metrics-quickref",
+      "name": "finance-metrics-quickref",
+      "owner": "deanpeters",
+      "repo": "product-manager-skills",
+      "repositoryUrl": "https://github.com/deanpeters/product-manager-skills",
+      "description": "Look up SaaS finance metrics, formulas, and benchmarks fast. Use when you need a quick metric definition, formula, or benchmark during analysis.",
+      "tags": [
+        "deanpeters/product-manager-skills"
+      ],
+      "stars": "8.1K",
+      "installs": 2800,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "deanpeters/product-manager-skills/finance-metrics-quickref",
+        "ogTitle": "finance-metrics-quickref — deanpeters/product-manager-skills",
+        "npx": "npx skills add https://github.com/deanpeters/product-manager-skills --skill finance-metrics-quickref",
+        "installsRaw": "2.8K",
+        "starsRaw": "8.1K",
+        "firstSeen": "Feb 12, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/deanpeters/product-manager-skills/finance-metrics-quickref/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/deanpeters/product-manager-skills/finance-metrics-quickref/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/deanpeters/product-manager-skills/finance-metrics-quickref/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:04:31.652Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/deanpeters/product-manager-skills/finance-metrics-quickref",
+        "externalId": "deanpeters/product-manager-skills/finance-metrics-quickref",
+        "name": "finance-metrics-quickref",
+        "owner": "deanpeters",
+        "repo": "product-manager-skills",
+        "repositoryUrl": "https://github.com/deanpeters/product-manager-skills",
+        "description": "Look up SaaS finance metrics, formulas, and benchmarks fast. Use when you need a quick metric definition, formula, or benchmark during analysis.",
+        "tags": [
+          "deanpeters/product-manager-skills"
+        ],
+        "stars": "8.1K",
+        "installs": 2800,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "deanpeters/product-manager-skills/finance-metrics-quickref",
+          "ogTitle": "finance-metrics-quickref — deanpeters/product-manager-skills",
+          "npx": "npx skills add https://github.com/deanpeters/product-manager-skills --skill finance-metrics-quickref",
+          "installsRaw": "2.8K",
+          "starsRaw": "8.1K",
+          "firstSeen": "Feb 12, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/deanpeters/product-manager-skills/finance-metrics-quickref/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/deanpeters/product-manager-skills/finance-metrics-quickref/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/deanpeters/product-manager-skills/finance-metrics-quickref/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:04:31.652Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "deanpeters--product-manager-skills--finance-metrics-quickref",
+    "name": "finance-metrics-quickref",
+    "owner": "deanpeters",
+    "repo": "product-manager-skills",
+    "category": "",
+    "description": "Look up SaaS finance metrics, formulas, and benchmarks fast. Use when you need a quick metric definition, formula, or benchmark during analysis.",
+    "tags": [
+      "deanpeters/product-manager-skills"
+    ],
+    "keywords": [
+      "deanpeters/product-manager-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "8.1K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/deanpeters/product-manager-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:04:31.653Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:04:31.653Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:04:31.653Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:04:31.653Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:04:31.652Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:04:31.653Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:04:31.653Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2800 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

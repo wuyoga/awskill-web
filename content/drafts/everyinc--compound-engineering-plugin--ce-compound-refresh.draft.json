@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:21:41.733Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/everyinc/compound-engineering-plugin/ce-compound-refresh",
+      "externalId": "everyinc/compound-engineering-plugin/ce-compound-refresh",
+      "name": "ce-compound-refresh",
+      "owner": "everyinc",
+      "repo": "compound-engineering-plugin",
+      "repositoryUrl": "https://github.com/everyinc/compound-engineering-plugin",
+      "description": "Old name for refreshing learnings, which now lives in `ce-compound`. Use only when a prompt or standing instruction names `ce-compound-refresh`; use…",
+      "tags": [
+        "everyinc/compound-engineering-plugin"
+      ],
+      "stars": "26.2K",
+      "installs": 3500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "everyinc/compound-engineering-plugin/ce-compound-refresh",
+        "ogTitle": "ce-compound-refresh — everyinc/compound-engineering-plugin",
+        "npx": "npx skills add https://github.com/everyinc/compound-engineering-plugin --skill ce-compound-refresh",
+        "installsRaw": "3.5K",
+        "starsRaw": "26.2K",
+        "firstSeen": "Apr 18, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/everyinc/compound-engineering-plugin/ce-compound-refresh/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/everyinc/compound-engineering-plugin/ce-compound-refresh/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/everyinc/compound-engineering-plugin/ce-compound-refresh/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:21:41.732Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/everyinc/compound-engineering-plugin/ce-compound-refresh",
+        "externalId": "everyinc/compound-engineering-plugin/ce-compound-refresh",
+        "name": "ce-compound-refresh",
+        "owner": "everyinc",
+        "repo": "compound-engineering-plugin",
+        "repositoryUrl": "https://github.com/everyinc/compound-engineering-plugin",
+        "description": "Old name for refreshing learnings, which now lives in `ce-compound`. Use only when a prompt or standing instruction names `ce-compound-refresh`; use…",
+        "tags": [
+          "everyinc/compound-engineering-plugin"
+        ],
+        "stars": "26.2K",
+        "installs": 3500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "everyinc/compound-engineering-plugin/ce-compound-refresh",
+          "ogTitle": "ce-compound-refresh — everyinc/compound-engineering-plugin",
+          "npx": "npx skills add https://github.com/everyinc/compound-engineering-plugin --skill ce-compound-refresh",
+          "installsRaw": "3.5K",
+          "starsRaw": "26.2K",
+          "firstSeen": "Apr 18, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/everyinc/compound-engineering-plugin/ce-compound-refresh/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/everyinc/compound-engineering-plugin/ce-compound-refresh/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/everyinc/compound-engineering-plugin/ce-compound-refresh/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:21:41.732Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "everyinc--compound-engineering-plugin--ce-compound-refresh",
+    "name": "ce-compound-refresh",
+    "owner": "everyinc",
+    "repo": "compound-engineering-plugin",
+    "category": "",
+    "description": "Old name for refreshing learnings, which now lives in `ce-compound`. Use only when a prompt or standing instruction names `ce-compound-refresh`; use…",
+    "tags": [
+      "everyinc/compound-engineering-plugin"
+    ],
+    "keywords": [
+      "everyinc/compound-engineering-plugin"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "26.2K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/everyinc/compound-engineering-plugin",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:21:41.733Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:21:41.733Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:21:41.733Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:21:41.733Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:21:41.732Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:21:41.733Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:21:41.733Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

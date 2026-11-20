@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:32:07.570Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/barty-bart/motion-graphics/object-separation",
+      "externalId": "barty-bart/motion-graphics/object-separation",
+      "name": "object-separation",
+      "owner": "barty-bart",
+      "repo": "motion-graphics",
+      "repositoryUrl": "https://github.com/barty-bart/motion-graphics",
+      "description": "Separate a person, product or hand from the background in a video, on the user&#x27;s own computer with SAM 2. Scans the machine first to pick the right model size,…",
+      "tags": [
+        "barty-bart/motion-graphics"
+      ],
+      "stars": "1.4K",
+      "installs": 3300,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "barty-bart/motion-graphics/object-separation",
+        "ogTitle": "object-separation — barty-bart/motion-graphics",
+        "npx": "npx skills add https://github.com/barty-bart/motion-graphics --skill object-separation",
+        "installsRaw": "3.3K",
+        "starsRaw": "1.4K",
+        "firstSeen": "Oct 5, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/barty-bart/motion-graphics/object-separation/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/barty-bart/motion-graphics/object-separation/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/barty-bart/motion-graphics/object-separation/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:32:07.569Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/barty-bart/motion-graphics/object-separation",
+        "externalId": "barty-bart/motion-graphics/object-separation",
+        "name": "object-separation",
+        "owner": "barty-bart",
+        "repo": "motion-graphics",
+        "repositoryUrl": "https://github.com/barty-bart/motion-graphics",
+        "description": "Separate a person, product or hand from the background in a video, on the user&#x27;s own computer with SAM 2. Scans the machine first to pick the right model size,…",
+        "tags": [
+          "barty-bart/motion-graphics"
+        ],
+        "stars": "1.4K",
+        "installs": 3300,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "barty-bart/motion-graphics/object-separation",
+          "ogTitle": "object-separation — barty-bart/motion-graphics",
+          "npx": "npx skills add https://github.com/barty-bart/motion-graphics --skill object-separation",
+          "installsRaw": "3.3K",
+          "starsRaw": "1.4K",
+          "firstSeen": "Oct 5, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/barty-bart/motion-graphics/object-separation/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/barty-bart/motion-graphics/object-separation/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/barty-bart/motion-graphics/object-separation/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:32:07.569Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "barty-bart--motion-graphics--object-separation",
+    "name": "object-separation",
+    "owner": "barty-bart",
+    "repo": "motion-graphics",
+    "category": "",
+    "description": "Separate a person, product or hand from the background in a video, on the user&#x27;s own computer with SAM 2. Scans the machine first to pick the right model size,…",
+    "tags": [
+      "barty-bart/motion-graphics"
+    ],
+    "keywords": [
+      "barty-bart/motion-graphics"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "1.4K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/barty-bart/motion-graphics",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:32:07.570Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:32:07.570Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:32:07.570Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:32:07.570Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:32:07.569Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:32:07.570Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:32:07.570Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3300 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

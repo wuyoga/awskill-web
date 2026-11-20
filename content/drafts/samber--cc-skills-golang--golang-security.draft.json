@@ -1,0 +1,250 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:07:47.638Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/samber/cc-skills-golang/golang-security",
+      "externalId": "samber/cc-skills-golang/golang-security",
+      "name": "golang-security",
+      "owner": "samber",
+      "repo": "cc-skills-golang",
+      "repositoryUrl": "https://github.com/samber/cc-skills-golang",
+      "description": "Security best practices and vulnerability prevention for Golang — injection (SQL, command, XSS), cryptography, path traversal, SSRF and HTTP security headers,…",
+      "tags": [
+        "samber/cc-skills-golang"
+      ],
+      "stars": "3.9K",
+      "installs": 45000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "samber/cc-skills-golang/golang-security",
+        "ogTitle": "golang-security — samber/cc-skills-golang",
+        "npx": "npx skills add https://github.com/samber/cc-skills-golang --skill golang-security",
+        "installsRaw": "45.0K",
+        "starsRaw": "3.9K",
+        "firstSeen": "Mar 22, 2026",
+        "securityAudits": []
+      },
+      "fetchedAt": "2026-11-20T00:07:47.637Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/samber/cc-skills-golang/golang-security",
+        "externalId": "samber/cc-skills-golang/golang-security",
+        "name": "golang-security",
+        "owner": "samber",
+        "repo": "cc-skills-golang",
+        "repositoryUrl": "https://github.com/samber/cc-skills-golang",
+        "description": "Security best practices and vulnerability prevention for Golang — injection (SQL, command, XSS), cryptography, path traversal, SSRF and HTTP security headers,…",
+        "tags": [
+          "samber/cc-skills-golang"
+        ],
+        "stars": "3.9K",
+        "installs": 45000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "samber/cc-skills-golang/golang-security",
+          "ogTitle": "golang-security — samber/cc-skills-golang",
+          "npx": "npx skills add https://github.com/samber/cc-skills-golang --skill golang-security",
+          "installsRaw": "45.0K",
+          "starsRaw": "3.9K",
+          "firstSeen": "Mar 22, 2026",
+          "securityAudits": []
+        },
+        "fetchedAt": "2026-11-20T00:07:47.637Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "samber--cc-skills-golang--golang-security",
+    "name": "golang-security",
+    "owner": "samber",
+    "repo": "cc-skills-golang",
+    "category": "",
+    "description": "Security best practices and vulnerability prevention for Golang — injection (SQL, command, XSS), cryptography, path traversal, SSRF and HTTP security headers,…",
+    "tags": [
+      "samber/cc-skills-golang"
+    ],
+    "keywords": [
+      "samber/cc-skills-golang"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "3.9K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/samber/cc-skills-golang",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:07:47.638Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:07:47.638Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:07:47.638Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:07:47.638Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:07:47.637Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:07:47.638Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:07:47.638Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=45000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

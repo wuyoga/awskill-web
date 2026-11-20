@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:17:14.371Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/bmad-code-org/bmad-method/bmad-party-mode",
+      "externalId": "bmad-code-org/bmad-method/bmad-party-mode",
+      "name": "bmad-party-mode",
+      "owner": "bmad-code-org",
+      "repo": "bmad-method",
+      "repositoryUrl": "https://github.com/bmad-code-org/bmad-method",
+      "description": "Orchestrates lively group discussions between installed BMAD agents or custom personas, and helps author custom parties. Use when the user requests party mode,…",
+      "tags": [
+        "bmad-code-org/bmad-method"
+      ],
+      "stars": "55.5K",
+      "installs": 17100,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "bmad-code-org/bmad-method/bmad-party-mode",
+        "ogTitle": "bmad-party-mode — bmad-code-org/bmad-method",
+        "npx": "npx skills add https://github.com/bmad-code-org/bmad-method --skill bmad-party-mode",
+        "installsRaw": "17.1K",
+        "starsRaw": "55.5K",
+        "firstSeen": "Mar 12, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/bmad-code-org/bmad-method/bmad-party-mode/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/bmad-code-org/bmad-method/bmad-party-mode/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Fail",
+            "href": "/bmad-code-org/bmad-method/bmad-party-mode/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:17:14.371Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/bmad-code-org/bmad-method/bmad-party-mode",
+        "externalId": "bmad-code-org/bmad-method/bmad-party-mode",
+        "name": "bmad-party-mode",
+        "owner": "bmad-code-org",
+        "repo": "bmad-method",
+        "repositoryUrl": "https://github.com/bmad-code-org/bmad-method",
+        "description": "Orchestrates lively group discussions between installed BMAD agents or custom personas, and helps author custom parties. Use when the user requests party mode,…",
+        "tags": [
+          "bmad-code-org/bmad-method"
+        ],
+        "stars": "55.5K",
+        "installs": 17100,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "bmad-code-org/bmad-method/bmad-party-mode",
+          "ogTitle": "bmad-party-mode — bmad-code-org/bmad-method",
+          "npx": "npx skills add https://github.com/bmad-code-org/bmad-method --skill bmad-party-mode",
+          "installsRaw": "17.1K",
+          "starsRaw": "55.5K",
+          "firstSeen": "Mar 12, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/bmad-code-org/bmad-method/bmad-party-mode/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/bmad-code-org/bmad-method/bmad-party-mode/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Fail",
+              "href": "/bmad-code-org/bmad-method/bmad-party-mode/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:17:14.371Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "bmad-code-org--bmad-method--bmad-party-mode",
+    "name": "bmad-party-mode",
+    "owner": "bmad-code-org",
+    "repo": "bmad-method",
+    "category": "",
+    "description": "Orchestrates lively group discussions between installed BMAD agents or custom personas, and helps author custom parties. Use when the user requests party mode,…",
+    "tags": [
+      "bmad-code-org/bmad-method"
+    ],
+    "keywords": [
+      "bmad-code-org/bmad-method"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "55.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/bmad-code-org/bmad-method",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:17:14.371Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:17:14.371Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:17:14.371Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:17:14.371Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:17:14.371Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:17:14.371Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:17:14.371Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=17100 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

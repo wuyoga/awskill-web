@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:09:34.303Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/f/prompts.chat/skill-lookup",
+      "externalId": "f/prompts.chat/skill-lookup",
+      "name": "skill-lookup",
+      "owner": "f",
+      "repo": "prompts.chat",
+      "repositoryUrl": "https://github.com/f/prompts.chat",
+      "description": "Search, retrieve, and install Agent Skills from the prompts.chat registry using MCP tools. Use when the user asks to find skills, browse skill catalogs,…",
+      "tags": [
+        "f/prompts.chat"
+      ],
+      "stars": "177.9K",
+      "installs": 2600,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "f/prompts.chat/skill-lookup",
+        "ogTitle": "skill-lookup — f/prompts.chat",
+        "npx": "npx skills add https://github.com/f/prompts.chat --skill skill-lookup",
+        "installsRaw": "2.6K",
+        "starsRaw": "177.9K",
+        "firstSeen": "Jan 20, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/f/prompts.chat/skill-lookup/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/f/prompts.chat/skill-lookup/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/f/prompts.chat/skill-lookup/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:09:34.302Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/f/prompts.chat/skill-lookup",
+        "externalId": "f/prompts.chat/skill-lookup",
+        "name": "skill-lookup",
+        "owner": "f",
+        "repo": "prompts.chat",
+        "repositoryUrl": "https://github.com/f/prompts.chat",
+        "description": "Search, retrieve, and install Agent Skills from the prompts.chat registry using MCP tools. Use when the user asks to find skills, browse skill catalogs,…",
+        "tags": [
+          "f/prompts.chat"
+        ],
+        "stars": "177.9K",
+        "installs": 2600,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "f/prompts.chat/skill-lookup",
+          "ogTitle": "skill-lookup — f/prompts.chat",
+          "npx": "npx skills add https://github.com/f/prompts.chat --skill skill-lookup",
+          "installsRaw": "2.6K",
+          "starsRaw": "177.9K",
+          "firstSeen": "Jan 20, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/f/prompts.chat/skill-lookup/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/f/prompts.chat/skill-lookup/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/f/prompts.chat/skill-lookup/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:09:34.302Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "f--prompts.chat--skill-lookup",
+    "name": "skill-lookup",
+    "owner": "f",
+    "repo": "prompts.chat",
+    "category": "",
+    "description": "Search, retrieve, and install Agent Skills from the prompts.chat registry using MCP tools. Use when the user asks to find skills, browse skill catalogs,…",
+    "tags": [
+      "f/prompts.chat"
+    ],
+    "keywords": [
+      "f/prompts.chat"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "177.9K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/f/prompts.chat",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:09:34.303Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:09:34.303Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:09:34.303Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:09:34.303Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:09:34.302Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:09:34.303Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:09:34.303Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2600 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

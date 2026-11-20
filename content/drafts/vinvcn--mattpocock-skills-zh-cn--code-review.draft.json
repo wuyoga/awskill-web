@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:03:02.305Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/vinvcn/mattpocock-skills-zh-cn/code-review",
+      "externalId": "vinvcn/mattpocock-skills-zh-cn/code-review",
+      "name": "code-review",
+      "owner": "vinvcn",
+      "repo": "mattpocock-skills-zh-cn",
+      "repositoryUrl": "https://github.com/vinvcn/mattpocock-skills-zh-cn",
+      "description": "从固定点（commit、branch、tag 或 merge-base）开始，按 Standards（代码是否符合本仓库记录的编码标准？）和 Spec（代码是否符合来源 issue/spec 的要求？）两个轴线审查变更。两个审查会在并行子代理中运行，并并排报告。适用于用户想审查…",
+      "tags": [
+        "vinvcn/mattpocock-skills-zh-cn"
+      ],
+      "stars": "5.9K",
+      "installs": 4500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "vinvcn/mattpocock-skills-zh-cn/code-review",
+        "ogTitle": "code-review — vinvcn/mattpocock-skills-zh-cn",
+        "npx": "npx skills add https://github.com/vinvcn/mattpocock-skills-zh-cn --skill code-review",
+        "installsRaw": "4.5K",
+        "starsRaw": "5.9K",
+        "firstSeen": "Jul 4, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/vinvcn/mattpocock-skills-zh-cn/code-review/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/vinvcn/mattpocock-skills-zh-cn/code-review/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/vinvcn/mattpocock-skills-zh-cn/code-review/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:03:02.304Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/vinvcn/mattpocock-skills-zh-cn/code-review",
+        "externalId": "vinvcn/mattpocock-skills-zh-cn/code-review",
+        "name": "code-review",
+        "owner": "vinvcn",
+        "repo": "mattpocock-skills-zh-cn",
+        "repositoryUrl": "https://github.com/vinvcn/mattpocock-skills-zh-cn",
+        "description": "从固定点（commit、branch、tag 或 merge-base）开始，按 Standards（代码是否符合本仓库记录的编码标准？）和 Spec（代码是否符合来源 issue/spec 的要求？）两个轴线审查变更。两个审查会在并行子代理中运行，并并排报告。适用于用户想审查…",
+        "tags": [
+          "vinvcn/mattpocock-skills-zh-cn"
+        ],
+        "stars": "5.9K",
+        "installs": 4500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "vinvcn/mattpocock-skills-zh-cn/code-review",
+          "ogTitle": "code-review — vinvcn/mattpocock-skills-zh-cn",
+          "npx": "npx skills add https://github.com/vinvcn/mattpocock-skills-zh-cn --skill code-review",
+          "installsRaw": "4.5K",
+          "starsRaw": "5.9K",
+          "firstSeen": "Jul 4, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/vinvcn/mattpocock-skills-zh-cn/code-review/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/vinvcn/mattpocock-skills-zh-cn/code-review/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/vinvcn/mattpocock-skills-zh-cn/code-review/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:03:02.304Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "vinvcn--mattpocock-skills-zh-cn--code-review",
+    "name": "code-review",
+    "owner": "vinvcn",
+    "repo": "mattpocock-skills-zh-cn",
+    "category": "",
+    "description": "从固定点（commit、branch、tag 或 merge-base）开始，按 Standards（代码是否符合本仓库记录的编码标准？）和 Spec（代码是否符合来源 issue/spec 的要求？）两个轴线审查变更。两个审查会在并行子代理中运行，并并排报告。适用于用户想审查…",
+    "tags": [
+      "vinvcn/mattpocock-skills-zh-cn"
+    ],
+    "keywords": [
+      "vinvcn/mattpocock-skills-zh-cn"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "5.9K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/vinvcn/mattpocock-skills-zh-cn",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:03:02.305Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:03:02.305Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:03:02.305Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:03:02.305Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:03:02.304Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:03:02.305Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:03:02.305Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=4500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,253 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T12:37:45.265Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skillhey",
+      "sourceUrl": "https://skillhey.com/skills/glebis-sound-effects",
+      "externalId": "glebis-sound-effects",
+      "name": "Explore skills on SkillHey",
+      "owner": "glebis",
+      "repo": "humane-agentic-design",
+      "repositoryUrl": "https://github.com/glebis/humane-agentic-design",
+      "description": "design skill for Claude AI. Grade A. Generate a small, coherent sound palette for interface moments through interchangeable provider adapters, beginning with ElevenLabs Sound Effects, then hand it to a walkthrough to check that the cues clarify rather than distract. Use when a product needs interaction sounds, feedback cues, micro-sound design, or a retro-futuristic audio layer. Triggers on sound effects, UI sounds, interaction audio, micro sounds, click sound, swipe sound, drag sound, ElevenLabs sound effects, audio feedback, r...",
+      "tags": [],
+      "stars": null,
+      "installs": null,
+      "license": null,
+      "agentsClaimed": [
+        "Gemini"
+      ],
+      "raw": {
+        "slug": "glebis-sound-effects",
+        "qualityScore": null,
+        "starsRaw": null,
+        "forks": ",",
+        "childSlugs": [
+          "karem505-character-animation",
+          "jmagly-pytest-runner",
+          "manimgx",
+          "technickai-youtube-transcript-analyzer"
+        ]
+      },
+      "fetchedAt": "2026-11-19T12:37:45.263Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skillhey",
+        "sourceUrl": "https://skillhey.com/skills/glebis-sound-effects",
+        "externalId": "glebis-sound-effects",
+        "name": "Explore skills on SkillHey",
+        "owner": "glebis",
+        "repo": "humane-agentic-design",
+        "repositoryUrl": "https://github.com/glebis/humane-agentic-design",
+        "description": "design skill for Claude AI. Grade A. Generate a small, coherent sound palette for interface moments through interchangeable provider adapters, beginning with ElevenLabs Sound Effects, then hand it to a walkthrough to check that the cues clarify rather than distract. Use when a product needs interaction sounds, feedback cues, micro-sound design, or a retro-futuristic audio layer. Triggers on sound effects, UI sounds, interaction audio, micro sounds, click sound, swipe sound, drag sound, ElevenLabs sound effects, audio feedback, r...",
+        "tags": [],
+        "stars": null,
+        "installs": null,
+        "license": null,
+        "agentsClaimed": [
+          "Gemini"
+        ],
+        "raw": {
+          "slug": "glebis-sound-effects",
+          "qualityScore": null,
+          "starsRaw": null,
+          "forks": ",",
+          "childSlugs": [
+            "karem505-character-animation",
+            "jmagly-pytest-runner",
+            "manimgx",
+            "technickai-youtube-transcript-analyzer"
+          ]
+        },
+        "fetchedAt": "2026-11-19T12:37:45.263Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "glebis-sound-effects",
+    "name": "Explore skills on SkillHey",
+    "owner": "glebis",
+    "repo": "humane-agentic-design",
+    "category": "",
+    "description": "design skill for Claude AI. Grade A. Generate a small, coherent sound palette for interface moments through interchangeable provider adapters, beginning with ElevenLabs Sound Effects, then hand it to a walkthrough to check that the cues clarify rather than distract. Use when a product needs interaction sounds, feedback cues, micro-sound design, or a retro-futuristic audio layer. Triggers on sound effects, UI sounds, interaction audio, micro sounds, click sound, swipe sound, drag sound, ElevenLabs sound effects, audio feedback, r...",
+    "tags": [],
+    "keywords": [],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "0",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/glebis/humane-agentic-design",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T12:37:45.265Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:37:45.265Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:37:45.265Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:37:45.265Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T12:37:45.263Z",
+      "note": "skillhey"
+    },
+    "tags": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:37:45.265Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:37:45.265Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "install count source unsettled (OQ-04)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete",
+      "skillhey claimed agents (not verified): Gemini"
+    ]
+  }
+}

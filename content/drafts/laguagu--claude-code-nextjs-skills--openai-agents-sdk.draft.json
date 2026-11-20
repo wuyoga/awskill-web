@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:18:06.709Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/laguagu/claude-code-nextjs-skills/openai-agents-sdk",
+      "externalId": "laguagu/claude-code-nextjs-skills/openai-agents-sdk",
+      "name": "openai-agents-sdk",
+      "owner": "laguagu",
+      "repo": "claude-code-nextjs-skills",
+      "repositoryUrl": "https://github.com/laguagu/claude-code-nextjs-skills",
+      "description": "OpenAI Agents SDK (Python) development. Use when building AI agents, multi-agent handoffs, function tools, guardrails, sessions, streaming, or tracing with the…",
+      "tags": [
+        "laguagu/claude-code-nextjs-skills"
+      ],
+      "stars": "74",
+      "installs": 2500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "laguagu/claude-code-nextjs-skills/openai-agents-sdk",
+        "ogTitle": "openai-agents-sdk — laguagu/claude-code-nextjs-skills",
+        "npx": "npx skills add https://github.com/laguagu/claude-code-nextjs-skills --skill openai-agents-sdk",
+        "installsRaw": "2.5K",
+        "starsRaw": "74",
+        "firstSeen": "Jan 26, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/laguagu/claude-code-nextjs-skills/openai-agents-sdk/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/laguagu/claude-code-nextjs-skills/openai-agents-sdk/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/laguagu/claude-code-nextjs-skills/openai-agents-sdk/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:18:06.708Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/laguagu/claude-code-nextjs-skills/openai-agents-sdk",
+        "externalId": "laguagu/claude-code-nextjs-skills/openai-agents-sdk",
+        "name": "openai-agents-sdk",
+        "owner": "laguagu",
+        "repo": "claude-code-nextjs-skills",
+        "repositoryUrl": "https://github.com/laguagu/claude-code-nextjs-skills",
+        "description": "OpenAI Agents SDK (Python) development. Use when building AI agents, multi-agent handoffs, function tools, guardrails, sessions, streaming, or tracing with the…",
+        "tags": [
+          "laguagu/claude-code-nextjs-skills"
+        ],
+        "stars": "74",
+        "installs": 2500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "laguagu/claude-code-nextjs-skills/openai-agents-sdk",
+          "ogTitle": "openai-agents-sdk — laguagu/claude-code-nextjs-skills",
+          "npx": "npx skills add https://github.com/laguagu/claude-code-nextjs-skills --skill openai-agents-sdk",
+          "installsRaw": "2.5K",
+          "starsRaw": "74",
+          "firstSeen": "Jan 26, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/laguagu/claude-code-nextjs-skills/openai-agents-sdk/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/laguagu/claude-code-nextjs-skills/openai-agents-sdk/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/laguagu/claude-code-nextjs-skills/openai-agents-sdk/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:18:06.708Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "laguagu--claude-code-nextjs-skills--openai-agents-sdk",
+    "name": "openai-agents-sdk",
+    "owner": "laguagu",
+    "repo": "claude-code-nextjs-skills",
+    "category": "",
+    "description": "OpenAI Agents SDK (Python) development. Use when building AI agents, multi-agent handoffs, function tools, guardrails, sessions, streaming, or tracing with the…",
+    "tags": [
+      "laguagu/claude-code-nextjs-skills"
+    ],
+    "keywords": [
+      "laguagu/claude-code-nextjs-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": true,
+    "paid": false,
+    "outputs": [],
+    "stars": "74",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/laguagu/claude-code-nextjs-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:18:06.709Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:18:06.709Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:18:06.709Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:18:06.709Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:18:06.708Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:18:06.709Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:18:06.709Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

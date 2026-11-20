@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:06:24.912Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/design-system",
+      "externalId": "nextlevelbuilder/ui-ux-pro-max-skill/design-system",
+      "name": "design-system",
+      "owner": "nextlevelbuilder",
+      "repo": "ui-ux-pro-max-skill",
+      "repositoryUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography…",
+      "tags": [
+        "nextlevelbuilder/ui-ux-pro-max-skill"
+      ],
+      "stars": "151.8K",
+      "installs": 56200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "nextlevelbuilder/ui-ux-pro-max-skill/design-system",
+        "ogTitle": "design-system — nextlevelbuilder/ui-ux-pro-max-skill",
+        "npx": "npx skills add https://github.com/nextlevelbuilder/ui-ux-pro-max-skill --skill design-system",
+        "installsRaw": "56.2K",
+        "starsRaw": "151.8K",
+        "firstSeen": "Jun 25, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/nextlevelbuilder/ui-ux-pro-max-skill/design-system/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/nextlevelbuilder/ui-ux-pro-max-skill/design-system/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/nextlevelbuilder/ui-ux-pro-max-skill/design-system/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:06:24.912Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/nextlevelbuilder/ui-ux-pro-max-skill/design-system",
+        "externalId": "nextlevelbuilder/ui-ux-pro-max-skill/design-system",
+        "name": "design-system",
+        "owner": "nextlevelbuilder",
+        "repo": "ui-ux-pro-max-skill",
+        "repositoryUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+        "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography…",
+        "tags": [
+          "nextlevelbuilder/ui-ux-pro-max-skill"
+        ],
+        "stars": "151.8K",
+        "installs": 56200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "nextlevelbuilder/ui-ux-pro-max-skill/design-system",
+          "ogTitle": "design-system — nextlevelbuilder/ui-ux-pro-max-skill",
+          "npx": "npx skills add https://github.com/nextlevelbuilder/ui-ux-pro-max-skill --skill design-system",
+          "installsRaw": "56.2K",
+          "starsRaw": "151.8K",
+          "firstSeen": "Jun 25, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/nextlevelbuilder/ui-ux-pro-max-skill/design-system/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/nextlevelbuilder/ui-ux-pro-max-skill/design-system/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/nextlevelbuilder/ui-ux-pro-max-skill/design-system/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:06:24.912Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "nextlevelbuilder--ui-ux-pro-max-skill--design-system",
+    "name": "design-system",
+    "owner": "nextlevelbuilder",
+    "repo": "ui-ux-pro-max-skill",
+    "category": "",
+    "description": "Token architecture, component specifications, and slide generation. Three-layer tokens (primitive→semantic→component), CSS variables, spacing/typography…",
+    "tags": [
+      "nextlevelbuilder/ui-ux-pro-max-skill"
+    ],
+    "keywords": [
+      "nextlevelbuilder/ui-ux-pro-max-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "151.8K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:06:24.912Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:06:24.912Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:06:24.912Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:06:24.912Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:06:24.912Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:06:24.912Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:06:24.912Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=56200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

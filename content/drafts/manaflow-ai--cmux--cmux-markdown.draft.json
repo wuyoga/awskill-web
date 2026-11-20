@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:38:18.215Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/manaflow-ai/cmux/cmux-markdown",
+      "externalId": "manaflow-ai/cmux/cmux-markdown",
+      "name": "cmux-markdown",
+      "owner": "manaflow-ai",
+      "repo": "cmux",
+      "repositoryUrl": "https://github.com/manaflow-ai/cmux",
+      "description": "Open markdown files in a formatted viewer panel with live reload. Use when you need to display plans, documentation, or notes alongside the terminal with rich…",
+      "tags": [
+        "manaflow-ai/cmux"
+      ],
+      "stars": "28.8K",
+      "installs": 7900,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "manaflow-ai/cmux/cmux-markdown",
+        "ogTitle": "cmux-markdown — manaflow-ai/cmux",
+        "npx": "npx skills add https://github.com/manaflow-ai/cmux --skill cmux-markdown",
+        "installsRaw": "7.9K",
+        "starsRaw": "28.8K",
+        "firstSeen": "Mar 5, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/manaflow-ai/cmux/cmux-markdown/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/manaflow-ai/cmux/cmux-markdown/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/manaflow-ai/cmux/cmux-markdown/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:38:18.215Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/manaflow-ai/cmux/cmux-markdown",
+        "externalId": "manaflow-ai/cmux/cmux-markdown",
+        "name": "cmux-markdown",
+        "owner": "manaflow-ai",
+        "repo": "cmux",
+        "repositoryUrl": "https://github.com/manaflow-ai/cmux",
+        "description": "Open markdown files in a formatted viewer panel with live reload. Use when you need to display plans, documentation, or notes alongside the terminal with rich…",
+        "tags": [
+          "manaflow-ai/cmux"
+        ],
+        "stars": "28.8K",
+        "installs": 7900,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "manaflow-ai/cmux/cmux-markdown",
+          "ogTitle": "cmux-markdown — manaflow-ai/cmux",
+          "npx": "npx skills add https://github.com/manaflow-ai/cmux --skill cmux-markdown",
+          "installsRaw": "7.9K",
+          "starsRaw": "28.8K",
+          "firstSeen": "Mar 5, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/manaflow-ai/cmux/cmux-markdown/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/manaflow-ai/cmux/cmux-markdown/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/manaflow-ai/cmux/cmux-markdown/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:38:18.215Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "manaflow-ai--cmux--cmux-markdown",
+    "name": "cmux-markdown",
+    "owner": "manaflow-ai",
+    "repo": "cmux",
+    "category": "",
+    "description": "Open markdown files in a formatted viewer panel with live reload. Use when you need to display plans, documentation, or notes alongside the terminal with rich…",
+    "tags": [
+      "manaflow-ai/cmux"
+    ],
+    "keywords": [
+      "manaflow-ai/cmux"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "28.8K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/manaflow-ai/cmux",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:38:18.215Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:38:18.215Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:38:18.215Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:38:18.215Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:38:18.215Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:38:18.215Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:38:18.215Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=7900 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:54:40.667Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/tanweai/pua/pua-en",
+      "externalId": "tanweai/pua/pua-en",
+      "name": "pua-en",
+      "owner": "tanweai",
+      "repo": "pua",
+      "repositoryUrl": "https://github.com/tanweai/pua",
+      "description": "Performance-coaching mode for repeated failures, passive behavior, completion-quality issues, or explicit try-harder requests. Uses structured troubleshooting…",
+      "tags": [
+        "tanweai/pua"
+      ],
+      "stars": "19.9K",
+      "installs": 2900,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "tanweai/pua/pua-en",
+        "ogTitle": "pua-en — tanweai/pua",
+        "npx": "npx skills add https://github.com/tanweai/pua --skill pua-en",
+        "installsRaw": "2.9K",
+        "starsRaw": "19.9K",
+        "firstSeen": "Mar 12, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/tanweai/pua/pua-en/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/tanweai/pua/pua-en/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/tanweai/pua/pua-en/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:54:40.667Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/tanweai/pua/pua-en",
+        "externalId": "tanweai/pua/pua-en",
+        "name": "pua-en",
+        "owner": "tanweai",
+        "repo": "pua",
+        "repositoryUrl": "https://github.com/tanweai/pua",
+        "description": "Performance-coaching mode for repeated failures, passive behavior, completion-quality issues, or explicit try-harder requests. Uses structured troubleshooting…",
+        "tags": [
+          "tanweai/pua"
+        ],
+        "stars": "19.9K",
+        "installs": 2900,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "tanweai/pua/pua-en",
+          "ogTitle": "pua-en — tanweai/pua",
+          "npx": "npx skills add https://github.com/tanweai/pua --skill pua-en",
+          "installsRaw": "2.9K",
+          "starsRaw": "19.9K",
+          "firstSeen": "Mar 12, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/tanweai/pua/pua-en/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/tanweai/pua/pua-en/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/tanweai/pua/pua-en/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:54:40.667Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "tanweai--pua--pua-en",
+    "name": "pua-en",
+    "owner": "tanweai",
+    "repo": "pua",
+    "category": "",
+    "description": "Performance-coaching mode for repeated failures, passive behavior, completion-quality issues, or explicit try-harder requests. Uses structured troubleshooting…",
+    "tags": [
+      "tanweai/pua"
+    ],
+    "keywords": [
+      "tanweai/pua"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "19.9K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/tanweai/pua",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:54:40.667Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:54:40.667Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:54:40.667Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:54:40.667Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:54:40.667Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:54:40.667Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:54:40.667Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2900 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

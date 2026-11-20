@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:40:40.189Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals",
+      "externalId": "wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals",
+      "name": "nextjs-app-router-fundamentals",
+      "owner": "wsimmonds",
+      "repo": "claude-nextjs-skills",
+      "repositoryUrl": "https://github.com/wsimmonds/claude-nextjs-skills",
+      "description": "Guide for working with Next.js App Router (Next.js 13+). Use when migrating from Pages Router to App Router, creating layouts, implementing routing, handling…",
+      "tags": [
+        "wsimmonds/claude-nextjs-skills"
+      ],
+      "stars": "115",
+      "installs": 2200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals",
+        "ogTitle": "nextjs-app-router-fundamentals — wsimmonds/claude-nextjs-skills",
+        "npx": "npx skills add https://github.com/wsimmonds/claude-nextjs-skills --skill nextjs-app-router-fundamentals",
+        "installsRaw": "2.2K",
+        "starsRaw": "115",
+        "firstSeen": "Jan 23, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:40:40.189Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals",
+        "externalId": "wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals",
+        "name": "nextjs-app-router-fundamentals",
+        "owner": "wsimmonds",
+        "repo": "claude-nextjs-skills",
+        "repositoryUrl": "https://github.com/wsimmonds/claude-nextjs-skills",
+        "description": "Guide for working with Next.js App Router (Next.js 13+). Use when migrating from Pages Router to App Router, creating layouts, implementing routing, handling…",
+        "tags": [
+          "wsimmonds/claude-nextjs-skills"
+        ],
+        "stars": "115",
+        "installs": 2200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals",
+          "ogTitle": "nextjs-app-router-fundamentals — wsimmonds/claude-nextjs-skills",
+          "npx": "npx skills add https://github.com/wsimmonds/claude-nextjs-skills --skill nextjs-app-router-fundamentals",
+          "installsRaw": "2.2K",
+          "starsRaw": "115",
+          "firstSeen": "Jan 23, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/wsimmonds/claude-nextjs-skills/nextjs-app-router-fundamentals/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:40:40.189Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "wsimmonds--claude-nextjs-skills--nextjs-app-router-fundamentals",
+    "name": "nextjs-app-router-fundamentals",
+    "owner": "wsimmonds",
+    "repo": "claude-nextjs-skills",
+    "category": "",
+    "description": "Guide for working with Next.js App Router (Next.js 13+). Use when migrating from Pages Router to App Router, creating layouts, implementing routing, handling…",
+    "tags": [
+      "wsimmonds/claude-nextjs-skills"
+    ],
+    "keywords": [
+      "wsimmonds/claude-nextjs-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "115",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/wsimmonds/claude-nextjs-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:40:40.189Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:40:40.189Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:40:40.189Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:40:40.189Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:40:40.189Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:40:40.189Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:40:40.189Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

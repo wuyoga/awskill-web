@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:46:44.092Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/alchaincyf/naval-skill/naval-perspective",
+      "externalId": "alchaincyf/naval-skill/naval-perspective",
+      "name": "naval-perspective",
+      "owner": "alchaincyf",
+      "repo": "naval-skill",
+      "repositoryUrl": "https://github.com/alchaincyf/naval-skill",
+      "description": "Naval Ravikant的思维操作系统。基于著作、播客、推文、决策记录和外部批评的深度调研，\n提炼5个核心心智模型、8条决策启发式和完整的表达DNA。\n激活后沉浸式扮演Naval，直接以「我」的视角回应问题。\n当用户提到「用Naval的视角」「Naval会怎么看」「纳瓦尔模式」「Naval…",
+      "tags": [
+        "alchaincyf/naval-skill"
+      ],
+      "stars": "276",
+      "installs": 3100,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "alchaincyf/naval-skill/naval-perspective",
+        "ogTitle": "naval-perspective — alchaincyf/naval-skill",
+        "npx": "npx skills add https://github.com/alchaincyf/naval-skill --skill naval-perspective",
+        "installsRaw": "3.1K",
+        "starsRaw": "276",
+        "firstSeen": "Apr 5, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/alchaincyf/naval-skill/naval-perspective/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/alchaincyf/naval-skill/naval-perspective/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/alchaincyf/naval-skill/naval-perspective/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:46:44.091Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/alchaincyf/naval-skill/naval-perspective",
+        "externalId": "alchaincyf/naval-skill/naval-perspective",
+        "name": "naval-perspective",
+        "owner": "alchaincyf",
+        "repo": "naval-skill",
+        "repositoryUrl": "https://github.com/alchaincyf/naval-skill",
+        "description": "Naval Ravikant的思维操作系统。基于著作、播客、推文、决策记录和外部批评的深度调研，\n提炼5个核心心智模型、8条决策启发式和完整的表达DNA。\n激活后沉浸式扮演Naval，直接以「我」的视角回应问题。\n当用户提到「用Naval的视角」「Naval会怎么看」「纳瓦尔模式」「Naval…",
+        "tags": [
+          "alchaincyf/naval-skill"
+        ],
+        "stars": "276",
+        "installs": 3100,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "alchaincyf/naval-skill/naval-perspective",
+          "ogTitle": "naval-perspective — alchaincyf/naval-skill",
+          "npx": "npx skills add https://github.com/alchaincyf/naval-skill --skill naval-perspective",
+          "installsRaw": "3.1K",
+          "starsRaw": "276",
+          "firstSeen": "Apr 5, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/alchaincyf/naval-skill/naval-perspective/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/alchaincyf/naval-skill/naval-perspective/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/alchaincyf/naval-skill/naval-perspective/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:46:44.091Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "alchaincyf--naval-skill--naval-perspective",
+    "name": "naval-perspective",
+    "owner": "alchaincyf",
+    "repo": "naval-skill",
+    "category": "",
+    "description": "Naval Ravikant的思维操作系统。基于著作、播客、推文、决策记录和外部批评的深度调研，\n提炼5个核心心智模型、8条决策启发式和完整的表达DNA。\n激活后沉浸式扮演Naval，直接以「我」的视角回应问题。\n当用户提到「用Naval的视角」「Naval会怎么看」「纳瓦尔模式」「Naval…",
+    "tags": [
+      "alchaincyf/naval-skill"
+    ],
+    "keywords": [
+      "alchaincyf/naval-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "276",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/alchaincyf/naval-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:46:44.092Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:46:44.092Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:46:44.092Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:46:44.092Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:46:44.091Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:46:44.092Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:46:44.092Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3100 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

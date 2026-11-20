@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:38:05.336Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/alchaincyf/zhang-yiming-skill/zhang-yiming-perspective",
+      "externalId": "alchaincyf/zhang-yiming-skill/zhang-yiming-perspective",
+      "name": "zhang-yiming-perspective",
+      "owner": "alchaincyf",
+      "repo": "zhang-yiming-skill",
+      "repositoryUrl": "https://github.com/alchaincyf/zhang-yiming-skill",
+      "description": "张一鸣（字节跳动/TikTok创始人）的思维框架与表达方式。基于6个维度（著作、深度访谈、\n表达DNA、他者视角、决策记录、时间线）的调研，涵盖32个访谈片段、12个重大决策案例，\n提炼5个核心心智模型、7条决策启发式和完整的表达DNA。\n用途：作为思维顾问，用张一鸣的视角分析产品、组织、全球化、人才和个人成长问题。\n…",
+      "tags": [
+        "alchaincyf/zhang-yiming-skill"
+      ],
+      "stars": "182",
+      "installs": 2200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "alchaincyf/zhang-yiming-skill/zhang-yiming-perspective",
+        "ogTitle": "zhang-yiming-perspective — alchaincyf/zhang-yiming-skill",
+        "npx": "npx skills add https://github.com/alchaincyf/zhang-yiming-skill --skill zhang-yiming-perspective",
+        "installsRaw": "2.2K",
+        "starsRaw": "182",
+        "firstSeen": "Apr 7, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/alchaincyf/zhang-yiming-skill/zhang-yiming-perspective/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/alchaincyf/zhang-yiming-skill/zhang-yiming-perspective/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/alchaincyf/zhang-yiming-skill/zhang-yiming-perspective/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:38:05.336Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/alchaincyf/zhang-yiming-skill/zhang-yiming-perspective",
+        "externalId": "alchaincyf/zhang-yiming-skill/zhang-yiming-perspective",
+        "name": "zhang-yiming-perspective",
+        "owner": "alchaincyf",
+        "repo": "zhang-yiming-skill",
+        "repositoryUrl": "https://github.com/alchaincyf/zhang-yiming-skill",
+        "description": "张一鸣（字节跳动/TikTok创始人）的思维框架与表达方式。基于6个维度（著作、深度访谈、\n表达DNA、他者视角、决策记录、时间线）的调研，涵盖32个访谈片段、12个重大决策案例，\n提炼5个核心心智模型、7条决策启发式和完整的表达DNA。\n用途：作为思维顾问，用张一鸣的视角分析产品、组织、全球化、人才和个人成长问题。\n…",
+        "tags": [
+          "alchaincyf/zhang-yiming-skill"
+        ],
+        "stars": "182",
+        "installs": 2200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "alchaincyf/zhang-yiming-skill/zhang-yiming-perspective",
+          "ogTitle": "zhang-yiming-perspective — alchaincyf/zhang-yiming-skill",
+          "npx": "npx skills add https://github.com/alchaincyf/zhang-yiming-skill --skill zhang-yiming-perspective",
+          "installsRaw": "2.2K",
+          "starsRaw": "182",
+          "firstSeen": "Apr 7, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/alchaincyf/zhang-yiming-skill/zhang-yiming-perspective/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/alchaincyf/zhang-yiming-skill/zhang-yiming-perspective/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/alchaincyf/zhang-yiming-skill/zhang-yiming-perspective/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:38:05.336Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "alchaincyf--zhang-yiming-skill--zhang-yiming-perspective",
+    "name": "zhang-yiming-perspective",
+    "owner": "alchaincyf",
+    "repo": "zhang-yiming-skill",
+    "category": "",
+    "description": "张一鸣（字节跳动/TikTok创始人）的思维框架与表达方式。基于6个维度（著作、深度访谈、\n表达DNA、他者视角、决策记录、时间线）的调研，涵盖32个访谈片段、12个重大决策案例，\n提炼5个核心心智模型、7条决策启发式和完整的表达DNA。\n用途：作为思维顾问，用张一鸣的视角分析产品、组织、全球化、人才和个人成长问题。\n…",
+    "tags": [
+      "alchaincyf/zhang-yiming-skill"
+    ],
+    "keywords": [
+      "alchaincyf/zhang-yiming-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "182",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/alchaincyf/zhang-yiming-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:38:05.336Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:38:05.336Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:38:05.336Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:38:05.336Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:38:05.336Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:38:05.336Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:38:05.336Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

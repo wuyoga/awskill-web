@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:35:55.339Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/thinkingaiagenticengine/ae-cli/ae-analysis",
+      "externalId": "thinkingaiagenticengine/ae-cli/ae-analysis",
+      "name": "ae-analysis",
+      "owner": "thinkingaiagenticengine",
+      "repo": "ae-cli",
+      "repositoryUrl": "https://github.com/thinkingaiagenticengine/ae-cli",
+      "description": "Use ae-cli for AE analysis-side data questions, asset operations, and asset governance: reports, analysis boards, BI dashboards, ad-hoc models, drilldown,…",
+      "tags": [
+        "thinkingaiagenticengine/ae-cli"
+      ],
+      "stars": "23",
+      "installs": 1000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "thinkingaiagenticengine/ae-cli/ae-analysis",
+        "ogTitle": "ae-analysis — thinkingaiagenticengine/ae-cli",
+        "npx": "npx skills add https://github.com/thinkingaiagenticengine/ae-cli --skill ae-analysis",
+        "installsRaw": "1.0K",
+        "starsRaw": "23",
+        "firstSeen": "Apr 29, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/thinkingaiagenticengine/ae-cli/ae-analysis/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/thinkingaiagenticengine/ae-cli/ae-analysis/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Fail",
+            "href": "/thinkingaiagenticengine/ae-cli/ae-analysis/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:35:55.339Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/thinkingaiagenticengine/ae-cli/ae-analysis",
+        "externalId": "thinkingaiagenticengine/ae-cli/ae-analysis",
+        "name": "ae-analysis",
+        "owner": "thinkingaiagenticengine",
+        "repo": "ae-cli",
+        "repositoryUrl": "https://github.com/thinkingaiagenticengine/ae-cli",
+        "description": "Use ae-cli for AE analysis-side data questions, asset operations, and asset governance: reports, analysis boards, BI dashboards, ad-hoc models, drilldown,…",
+        "tags": [
+          "thinkingaiagenticengine/ae-cli"
+        ],
+        "stars": "23",
+        "installs": 1000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "thinkingaiagenticengine/ae-cli/ae-analysis",
+          "ogTitle": "ae-analysis — thinkingaiagenticengine/ae-cli",
+          "npx": "npx skills add https://github.com/thinkingaiagenticengine/ae-cli --skill ae-analysis",
+          "installsRaw": "1.0K",
+          "starsRaw": "23",
+          "firstSeen": "Apr 29, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/thinkingaiagenticengine/ae-cli/ae-analysis/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/thinkingaiagenticengine/ae-cli/ae-analysis/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Fail",
+              "href": "/thinkingaiagenticengine/ae-cli/ae-analysis/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:35:55.339Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "thinkingaiagenticengine--ae-cli--ae-analysis",
+    "name": "ae-analysis",
+    "owner": "thinkingaiagenticengine",
+    "repo": "ae-cli",
+    "category": "",
+    "description": "Use ae-cli for AE analysis-side data questions, asset operations, and asset governance: reports, analysis boards, BI dashboards, ad-hoc models, drilldown,…",
+    "tags": [
+      "thinkingaiagenticengine/ae-cli"
+    ],
+    "keywords": [
+      "thinkingaiagenticengine/ae-cli"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "23",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/thinkingaiagenticengine/ae-cli",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:35:55.339Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:35:55.339Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:35:55.339Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:35:55.339Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:35:55.339Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:35:55.339Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:35:55.339Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:57:05.561Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/agents365-ai/365-skills/pi-prompting",
+      "externalId": "agents365-ai/365-skills/pi-prompting",
+      "name": "pi-prompting",
+      "owner": "agents365-ai",
+      "repo": "365-skills",
+      "repositoryUrl": "https://github.com/agents365-ai/365-skills",
+      "description": "Internal guidance for composing prompts that Pi runs (DeepSeek by default) handle reliably for coding, review, diagnosis, and research tasks",
+      "tags": [
+        "agents365-ai/365-skills"
+      ],
+      "stars": "105",
+      "installs": 2900,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "agents365-ai/365-skills/pi-prompting",
+        "ogTitle": "pi-prompting — agents365-ai/365-skills",
+        "npx": "npx skills add https://github.com/agents365-ai/365-skills --skill pi-prompting",
+        "installsRaw": "2.9K",
+        "starsRaw": "105",
+        "firstSeen": "May 22, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/agents365-ai/365-skills/pi-prompting/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/agents365-ai/365-skills/pi-prompting/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/agents365-ai/365-skills/pi-prompting/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:57:05.561Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/agents365-ai/365-skills/pi-prompting",
+        "externalId": "agents365-ai/365-skills/pi-prompting",
+        "name": "pi-prompting",
+        "owner": "agents365-ai",
+        "repo": "365-skills",
+        "repositoryUrl": "https://github.com/agents365-ai/365-skills",
+        "description": "Internal guidance for composing prompts that Pi runs (DeepSeek by default) handle reliably for coding, review, diagnosis, and research tasks",
+        "tags": [
+          "agents365-ai/365-skills"
+        ],
+        "stars": "105",
+        "installs": 2900,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "agents365-ai/365-skills/pi-prompting",
+          "ogTitle": "pi-prompting — agents365-ai/365-skills",
+          "npx": "npx skills add https://github.com/agents365-ai/365-skills --skill pi-prompting",
+          "installsRaw": "2.9K",
+          "starsRaw": "105",
+          "firstSeen": "May 22, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/agents365-ai/365-skills/pi-prompting/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/agents365-ai/365-skills/pi-prompting/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/agents365-ai/365-skills/pi-prompting/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:57:05.561Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "agents365-ai--365-skills--pi-prompting",
+    "name": "pi-prompting",
+    "owner": "agents365-ai",
+    "repo": "365-skills",
+    "category": "",
+    "description": "Internal guidance for composing prompts that Pi runs (DeepSeek by default) handle reliably for coding, review, diagnosis, and research tasks",
+    "tags": [
+      "agents365-ai/365-skills"
+    ],
+    "keywords": [
+      "agents365-ai/365-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "105",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/agents365-ai/365-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:57:05.561Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:57:05.561Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:57:05.561Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:57:05.561Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:57:05.561Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:57:05.561Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:57:05.561Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2900 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

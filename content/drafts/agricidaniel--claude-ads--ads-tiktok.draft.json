@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:03:39.379Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/agricidaniel/claude-ads/ads-tiktok",
+      "externalId": "agricidaniel/claude-ads/ads-tiktok",
+      "name": "ads-tiktok",
+      "owner": "agricidaniel",
+      "repo": "claude-ads",
+      "repositoryUrl": "https://github.com/agricidaniel/claude-ads",
+      "description": "Audit TikTok Ads measurement, Pixel, mobile-first creative, audiences, Smart+, Shop and commerce campaigns, bidding, budgets, pacing, attribution, and policy.…",
+      "tags": [
+        "agricidaniel/claude-ads"
+      ],
+      "stars": "11.2K",
+      "installs": 4500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "agricidaniel/claude-ads/ads-tiktok",
+        "ogTitle": "ads-tiktok — agricidaniel/claude-ads",
+        "npx": "npx skills add https://github.com/agricidaniel/claude-ads --skill ads-tiktok",
+        "installsRaw": "4.5K",
+        "starsRaw": "11.2K",
+        "firstSeen": "Feb 16, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/agricidaniel/claude-ads/ads-tiktok/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/agricidaniel/claude-ads/ads-tiktok/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/agricidaniel/claude-ads/ads-tiktok/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:03:39.378Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/agricidaniel/claude-ads/ads-tiktok",
+        "externalId": "agricidaniel/claude-ads/ads-tiktok",
+        "name": "ads-tiktok",
+        "owner": "agricidaniel",
+        "repo": "claude-ads",
+        "repositoryUrl": "https://github.com/agricidaniel/claude-ads",
+        "description": "Audit TikTok Ads measurement, Pixel, mobile-first creative, audiences, Smart+, Shop and commerce campaigns, bidding, budgets, pacing, attribution, and policy.…",
+        "tags": [
+          "agricidaniel/claude-ads"
+        ],
+        "stars": "11.2K",
+        "installs": 4500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "agricidaniel/claude-ads/ads-tiktok",
+          "ogTitle": "ads-tiktok — agricidaniel/claude-ads",
+          "npx": "npx skills add https://github.com/agricidaniel/claude-ads --skill ads-tiktok",
+          "installsRaw": "4.5K",
+          "starsRaw": "11.2K",
+          "firstSeen": "Feb 16, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/agricidaniel/claude-ads/ads-tiktok/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/agricidaniel/claude-ads/ads-tiktok/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/agricidaniel/claude-ads/ads-tiktok/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:03:39.378Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "agricidaniel--claude-ads--ads-tiktok",
+    "name": "ads-tiktok",
+    "owner": "agricidaniel",
+    "repo": "claude-ads",
+    "category": "",
+    "description": "Audit TikTok Ads measurement, Pixel, mobile-first creative, audiences, Smart+, Shop and commerce campaigns, bidding, budgets, pacing, attribution, and policy.…",
+    "tags": [
+      "agricidaniel/claude-ads"
+    ],
+    "keywords": [
+      "agricidaniel/claude-ads"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "11.2K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/agricidaniel/claude-ads",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:03:39.379Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:03:39.379Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:03:39.379Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:03:39.379Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:03:39.378Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:03:39.379Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:03:39.379Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=4500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

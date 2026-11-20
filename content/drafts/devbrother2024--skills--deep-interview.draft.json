@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:26:16.973Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/devbrother2024/skills/deep-interview",
+      "externalId": "devbrother2024/skills/deep-interview",
+      "name": "deep-interview",
+      "owner": "devbrother2024",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/devbrother2024/skills",
+      "description": "모호한 요청을 소크라테스식 질문으로 인터뷰해 실행 가능한 요구사항으로 정리한다.\n사용자가 deep-interview, 심층 인터뷰, 요구사항 명확화, 생각 정리를 요청하거나 목표, 범위, 제약, 완료 기준이 흐릿할 때 사용한다.\n요청이 이미 구체적이거나 단순 오타, 작은 설정 변경,…",
+      "tags": [
+        "devbrother2024/skills"
+      ],
+      "stars": "94",
+      "installs": 1100,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "devbrother2024/skills/deep-interview",
+        "ogTitle": "deep-interview — devbrother2024/skills",
+        "npx": "npx skills add https://github.com/devbrother2024/skills --skill deep-interview",
+        "installsRaw": "1.1K",
+        "starsRaw": "94",
+        "firstSeen": "May 8, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/devbrother2024/skills/deep-interview/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/devbrother2024/skills/deep-interview/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/devbrother2024/skills/deep-interview/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:26:16.972Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/devbrother2024/skills/deep-interview",
+        "externalId": "devbrother2024/skills/deep-interview",
+        "name": "deep-interview",
+        "owner": "devbrother2024",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/devbrother2024/skills",
+        "description": "모호한 요청을 소크라테스식 질문으로 인터뷰해 실행 가능한 요구사항으로 정리한다.\n사용자가 deep-interview, 심층 인터뷰, 요구사항 명확화, 생각 정리를 요청하거나 목표, 범위, 제약, 완료 기준이 흐릿할 때 사용한다.\n요청이 이미 구체적이거나 단순 오타, 작은 설정 변경,…",
+        "tags": [
+          "devbrother2024/skills"
+        ],
+        "stars": "94",
+        "installs": 1100,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "devbrother2024/skills/deep-interview",
+          "ogTitle": "deep-interview — devbrother2024/skills",
+          "npx": "npx skills add https://github.com/devbrother2024/skills --skill deep-interview",
+          "installsRaw": "1.1K",
+          "starsRaw": "94",
+          "firstSeen": "May 8, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/devbrother2024/skills/deep-interview/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/devbrother2024/skills/deep-interview/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/devbrother2024/skills/deep-interview/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:26:16.972Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "devbrother2024--skills--deep-interview",
+    "name": "deep-interview",
+    "owner": "devbrother2024",
+    "repo": "skills",
+    "category": "",
+    "description": "모호한 요청을 소크라테스식 질문으로 인터뷰해 실행 가능한 요구사항으로 정리한다.\n사용자가 deep-interview, 심층 인터뷰, 요구사항 명확화, 생각 정리를 요청하거나 목표, 범위, 제약, 완료 기준이 흐릿할 때 사용한다.\n요청이 이미 구체적이거나 단순 오타, 작은 설정 변경,…",
+    "tags": [
+      "devbrother2024/skills"
+    ],
+    "keywords": [
+      "devbrother2024/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "94",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/devbrother2024/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:26:16.973Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:26:16.973Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:26:16.973Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:26:16.973Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:26:16.972Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:26:16.973Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:26:16.973Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1100 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

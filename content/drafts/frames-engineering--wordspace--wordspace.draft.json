@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T04:33:30.817Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/frames-engineering/wordspace/wordspace",
+      "externalId": "frames-engineering/wordspace/wordspace",
+      "name": "wordspace",
+      "owner": "frames-engineering",
+      "repo": "wordspace",
+      "repositoryUrl": "https://github.com/frames-engineering/wordspace",
+      "description": "CLI for bootstrapping and managing wordspace projects",
+      "tags": [
+        "frames-engineering/wordspace"
+      ],
+      "stars": "2",
+      "installs": 1000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "frames-engineering/wordspace/wordspace",
+        "ogTitle": "wordspace — frames-engineering/wordspace",
+        "npx": "npx skills add https://github.com/frames-engineering/wordspace --skill wordspace",
+        "installsRaw": "1.0K",
+        "starsRaw": "2",
+        "firstSeen": "Feb 15, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Warn",
+            "href": "/frames-engineering/wordspace/wordspace/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/frames-engineering/wordspace/wordspace/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/frames-engineering/wordspace/wordspace/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T04:33:30.817Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/frames-engineering/wordspace/wordspace",
+        "externalId": "frames-engineering/wordspace/wordspace",
+        "name": "wordspace",
+        "owner": "frames-engineering",
+        "repo": "wordspace",
+        "repositoryUrl": "https://github.com/frames-engineering/wordspace",
+        "description": "CLI for bootstrapping and managing wordspace projects",
+        "tags": [
+          "frames-engineering/wordspace"
+        ],
+        "stars": "2",
+        "installs": 1000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "frames-engineering/wordspace/wordspace",
+          "ogTitle": "wordspace — frames-engineering/wordspace",
+          "npx": "npx skills add https://github.com/frames-engineering/wordspace --skill wordspace",
+          "installsRaw": "1.0K",
+          "starsRaw": "2",
+          "firstSeen": "Feb 15, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Warn",
+              "href": "/frames-engineering/wordspace/wordspace/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/frames-engineering/wordspace/wordspace/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/frames-engineering/wordspace/wordspace/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T04:33:30.817Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "frames-engineering--wordspace--wordspace",
+    "name": "wordspace",
+    "owner": "frames-engineering",
+    "repo": "wordspace",
+    "category": "",
+    "description": "CLI for bootstrapping and managing wordspace projects",
+    "tags": [
+      "frames-engineering/wordspace"
+    ],
+    "keywords": [
+      "frames-engineering/wordspace"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "2",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/frames-engineering/wordspace",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:33:30.817Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:33:30.817Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:33:30.817Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T04:33:30.817Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T04:33:30.817Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T04:33:30.817Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T04:33:30.817Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

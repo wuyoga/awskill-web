@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:49:24.757Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/remorses/playwriter/playwriter",
+      "externalId": "remorses/playwriter/playwriter",
+      "name": "playwriter",
+      "owner": "remorses",
+      "repo": "playwriter",
+      "repositoryUrl": "https://github.com/remorses/playwriter",
+      "description": "Control the user own Chrome browser via Playwriter extension with Playwright code snippets in a stateful local js sandbox. Use this over other Playwright MCPs…",
+      "tags": [
+        "remorses/playwriter"
+      ],
+      "stars": "4.1K",
+      "installs": 6000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "remorses/playwriter/playwriter",
+        "ogTitle": "playwriter — remorses/playwriter",
+        "npx": "npx skills add https://github.com/remorses/playwriter --skill playwriter",
+        "installsRaw": "6.0K",
+        "starsRaw": "4.1K",
+        "firstSeen": "Jan 23, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Warn",
+            "href": "/remorses/playwriter/playwriter/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/remorses/playwriter/playwriter/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/remorses/playwriter/playwriter/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:49:24.756Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/remorses/playwriter/playwriter",
+        "externalId": "remorses/playwriter/playwriter",
+        "name": "playwriter",
+        "owner": "remorses",
+        "repo": "playwriter",
+        "repositoryUrl": "https://github.com/remorses/playwriter",
+        "description": "Control the user own Chrome browser via Playwriter extension with Playwright code snippets in a stateful local js sandbox. Use this over other Playwright MCPs…",
+        "tags": [
+          "remorses/playwriter"
+        ],
+        "stars": "4.1K",
+        "installs": 6000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "remorses/playwriter/playwriter",
+          "ogTitle": "playwriter — remorses/playwriter",
+          "npx": "npx skills add https://github.com/remorses/playwriter --skill playwriter",
+          "installsRaw": "6.0K",
+          "starsRaw": "4.1K",
+          "firstSeen": "Jan 23, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Warn",
+              "href": "/remorses/playwriter/playwriter/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/remorses/playwriter/playwriter/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/remorses/playwriter/playwriter/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:49:24.756Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "remorses--playwriter--playwriter",
+    "name": "playwriter",
+    "owner": "remorses",
+    "repo": "playwriter",
+    "category": "",
+    "description": "Control the user own Chrome browser via Playwriter extension with Playwright code snippets in a stateful local js sandbox. Use this over other Playwright MCPs…",
+    "tags": [
+      "remorses/playwriter"
+    ],
+    "keywords": [
+      "remorses/playwriter"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "4.1K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/remorses/playwriter",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:49:24.757Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:49:24.757Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:49:24.757Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:49:24.757Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:49:24.756Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:49:24.757Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:49:24.757Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=6000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

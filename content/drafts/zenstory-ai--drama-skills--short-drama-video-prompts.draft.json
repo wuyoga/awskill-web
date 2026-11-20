@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:41:07.673Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/zenstory-ai/drama-skills/short-drama-video-prompts",
+      "externalId": "zenstory-ai/drama-skills/short-drama-video-prompts",
+      "name": "short-drama-video-prompts",
+      "owner": "zenstory-ai",
+      "repo": "drama-skills",
+      "repositoryUrl": "https://github.com/zenstory-ai/drama-skills",
+      "description": "把短剧分镜和首帧写成可直接复制的视频提示词 Markdown，也可按用户要求写成片配乐或主题曲提示词。用户提到文生/图生视频动作、人物表演、运镜、口型、环境动态、镜头时长、起止状态、把分镜转成视频提示词或写配乐提示词时使用；不直接调用生成接口、不创作歌词、不改分镜定好的起止状态。",
+      "tags": [
+        "zenstory-ai/drama-skills"
+      ],
+      "stars": "4.5K",
+      "installs": 3200,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "zenstory-ai/drama-skills/short-drama-video-prompts",
+        "ogTitle": "short-drama-video-prompts — zenstory-ai/drama-skills",
+        "npx": "npx skills add https://github.com/zenstory-ai/drama-skills --skill short-drama-video-prompts",
+        "installsRaw": "3.2K",
+        "starsRaw": "4.5K",
+        "firstSeen": "Aug 1, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/zenstory-ai/drama-skills/short-drama-video-prompts/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/zenstory-ai/drama-skills/short-drama-video-prompts/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/zenstory-ai/drama-skills/short-drama-video-prompts/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:41:07.672Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/zenstory-ai/drama-skills/short-drama-video-prompts",
+        "externalId": "zenstory-ai/drama-skills/short-drama-video-prompts",
+        "name": "short-drama-video-prompts",
+        "owner": "zenstory-ai",
+        "repo": "drama-skills",
+        "repositoryUrl": "https://github.com/zenstory-ai/drama-skills",
+        "description": "把短剧分镜和首帧写成可直接复制的视频提示词 Markdown，也可按用户要求写成片配乐或主题曲提示词。用户提到文生/图生视频动作、人物表演、运镜、口型、环境动态、镜头时长、起止状态、把分镜转成视频提示词或写配乐提示词时使用；不直接调用生成接口、不创作歌词、不改分镜定好的起止状态。",
+        "tags": [
+          "zenstory-ai/drama-skills"
+        ],
+        "stars": "4.5K",
+        "installs": 3200,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "zenstory-ai/drama-skills/short-drama-video-prompts",
+          "ogTitle": "short-drama-video-prompts — zenstory-ai/drama-skills",
+          "npx": "npx skills add https://github.com/zenstory-ai/drama-skills --skill short-drama-video-prompts",
+          "installsRaw": "3.2K",
+          "starsRaw": "4.5K",
+          "firstSeen": "Aug 1, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/zenstory-ai/drama-skills/short-drama-video-prompts/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/zenstory-ai/drama-skills/short-drama-video-prompts/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/zenstory-ai/drama-skills/short-drama-video-prompts/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:41:07.672Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "zenstory-ai--drama-skills--short-drama-video-prompts",
+    "name": "short-drama-video-prompts",
+    "owner": "zenstory-ai",
+    "repo": "drama-skills",
+    "category": "",
+    "description": "把短剧分镜和首帧写成可直接复制的视频提示词 Markdown，也可按用户要求写成片配乐或主题曲提示词。用户提到文生/图生视频动作、人物表演、运镜、口型、环境动态、镜头时长、起止状态、把分镜转成视频提示词或写配乐提示词时使用；不直接调用生成接口、不创作歌词、不改分镜定好的起止状态。",
+    "tags": [
+      "zenstory-ai/drama-skills"
+    ],
+    "keywords": [
+      "zenstory-ai/drama-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "4.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/zenstory-ai/drama-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:41:07.673Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:41:07.673Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:41:07.673Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:41:07.673Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:41:07.672Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:41:07.673Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:41:07.673Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3200 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

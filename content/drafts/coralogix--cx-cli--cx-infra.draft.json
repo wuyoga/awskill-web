@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:07:55.370Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/coralogix/cx-cli/cx-infra",
+      "externalId": "coralogix/cx-cli/cx-infra",
+      "name": "cx-infra",
+      "owner": "coralogix",
+      "repo": "cx-cli",
+      "repositoryUrl": "https://github.com/coralogix/cx-cli",
+      "description": "Query Coralogix infrastructure resources with the `cx infra` CLI: resource types, filterable attributes, resource lists, health, raw data and configuration…",
+      "tags": [
+        "coralogix/cx-cli"
+      ],
+      "stars": "243",
+      "installs": 4100,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "coralogix/cx-cli/cx-infra",
+        "ogTitle": "cx-infra — coralogix/cx-cli",
+        "npx": "npx skills add https://github.com/coralogix/cx-cli --skill cx-infra",
+        "installsRaw": "4.1K",
+        "starsRaw": "243",
+        "firstSeen": "Jul 30, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/coralogix/cx-cli/cx-infra/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/coralogix/cx-cli/cx-infra/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/coralogix/cx-cli/cx-infra/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:07:55.369Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/coralogix/cx-cli/cx-infra",
+        "externalId": "coralogix/cx-cli/cx-infra",
+        "name": "cx-infra",
+        "owner": "coralogix",
+        "repo": "cx-cli",
+        "repositoryUrl": "https://github.com/coralogix/cx-cli",
+        "description": "Query Coralogix infrastructure resources with the `cx infra` CLI: resource types, filterable attributes, resource lists, health, raw data and configuration…",
+        "tags": [
+          "coralogix/cx-cli"
+        ],
+        "stars": "243",
+        "installs": 4100,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "coralogix/cx-cli/cx-infra",
+          "ogTitle": "cx-infra — coralogix/cx-cli",
+          "npx": "npx skills add https://github.com/coralogix/cx-cli --skill cx-infra",
+          "installsRaw": "4.1K",
+          "starsRaw": "243",
+          "firstSeen": "Jul 30, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/coralogix/cx-cli/cx-infra/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/coralogix/cx-cli/cx-infra/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/coralogix/cx-cli/cx-infra/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:07:55.369Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "coralogix--cx-cli--cx-infra",
+    "name": "cx-infra",
+    "owner": "coralogix",
+    "repo": "cx-cli",
+    "category": "",
+    "description": "Query Coralogix infrastructure resources with the `cx infra` CLI: resource types, filterable attributes, resource lists, health, raw data and configuration…",
+    "tags": [
+      "coralogix/cx-cli"
+    ],
+    "keywords": [
+      "coralogix/cx-cli"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "243",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/coralogix/cx-cli",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:07:55.370Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:07:55.370Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:07:55.370Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:07:55.370Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:07:55.369Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:07:55.370Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:07:55.370Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=4100 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

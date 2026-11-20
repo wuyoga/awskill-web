@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:31:36.276Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/nomadamas/k-skill/saramin-talent-search",
+      "externalId": "nomadamas/k-skill/saramin-talent-search",
+      "name": "saramin-talent-search",
+      "owner": "nomadamas",
+      "repo": "k-skill",
+      "repositoryUrl": "https://github.com/nomadamas/k-skill",
+      "description": "사람인 기업회원 인재풀 로그인 세션에서 마스킹된 후보 정보를 검색·비교해 유료 열람 전 shortlist를 만듭니다. 돌쇠에서는 공식 표면을 통한 후속 액션까지 진행한다.",
+      "tags": [
+        "nomadamas/k-skill"
+      ],
+      "stars": "8.5K",
+      "installs": 10000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "nomadamas/k-skill/saramin-talent-search",
+        "ogTitle": "saramin-talent-search — nomadamas/k-skill",
+        "npx": "npx skills add https://github.com/nomadamas/k-skill --skill saramin-talent-search",
+        "installsRaw": "10.0K",
+        "starsRaw": "8.5K",
+        "firstSeen": "Jun 21, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/nomadamas/k-skill/saramin-talent-search/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/nomadamas/k-skill/saramin-talent-search/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/nomadamas/k-skill/saramin-talent-search/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:31:36.275Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/nomadamas/k-skill/saramin-talent-search",
+        "externalId": "nomadamas/k-skill/saramin-talent-search",
+        "name": "saramin-talent-search",
+        "owner": "nomadamas",
+        "repo": "k-skill",
+        "repositoryUrl": "https://github.com/nomadamas/k-skill",
+        "description": "사람인 기업회원 인재풀 로그인 세션에서 마스킹된 후보 정보를 검색·비교해 유료 열람 전 shortlist를 만듭니다. 돌쇠에서는 공식 표면을 통한 후속 액션까지 진행한다.",
+        "tags": [
+          "nomadamas/k-skill"
+        ],
+        "stars": "8.5K",
+        "installs": 10000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "nomadamas/k-skill/saramin-talent-search",
+          "ogTitle": "saramin-talent-search — nomadamas/k-skill",
+          "npx": "npx skills add https://github.com/nomadamas/k-skill --skill saramin-talent-search",
+          "installsRaw": "10.0K",
+          "starsRaw": "8.5K",
+          "firstSeen": "Jun 21, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/nomadamas/k-skill/saramin-talent-search/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/nomadamas/k-skill/saramin-talent-search/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/nomadamas/k-skill/saramin-talent-search/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:31:36.275Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "nomadamas--k-skill--saramin-talent-search",
+    "name": "saramin-talent-search",
+    "owner": "nomadamas",
+    "repo": "k-skill",
+    "category": "",
+    "description": "사람인 기업회원 인재풀 로그인 세션에서 마스킹된 후보 정보를 검색·비교해 유료 열람 전 shortlist를 만듭니다. 돌쇠에서는 공식 표면을 통한 후속 액션까지 진행한다.",
+    "tags": [
+      "nomadamas/k-skill"
+    ],
+    "keywords": [
+      "nomadamas/k-skill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "8.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/nomadamas/k-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:31:36.276Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:31:36.276Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:31:36.276Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:31:36.276Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:31:36.275Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:31:36.276Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:31:36.276Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=10000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

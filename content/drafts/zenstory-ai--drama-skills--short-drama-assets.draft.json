@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:47:12.014Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/zenstory-ai/drama-skills/short-drama-assets",
+      "externalId": "zenstory-ai/drama-skills/short-drama-assets",
+      "name": "short-drama-assets",
+      "owner": "zenstory-ai",
+      "repo": "drama-skills",
+      "repositoryUrl": "https://github.com/zenstory-ai/drama-skills",
+      "description": "从短剧剧本拆出角色与造型、场景与视角、道具与状态及跨场连戏关系，写成创作者可读的视觉设定。用户说“拆角色/场景/道具”“做视觉设定”“判断沿用还是新造型”“更新造型/道具状态”，或拿现成剧本直接拆美术设定时使用；不写图片提示词，不生成媒体。",
+      "tags": [
+        "zenstory-ai/drama-skills"
+      ],
+      "stars": "4.5K",
+      "installs": 3100,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "zenstory-ai/drama-skills/short-drama-assets",
+        "ogTitle": "short-drama-assets — zenstory-ai/drama-skills",
+        "npx": "npx skills add https://github.com/zenstory-ai/drama-skills --skill short-drama-assets",
+        "installsRaw": "3.1K",
+        "starsRaw": "4.5K",
+        "firstSeen": "Aug 1, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/zenstory-ai/drama-skills/short-drama-assets/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/zenstory-ai/drama-skills/short-drama-assets/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/zenstory-ai/drama-skills/short-drama-assets/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:47:12.013Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/zenstory-ai/drama-skills/short-drama-assets",
+        "externalId": "zenstory-ai/drama-skills/short-drama-assets",
+        "name": "short-drama-assets",
+        "owner": "zenstory-ai",
+        "repo": "drama-skills",
+        "repositoryUrl": "https://github.com/zenstory-ai/drama-skills",
+        "description": "从短剧剧本拆出角色与造型、场景与视角、道具与状态及跨场连戏关系，写成创作者可读的视觉设定。用户说“拆角色/场景/道具”“做视觉设定”“判断沿用还是新造型”“更新造型/道具状态”，或拿现成剧本直接拆美术设定时使用；不写图片提示词，不生成媒体。",
+        "tags": [
+          "zenstory-ai/drama-skills"
+        ],
+        "stars": "4.5K",
+        "installs": 3100,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "zenstory-ai/drama-skills/short-drama-assets",
+          "ogTitle": "short-drama-assets — zenstory-ai/drama-skills",
+          "npx": "npx skills add https://github.com/zenstory-ai/drama-skills --skill short-drama-assets",
+          "installsRaw": "3.1K",
+          "starsRaw": "4.5K",
+          "firstSeen": "Aug 1, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/zenstory-ai/drama-skills/short-drama-assets/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/zenstory-ai/drama-skills/short-drama-assets/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/zenstory-ai/drama-skills/short-drama-assets/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:47:12.013Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "zenstory-ai--drama-skills--short-drama-assets",
+    "name": "short-drama-assets",
+    "owner": "zenstory-ai",
+    "repo": "drama-skills",
+    "category": "",
+    "description": "从短剧剧本拆出角色与造型、场景与视角、道具与状态及跨场连戏关系，写成创作者可读的视觉设定。用户说“拆角色/场景/道具”“做视觉设定”“判断沿用还是新造型”“更新造型/道具状态”，或拿现成剧本直接拆美术设定时使用；不写图片提示词，不生成媒体。",
+    "tags": [
+      "zenstory-ai/drama-skills"
+    ],
+    "keywords": [
+      "zenstory-ai/drama-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "4.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/zenstory-ai/drama-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:47:12.014Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:47:12.014Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:47:12.014Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:47:12.014Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:47:12.013Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:47:12.014Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:47:12.014Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3100 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

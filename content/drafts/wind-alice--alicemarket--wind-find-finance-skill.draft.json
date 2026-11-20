@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:06:54.238Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/wind-alice/alicemarket/wind-find-finance-skill",
+      "externalId": "wind-alice/alicemarket/wind-find-finance-skill",
+      "name": "wind-find-finance-skill",
+      "owner": "wind-alice",
+      "repo": "alicemarket",
+      "repositoryUrl": "https://github.com/wind-alice/alicemarket",
+      "description": "万得金融能力发现与安装路由入口。用于金融数据、行情查询、市场分析、今日大盘、市场主线、板块轮动、资金流向、估值、选股、复盘、仓位、交易计划、回测等任务。必须先读取 catalog 判断必需数据 skill / 工作流 skill；缺失时必须展示安装选项，用户确认后由 AI 直接安装，不得只给命令或用通用分析替代。",
+      "tags": [
+        "wind-alice/alicemarket"
+      ],
+      "stars": "161",
+      "installs": 51500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "wind-alice/alicemarket/wind-find-finance-skill",
+        "ogTitle": "wind-find-finance-skill — wind-alice/alicemarket",
+        "npx": "npx skills add https://github.com/wind-alice/alicemarket --skill wind-find-finance-skill",
+        "installsRaw": "51.5K",
+        "starsRaw": "161",
+        "firstSeen": "Apr 29, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Warn",
+            "href": "/wind-alice/alicemarket/wind-find-finance-skill/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/wind-alice/alicemarket/wind-find-finance-skill/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Fail",
+            "href": "/wind-alice/alicemarket/wind-find-finance-skill/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:06:54.237Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/wind-alice/alicemarket/wind-find-finance-skill",
+        "externalId": "wind-alice/alicemarket/wind-find-finance-skill",
+        "name": "wind-find-finance-skill",
+        "owner": "wind-alice",
+        "repo": "alicemarket",
+        "repositoryUrl": "https://github.com/wind-alice/alicemarket",
+        "description": "万得金融能力发现与安装路由入口。用于金融数据、行情查询、市场分析、今日大盘、市场主线、板块轮动、资金流向、估值、选股、复盘、仓位、交易计划、回测等任务。必须先读取 catalog 判断必需数据 skill / 工作流 skill；缺失时必须展示安装选项，用户确认后由 AI 直接安装，不得只给命令或用通用分析替代。",
+        "tags": [
+          "wind-alice/alicemarket"
+        ],
+        "stars": "161",
+        "installs": 51500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "wind-alice/alicemarket/wind-find-finance-skill",
+          "ogTitle": "wind-find-finance-skill — wind-alice/alicemarket",
+          "npx": "npx skills add https://github.com/wind-alice/alicemarket --skill wind-find-finance-skill",
+          "installsRaw": "51.5K",
+          "starsRaw": "161",
+          "firstSeen": "Apr 29, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Warn",
+              "href": "/wind-alice/alicemarket/wind-find-finance-skill/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/wind-alice/alicemarket/wind-find-finance-skill/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Fail",
+              "href": "/wind-alice/alicemarket/wind-find-finance-skill/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:06:54.237Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "wind-alice--alicemarket--wind-find-finance-skill",
+    "name": "wind-find-finance-skill",
+    "owner": "wind-alice",
+    "repo": "alicemarket",
+    "category": "",
+    "description": "万得金融能力发现与安装路由入口。用于金融数据、行情查询、市场分析、今日大盘、市场主线、板块轮动、资金流向、估值、选股、复盘、仓位、交易计划、回测等任务。必须先读取 catalog 判断必需数据 skill / 工作流 skill；缺失时必须展示安装选项，用户确认后由 AI 直接安装，不得只给命令或用通用分析替代。",
+    "tags": [
+      "wind-alice/alicemarket"
+    ],
+    "keywords": [
+      "wind-alice/alicemarket"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "161",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/wind-alice/alicemarket",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:06:54.238Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:06:54.238Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:06:54.238Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:06:54.238Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:06:54.237Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:06:54.238Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:06:54.238Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=51500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

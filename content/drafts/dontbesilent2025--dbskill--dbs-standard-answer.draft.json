@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:18:48.788Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/dontbesilent2025/dbskill/dbs-standard-answer",
+      "externalId": "dontbesilent2025/dbskill/dbs-standard-answer",
+      "name": "dbs-standard-answer",
+      "owner": "dontbesilent2025",
+      "repo": "dbskill",
+      "repositoryUrl": "https://github.com/dontbesilent2025/dbskill",
+      "description": "围绕复杂问题先挖掘相关行业、学科、作者与可信理论，再比较结构同构的历史成功、失败和反例，提炼带条件的标准答案。用户需要同时获得理论解释与历史比较，或明确询问历史上如何解决、有没有经典解法、标准答案时使用；只需给现有命题、案例、PPT 或方法论找理论依据时不使用。",
+      "tags": [
+        "dontbesilent2025/dbskill"
+      ],
+      "stars": "11.5K",
+      "installs": 15000,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "dontbesilent2025/dbskill/dbs-standard-answer",
+        "ogTitle": "dbs-standard-answer — dontbesilent2025/dbskill",
+        "npx": "npx skills add https://github.com/dontbesilent2025/dbskill --skill dbs-standard-answer",
+        "installsRaw": "15.0K",
+        "starsRaw": "11.5K",
+        "firstSeen": "Jul 24, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/dontbesilent2025/dbskill/dbs-standard-answer/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/dontbesilent2025/dbskill/dbs-standard-answer/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/dontbesilent2025/dbskill/dbs-standard-answer/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:18:48.787Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/dontbesilent2025/dbskill/dbs-standard-answer",
+        "externalId": "dontbesilent2025/dbskill/dbs-standard-answer",
+        "name": "dbs-standard-answer",
+        "owner": "dontbesilent2025",
+        "repo": "dbskill",
+        "repositoryUrl": "https://github.com/dontbesilent2025/dbskill",
+        "description": "围绕复杂问题先挖掘相关行业、学科、作者与可信理论，再比较结构同构的历史成功、失败和反例，提炼带条件的标准答案。用户需要同时获得理论解释与历史比较，或明确询问历史上如何解决、有没有经典解法、标准答案时使用；只需给现有命题、案例、PPT 或方法论找理论依据时不使用。",
+        "tags": [
+          "dontbesilent2025/dbskill"
+        ],
+        "stars": "11.5K",
+        "installs": 15000,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "dontbesilent2025/dbskill/dbs-standard-answer",
+          "ogTitle": "dbs-standard-answer — dontbesilent2025/dbskill",
+          "npx": "npx skills add https://github.com/dontbesilent2025/dbskill --skill dbs-standard-answer",
+          "installsRaw": "15.0K",
+          "starsRaw": "11.5K",
+          "firstSeen": "Jul 24, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/dontbesilent2025/dbskill/dbs-standard-answer/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/dontbesilent2025/dbskill/dbs-standard-answer/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/dontbesilent2025/dbskill/dbs-standard-answer/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:18:48.787Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "dontbesilent2025--dbskill--dbs-standard-answer",
+    "name": "dbs-standard-answer",
+    "owner": "dontbesilent2025",
+    "repo": "dbskill",
+    "category": "",
+    "description": "围绕复杂问题先挖掘相关行业、学科、作者与可信理论，再比较结构同构的历史成功、失败和反例，提炼带条件的标准答案。用户需要同时获得理论解释与历史比较，或明确询问历史上如何解决、有没有经典解法、标准答案时使用；只需给现有命题、案例、PPT 或方法论找理论依据时不使用。",
+    "tags": [
+      "dontbesilent2025/dbskill"
+    ],
+    "keywords": [
+      "dontbesilent2025/dbskill"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "11.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/dontbesilent2025/dbskill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:18:48.788Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:18:48.788Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:18:48.788Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:18:48.788Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:18:48.787Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:18:48.788Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:18:48.788Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=15000 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

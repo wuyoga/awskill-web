@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:14:56.911Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/pilioai/skills/gpt-image-2",
+      "externalId": "pilioai/skills/gpt-image-2",
+      "name": "gpt-image-2",
+      "owner": "pilioai",
+      "repo": "skills",
+      "repositoryUrl": "https://github.com/pilioai/skills",
+      "description": "Create or edit images with Pilio GPT Image 2 through the unified Pilio developer API. Use when the user wants text-to-image generation, prompt-based image…",
+      "tags": [
+        "pilioai/skills"
+      ],
+      "stars": "44",
+      "installs": 20400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "pilioai/skills/gpt-image-2",
+        "ogTitle": "gpt-image-2 — pilioai/skills",
+        "npx": "npx skills add https://github.com/pilioai/skills --skill gpt-image-2",
+        "installsRaw": "20.4K",
+        "starsRaw": "44",
+        "firstSeen": "May 3, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/pilioai/skills/gpt-image-2/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/pilioai/skills/gpt-image-2/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/pilioai/skills/gpt-image-2/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:14:56.910Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/pilioai/skills/gpt-image-2",
+        "externalId": "pilioai/skills/gpt-image-2",
+        "name": "gpt-image-2",
+        "owner": "pilioai",
+        "repo": "skills",
+        "repositoryUrl": "https://github.com/pilioai/skills",
+        "description": "Create or edit images with Pilio GPT Image 2 through the unified Pilio developer API. Use when the user wants text-to-image generation, prompt-based image…",
+        "tags": [
+          "pilioai/skills"
+        ],
+        "stars": "44",
+        "installs": 20400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "pilioai/skills/gpt-image-2",
+          "ogTitle": "gpt-image-2 — pilioai/skills",
+          "npx": "npx skills add https://github.com/pilioai/skills --skill gpt-image-2",
+          "installsRaw": "20.4K",
+          "starsRaw": "44",
+          "firstSeen": "May 3, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/pilioai/skills/gpt-image-2/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/pilioai/skills/gpt-image-2/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/pilioai/skills/gpt-image-2/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:14:56.910Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "pilioai--skills--gpt-image-2",
+    "name": "gpt-image-2",
+    "owner": "pilioai",
+    "repo": "skills",
+    "category": "",
+    "description": "Create or edit images with Pilio GPT Image 2 through the unified Pilio developer API. Use when the user wants text-to-image generation, prompt-based image…",
+    "tags": [
+      "pilioai/skills"
+    ],
+    "keywords": [
+      "pilioai/skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "44",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/pilioai/skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:14:56.911Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:14:56.911Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:14:56.911Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:14:56.911Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:14:56.910Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:14:56.911Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:14:56.911Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=20400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

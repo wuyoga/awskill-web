@@ -1,0 +1,255 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-19T12:38:03.282Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skillhey",
+      "sourceUrl": "https://skillhey.com/skills/unity-mcp-skills-unity-mcp-orchestrator",
+      "externalId": "unity-mcp-skills-unity-mcp-orchestrator",
+      "name": "Unity MCP Orchestrator",
+      "owner": "CoplayDev",
+      "repo": "unity-mcp",
+      "repositoryUrl": "https://github.com/CoplayDev/unity-mcp/tree/beta/.claude/skills/unity-mcp-skill",
+      "description": "Operate Unity Editor scenes, GameObjects, scripts, and tests through MCP tools and resources.",
+      "tags": [],
+      "stars": null,
+      "installs": null,
+      "license": null,
+      "agentsClaimed": [
+        "Cursor"
+      ],
+      "raw": {
+        "slug": "unity-mcp-skills-unity-mcp-orchestrator",
+        "qualityScore": null,
+        "starsRaw": null,
+        "forks": ",",
+        "childSlugs": [
+          "unity-mcp-skills",
+          "gamedev-level-design",
+          "atomicstrata-llm-wiki-compiler",
+          "mcp-use-skills-openapi-to-mcp",
+          "deepbits-cyber"
+        ]
+      },
+      "fetchedAt": "2026-11-19T12:38:03.281Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skillhey",
+        "sourceUrl": "https://skillhey.com/skills/unity-mcp-skills-unity-mcp-orchestrator",
+        "externalId": "unity-mcp-skills-unity-mcp-orchestrator",
+        "name": "Unity MCP Orchestrator",
+        "owner": "CoplayDev",
+        "repo": "unity-mcp",
+        "repositoryUrl": "https://github.com/CoplayDev/unity-mcp/tree/beta/.claude/skills/unity-mcp-skill",
+        "description": "Operate Unity Editor scenes, GameObjects, scripts, and tests through MCP tools and resources.",
+        "tags": [],
+        "stars": null,
+        "installs": null,
+        "license": null,
+        "agentsClaimed": [
+          "Cursor"
+        ],
+        "raw": {
+          "slug": "unity-mcp-skills-unity-mcp-orchestrator",
+          "qualityScore": null,
+          "starsRaw": null,
+          "forks": ",",
+          "childSlugs": [
+            "unity-mcp-skills",
+            "gamedev-level-design",
+            "atomicstrata-llm-wiki-compiler",
+            "mcp-use-skills-openapi-to-mcp",
+            "deepbits-cyber"
+          ]
+        },
+        "fetchedAt": "2026-11-19T12:38:03.281Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "unity-mcp-skills-unity-mcp-orchestrator",
+    "name": "Unity MCP Orchestrator",
+    "owner": "CoplayDev",
+    "repo": "unity-mcp",
+    "category": "",
+    "description": "Operate Unity Editor scenes, GameObjects, scripts, and tests through MCP tools and resources.",
+    "tags": [],
+    "keywords": [],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "0",
+    "installs": 0,
+    "addedAt": "2026-11-19",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/CoplayDev/unity-mcp/tree/beta/.claude/skills/unity-mcp-skill",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-19T12:38:03.282Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:38:03.282Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:38:03.282Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-19T12:38:03.282Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-19T12:38:03.281Z",
+      "note": "skillhey"
+    },
+    "tags": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:38:03.282Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-19T12:38:03.282Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "install count source unsettled (OQ-04)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete",
+      "skillhey claimed agents (not verified): Cursor"
+    ]
+  }
+}

@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:20:27.502Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/dicklesworthstone/coding_agent_session_search/cass",
+      "externalId": "dicklesworthstone/coding_agent_session_search/cass",
+      "name": "cass",
+      "owner": "dicklesworthstone",
+      "repo": "coding_agent_session_search",
+      "repositoryUrl": "https://github.com/dicklesworthstone/coding_agent_session_search",
+      "description": "cass — an installable skill for AI agents, published by dicklesworthstone/coding_agent_session_search.",
+      "tags": [
+        "dicklesworthstone/coding_agent_session_search"
+      ],
+      "stars": "1.2K",
+      "installs": 3400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "dicklesworthstone/coding_agent_session_search/cass",
+        "ogTitle": "cass — dicklesworthstone/coding_agent_session_search",
+        "npx": "npx skills add https://github.com/dicklesworthstone/coding_agent_session_search --skill cass",
+        "installsRaw": "3.4K",
+        "starsRaw": "1.2K",
+        "firstSeen": "Jan 27, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Fail",
+            "href": "/dicklesworthstone/coding_agent_session_search/cass/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Fail",
+            "href": "/dicklesworthstone/coding_agent_session_search/cass/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/dicklesworthstone/coding_agent_session_search/cass/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:20:27.500Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/dicklesworthstone/coding_agent_session_search/cass",
+        "externalId": "dicklesworthstone/coding_agent_session_search/cass",
+        "name": "cass",
+        "owner": "dicklesworthstone",
+        "repo": "coding_agent_session_search",
+        "repositoryUrl": "https://github.com/dicklesworthstone/coding_agent_session_search",
+        "description": "cass — an installable skill for AI agents, published by dicklesworthstone/coding_agent_session_search.",
+        "tags": [
+          "dicklesworthstone/coding_agent_session_search"
+        ],
+        "stars": "1.2K",
+        "installs": 3400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "dicklesworthstone/coding_agent_session_search/cass",
+          "ogTitle": "cass — dicklesworthstone/coding_agent_session_search",
+          "npx": "npx skills add https://github.com/dicklesworthstone/coding_agent_session_search --skill cass",
+          "installsRaw": "3.4K",
+          "starsRaw": "1.2K",
+          "firstSeen": "Jan 27, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Fail",
+              "href": "/dicklesworthstone/coding_agent_session_search/cass/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Fail",
+              "href": "/dicklesworthstone/coding_agent_session_search/cass/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/dicklesworthstone/coding_agent_session_search/cass/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:20:27.500Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "dicklesworthstone--coding_agent_session_search--cass",
+    "name": "cass",
+    "owner": "dicklesworthstone",
+    "repo": "coding_agent_session_search",
+    "category": "",
+    "description": "cass — an installable skill for AI agents, published by dicklesworthstone/coding_agent_session_search.",
+    "tags": [
+      "dicklesworthstone/coding_agent_session_search"
+    ],
+    "keywords": [
+      "dicklesworthstone/coding_agent_session_search"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "1.2K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/dicklesworthstone/coding_agent_session_search",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:20:27.502Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:20:27.502Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:20:27.502Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:20:27.502Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:20:27.500Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:20:27.502Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:20:27.502Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

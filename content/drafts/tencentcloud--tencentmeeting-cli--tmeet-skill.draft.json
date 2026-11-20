@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:57:36.159Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/tencentcloud/tencentmeeting-cli/tmeet-skill",
+      "externalId": "tencentcloud/tencentmeeting-cli/tmeet-skill",
+      "name": "tmeet-skill",
+      "owner": "tencentcloud",
+      "repo": "tencentmeeting-cli",
+      "repositoryUrl": "https://github.com/tencentcloud/tencentmeeting-cli",
+      "description": "通过腾讯会议 CLI（tmeet）完成登录授权、会议管理、录制搜索与播放地址查询、纪要/待办/转写读取、分享与权限申请、元宝纪要、参会报告、会中控制、事件订阅、应用配置及问题反馈。通讯录只用于已有会议/录制动作的身份解析，不用于通用查人。",
+      "tags": [
+        "tencentcloud/tencentmeeting-cli"
+      ],
+      "stars": "251",
+      "installs": 4900,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "tencentcloud/tencentmeeting-cli/tmeet-skill",
+        "ogTitle": "tmeet-skill — tencentcloud/tencentmeeting-cli",
+        "npx": "npx skills add https://github.com/tencentcloud/tencentmeeting-cli --skill tmeet-skill",
+        "installsRaw": "4.9K",
+        "starsRaw": "251",
+        "firstSeen": "Apr 7, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/tencentcloud/tencentmeeting-cli/tmeet-skill/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/tencentcloud/tencentmeeting-cli/tmeet-skill/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/tencentcloud/tencentmeeting-cli/tmeet-skill/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:57:36.159Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/tencentcloud/tencentmeeting-cli/tmeet-skill",
+        "externalId": "tencentcloud/tencentmeeting-cli/tmeet-skill",
+        "name": "tmeet-skill",
+        "owner": "tencentcloud",
+        "repo": "tencentmeeting-cli",
+        "repositoryUrl": "https://github.com/tencentcloud/tencentmeeting-cli",
+        "description": "通过腾讯会议 CLI（tmeet）完成登录授权、会议管理、录制搜索与播放地址查询、纪要/待办/转写读取、分享与权限申请、元宝纪要、参会报告、会中控制、事件订阅、应用配置及问题反馈。通讯录只用于已有会议/录制动作的身份解析，不用于通用查人。",
+        "tags": [
+          "tencentcloud/tencentmeeting-cli"
+        ],
+        "stars": "251",
+        "installs": 4900,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "tencentcloud/tencentmeeting-cli/tmeet-skill",
+          "ogTitle": "tmeet-skill — tencentcloud/tencentmeeting-cli",
+          "npx": "npx skills add https://github.com/tencentcloud/tencentmeeting-cli --skill tmeet-skill",
+          "installsRaw": "4.9K",
+          "starsRaw": "251",
+          "firstSeen": "Apr 7, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/tencentcloud/tencentmeeting-cli/tmeet-skill/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/tencentcloud/tencentmeeting-cli/tmeet-skill/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/tencentcloud/tencentmeeting-cli/tmeet-skill/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:57:36.159Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "tencentcloud--tencentmeeting-cli--tmeet-skill",
+    "name": "tmeet-skill",
+    "owner": "tencentcloud",
+    "repo": "tencentmeeting-cli",
+    "category": "",
+    "description": "通过腾讯会议 CLI（tmeet）完成登录授权、会议管理、录制搜索与播放地址查询、纪要/待办/转写读取、分享与权限申请、元宝纪要、参会报告、会中控制、事件订阅、应用配置及问题反馈。通讯录只用于已有会议/录制动作的身份解析，不用于通用查人。",
+    "tags": [
+      "tencentcloud/tencentmeeting-cli"
+    ],
+    "keywords": [
+      "tencentcloud/tencentmeeting-cli"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "251",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/tencentcloud/tencentmeeting-cli",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:57:36.159Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:57:36.159Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:57:36.159Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:57:36.159Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:57:36.159Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:57:36.159Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:57:36.159Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=4900 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

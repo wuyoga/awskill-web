@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T02:03:56.403Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/waynesutton/builder-skills/convex-cron-jobs",
+      "externalId": "waynesutton/builder-skills/convex-cron-jobs",
+      "name": "convex-cron-jobs",
+      "owner": "waynesutton",
+      "repo": "builder-skills",
+      "repositoryUrl": "https://github.com/waynesutton/builder-skills",
+      "description": "Retired. Points to the skill that replaced convex-cron-jobs in builder-skills 3.0. Use when /convex-cron-jobs is invoked by name or the user asks where…",
+      "tags": [
+        "waynesutton/builder-skills"
+      ],
+      "stars": "404",
+      "installs": 2700,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "waynesutton/builder-skills/convex-cron-jobs",
+        "ogTitle": "convex-cron-jobs — waynesutton/builder-skills",
+        "npx": "npx skills add https://github.com/waynesutton/builder-skills --skill convex-cron-jobs",
+        "installsRaw": "2.7K",
+        "starsRaw": "404",
+        "firstSeen": "Jan 24, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/waynesutton/builder-skills/convex-cron-jobs/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/waynesutton/builder-skills/convex-cron-jobs/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/waynesutton/builder-skills/convex-cron-jobs/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T02:03:56.402Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/waynesutton/builder-skills/convex-cron-jobs",
+        "externalId": "waynesutton/builder-skills/convex-cron-jobs",
+        "name": "convex-cron-jobs",
+        "owner": "waynesutton",
+        "repo": "builder-skills",
+        "repositoryUrl": "https://github.com/waynesutton/builder-skills",
+        "description": "Retired. Points to the skill that replaced convex-cron-jobs in builder-skills 3.0. Use when /convex-cron-jobs is invoked by name or the user asks where…",
+        "tags": [
+          "waynesutton/builder-skills"
+        ],
+        "stars": "404",
+        "installs": 2700,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "waynesutton/builder-skills/convex-cron-jobs",
+          "ogTitle": "convex-cron-jobs — waynesutton/builder-skills",
+          "npx": "npx skills add https://github.com/waynesutton/builder-skills --skill convex-cron-jobs",
+          "installsRaw": "2.7K",
+          "starsRaw": "404",
+          "firstSeen": "Jan 24, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/waynesutton/builder-skills/convex-cron-jobs/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/waynesutton/builder-skills/convex-cron-jobs/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/waynesutton/builder-skills/convex-cron-jobs/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T02:03:56.402Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "waynesutton--builder-skills--convex-cron-jobs",
+    "name": "convex-cron-jobs",
+    "owner": "waynesutton",
+    "repo": "builder-skills",
+    "category": "",
+    "description": "Retired. Points to the skill that replaced convex-cron-jobs in builder-skills 3.0. Use when /convex-cron-jobs is invoked by name or the user asks where…",
+    "tags": [
+      "waynesutton/builder-skills"
+    ],
+    "keywords": [
+      "waynesutton/builder-skills"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "404",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/waynesutton/builder-skills",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:03:56.403Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:03:56.403Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:03:56.403Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T02:03:56.403Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T02:03:56.402Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T02:03:56.403Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T02:03:56.403Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=2700 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

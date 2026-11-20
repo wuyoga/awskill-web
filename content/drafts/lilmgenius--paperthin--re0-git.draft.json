@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:40:43.496Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/lilmgenius/paperthin/re0-git",
+      "externalId": "lilmgenius/paperthin/re0-git",
+      "name": "re0-git",
+      "owner": "lilmgenius",
+      "repo": "paperthin",
+      "repositoryUrl": "https://github.com/lilmgenius/paperthin",
+      "description": "Rewrite a finished commit&#x27;s message into a clean, handoff-ready form in your own log style, place a late commit in time order on a linear history, and take a…",
+      "tags": [
+        "lilmgenius/paperthin"
+      ],
+      "stars": "1.5K",
+      "installs": 1500,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "lilmgenius/paperthin/re0-git",
+        "ogTitle": "re0-git — lilmgenius/paperthin",
+        "npx": "npx skills add https://github.com/lilmgenius/paperthin --skill re0-git",
+        "installsRaw": "1.5K",
+        "starsRaw": "1.5K",
+        "firstSeen": "Jun 21, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/lilmgenius/paperthin/re0-git/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/lilmgenius/paperthin/re0-git/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/lilmgenius/paperthin/re0-git/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:40:43.496Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/lilmgenius/paperthin/re0-git",
+        "externalId": "lilmgenius/paperthin/re0-git",
+        "name": "re0-git",
+        "owner": "lilmgenius",
+        "repo": "paperthin",
+        "repositoryUrl": "https://github.com/lilmgenius/paperthin",
+        "description": "Rewrite a finished commit&#x27;s message into a clean, handoff-ready form in your own log style, place a late commit in time order on a linear history, and take a…",
+        "tags": [
+          "lilmgenius/paperthin"
+        ],
+        "stars": "1.5K",
+        "installs": 1500,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "lilmgenius/paperthin/re0-git",
+          "ogTitle": "re0-git — lilmgenius/paperthin",
+          "npx": "npx skills add https://github.com/lilmgenius/paperthin --skill re0-git",
+          "installsRaw": "1.5K",
+          "starsRaw": "1.5K",
+          "firstSeen": "Jun 21, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/lilmgenius/paperthin/re0-git/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/lilmgenius/paperthin/re0-git/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/lilmgenius/paperthin/re0-git/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:40:43.496Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "lilmgenius--paperthin--re0-git",
+    "name": "re0-git",
+    "owner": "lilmgenius",
+    "repo": "paperthin",
+    "category": "",
+    "description": "Rewrite a finished commit&#x27;s message into a clean, handoff-ready form in your own log style, place a late commit in time order on a linear history, and take a…",
+    "tags": [
+      "lilmgenius/paperthin"
+    ],
+    "keywords": [
+      "lilmgenius/paperthin"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "1.5K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/lilmgenius/paperthin",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:40:43.496Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:40:43.496Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:40:43.496Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:40:43.496Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:40:43.496Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:40:43.496Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:40:43.496Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1500 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

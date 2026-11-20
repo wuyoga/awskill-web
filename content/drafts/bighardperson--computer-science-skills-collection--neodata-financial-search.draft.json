@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:51:32.156Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/bighardperson/computer-science-skills-collection/neodata-financial-search",
+      "externalId": "bighardperson/computer-science-skills-collection/neodata-financial-search",
+      "name": "neodata-financial-search",
+      "owner": "bighardperson",
+      "repo": "computer-science-skills-collection",
+      "repositoryUrl": "https://github.com/bighardperson/computer-science-skills-collection",
+      "description": "NeoData Financial Search — 自然语言通用金融数据搜索服务。用自然语言查询股票、基金、指数、板块、 宏观经济、外汇、大宗商品等全品类金融数据，涵盖行情报价、财务报表（财报）、资金流向、研报评级、 事件公告等，支持结构化API数据和财经文章两种召回模式，即问即答。 Use when the…",
+      "tags": [
+        "bighardperson/computer-science-skills-collection"
+      ],
+      "stars": "68",
+      "installs": 1400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "bighardperson/computer-science-skills-collection/neodata-financial-search",
+        "ogTitle": "neodata-financial-search — bighardperson/computer-science-skills-collection",
+        "npx": "npx skills add https://github.com/bighardperson/computer-science-skills-collection --skill neodata-financial-search",
+        "installsRaw": "1.4K",
+        "starsRaw": "68",
+        "firstSeen": "May 5, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/bighardperson/computer-science-skills-collection/neodata-financial-search/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/bighardperson/computer-science-skills-collection/neodata-financial-search/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/bighardperson/computer-science-skills-collection/neodata-financial-search/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:51:32.155Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/bighardperson/computer-science-skills-collection/neodata-financial-search",
+        "externalId": "bighardperson/computer-science-skills-collection/neodata-financial-search",
+        "name": "neodata-financial-search",
+        "owner": "bighardperson",
+        "repo": "computer-science-skills-collection",
+        "repositoryUrl": "https://github.com/bighardperson/computer-science-skills-collection",
+        "description": "NeoData Financial Search — 自然语言通用金融数据搜索服务。用自然语言查询股票、基金、指数、板块、 宏观经济、外汇、大宗商品等全品类金融数据，涵盖行情报价、财务报表（财报）、资金流向、研报评级、 事件公告等，支持结构化API数据和财经文章两种召回模式，即问即答。 Use when the…",
+        "tags": [
+          "bighardperson/computer-science-skills-collection"
+        ],
+        "stars": "68",
+        "installs": 1400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "bighardperson/computer-science-skills-collection/neodata-financial-search",
+          "ogTitle": "neodata-financial-search — bighardperson/computer-science-skills-collection",
+          "npx": "npx skills add https://github.com/bighardperson/computer-science-skills-collection --skill neodata-financial-search",
+          "installsRaw": "1.4K",
+          "starsRaw": "68",
+          "firstSeen": "May 5, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/bighardperson/computer-science-skills-collection/neodata-financial-search/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/bighardperson/computer-science-skills-collection/neodata-financial-search/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/bighardperson/computer-science-skills-collection/neodata-financial-search/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:51:32.155Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "bighardperson--computer-science-skills-collection--neodata-financial-search",
+    "name": "neodata-financial-search",
+    "owner": "bighardperson",
+    "repo": "computer-science-skills-collection",
+    "category": "",
+    "description": "NeoData Financial Search — 自然语言通用金融数据搜索服务。用自然语言查询股票、基金、指数、板块、 宏观经济、外汇、大宗商品等全品类金融数据，涵盖行情报价、财务报表（财报）、资金流向、研报评级、 事件公告等，支持结构化API数据和财经文章两种召回模式，即问即答。 Use when the…",
+    "tags": [
+      "bighardperson/computer-science-skills-collection"
+    ],
+    "keywords": [
+      "bighardperson/computer-science-skills-collection"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "68",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/bighardperson/computer-science-skills-collection",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:51:32.156Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:51:32.156Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:51:32.156Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:51:32.156Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:51:32.155Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:51:32.156Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:51:32.156Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

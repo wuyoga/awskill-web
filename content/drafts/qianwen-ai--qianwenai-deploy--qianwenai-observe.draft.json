@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T03:46:18.203Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/qianwen-ai/qianwenai-deploy/qianwenai-observe",
+      "externalId": "qianwen-ai/qianwenai-deploy/qianwenai-observe",
+      "name": "qianwenai-observe",
+      "owner": "qianwen-ai",
+      "repo": "qianwenai-deploy",
+      "repositoryUrl": "https://github.com/qianwen-ai/qianwenai-deploy",
+      "description": "用自然语言汇报由 qianwenai-deploy 部署到阿里云国内站（aliyun.com）的应用的健康、性能、 资源状态和实际费用，无需进入控制台。读取项目目录下的 .qianwenai-deploy 状态文件识别应用及其 ECS（及可选的 RDS MySQL）资源，再调用只读云 API…",
+      "tags": [
+        "qianwen-ai/qianwenai-deploy"
+      ],
+      "stars": "17",
+      "installs": 1400,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "qianwen-ai/qianwenai-deploy/qianwenai-observe",
+        "ogTitle": "qianwenai-observe — qianwen-ai/qianwenai-deploy",
+        "npx": "npx skills add https://github.com/qianwen-ai/qianwenai-deploy --skill qianwenai-observe",
+        "installsRaw": "1.4K",
+        "starsRaw": "17",
+        "firstSeen": "Sep 14, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/qianwen-ai/qianwenai-deploy/qianwenai-observe/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/qianwen-ai/qianwenai-deploy/qianwenai-observe/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/qianwen-ai/qianwenai-deploy/qianwenai-observe/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T03:46:18.203Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/qianwen-ai/qianwenai-deploy/qianwenai-observe",
+        "externalId": "qianwen-ai/qianwenai-deploy/qianwenai-observe",
+        "name": "qianwenai-observe",
+        "owner": "qianwen-ai",
+        "repo": "qianwenai-deploy",
+        "repositoryUrl": "https://github.com/qianwen-ai/qianwenai-deploy",
+        "description": "用自然语言汇报由 qianwenai-deploy 部署到阿里云国内站（aliyun.com）的应用的健康、性能、 资源状态和实际费用，无需进入控制台。读取项目目录下的 .qianwenai-deploy 状态文件识别应用及其 ECS（及可选的 RDS MySQL）资源，再调用只读云 API…",
+        "tags": [
+          "qianwen-ai/qianwenai-deploy"
+        ],
+        "stars": "17",
+        "installs": 1400,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "qianwen-ai/qianwenai-deploy/qianwenai-observe",
+          "ogTitle": "qianwenai-observe — qianwen-ai/qianwenai-deploy",
+          "npx": "npx skills add https://github.com/qianwen-ai/qianwenai-deploy --skill qianwenai-observe",
+          "installsRaw": "1.4K",
+          "starsRaw": "17",
+          "firstSeen": "Sep 14, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/qianwen-ai/qianwenai-deploy/qianwenai-observe/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/qianwen-ai/qianwenai-deploy/qianwenai-observe/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/qianwen-ai/qianwenai-deploy/qianwenai-observe/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T03:46:18.203Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "qianwen-ai--qianwenai-deploy--qianwenai-observe",
+    "name": "qianwenai-observe",
+    "owner": "qianwen-ai",
+    "repo": "qianwenai-deploy",
+    "category": "",
+    "description": "用自然语言汇报由 qianwenai-deploy 部署到阿里云国内站（aliyun.com）的应用的健康、性能、 资源状态和实际费用，无需进入控制台。读取项目目录下的 .qianwenai-deploy 状态文件识别应用及其 ECS（及可选的 RDS MySQL）资源，再调用只读云 API…",
+    "tags": [
+      "qianwen-ai/qianwenai-deploy"
+    ],
+    "keywords": [
+      "qianwen-ai/qianwenai-deploy"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "17",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/qianwen-ai/qianwenai-deploy",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:46:18.203Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:46:18.203Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:46:18.203Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T03:46:18.203Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T03:46:18.203Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T03:46:18.203Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T03:46:18.203Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=1400 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

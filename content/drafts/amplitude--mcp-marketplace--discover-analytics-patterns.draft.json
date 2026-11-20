@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T00:05:39.817Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/amplitude/mcp-marketplace/discover-analytics-patterns",
+      "externalId": "amplitude/mcp-marketplace/discover-analytics-patterns",
+      "name": "discover-analytics-patterns",
+      "owner": "amplitude",
+      "repo": "mcp-marketplace",
+      "repositoryUrl": "https://github.com/amplitude/mcp-marketplace",
+      "description": "Discovers how analytics tracking calls are actually written in this codebase — the concrete SDK calls, function signatures, and import patterns used to send…",
+      "tags": [
+        "amplitude/mcp-marketplace"
+      ],
+      "stars": "48",
+      "installs": 65800,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "amplitude/mcp-marketplace/discover-analytics-patterns",
+        "ogTitle": "discover-analytics-patterns — amplitude/mcp-marketplace",
+        "npx": "npx skills add https://github.com/amplitude/mcp-marketplace --skill discover-analytics-patterns",
+        "installsRaw": "65.8K",
+        "starsRaw": "48",
+        "firstSeen": "Jul 5, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/amplitude/mcp-marketplace/discover-analytics-patterns/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Pass",
+            "href": "/amplitude/mcp-marketplace/discover-analytics-patterns/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Pass",
+            "href": "/amplitude/mcp-marketplace/discover-analytics-patterns/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T00:05:39.816Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/amplitude/mcp-marketplace/discover-analytics-patterns",
+        "externalId": "amplitude/mcp-marketplace/discover-analytics-patterns",
+        "name": "discover-analytics-patterns",
+        "owner": "amplitude",
+        "repo": "mcp-marketplace",
+        "repositoryUrl": "https://github.com/amplitude/mcp-marketplace",
+        "description": "Discovers how analytics tracking calls are actually written in this codebase — the concrete SDK calls, function signatures, and import patterns used to send…",
+        "tags": [
+          "amplitude/mcp-marketplace"
+        ],
+        "stars": "48",
+        "installs": 65800,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "amplitude/mcp-marketplace/discover-analytics-patterns",
+          "ogTitle": "discover-analytics-patterns — amplitude/mcp-marketplace",
+          "npx": "npx skills add https://github.com/amplitude/mcp-marketplace --skill discover-analytics-patterns",
+          "installsRaw": "65.8K",
+          "starsRaw": "48",
+          "firstSeen": "Jul 5, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/amplitude/mcp-marketplace/discover-analytics-patterns/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Pass",
+              "href": "/amplitude/mcp-marketplace/discover-analytics-patterns/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Pass",
+              "href": "/amplitude/mcp-marketplace/discover-analytics-patterns/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T00:05:39.816Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "amplitude--mcp-marketplace--discover-analytics-patterns",
+    "name": "discover-analytics-patterns",
+    "owner": "amplitude",
+    "repo": "mcp-marketplace",
+    "category": "",
+    "description": "Discovers how analytics tracking calls are actually written in this codebase — the concrete SDK calls, function signatures, and import patterns used to send…",
+    "tags": [
+      "amplitude/mcp-marketplace"
+    ],
+    "keywords": [
+      "amplitude/mcp-marketplace"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "48",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/amplitude/mcp-marketplace",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:05:39.817Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:05:39.817Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:05:39.817Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T00:05:39.817Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T00:05:39.816Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T00:05:39.817Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T00:05:39.817Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=65800 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}

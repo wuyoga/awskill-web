@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "draftStatus": "needs_review",
+  "collectedAt": "2026-11-20T01:20:00.835Z",
+  "sources": {
+    "benchmark": {
+      "siteKey": "skills-sh",
+      "sourceUrl": "https://www.skills.sh/tinyfish-io/tinyfish-cookbook/use-tinyfish",
+      "externalId": "tinyfish-io/tinyfish-cookbook/use-tinyfish",
+      "name": "use-tinyfish",
+      "owner": "tinyfish-io",
+      "repo": "tinyfish-cookbook",
+      "repositoryUrl": "https://github.com/tinyfish-io/tinyfish-cookbook",
+      "description": "Use TinyFish for web search, fetching URLs, reading pages, current information, source-backed answers, research, docs, pricing/product pages, extraction,…",
+      "tags": [
+        "tinyfish-io/tinyfish-cookbook"
+      ],
+      "stars": "2.3K",
+      "installs": 3600,
+      "license": null,
+      "agentsClaimed": [],
+      "raw": {
+        "path": "tinyfish-io/tinyfish-cookbook/use-tinyfish",
+        "ogTitle": "use-tinyfish — tinyfish-io/tinyfish-cookbook",
+        "npx": "npx skills add https://github.com/tinyfish-io/tinyfish-cookbook --skill use-tinyfish",
+        "installsRaw": "3.6K",
+        "starsRaw": "2.3K",
+        "firstSeen": "Mar 20, 2026",
+        "securityAudits": [
+          {
+            "provider": "Gen Agent Trust Hub",
+            "providerSlug": "agent-trust-hub",
+            "status": "Pass",
+            "href": "/tinyfish-io/tinyfish-cookbook/use-tinyfish/security/agent-trust-hub"
+          },
+          {
+            "provider": "Socket",
+            "providerSlug": "socket",
+            "status": "Warn",
+            "href": "/tinyfish-io/tinyfish-cookbook/use-tinyfish/security/socket"
+          },
+          {
+            "provider": "Snyk",
+            "providerSlug": "snyk",
+            "status": "Warn",
+            "href": "/tinyfish-io/tinyfish-cookbook/use-tinyfish/security/snyk"
+          }
+        ]
+      },
+      "fetchedAt": "2026-11-20T01:20:00.835Z"
+    },
+    "benchmarks": [
+      {
+        "siteKey": "skills-sh",
+        "sourceUrl": "https://www.skills.sh/tinyfish-io/tinyfish-cookbook/use-tinyfish",
+        "externalId": "tinyfish-io/tinyfish-cookbook/use-tinyfish",
+        "name": "use-tinyfish",
+        "owner": "tinyfish-io",
+        "repo": "tinyfish-cookbook",
+        "repositoryUrl": "https://github.com/tinyfish-io/tinyfish-cookbook",
+        "description": "Use TinyFish for web search, fetching URLs, reading pages, current information, source-backed answers, research, docs, pricing/product pages, extraction,…",
+        "tags": [
+          "tinyfish-io/tinyfish-cookbook"
+        ],
+        "stars": "2.3K",
+        "installs": 3600,
+        "license": null,
+        "agentsClaimed": [],
+        "raw": {
+          "path": "tinyfish-io/tinyfish-cookbook/use-tinyfish",
+          "ogTitle": "use-tinyfish — tinyfish-io/tinyfish-cookbook",
+          "npx": "npx skills add https://github.com/tinyfish-io/tinyfish-cookbook --skill use-tinyfish",
+          "installsRaw": "3.6K",
+          "starsRaw": "2.3K",
+          "firstSeen": "Mar 20, 2026",
+          "securityAudits": [
+            {
+              "provider": "Gen Agent Trust Hub",
+              "providerSlug": "agent-trust-hub",
+              "status": "Pass",
+              "href": "/tinyfish-io/tinyfish-cookbook/use-tinyfish/security/agent-trust-hub"
+            },
+            {
+              "provider": "Socket",
+              "providerSlug": "socket",
+              "status": "Warn",
+              "href": "/tinyfish-io/tinyfish-cookbook/use-tinyfish/security/socket"
+            },
+            {
+              "provider": "Snyk",
+              "providerSlug": "snyk",
+              "status": "Warn",
+              "href": "/tinyfish-io/tinyfish-cookbook/use-tinyfish/security/snyk"
+            }
+          ]
+        },
+        "fetchedAt": "2026-11-20T01:20:00.835Z"
+      }
+    ]
+  },
+  "skill": {
+    "id": "tinyfish-io--tinyfish-cookbook--use-tinyfish",
+    "name": "use-tinyfish",
+    "owner": "tinyfish-io",
+    "repo": "tinyfish-cookbook",
+    "category": "",
+    "description": "Use TinyFish for web search, fetching URLs, reading pages, current information, source-backed answers, research, docs, pricing/product pages, extraction,…",
+    "tags": [
+      "tinyfish-io/tinyfish-cookbook"
+    ],
+    "keywords": [
+      "tinyfish-io/tinyfish-cookbook"
+    ],
+    "compat": {
+      "Claude Code": {
+        "status": "未验证"
+      },
+      "Codex": {
+        "status": "未验证"
+      },
+      "Cursor": {
+        "status": "未验证"
+      },
+      "Windsurf": {
+        "status": "未验证"
+      }
+    },
+    "risk": "未评估",
+    "riskSummary": "待人工安全评估",
+    "permissions": [
+      {
+        "label": "读取项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "修改项目文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "执行 Shell",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问网络",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "访问系统凭据",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      },
+      {
+        "label": "删除文件",
+        "level": "待评估",
+        "reason": "尚未完成安全评估"
+      }
+    ],
+    "status": "待验证",
+    "needsApiKey": false,
+    "paid": false,
+    "outputs": [],
+    "stars": "2.3K",
+    "installs": 0,
+    "addedAt": "2026-11-20",
+    "sourceUpdatedDaysAgo": null,
+    "license": "",
+    "prerequisites": "",
+    "verifiedCommit": "",
+    "latestCommit": "",
+    "useCases": [],
+    "notFor": "",
+    "skillMd": "",
+    "tone": "neutral",
+    "icon": "spark",
+    "repositoryUrl": "https://github.com/tinyfish-io/tinyfish-cookbook",
+    "repositoryPath": ""
+  },
+  "fieldMeta": {
+    "id": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:20:00.835Z"
+    },
+    "name": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:20:00.835Z"
+    },
+    "owner": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:20:00.835Z"
+    },
+    "repo": {
+      "source": "benchmark",
+      "collectedAt": "2026-11-20T01:20:00.835Z"
+    },
+    "description": {
+      "source": "benchmark",
+      "confidence": "medium",
+      "collectedAt": "2026-11-20T01:20:00.835Z",
+      "note": "skills-sh"
+    },
+    "tags": {
+      "source": "merge",
+      "collectedAt": "2026-11-20T01:20:00.835Z"
+    },
+    "stars": {
+      "source": "default",
+      "collectedAt": "2026-11-20T01:20:00.835Z",
+      "confidence": "high"
+    },
+    "license": {
+      "source": "default"
+    },
+    "latestCommit": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "skillMd": {
+      "source": "default",
+      "confidence": "high"
+    },
+    "repositoryUrl": {
+      "source": "benchmark"
+    },
+    "needsApiKey": {
+      "source": "merge",
+      "confidence": "low",
+      "note": "heuristic from text"
+    },
+    "compat": {
+      "source": "default",
+      "note": "requires human Agent verification"
+    },
+    "risk": {
+      "source": "default",
+      "note": "requires human security review"
+    },
+    "riskSummary": {
+      "source": "default"
+    },
+    "permissions": {
+      "source": "default"
+    },
+    "status": {
+      "source": "default"
+    },
+    "verifiedCommit": {
+      "source": "default"
+    },
+    "useCases": {
+      "source": "default"
+    },
+    "notFor": {
+      "source": "default"
+    },
+    "category": {
+      "source": "default"
+    },
+    "outputs": {
+      "source": "default"
+    },
+    "installs": {
+      "source": "default",
+      "note": "benchmark evidence installs=3600 (OQ-04; not copied to skill.installs)"
+    }
+  },
+  "review": {
+    "pendingFields": [
+      "compat",
+      "risk",
+      "riskSummary",
+      "permissions",
+      "status",
+      "verifiedCommit",
+      "useCases",
+      "notFor",
+      "category",
+      "outputs",
+      "installs"
+    ],
+    "notes": [
+      "GitHub channel missing — repo metadata incomplete"
+    ]
+  }
+}
