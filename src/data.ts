@@ -1,3 +1,5 @@
+import collectedBundle from "./data/skills.collected.json";
+
 export const AGENTS = ["Claude Code", "Codex", "Cursor", "Windsurf"] as const;
 export type AgentName = (typeof AGENTS)[number];
 
@@ -199,7 +201,8 @@ const none: [PermissionLevel, string] = ["未发现", "静态扫描与人工复�
 const pending: [PermissionLevel, string] = ["待评估", "尚未完成安全评估"];
 const unverified: Compat = { status: "未验证" };
 
-export const skills: Skill[] = [
+/** Hand-authored prototype skills (rich demo conclusions). */
+export const prototypeSkills: Skill[] = [
   {
     id: "frontend-design",
     name: "frontend-design",
@@ -774,18 +777,22 @@ Use the OOXML scripts to edit existing files.`,
   },
 ];
 
-export const catalogCounts: Record<Category, number> = {
-  开发与工程: 142,
-  设计与用户体验: 86,
-  测试与安全: 58,
-  数据与研究: 43,
-  内容与文档: 64,
-  视觉与多媒体: 71,
-  营销与增长: 29,
-  产品与业务: 35,
-  生产力与自动化: 78,
-  "Agent 与工具链": 74,
-};
+/** Prototype first (keeps verified demo + reviews), then collected drafts by new id. */
+export const skills: Skill[] = (() => {
+  const map = new Map<string, Skill>();
+  for (const skill of prototypeSkills) map.set(skill.id, skill);
+  const collected = (collectedBundle as { skills: Skill[] }).skills ?? [];
+  for (const skill of collected) {
+    if (!map.has(skill.id)) map.set(skill.id, skill);
+  }
+  return [...map.values()];
+})();
+
+export const catalogCounts: Record<Category, number> = (() => {
+  const counts = Object.fromEntries(CATEGORIES.map((c) => [c, 0])) as Record<Category, number>;
+  for (const skill of skills) counts[skill.category] += 1;
+  return counts;
+})();
 
 export const categoryMeta: Record<Category, { icon: IconName; tone: string }> = {
   开发与工程: { icon: "code", tone: "blue" },
