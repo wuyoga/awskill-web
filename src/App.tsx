@@ -42,8 +42,10 @@ import {
   compatTone,
   CopyBlock,
   Icon,
+  MenuSelect,
   Notice,
   RiskPill,
+  SearchableSkillSelect,
   SkillCard,
   StatusPill,
 } from "./ui";
@@ -189,8 +191,10 @@ function HomePage({ actions }: { actions: AppActions }) {
   const { t, l, ago } = useI18n();
   const { skills, getSkill } = useData();
   const [query, setQuery] = useState("");
-  const sample = getSkill("frontend-design")!;
-  const featured = skills.filter((skill) => skill.status === "任务已实测").slice(0, 3);
+  const sample = getSkill("frontend-design") ?? skills[0]!;
+  const featuredVerified = skills.filter((skill) => skill.status === "任务已实测").slice(0, 3);
+  const featured =
+    featuredVerified.length > 0 ? featuredVerified : skills.filter((s) => s.id !== sample.id).slice(0, 3);
   const quick: [string, string][] = [
     ["前端设计", "Frontend design"],
     ["代码审查", "Code review"],
@@ -430,6 +434,8 @@ function sortSkills(list: Skill[], sort: Sort) {
   );
 }
 
+const SEARCH_PAGE_SIZE = 24;
+
 function SearchPage({ route, actions }: { route: Route; actions: AppActions }) {
   const { go, compareIds, toggleCompare } = actions;
   const { t, l } = useI18n();
@@ -449,6 +455,7 @@ function SearchPage({ route, actions }: { route: Route; actions: AppActions }) {
   const [outputs, setOutputs] = useState<OutputFormat[]>([]);
   const [sort, setSort] = useState<Sort>("综合推荐");
   const [filterOpen, setFilterOpen] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(SEARCH_PAGE_SIZE);
 
   useEffect(() => {
     document.body.classList.toggle("sheet-open", filterOpen);
@@ -475,6 +482,13 @@ function SearchPage({ route, actions }: { route: Route; actions: AppActions }) {
       ),
     [skills, matches, sort],
   );
+
+  useEffect(() => {
+    setVisibleCount(SEARCH_PAGE_SIZE);
+  }, [query, category, agent, statuses, risks, requirements, outputs, sort]);
+
+  const visibleSkills = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
   const categoryCounts = useMemo(() => {
     const pool = skills.filter((skill) => matches(skill, true));
     return Object.fromEntries(
@@ -540,41 +554,38 @@ function SearchPage({ route, actions }: { route: Route; actions: AppActions }) {
   }
 
   return (
+    <>
     <main className="search-page container">
-      <div className="page-title">
-        <span className="section-kicker">DISCOVER</span>
-        <h1>{t("发现值得安装的 Skill", "Discover Skills worth installing")}</h1>
-        <p>
-          {t(
-            "按任务、兼容性与风险筛选，不让热度替你做决定。",
-            "Filter by task, compatibility and risk—don't let popularity decide for you.",
-          )}
-        </p>
-      </div>
-      <div className="search-toolbar">
-        <div className="search-field">
-          <Icon name="search" size={19} />
-          <input
-            id="global-search"
-            value={query}
-            onChange={(event) => setQuery(event.target.value)}
-            placeholder={t("搜索 Skill 或任务", "Search Skills or tasks")}
-            aria-label={t("搜索 Skill 或任务", "Search Skills or tasks")}
-          />
-          {query && (
-            <button onClick={() => setQuery("")} aria-label={t("清空搜索", "Clear search")}>
-              <Icon name="x" size={16} />
-            </button>
-          )}
+      <div className="search-page-head">
+        <div className="page-title">
+          <span className="section-kicker">DISCOVER</span>
+          <h1>{t("发现值得安装的 Skill", "Discover Skills worth installing")}</h1>
         </div>
-        <button
-          className="filter-trigger"
-          onClick={() => setFilterOpen(!filterOpen)}
-          aria-expanded={filterOpen}
-        >
-          <Icon name="filter" size={18} /> {t("筛选", "Filters")}
-          {filterCount > 0 && <span className="header-count">{filterCount}</span>}
-        </button>
+        <div className="search-toolbar">
+          <div className="search-field">
+            <Icon name="search" size={19} />
+            <input
+              id="global-search"
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder={t("搜索 Skill 或任务", "Search Skills or tasks")}
+              aria-label={t("搜索 Skill 或任务", "Search Skills or tasks")}
+            />
+            {query && (
+              <button onClick={() => setQuery("")} aria-label={t("清空搜索", "Clear search")}>
+                <Icon name="x" size={16} />
+              </button>
+            )}
+          </div>
+          <button
+            className="filter-trigger"
+            onClick={() => setFilterOpen(!filterOpen)}
+            aria-expanded={filterOpen}
+          >
+            <Icon name="filter" size={18} /> {t("筛选", "Filters")}
+            {filterCount > 0 && <span className="header-count">{filterCount}</span>}
+          </button>
+        </div>
       </div>
       <div className="search-layout">
         {filterOpen && (
@@ -649,21 +660,24 @@ function SearchPage({ route, actions }: { route: Route; actions: AppActions }) {
         <section className="results" aria-live="polite">
           <div className="results-top">
             <span>
-              {t(
-                `${filtered.length} 个原型样例 · 正式目录共 ${catalogTotal} 个`,
-                `${filtered.length} prototype samples · ${catalogTotal} in full catalog`,
-              )}
+              {filtered.length
+                ? t(
+                    `已显示 ${visibleSkills.length} / ${filtered.length} · 目录 ${catalogTotal}`,
+                    `Showing ${visibleSkills.length} / ${filtered.length} · catalog ${catalogTotal}`,
+                  )
+                : t(
+                    `0 个结果 · 目录共 ${catalogTotal} 个`,
+                    `0 results · ${catalogTotal} in catalog`,
+                  )}
             </span>
-            <label className="sort-select">
-              <span className="sr-only">{t("排序", "Sort")}</span>
-              <select value={sort} onChange={(event) => setSort(event.target.value as Sort)}>
-                {SORTS.map((item) => (
-                  <option key={item} value={item}>
-                    {l(item)}
-                  </option>
-                ))}
-              </select>
-            </label>
+            <MenuSelect
+              className="sort-select"
+              value={sort}
+              options={SORTS}
+              onChange={setSort}
+              ariaLabel={t("排序", "Sort")}
+              getLabel={(item) => l(item)}
+            />
           </div>
           {chips.length > 0 && (
             <div className="active-filters">
@@ -678,17 +692,34 @@ function SearchPage({ route, actions }: { route: Route; actions: AppActions }) {
             </div>
           )}
           {filtered.length ? (
-            <div className="result-list">
-              {filtered.map((skill) => (
-                <SkillCard
-                  key={skill.id}
-                  skill={skill}
-                  selected={compareIds.includes(skill.id)}
-                  onOpen={() => go(skillHref(skill.id))}
-                  onCompare={() => toggleCompare(skill.id)}
-                />
-              ))}
-            </div>
+            <>
+              <div className="result-list">
+                {visibleSkills.map((skill) => (
+                  <SkillCard
+                    key={skill.id}
+                    skill={skill}
+                    selected={compareIds.includes(skill.id)}
+                    onOpen={() => go(skillHref(skill.id))}
+                    onCompare={() => toggleCompare(skill.id)}
+                  />
+                ))}
+              </div>
+              {hasMore && (
+                <div className="results-more">
+                  <button
+                    className="secondary"
+                    onClick={() =>
+                      setVisibleCount((count) => Math.min(count + SEARCH_PAGE_SIZE, filtered.length))
+                    }
+                  >
+                    {t(
+                      `加载更多（剩余 ${filtered.length - visibleSkills.length}）`,
+                      `Load more (${filtered.length - visibleSkills.length} left)`,
+                    )}
+                  </button>
+                </div>
+              )}
+            </>
           ) : (
             <div className="empty-state">
               <span className="empty-icon">
@@ -709,6 +740,8 @@ function SearchPage({ route, actions }: { route: Route; actions: AppActions }) {
         </section>
       </div>
     </main>
+    <Footer actions={actions} />
+    </>
   );
 }
 
@@ -786,6 +819,7 @@ function DetailPage({
   ];
 
   return (
+    <>
     <main className="detail-page">
       <div className="container breadcrumb">
         <button onClick={() => go("#/search")}>Skills</button>
@@ -1250,6 +1284,8 @@ function DetailPage({
         </aside>
       </div>
     </main>
+    <Footer actions={actions} />
+    </>
   );
 }
 
@@ -1353,6 +1389,7 @@ function ComparePage({ actions }: { actions: AppActions }) {
   ];
 
   return (
+    <>
     <main className="compare-page container">
       <div className="breadcrumb">
         <button onClick={() => go("#/search")}>{t("发现 Skill", "Discover")}</button>
@@ -1362,12 +1399,6 @@ function ComparePage({ actions }: { actions: AppActions }) {
       <div className="page-title">
         <span className="section-kicker">COMPARE</span>
         <h1>{t("选择更适合你的 Skill", "Pick the Skill that fits")}</h1>
-        <p>
-          {t(
-            "并排查看兼容性、安全风险和实测表现，不让单一分数替你做决定。",
-            "Compare compatibility, security risk and test results side by side—no single score deciding for you.",
-          )}
-        </p>
       </div>
       {visible.length === 0 ? (
         <div className="empty-state">
@@ -1421,18 +1452,14 @@ function ComparePage({ actions }: { actions: AppActions }) {
                     ? t("至少需要 2 个才能对比", "Add at least 2 to compare")
                     : t("还可以添加 1 个", "1 more slot")}
                 </small>
-                <select
-                  aria-label={t("选择要加入对比的 Skill", "Choose a Skill to compare")}
-                  value=""
-                  onChange={(event) => event.target.value && toggleCompare(event.target.value)}
-                >
-                  <option value="">{t("选择 Skill…", "Choose…")}</option>
-                  {candidates.map((skill) => (
-                    <option key={skill.id} value={skill.id}>
-                      {skill.name} · {l(skill.category)}
-                    </option>
-                  ))}
-                </select>
+                <SearchableSkillSelect
+                  skills={candidates}
+                  onSelect={toggleCompare}
+                  ariaLabel={t("选择要加入对比的 Skill", "Choose a Skill to compare")}
+                  placeholder={t("选择 Skill…", "Choose…")}
+                  searchPlaceholder={t("搜索名称或仓库", "Search name or repo")}
+                  emptyLabel={t("无匹配 Skill", "No matching Skills")}
+                />
               </div>
             )}
           </div>
@@ -1477,6 +1504,8 @@ function ComparePage({ actions }: { actions: AppActions }) {
         </div>
       </div>
     </main>
+    <Footer actions={actions} />
+    </>
   );
 }
 
@@ -1641,9 +1670,12 @@ export default function App() {
     toggleCompare,
   };
 
+  const showCompareDock =
+    compareIds.length > 0 && (route.page === "search" || route.page === "skill");
+
   return (
     <I18nProvider value={{ lang, setLang }}>
-      <div className="app-shell">
+      <div className={`app-shell${showCompareDock ? " has-compare-dock" : ""}`}>
         <Header route={route} actions={actions} dark={dark} onToggleTheme={() => setDark(!dark)} />
         <Page
           route={route}
@@ -1661,7 +1693,7 @@ export default function App() {
             );
           }}
         />
-        {(route.page === "search" || route.page === "skill") && <CompareDock actions={actions} />}
+        {showCompareDock && <CompareDock actions={actions} />}
         {toast && (
           <div className="toast" role="status" key={toast.id}>
             {toast.text}

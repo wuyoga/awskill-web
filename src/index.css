@@ -88,6 +88,11 @@
   background: var(--bg);
 }
 
+/* Clearance for fixed compare dock: pad footer (not shell) so no orphan bg strip below footer */
+.app-shell.has-compare-dock footer {
+  padding-bottom: 110px;
+}
+
 .container {
   width: min(1440px, calc(100% - 40px));
   max-width: none;
@@ -1028,7 +1033,7 @@ footer {
 .compare-page {
   min-height: calc(100vh - 68px);
   padding-top: 64px;
-  padding-bottom: 120px;
+  padding-bottom: 48px;
 }
 
 .page-title {
@@ -1048,10 +1053,44 @@ footer {
   font-size: 14px;
 }
 
+/* Discover: title + search on one row (reference: left title, right input). */
+.search-page-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28px;
+  margin-bottom: 18px;
+}
+
+.search-page .page-title {
+  margin-bottom: 0;
+  min-width: 0;
+  flex: 1 1 auto;
+}
+
+.search-page .page-title .section-kicker {
+  margin-bottom: 6px;
+}
+
+.search-page .page-title h1 {
+  font-size: clamp(28px, 3.2vw, 40px);
+}
+
+.search-page .page-title p {
+  margin-top: 8px;
+  max-width: 42rem;
+}
+
 .search-toolbar {
   display: flex;
   gap: 10px;
   margin-bottom: 28px;
+}
+
+.search-page .search-toolbar {
+  flex: 0 1 420px;
+  width: min(100%, 420px);
+  margin-bottom: 0;
 }
 
 .search-field {
@@ -1105,11 +1144,21 @@ footer {
   display: grid;
   grid-template-columns: 220px minmax(0, 1fr);
   gap: 42px;
+  align-items: start;
 }
 
 .filters {
   padding-right: 22px;
   border-right: 1px solid var(--line);
+}
+
+@media (min-width: 761px) {
+  .filters {
+    position: sticky;
+    top: 84px;
+    /* 随内容自然增高，不限高、不出现内部滚动条 */
+    overflow: visible;
+  }
 }
 
 .filter-group {
@@ -1199,18 +1248,41 @@ footer {
   font-size: 12px;
 }
 
-.results-top select {
-  border: 0;
-  outline: none;
+.results-top .menu-select {
+  position: relative;
+}
+
+.results-top .menu-select-trigger {
+  height: 30px;
+  padding: 0 8px 0 10px;
+  border: 1px solid transparent;
+  border-radius: 8px;
   color: var(--text-2);
   background: transparent;
   font-size: 12px;
+}
+
+.results-top .menu-select-trigger:hover,
+.results-top .menu-select.open .menu-select-trigger {
+  border-color: var(--line-strong);
+  background: var(--surface);
+  color: var(--text);
 }
 
 .result-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
+}
+
+.results-more {
+  margin-top: 22px;
+  display: flex;
+  justify-content: center;
+}
+
+.results-more .secondary {
+  min-width: 220px;
 }
 
 .compare-dock {
@@ -1533,7 +1605,10 @@ footer {
 
 .code-block {
   margin: 14px 20px 20px;
+  min-width: 0;
+  max-width: 100%;
   min-height: 58px;
+  box-sizing: border-box;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -1546,16 +1621,21 @@ footer {
 
 .code-block > div {
   min-width: 0;
+  flex: 1 1 auto;
   display: flex;
   align-items: center;
   gap: 11px;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
 }
 
 .code-block > div span {
+  flex: 0 0 auto;
   color: #766ce8;
 }
 
 .code-block code {
+  min-width: 0;
   overflow: hidden;
   font-size: 12px;
   text-overflow: ellipsis;
@@ -2409,7 +2489,7 @@ footer {
 .workflow-feature {
   min-height: 355px;
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: minmax(0, 1.15fr) minmax(260px, 0.9fr);
   overflow: hidden;
   border: 1px solid var(--line);
   border-radius: 22px;
@@ -2417,6 +2497,8 @@ footer {
 }
 
 .workflow-visual {
+  min-width: 0;
+  overflow: hidden;
   padding: 40px;
   border-right: 1px solid var(--line);
   background:
@@ -2444,12 +2526,22 @@ footer {
 }
 
 .workflow-nodes {
+  width: 100%;
+  min-width: 0;
   height: 230px;
   justify-content: center;
+  gap: 4px;
+}
+
+.workflow-node-wrap {
+  min-width: 0;
+  flex: 1 1 0;
 }
 
 .workflow-node {
-  min-width: 145px;
+  min-width: 0;
+  width: 100%;
+  max-width: 100%;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -2462,41 +2554,66 @@ footer {
   text-align: left;
 }
 
+.workflow-node > span:not(.skill-icon) {
+  min-width: 0;
+  overflow: hidden;
+}
+
 .workflow-node small {
   display: block;
+  max-width: 100%;
+  overflow: hidden;
   color: var(--text-3);
   font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .workflow-node strong {
+  display: block;
+  overflow: hidden;
   font-family: inherit;
   font-size: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .node-arrow {
-  margin: 0 9px;
+  flex: 0 0 auto;
+  margin: 0 4px;
   color: var(--text-3);
 }
 
 .workflow-feature-copy {
+  min-width: 0;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 45px;
+  padding: 40px 36px;
 }
 
 .workflow-feature-copy h2 {
   margin: 0 0 14px;
+  max-width: 100%;
   font-size: clamp(24px, 2.1vw, 32px);
-  white-space: nowrap;
+  line-height: 1.25;
+  white-space: normal;
+  text-wrap: balance;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
 }
 
 .workflow-feature-copy > p {
   margin: 0;
+  max-width: 100%;
   color: var(--text-2);
   font-size: 12px;
   line-height: 1.75;
+  overflow-wrap: anywhere;
 }
 
 .workflow-details {
@@ -2519,6 +2636,10 @@ footer {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 15px;
+}
+
+.workflow-grid {
+  align-items: start;
 }
 
 .workflow-card,
@@ -2581,6 +2702,12 @@ footer {
   background: var(--surface-soft);
   font-family: inherit;
   font-size: 12px;
+}
+
+.workflow-skill-slot {
+  min-height: 31px;
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .mini-skill-dot {
@@ -2756,7 +2883,9 @@ footer {
 }
 
 .agent-matrix {
+  max-height: min(70vh, 640px);
   overflow: auto;
+  overscroll-behavior: contain;
   border: 1px solid var(--line);
   border-radius: 14px;
   background: var(--surface);
@@ -2770,8 +2899,17 @@ footer {
 }
 
 .agent-matrix-head {
+  position: sticky;
+  top: 0;
+  z-index: 1;
   color: var(--text-3);
   background: var(--surface-soft);
+  font-size: 12px;
+}
+
+.matrix-footnote {
+  margin: 12px 2px 0;
+  color: var(--text-3);
   font-size: 12px;
 }
 
@@ -2946,7 +3084,12 @@ footer {
   }
 
   .mobile-menu {
+    width: 44px;
+    height: 44px;
+    min-width: 44px;
+    min-height: 44px;
     display: grid;
+    place-items: center;
   }
 
   .desktop-only,
@@ -3042,8 +3185,22 @@ footer {
     padding-top: 45px;
   }
 
+  .search-page-head {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 14px;
+  }
+
+  .search-page .search-toolbar {
+    flex: 1 1 auto;
+    width: 100%;
+  }
+
   .filter-trigger {
-    display: flex;
+    display: inline-flex;
+    min-height: 44px;
+    padding: 0 14px;
+    font-size: 14px;
   }
 
   .search-layout {
@@ -3245,12 +3402,23 @@ footer {
   }
 
   .code-block {
-    align-items: flex-start;
+    align-items: stretch;
     flex-direction: column;
+  }
+
+  .code-block > div {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .code-block code {
+    overflow-x: visible;
+    text-overflow: clip;
   }
 
   .code-block button {
     width: 100%;
+    flex: 0 0 auto;
   }
 
   .table-head,
@@ -3280,10 +3448,6 @@ footer {
 
   .detail-aside {
     display: block;
-  }
-
-  .hub-hero h1 {
-    font-size: 42px;
   }
 
   .hub-stat-row {
@@ -3792,7 +3956,10 @@ a.github-link {
 }
 
 .code-block.multi code {
+  display: block;
+  max-width: 100%;
   overflow-x: auto;
+  text-overflow: clip;
   white-space: pre;
   line-height: 1.8;
 }
@@ -3815,15 +3982,194 @@ a.github-link {
   background: var(--surface-soft);
 }
 
-.compare-skill-head.add-slot select {
+.compare-skill-head.add-slot .skill-picker {
   width: 100%;
+}
+
+.compare-skill-head.add-slot .skill-picker-panel {
+  left: auto;
+  right: 0;
+}
+
+/* ---------- Custom select / skill picker panels ---------- */
+
+.menu-select,
+.skill-picker {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.menu-select-trigger,
+.skill-picker-trigger {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  min-width: 0;
   height: 34px;
-  padding: 0 8px;
+  padding: 0 10px;
   border: 1px solid var(--line-strong);
   border-radius: 8px;
   color: var(--text);
   background: var(--surface);
+  font: inherit;
   font-size: 12px;
+  cursor: pointer;
+}
+
+.menu-select-trigger > span,
+.skill-picker-trigger > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.menu-select-trigger svg,
+.skill-picker-trigger svg {
+  flex: none;
+  transform: rotate(90deg);
+  opacity: 0.7;
+  transition: transform 0.15s ease;
+}
+
+.menu-select.open .menu-select-trigger svg,
+.skill-picker.open .skill-picker-trigger svg {
+  transform: rotate(-90deg);
+}
+
+.menu-select-trigger:focus-visible,
+.skill-picker-trigger:focus-visible,
+.skill-picker-search input:focus-visible,
+.menu-select-panel:focus-visible {
+  outline: 2px solid color-mix(in srgb, var(--brand) 55%, transparent);
+  outline-offset: 1px;
+}
+
+.menu-select-panel,
+.skill-picker-panel {
+  position: absolute;
+  z-index: 40;
+  top: calc(100% + 4px);
+  right: 0;
+  min-width: 100%;
+  max-width: min(360px, 90vw);
+  padding: 6px;
+  border: 1px solid var(--line-strong);
+  border-radius: 10px;
+  background: var(--surface);
+  box-shadow: 0 10px 28px color-mix(in srgb, var(--text) 12%, transparent);
+}
+
+.menu-select-panel {
+  list-style: none;
+  margin: 0;
+  width: max-content;
+  max-height: 240px;
+  overflow: auto;
+}
+
+.menu-select-option,
+.skill-picker-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 36px;
+  padding: 6px 10px;
+  border-radius: 7px;
+  color: var(--text);
+  cursor: pointer;
+}
+
+.menu-select-option {
+  white-space: nowrap;
+}
+
+.menu-select-option > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.menu-select-option.active,
+.menu-select-option:hover,
+.skill-picker-option.active,
+.skill-picker-option:hover {
+  background: var(--surface-soft);
+}
+
+.menu-select-option.selected {
+  font-weight: 650;
+  color: var(--brand);
+}
+
+.skill-picker {
+  display: block;
+}
+
+.skill-picker-panel {
+  left: 0;
+  right: auto;
+  width: max(100%, 220px);
+  padding: 8px;
+}
+
+.skill-picker-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 34px;
+  margin-bottom: 6px;
+  padding: 0 10px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--surface-soft);
+  color: var(--text-3);
+}
+
+.skill-picker-search input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  outline: none;
+  background: transparent;
+  color: var(--text);
+  font: inherit;
+  font-size: 12px;
+}
+
+.skill-picker-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 220px;
+  overflow: auto;
+}
+
+.skill-picker-option {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2px;
+}
+
+.skill-picker-option strong {
+  font-size: 12px;
+  font-weight: 650;
+}
+
+.skill-picker-option small {
+  color: var(--text-3);
+  font-size: 11px;
+}
+
+.skill-picker-empty {
+  padding: 14px 10px;
+  color: var(--text-3);
+  font-size: 12px;
+  text-align: center;
 }
 
 .compare-skill-head.compact {
@@ -3906,23 +4252,32 @@ a.github-link {
 .select-chip {
   position: relative;
   padding: 0;
+  border: 0;
+  background: transparent;
+  min-height: 0;
 }
 
-.select-chip select {
-  height: 35px;
-  padding: 0 30px 0 12px;
-  border: 0;
-  color: inherit;
-  background: none;
-  appearance: none;
+.select-chip .menu-select-trigger {
+  min-height: 37px;
+  height: 37px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  color: var(--text-2);
+  background: var(--surface);
   font-size: 12px;
 }
 
-.select-chip svg {
-  position: absolute;
-  right: 10px;
-  pointer-events: none;
-  transform: rotate(90deg);
+.select-chip.open .menu-select-trigger,
+.select-chip .menu-select-trigger:hover {
+  border-color: var(--line-strong);
+  color: var(--text);
+}
+
+.select-chip .menu-select-panel {
+  left: auto;
+  right: 0;
+  min-width: 160px;
 }
 
 .review-verdict .neutral {
@@ -4148,13 +4503,6 @@ a.github-link {
 .step-io small {
   color: var(--text-3);
   font-size: 12px;
-}
-
-.workflow-node small {
-  max-width: 220px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
 }
 
 .coverage-label {
@@ -4405,36 +4753,71 @@ a.github-link {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 14px 18px;
+    flex-shrink: 0;
+    min-height: 52px;
+    padding: 12px 16px 12px 20px;
     border-bottom: 1px solid var(--line);
-    font-size: 15px;
+    font-size: 16px;
+  }
+
+  .sheet-head .icon-button {
+    min-width: 44px;
+    min-height: 44px;
   }
 
   .sheet-body {
+    flex: 1 1 auto;
+    min-height: 0;
     overflow-y: auto;
-    padding: 18px 18px 6px;
+    padding: 16px 16px 12px;
     overscroll-behavior: contain;
+    -webkit-overflow-scrolling: touch;
   }
 
+  .sheet-body .filter-group {
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+  }
+
+  .sheet-body .filter-label {
+    margin-bottom: 10px;
+    font-size: 13px;
+    letter-spacing: 0.02em;
+  }
+
+  /* Single-column category list: readable labels + 44px taps */
   .sheet-body .category-filter-group {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 6px;
   }
 
   .sheet-body .category-filter-group .filter-label {
-    grid-column: 1 / -1;
     margin-bottom: 4px;
   }
 
   .sheet-body .category-filter {
-    min-height: 40px;
+    min-height: 44px;
+    margin: 0;
+    padding: 8px 12px 8px 14px;
+    gap: 12px;
+    border-left-width: 3px;
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+    line-height: 1.35;
+  }
+
+  .sheet-body .category-filter small {
+    flex-shrink: 0;
+    font-size: 13px;
+    font-variant-numeric: tabular-nums;
   }
 
   .sheet-body fieldset.filter-group {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0 18px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 4px;
   }
 
   .sheet-body fieldset.filter-group legend {
@@ -4442,21 +4825,34 @@ a.github-link {
   }
 
   .sheet-body .filter-group label {
-    min-height: 34px;
-    margin: 2px 0;
+    min-height: 44px;
+    margin: 0;
+    padding: 8px 4px;
+    gap: 12px;
+    font-size: 14px;
+    line-height: 1.35;
+  }
+
+  .sheet-body .filter-group input {
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
   }
 
   .sheet-foot {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    flex-shrink: 0;
     gap: 10px;
-    padding: 12px 18px calc(12px + env(safe-area-inset-bottom));
+    padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
     border-top: 1px solid var(--line);
+    background: var(--surface);
   }
 
   .sheet-foot button {
-    min-height: 46px;
+    min-height: 48px;
     justify-content: center;
+    font-size: 15px;
   }
 
   .results-top {
@@ -4579,11 +4975,6 @@ a.github-link {
     min-width: 40px;
   }
 
-  .code-block code {
-    overflow-x: auto;
-    text-overflow: clip;
-  }
-
   .uninstall-line {
     flex-direction: column;
     align-items: flex-start;
@@ -4649,7 +5040,10 @@ a.github-link {
 }
 
 /* ========== Cross-page typography alignment (style only) ==========
-   Goal: same UI font stack + readable meta floor on every route.
+   Scale:
+     meta 12 · ui 13 · body 14 · card-title 17
+     page H1: Hub/Compare = --fs-h1-page · Search/Detail = --fs-h1-subpage
+     Home .hero h1 stays largest (local rule)
    Keep monospace for code / .mono / .skill-md / .agent-mini only.
 */
 :root {
@@ -4658,6 +5052,9 @@ a.github-link {
   --fs-meta: 12px;
   --fs-ui: 13px;
   --fs-body: 14px;
+  --fs-card-title: 17px;
+  --fs-h1-page: clamp(36px, 4vw, 52px);
+  --fs-h1-subpage: clamp(28px, 3.2vw, 40px);
 }
 
 body {
@@ -4672,6 +5069,7 @@ body {
   letter-spacing: normal;
 }
 
+/* —— Meta floor —— */
 .lang-toggle,
 .header-count,
 .breadcrumb,
@@ -4701,7 +5099,6 @@ body {
 .workflow-visual-top span,
 .workflow-number,
 .coverage-label,
-.agent-card p,
 .compare-label-cell,
 .compare-skill-head,
 .compare-skill-head span,
@@ -4722,27 +5119,73 @@ body {
 .footer-bottom,
 .footer-brand small,
 .category-card small,
-.section-kicker {
+.section-kicker,
+.agent-card-heading > div > span {
   font-size: var(--fs-meta);
 }
 
+/* —— Body / page lead (Home .hero-copy stays 18 → 15@mobile) —— */
 .page-title p,
 .hub-hero p,
+.hub-hero > div:first-child > p,
 .detail-summary,
 .card-description,
 .evaluation-copy,
 .trust-copy > p,
-.footer-brand p {
+.footer-brand p,
+.workflow-card > p,
+.agent-card > p,
+.workflow-feature-copy > p,
+.featured-review-copy > p,
+.section-heading p {
   font-size: var(--fs-body);
   line-height: 1.65;
 }
 
+/* —— Card titles —— */
+.card-heading h3,
+.workflow-card h3,
+.agent-card-heading h2 {
+  font-size: var(--fs-card-title);
+  line-height: 1.35;
+}
+
+.review-row-main p {
+  font-size: var(--fs-body);
+  line-height: 1.65;
+}
+
+/* —— Page H1 tiers —— */
 .page-title h1,
 .hub-hero h1 {
+  font-size: var(--fs-h1-page);
+  letter-spacing: normal;
+  line-height: 1.12;
+}
+
+.search-page .page-title h1,
+.detail-title h1 {
+  font-size: var(--fs-h1-subpage);
   letter-spacing: normal;
 }
 
 .section-heading h2,
 .trust-copy h2 {
   letter-spacing: -0.02em;
+}
+
+/* Narrow screens: keep H1 on the same token ladder */
+@media (max-width: 980px) {
+  .hub-hero h1 {
+    font-size: clamp(28px, 7vw, 42px);
+  }
+
+  .page-title h1 {
+    font-size: clamp(28px, 6vw, 40px);
+  }
+
+  .search-page .page-title h1,
+  .detail-title h1 {
+    font-size: clamp(24px, 6vw, 34px);
+  }
 }

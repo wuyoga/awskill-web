@@ -1,4 +1,13 @@
-import type { ReactNode } from "react";
+import {
+  type KeyboardEvent as ReactKeyboardEvent,
+  type ReactNode,
+  type RefObject,
+  useEffect,
+  useId,
+  useLayoutEffect,
+  useRef,
+  useState,
+} from "react";
 import {
   AGENT_META,
   AGENTS,
@@ -11,6 +20,273 @@ import {
   type VerifyStatus,
 } from "./data";
 import { useI18n } from "./i18n";
+
+function useDismissible(open: boolean, onClose: () => void, rootRef: RefObject<HTMLElement | null>) {
+  useEffect(() => {
+    if (!open) return;
+    function onPointerDown(event: MouseEvent) {
+      if (rootRef.current && !rootRef.current.contains(event.target as Node)) onClose();
+    }
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") onClose();
+    }
+    document.addEventListener("mousedown", onPointerDown);
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("mousedown", onPointerDown);
+      document.removeEventListener("keydown", onKeyDown);
+    };
+  }, [open, onClose, rootRef]);
+}
+
+/** Compact custom select (no search). Used for discover sort. */
+export function MenuSelect<T extends string>({
+  value,
+  options,
+  onChange,
+  ariaLabel,
+  getLabel,
+  className = "",
+}: {
+  value: T;
+  options: readonly T[];
+  onChange: (value: T) => void;
+  ariaLabel: string;
+  getLabel: (value: T) => string;
+  className?: string;
+}) {
+  const [open, setOpen] = useState(false);
+  const [active, setActive] = useState(() => Math.max(0, options.indexOf(value)));
+  const rootRef = useRef<HTMLDivElement>(null);
+  const listId = useId();
+  const close = () => setOpen(false);
+  useDismissible(open, close, rootRef);
+
+  const listRef = useRef<HTMLUListElement>(null);
+
+  useLayoutEffect(() => {
+    if (open) {
+      setActive(Math.max(0, options.indexOf(value)));
+      listRef.current?.focus();
+    }
+  }, [open, options, value]);
+
+  function pick(next: T) {
+    onChange(next);
+    setOpen(false);
+  }
+
+  function onTriggerKeyDown(event: ReactKeyboardEvent) {
+    if (event.key === "ArrowDown" || event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      setOpen(true);
+    }
+  }
+
+  function onListKeyDown(event: ReactKeyboardEvent) {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      setActive((index) => Math.min(options.length - 1, index + 1));
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      setActive((index) => Math.max(0, index - 1));
+    } else if (event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      pick(options[active] ?? value);
+    } else if (event.key === "Home") {
+      event.preventDefault();
+      setActive(0);
+    } else if (event.key === "End") {
+      event.preventDefault();
+      setActive(options.length - 1);
+    }
+  }
+
+  return (
+    <div className={`menu-select ${open ? "open" : ""} ${className}`.trim()} ref={rootRef}>
+      <button
+        type="button"
+        className="menu-select-trigger"
+        aria-label={ariaLabel}
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        aria-controls={listId}
+        onClick={() => setOpen((prev) => !prev)}
+        onKeyDown={onTriggerKeyDown}
+      >
+        <span>{getLabel(value)}</span>
+        <Icon name="chevron" size={14} />
+      </button>
+      {open && (
+        <ul
+          id={listId}
+          className="menu-select-panel"
+          role="listbox"
+          tabIndex={-1}
+          aria-activedescendant={`${listId}-${active}`}
+          onKeyDown={onListKeyDown}
+          ref={listRef}
+        >
+          {options.map((option, index) => {
+            const selected = option === value;
+            return (
+              <li
+                key={option}
+                id={`${listId}-${index}`}
+                role="option"
+                aria-selected={selected}
+                className={`menu-select-option${selected ? " selected" : ""}${index === active ? " active" : ""}`}
+                onMouseEnter={() => setActive(index)}
+                onClick={() => pick(option)}
+              >
+                <span>{getLabel(option)}</span>
+                {selected && <Icon name="check" size={14} />}
+              </li>
+            );
+          })}
+        </ul>
+      )}
+    </div>
+  );
+}
+
+function skillSearchHaystack(skill: Skill) {
+  return `${skill.name} ${skill.owner} ${skill.repo} ${skill.owner}/${skill.repo}`.toLowerCase();
+}
+
+function skillMatchesQuery(skill: Skill, query: string) {
+  const tokens = query.trim().toLowerCase().split(/\s+/).filter(Boolean);
+  if (!tokens.length) return true;
+  const hay = skillSearchHaystack(skill);
+  return tokens.every((token) => hay.includes(token));
+}
+
+/** Searchable Skill picker for compare add-slot (name + owner/repo). */
+export function SearchableSkillSelect({
+  skills,
+  onSelect,
+  placeholder,
+  searchPlaceholder,
+  emptyLabel,
+  ariaLabel,
+}: {
+  skills: Skill[];
+  onSelect: (id: string) => void;
+  placeholder: string;
+  searchPlaceholder: string;
+  emptyLabel: string;
+  ariaLabel: string;
+}) {
+  const [open, setOpen] = useState(false);
+  const [query, setQuery] = useState("");
+  const [active, setActive] = useState(0);
+  const rootRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const listId = useId();
+  const filtered = skills.filter((skill) => skillMatchesQuery(skill, query));
+  const close = () => {
+    setOpen(false);
+    setQuery("");
+    setActive(0);
+  };
+  useDismissible(open, close, rootRef);
+
+  useLayoutEffect(() => {
+    if (open) {
+      setActive(0);
+      inputRef.current?.focus();
+    }
+  }, [open]);
+
+  useEffect(() => {
+    setActive(0);
+  }, [query]);
+
+  function pick(id: string) {
+    onSelect(id);
+    close();
+  }
+
+  function onTriggerKeyDown(event: ReactKeyboardEvent) {
+    if (event.key === "ArrowDown" || event.key === "Enter" || event.key === " ") {
+      event.preventDefault();
+      setOpen(true);
+    }
+  }
+
+  function onPanelKeyDown(event: ReactKeyboardEvent) {
+    if (event.key === "ArrowDown") {
+      event.preventDefault();
+      setActive((index) => Math.min(filtered.length - 1, index + 1));
+    } else if (event.key === "ArrowUp") {
+      event.preventDefault();
+      setActive((index) => Math.max(0, index - 1));
+    } else if (event.key === "Enter") {
+      event.preventDefault();
+      const skill = filtered[active];
+      if (skill) pick(skill.id);
+    }
+  }
+
+  return (
+    <div className={`skill-picker ${open ? "open" : ""}`} ref={rootRef}>
+      <button
+        type="button"
+        className="skill-picker-trigger"
+        aria-label={ariaLabel}
+        aria-haspopup="listbox"
+        aria-expanded={open}
+        aria-controls={listId}
+        onClick={() => setOpen((prev) => !prev)}
+        onKeyDown={onTriggerKeyDown}
+      >
+        <span>{placeholder}</span>
+        <Icon name="chevron" size={14} />
+      </button>
+      {open && (
+        <div className="skill-picker-panel" onKeyDown={onPanelKeyDown}>
+          <div className="skill-picker-search">
+            <Icon name="search" size={15} />
+            <input
+              ref={inputRef}
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder={searchPlaceholder}
+              aria-label={searchPlaceholder}
+              aria-controls={listId}
+              aria-autocomplete="list"
+              aria-activedescendant={filtered[active] ? `${listId}-${active}` : undefined}
+            />
+          </div>
+          <ul id={listId} className="skill-picker-list" role="listbox">
+            {filtered.length === 0 ? (
+              <li className="skill-picker-empty" role="presentation">
+                {emptyLabel}
+              </li>
+            ) : (
+              filtered.map((skill, index) => (
+                <li
+                  key={skill.id}
+                  id={`${listId}-${index}`}
+                  role="option"
+                  aria-selected={index === active}
+                  className={`skill-picker-option${index === active ? " active" : ""}`}
+                  onMouseEnter={() => setActive(index)}
+                  onClick={() => pick(skill.id)}
+                >
+                  <strong>{skill.name}</strong>
+                  <small>
+                    {skill.owner}/{skill.repo}
+                  </small>
+                </li>
+              ))
+            )}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
 
 export function Icon({
   name,

@@ -28,6 +28,7 @@ import {
   CopyBlock,
   Icon,
   LevelMeter,
+  MenuSelect,
   Notice,
   RiskPill,
   StatusPill,
@@ -184,18 +185,14 @@ export function ReviewsPage({ route, actions }: { route: Route; actions: AppActi
               <span className="section-kicker">LATEST TESTS</span>
               <h2>{t("最新评测", "Latest reviews")}</h2>
             </div>
-            <label className="filter-chip select-chip">
-              <span className="sr-only">{t("按分类筛选评测", "Filter reviews by category")}</span>
-              <select value={category} onChange={(event) => setCategory(event.target.value)}>
-                <option value="all">{t("全部分类", "All categories")}</option>
-                {categories.map((item) => (
-                  <option key={item} value={item}>
-                    {l(item)}
-                  </option>
-                ))}
-              </select>
-              <Icon name="chevron" size={14} />
-            </label>
+            <MenuSelect
+              className="filter-chip select-chip"
+              value={category}
+              options={["all", ...categories]}
+              onChange={setCategory}
+              ariaLabel={t("按分类筛选评测", "Filter reviews by category")}
+              getLabel={(item) => (item === "all" ? t("全部分类", "All categories") : l(item))}
+            />
           </div>
           <div className="review-list">
             {list.map((review, index) => {
@@ -572,7 +569,11 @@ export function WorkflowsPage({ actions }: { actions: AppActions }) {
                 <h3>{workflow.title}</h3>
                 <p>{workflow.summary}</p>
                 <div className="workflow-skill-stack">
-                  {workflow.steps.map((step) => {
+                  {Array.from({ length: 3 }, (_, slot) => {
+                    const step = workflow.steps[slot];
+                    if (!step) {
+                      return <span key={`slot-${slot}`} className="workflow-skill-slot" aria-hidden="true" />;
+                    }
                     const skill = getSkill(step.skillId)!;
                     return (
                       <button key={step.skillId} onClick={() => go(skillHref(skill.id))}>
@@ -735,10 +736,16 @@ export function WorkflowDetailPage({
 
 /* ---------- Agents ---------- */
 
+const AGENT_MATRIX_LIMIT = 24;
+
 export function AgentsPage({ actions }: { actions: AppActions }) {
   const { go, soon } = actions;
   const { t, l } = useI18n();
   const { skills, agentCopy } = useData();
+  const matrixSkills = useMemo(
+    () => [...skills].sort((a, b) => b.installs - a.installs).slice(0, AGENT_MATRIX_LIMIT),
+    [skills],
+  );
   return (
     <>
       <main className="hub-page container">
@@ -834,43 +841,49 @@ export function AgentsPage({ actions }: { actions: AppActions }) {
                 </span>
               ))}
             </div>
-            {[...skills]
-              .sort((a, b) => b.installs - a.installs)
-              .map((skill) => (
-                <div className="agent-matrix-row" key={skill.id}>
-                  <button onClick={() => go(skillHref(skill.id))}>
-                    <span className={`mini-skill-dot ${skill.tone}`} />
-                    {skill.name}
-                  </button>
-                  {AGENTS.map((agent) => {
-                    const compat = skill.compat[agent];
-                    const tone = compatTone(compat.status);
-                    return (
-                      <span
-                        className={
-                          tone === "good"
-                            ? "matrix-full"
-                            : tone === "warn"
-                              ? "matrix-partial"
-                              : "matrix-empty"
-                        }
-                        key={agent}
-                        title={`${agent}: ${l(compat.status)}${compat.note ? ` — ${compat.note}` : ""}`}
-                      >
-                        {tone === "good" ? (
-                          <Icon name="check" size={14} />
-                        ) : tone === "warn" ? (
-                          t("部分", "Partial")
-                        ) : (
-                          "—"
-                        )}
-                        <span className="sr-only">{l(compat.status)}</span>
-                      </span>
-                    );
-                  })}
-                </div>
-              ))}
+            {matrixSkills.map((skill) => (
+              <div className="agent-matrix-row" key={skill.id}>
+                <button onClick={() => go(skillHref(skill.id))}>
+                  <span className={`mini-skill-dot ${skill.tone}`} />
+                  {skill.name}
+                </button>
+                {AGENTS.map((agent) => {
+                  const compat = skill.compat[agent];
+                  const tone = compatTone(compat.status);
+                  return (
+                    <span
+                      className={
+                        tone === "good"
+                          ? "matrix-full"
+                          : tone === "warn"
+                            ? "matrix-partial"
+                            : "matrix-empty"
+                      }
+                      key={agent}
+                      title={`${agent}: ${l(compat.status)}${compat.note ? ` — ${compat.note}` : ""}`}
+                    >
+                      {tone === "good" ? (
+                        <Icon name="check" size={14} />
+                      ) : tone === "warn" ? (
+                        t("部分", "Partial")
+                      ) : (
+                        "—"
+                      )}
+                      <span className="sr-only">{l(compat.status)}</span>
+                    </span>
+                  );
+                })}
+              </div>
+            ))}
           </div>
+          {skills.length > AGENT_MATRIX_LIMIT && (
+            <p className="matrix-footnote">
+              {t(
+                `按安装量展示前 ${AGENT_MATRIX_LIMIT} 个 · 共 ${skills.length} 个`,
+                `Top ${AGENT_MATRIX_LIMIT} by installs · ${skills.length} total`,
+              )}
+            </p>
+          )}
         </section>
 
         <section className="agent-guide">
