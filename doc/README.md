@@ -10,6 +10,7 @@
 | [PRD.md](./PRD.md) | 定义正式产品范围、功能需求、数据模型、非功能要求、里程碑和验收标准 |
 | [进度记录.md](./进度记录.md) | AI/人工开发进度（倒序追加；模板见 `.cursor/rules/progress-log.mdc`） |
 | [采集工作流.md](./采集工作流.md) | 双通道采集 → JSON 草稿 →（后置）CMS 导入 |
+| [backlog-MVP.md](./backlog-MVP.md) | M0–M5 可执行 backlog、Skill 验证包与 A′ 写回策略 |
 
 ## AI 开发约束
 
