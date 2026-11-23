@@ -24,25 +24,25 @@ alwaysApply: true
 
 ### P0 — Vite→Next 脚手架
 
-- [ ] `pnpm dev` 可开（Next，建议 `:3000`）
-- [ ] `pnpm lint` / `pnpm build` 通过（若已配置）
-- [ ] 目录为 `app` / `components` / `lib`；Vite 入口已移除或不再作为主路径
-- [ ] 真实路由可访问首页；hash 路由不再作为正式导航
+- [x] `pnpm dev` 可开（Next，建议 `:3000`）
+- [x] `pnpm lint` / `pnpm build` 通过（若已配置）
+- [x] 目录为 `app` / `components` / `lib`；Vite 入口已移除
+- [x] 真实路由可访问首页；hash 路由不再作为正式导航
 
 ### P1 — 核心闭环（静态数据）
 
-- [ ] `/skills` 搜索/筛选/排序 + URL 状态
-- [ ] `/skills/[slug]` 兼容矩阵、安全权限、方案 B 安装复制、过期提示
-- [ ] 本地收藏可用
-- [ ] Header/Footer 全站共用；中英文切换不丢页
+- [x] `/skills` 搜索/筛选/排序 + URL 状态
+- [x] `/skills/[slug]` 兼容矩阵、安全权限、方案 B 安装复制、过期提示
+- [x] 本地收藏可用
+- [x] Header/Footer 全站共用；中英文切换不丢页
 
 ### P2 — 决策增强页
 
-- [ ] `/compare`（2–3，URL 可分享）
-- [ ] `/reviews`、`/reviews/[slug]`
-- [ ] `/workflows`、`/workflows/[slug]`（含按 Agent 批量安装命令）
-- [ ] `/agents`、`/agents/[slug]`
-- [ ] Skill 详情 MCP 关联栏（非独立目录）
+- [x] `/compare`（2–3，URL 可分享）
+- [x] `/reviews`、`/reviews/[slug]`
+- [x] `/workflows`、`/workflows/[slug]`（含按 Agent 批量安装命令）
+- [x] `/agents`、`/agents/[slug]`
+- [x] Skill 详情 MCP 关联栏（非独立目录）
 
 ### P3 — CMS / 搜索底座（对应 PRD M1）
 

@@ -42,29 +42,30 @@ awskill 是面向中文 AI Agent 重度用户的 Skill 评测与发现平台。�
 
 ### 3.1 技术现状
 
-当前仓库是 React + Vite 原型，并非正式目标架构：
+仓库已迁到 Next.js 16 App Router（Vite / hash 入口已移除）：
 
-- React 19、Vite 8、TypeScript 5.7、Tailwind CSS 4。
-- 数据保存在 `src/data.ts` 和 `src/data-en.ts`。
-- `src/useData.ts` 负责中英文数据组装和双语搜索索引。
-- `src/i18n.tsx` 负责枚举及界面文案的中英文切换。
-- 使用 hash 路由，没有服务端渲染、正式 URL、CMS 或后端 API。
-- 收藏、语言和主题保存在 `localStorage`。
-- 登录、提交 Skill、评测证据、安全指南等入口仍为原型占位。
+- Next.js 16.2、React 19、TypeScript 5.7、Tailwind CSS 4。
+- 静态数据在 `lib/data/`（`catalog.ts` / `en.ts` + `skills.collected.json`）。
+- `lib/use-data.ts` 负责中英文数据组装和双语搜索索引；`lib/i18n.tsx` 负责枚举及界面文案切换。
+- 真实路径路由（`app/[locale]/…`）；语言在 URL：`/zh`、`/en`；尚无 CMS / Meilisearch / 后端 API。
+- 收藏与主题保存在 `localStorage`；**语言以 URL 为准**（登录同步后置）。
+- 登录、提交 Skill、评测证据、安全指南等入口仍为演示占位。
 
 ### 3.2 已实现页面与路径
 
-| 页面 | 原型路径 | 当前能力 |
+URL 策略（已冻结）：双语前缀 `/zh` · `/en`；`/` 与无前缀路径 308 到 `/zh`。下表路径均应理解为 `/{locale}/…`。
+
+| 页面 | 当前路径（原原型 hash） | 当前能力 |
 | --- | --- | --- |
-| 首页 | `#/` | 品牌定位、全局搜索、热门任务、Agent 入口、验证 Skill、分类和安全说明 |
-| Skill 发现 | `#/search` | 双语关键词匹配、分类与多维筛选、排序、移动端筛选抽屉 |
-| Skill 详情 | `#/skill/:id` | 兼容性、安全权限、安装方案、使用场景、评测关联、收藏 |
-| Skill 对比 | `#/compare` | 最多 3 个 Skill，对比表横向滚动 |
-| 评测中心 | `#/reviews` | 评测列表、分类筛选、评测方法说明 |
-| 评测详情 | `#/review/:id` | 固定任务、环境、分维度结果、运行记录和证据入口 |
-| 工作流中心 | `#/workflows` | 推荐工作流和按目标浏览 |
-| 工作流详情 | `#/workflow/:id` | 步骤、输入输出、组合风险、按 Agent 生成安装命令 |
-| Agent 中心 | `#/agents` | 四个 Agent 的说明、覆盖数量与安装差异 |
+| 首页 | `/{locale}`（原 `#/`） | 品牌定位、全局搜索、热门任务、Agent 入口、验证 Skill、分类和安全说明 |
+| Skill 发现 | `/{locale}/skills`（原 `#/search`） | 双语关键词匹配、分类与多维筛选、排序、移动端筛选抽屉 |
+| Skill 详情 | `/{locale}/skills/[slug]`（原 `#/skill/:id`） | 兼容性、安全权限、安装方案、使用场景、评测关联、收藏 |
+| Skill 对比 | `/{locale}/compare`（原 `#/compare`） | 最多 3 个 Skill，对比表横向滚动 |
+| 评测中心 | `/{locale}/reviews`（原 `#/reviews`） | 评测列表、分类筛选、评测方法说明 |
+| 评测详情 | `/{locale}/reviews/[slug]`（原 `#/review/:id`） | 固定任务、环境、分维度结果、运行记录和证据入口 |
+| 工作流中心 | `/{locale}/workflows`（原 `#/workflows`） | 推荐工作流和按目标浏览 |
+| 工作流详情 | `/{locale}/workflows/[slug]`（原 `#/workflow/:id`） | 步骤、输入输出、组合风险、按 Agent 生成安装命令 |
+| Agent 中心 | `/{locale}/agents`、`/{locale}/agents/[slug]`（原 `#/agents`） | 四个 Agent 的说明、覆盖数量与安装差异 |
 
 ### 3.3 已落地交互
 

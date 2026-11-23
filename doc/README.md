@@ -17,7 +17,7 @@
 
 | 规则 | 用途 |
 | --- | --- |
-| `code-conventions` | 工程硬约束、目录、RSC、env、Vite→Next 迁移 |
+| `code-conventions` | 工程硬约束、目录、RSC、env |
 | `product-guardrails` | PRD/决策 D-01～D-09、演示数据诚实、全部 OQ-* |
 | `change-scope` | 样式任务边界；评审建议 ≠ 实现许可 |
 | `workflow` | P0～P3 DoD；与 PRD M0–M5 对照；验收 |
@@ -38,8 +38,8 @@
 
 - 产品：awskill（Agent Workflow Skills）
 - 域名：awskill.com
-- 当前实现：React 19 + Vite 8 + Tailwind CSS 4 高保真原型
-- 目标架构：Next.js 16 + Strapi CMS + PostgreSQL + Meilisearch
+- 当前实现：Next.js 16 App Router + React 19 + Tailwind CSS 4（静态 `lib/data*`；URL 双语前缀 `/zh`·`/en`）
+- 目标架构：同上前端 + Strapi CMS + PostgreSQL + Meilisearch
 - 包管理：pnpm
 - 开发分支：`dev`
 - 首批 Agent：Claude Code、Codex、Cursor、Windsurf

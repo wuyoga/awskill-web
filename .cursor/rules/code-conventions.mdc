@@ -11,9 +11,9 @@ alwaysApply: true
 
 | 项 | 约定 |
 |----|------|
-| 目标框架 | Next.js 16 App Router（迁移完成后） |
+| 框架 | Next.js 16 App Router |
 | 包管理 | **pnpm** |
-| 本机端口 | Next：`3000`；Vite 过渡期可用 `5173` |
+| 本机端口 | `3000`（`pnpm dev`） |
 | CMS（后续） | Strapi；浏览器只走本站 rewrite，禁止硬编码 IP/域名 |
 | 搜索（后续） | Meilisearch；服务端/代理访问，禁止浏览器直连管理端口 |
 | 密钥 | 仅服务端 env；**禁止** `NEXT_PUBLIC_*` 放 secret |
@@ -22,22 +22,20 @@ alwaysApply: true
 ## 工程硬约束
 
 - **TypeScript**：`strict`；勿用随意 `any` 抹平数据形状。
-- **目录（目标）**：`app/**` 路由与布局；`components/**` UI；`lib/**` 数据与工具。
+- **目录**：`app/**` 路由与布局；`components/**` UI；`lib/**` 数据与工具。
 - **数据访问**：静态阶段放 `lib/data*`（或等价）；接 CMS 后只经 `lib/strapi/*`，页面禁止裸拼 Strapi URL。
 - **RSC 默认**：服务端组件优先；仅交互 / `localStorage` / 浏览器 API 用 `'use client'`。
-- **路由**：迁移后使用真实路径（见 PRD PAGE-*），**禁止**再引入 hash 路由作为正式方案。
+- **路由**：真实路径（见 PRD PAGE-*），**禁止**再引入 hash 路由作为正式方案。
 - **链接**：站内用 `next/link`（或框架感知 API）；筛选/对比状态写入 URL query。
-- **样式**：Tailwind CSS v4；**迁移期沿用原型已有 token/CSS 变量**；正式品牌 Token 未定前禁止另立色板体系。避免无 token 的魔法色/魔法间距扩散。
+- **样式**：Tailwind CSS v4；沿用既有 token/CSS 变量；正式品牌 Token 未定前禁止另立色板体系。避免无 token 的魔法色/魔法间距扩散。
 - **图片**：优先 `next/image`；静态资源进 `public/`。
+- **禁止**再引入 Vite 入口 / hash 导航作为可运行主路径。
 
-## 迁移期（Vite → Next）
+## i18n（已冻结）
 
-1. 在 `dev` 分支就地迁移，保留 `doc/` 与产品决策。
-2. **P0 完成前**：除非本单元目标就是迁移，否则不要用 Next API 改写仍在 Vite 下运行的代码路径。
-3. 先迁壳与路由，再拆组件；交互行为（搜索、筛选、收藏、对比、安装复制）不得无故丢失。
-4. 删除 Vite 入口前，确保 `pnpm dev` / `pnpm build` 在 Next 下可运行。
-5. 不要把 Figma Make 专用插件逻辑带进正式 Next 应用。
-6. 中英文切换须不丢当前页；**URL 策略（路径 `/en` vs query vs 仅客户端）未在产品文档冻结前，迁移期可先保持与原型等价的可切换行为，并在进度里注明待决。**
+- 双语路径前缀：`/zh/...`、`/en/...`；`/` 与无前缀旧链 **308** → `/zh/...`。
+- 语言切换只改路径前缀，保留 query；不使用 `?lang=`。
+- 中英文切换须不丢当前页；`hreflang` / `canonical` 见 `lib/seo.ts`。
 
 ## UI 结构
 
