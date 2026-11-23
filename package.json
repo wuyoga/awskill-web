@@ -1,30 +1,34 @@
 {
-  "name": "figma-make-app",
+  "name": "awskill-web",
   "version": "1.0.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start --port 3000",
+    "lint": "eslint app components lib middleware.ts next.config.ts",
+    "test": "node --experimental-strip-types --test lib/locale.test.ts",
     "format": "oxfmt",
     "collect": "node --experimental-strip-types tools/skill-collect/src/cli.ts",
     "collect:batch": "node --experimental-strip-types tools/skill-collect/src/batch.ts",
     "merge:local": "node --experimental-strip-types tools/skill-collect/src/merge-local.ts"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "16.2.1",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.0.0",
+    "@eslint/eslintrc": "^3.3.7",
+    "@tailwindcss/postcss": "^4.3.5",
     "@types/node": "^22.0.0",
     "@types/react": "^19.0.0",
     "@types/react-dom": "^19.0.0",
-    "@vitejs/plugin-react": "^6.0.0",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "16.2.1",
     "oxfmt": "^0.76.0",
     "tailwindcss": "^4.0.0",
-    "typescript": "^5.7.0",
-    "vite": "^8.0.5"
+    "typescript": "^5.7.0"
   }
 }

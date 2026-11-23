@@ -1,5 +1,5 @@
 /**
- * Skill draft schema — aligned with prototype `src/data.ts` Skill shape.
+ * Skill draft schema — aligned with `lib/data` Skill shape.
  * Auto-collected fields are filled by collectors; conclusion fields stay pending for human review.
  */
 

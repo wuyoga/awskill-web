@@ -1,6 +1,6 @@
 /**
- * Merge content/drafts/*.draft.json → src/data/skills.collected.json
- * for local Vite prototype consumption.
+ * Merge content/drafts/*.draft.json → lib/data/skills.collected.json
+ * for local Next.js static catalog consumption.
  */
 import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
@@ -9,7 +9,7 @@ import { cleanSkill } from "./clean.ts";
 import type { Category, SkillBody, SkillDraft } from "./schema.ts";
 import { CATEGORIES } from "./schema.ts";
 
-/** Prototype-compatible skill row (matches src/data.ts Skill fields). */
+/** Catalog-compatible skill row (matches lib/data Skill fields). */
 type LocalSkill = Omit<SkillBody, "category" | "icon" | "sourceUpdatedDaysAgo" | "repositoryUrl" | "repositoryPath"> & {
   category: Category;
   icon: string;
@@ -18,7 +18,7 @@ type LocalSkill = Omit<SkillBody, "category" | "icon" | "sourceUpdatedDaysAgo" |
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../../..");
 const draftsDir = path.join(root, "content/drafts");
-const outFile = path.join(root, "src/data/skills.collected.json");
+const outFile = path.join(root, "lib/data/skills.collected.json");
 
 const ICONS = new Set<string>([
   "arrow",
