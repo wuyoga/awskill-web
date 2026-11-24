@@ -37,8 +37,10 @@ export default function AgentDetailRoute() {
   const coverage = Math.round((profile.verified / profile.compatible) * 100);
   const meta = AGENT_META[agent];
 
+  const coverageLabel = t(`实测覆盖 ${coverage}%`, `${coverage}% tested`);
+
   return (
-    <main className="hub-page container">
+    <main className="hub-page container agent-detail">
       <div className="breadcrumb">
         <button type="button" onClick={() => actions.go("/agents")}>
           Agent
@@ -47,20 +49,28 @@ export default function AgentDetailRoute() {
         <strong>{agent}</strong>
       </div>
 
-      <div className="hub-hero agent-hero">
-        <div>
+      <header className="agent-detail-hero">
+        <div className="agent-detail-lead">
           <span className="section-kicker">AGENT</span>
-          <div className="agent-card-heading" style={{ marginBottom: 12 }}>
+          <div className="agent-detail-title">
             <span className={`agent-logo ${profile.tone}`}>{meta.mark}</span>
             <div>
               <h1>{agent}</h1>
-              <span>
+              <span className="agent-detail-status">
                 <i /> {t("正在维护", "Maintained")}
               </span>
             </div>
           </div>
           <p>{agentCopy(agent)}</p>
-          <div className="agent-metrics" style={{ marginTop: 16 }}>
+          <div className="agent-detail-actions">
+            <button type="button" className="primary" onClick={() => actions.go(searchHref({ agent }))}>
+              {t("浏览 Skills", "Browse Skills")} <Icon name="arrow" size={15} />
+            </button>
+          </div>
+        </div>
+
+        <aside className="agent-detail-panel">
+          <div className="agent-metrics">
             <div>
               <strong>{profile.verified}</strong>
               <span>{t("已实测", "Tested")}</span>
@@ -70,31 +80,33 @@ export default function AgentDetailRoute() {
               <span>{t("兼容 Skills", "Compatible")}</span>
             </div>
           </div>
-          <div className="coverage-bar" title={t(`实测覆盖 ${coverage}%`, `${coverage}% tested`)}>
+          <div
+            className="coverage-bar"
+            role="meter"
+            aria-valuenow={coverage}
+            aria-valuemin={0}
+            aria-valuemax={100}
+            aria-label={coverageLabel}
+          >
             <span style={{ width: `${coverage}%` }} />
           </div>
           <small className="coverage-label">
             {t(`实测覆盖 ${coverage}% · 安装目录`, `${coverage}% tested · path`)}{" "}
             <code>{meta.installDir("<skill>")}</code>
           </small>
-          <div className="agent-card-actions" style={{ display: "flex", gap: 8, flexWrap: "wrap", marginTop: 16 }}>
-            <button type="button" onClick={() => actions.go(searchHref({ agent }))}>
-              {t("浏览 Skills", "Browse Skills")} <Icon name="arrow" size={15} />
-            </button>
+          <div className="compat-legend">
+            <span>
+              <i className="full" /> {l("完整支持")}
+            </span>
+            <span>
+              <i className="partial" /> {l("部分支持")}
+            </span>
+            <span>
+              <i /> {l("未验证")}
+            </span>
           </div>
-        </div>
-        <div className="compat-legend">
-          <span>
-            <i className="full" /> {l("完整支持")}
-          </span>
-          <span>
-            <i className="partial" /> {l("部分支持")}
-          </span>
-          <span>
-            <i /> {l("未验证")}
-          </span>
-        </div>
-      </div>
+        </aside>
+      </header>
 
       <section className="hub-section">
         <div className="section-heading compact">
@@ -115,7 +127,7 @@ export default function AgentDetailRoute() {
             const tone = compatTone(compat.status);
             return (
               <Link className="skill-row" key={skill.id} href={localized(lang, skillHref(skill.id))}>
-                <span className={`mini-skill-dot ${skill.tone}`} />
+                <span className={`mini-skill-dot ${skill.tone}`} aria-hidden="true" />
                 <span className="skill-row-body">
                   <strong>{skill.name}</strong>
                   <span>{skill.description}</span>
