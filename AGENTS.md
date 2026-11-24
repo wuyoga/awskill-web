@@ -32,7 +32,7 @@ Daily: 只打开本仓窗口。
 
 | Command | Notes |
 |---------|--------|
-| `pnpm dev` | Next → `http://localhost:3000` |
+| `pnpm dev` | Next → `http://localhost:13001` |
 | `pnpm build` / `pnpm start` | 生产构建与启动 |
 | `pnpm lint` | ESLint（`app` / `components` / `lib`） |
 | `pnpm collect` / `merge:local` | 采集管线 → `lib/data/skills.collected.json` |

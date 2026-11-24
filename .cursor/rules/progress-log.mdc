@@ -19,7 +19,7 @@ alwaysApply: true
 - **Files**:
   - `path`
 - **Verification**:
-  - `pnpm lint` / `build` / `http://localhost:3000/...`（或当前 dev URL）
+  - `pnpm lint` / `build` / `http://localhost:13001/...`（或当前 dev URL）
   - （有稿时）nodeId + 稿面显示尺寸；无证据不得写「已对稿」
 - **PRD**: （相关 FR-/PAGE-/NFR-/OQ-/M- 编号，无则 N/A）
 - **Risks/Blockers**: None | CMS | Figma | OQ-… | …

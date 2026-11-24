@@ -13,7 +13,7 @@ alwaysApply: true
 |----|------|
 | 框架 | Next.js 16 App Router |
 | 包管理 | **pnpm** |
-| 本机端口 | `3000`（`pnpm dev`） |
+| 本机端口 | `13001`（`pnpm dev`） |
 | CMS（后续） | Strapi；浏览器只走本站 rewrite，禁止硬编码 IP/域名 |
 | 搜索（后续） | Meilisearch；服务端/代理访问，禁止浏览器直连管理端口 |
 | 密钥 | 仅服务端 env；**禁止** `NEXT_PUBLIC_*` 放 secret |
