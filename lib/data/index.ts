@@ -1,35 +1,25 @@
 /**
- * Static catalog API for the Next app (mock / prototype data).
- * CMS access will land later via `lib/strapi` — pages must not fetch Strapi directly.
+ * Client-safe catalog API: types, hand-authored prototypes, and English overlays.
+ * The collected catalog stays in `catalog.ts` / `query.ts` (server-only).
  */
 export {
   AGENTS,
   AGENT_META,
-  BASELINE,
   CATEGORIES,
   OUTPUT_FORMATS,
   agentProfiles,
-  catalogCounts,
   categoryMeta,
-  getSkill,
   highestRisk,
   installFor,
   isPrototypeSkill,
   isStale,
   lastVerifiedDays,
-  mcpsForSkill,
   needsNetwork,
   needsShell,
   permissionLevel,
-  prototypeSkills,
   relativeDays,
-  reviews,
-  reviewsForSkill,
-  skills,
   supportedAgents,
-  workflowAgents,
-  workflows,
-} from "./catalog";
+} from "./model";
 
 export type {
   AgentName,
@@ -37,18 +27,24 @@ export type {
   Compat,
   CompatStatus,
   IconName,
-  Level,
-  McpRelation,
   OutputFormat,
   Permission,
   PermissionLevel,
-  Review,
   RiskLevel,
   Skill,
-  SkillMcpLink,
-  Verdict,
   VerifyStatus,
-  Workflow,
-} from "./catalog";
+} from "./model";
+
+export {
+  BASELINE,
+  mcpsForSkill,
+  prototypeSkills,
+  reviews,
+  reviewsForSkill,
+  workflowAgents,
+  workflows,
+} from "./prototype";
+
+export type { Level, McpRelation, Review, SkillMcpLink, Verdict, Workflow } from "./prototype";
 
 export { agentCopyEn, reviewEn, skillEn, workflowEn } from "./en";

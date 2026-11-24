@@ -1,6 +1,6 @@
 "use client";
 
-import { type CSSProperties } from "react";
+import { type CSSProperties, useCallback, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
 import {
   AGENTS,
@@ -11,6 +11,7 @@ import {
 } from "@/lib/data";
 import { compareHref, skillHref } from "@/lib/routes";
 import { useEnumLabel, useI18nFormat } from "@/i18n/format";
+import { suggestSkills } from "@/lib/data/suggest";
 import { useData } from "@/lib/use-data";
 import { type AppActions } from "@/components/shared";
 import { compatTone, Icon, SearchableSkillSelect } from "@/components/ui";
@@ -27,22 +28,38 @@ function levelTone(level: string): Cell["tone"] {
 export function ComparePage({
   actions,
   urlIds = [],
+  compared = [],
 }: {
   actions: AppActions;
   /** Skills from `?skills=` — used when context has not hydrated yet. */
   urlIds?: string[];
+  /** Resolved rows for the URL selection. Picker results fill anything not here yet. */
+  compared?: Skill[];
 }) {
   const { go, compareIds, compareHydrated, toggleCompare } = actions;
   const t = useTranslations("compare");
   const l = useEnumLabel();
   const { ago, list } = useI18nFormat();
-  const { skills, getSkill, reviewsForSkill } = useData();
+  const { reviewsForSkill } = useData();
+  const [picked, setPicked] = useState<Skill[]>([]);
   // Before hydrate, show share-link ids to avoid an empty flash; after that, state wins.
   const activeIds = compareHydrated ? compareIds : urlIds.length > 0 ? urlIds : compareIds;
-  const visible = activeIds.map((id) => getSkill(id)).filter((s): s is Skill => Boolean(s));
+  const visible = useMemo(() => {
+    const byId = new Map<string, Skill>();
+    for (const skill of picked) byId.set(skill.id, skill);
+    for (const skill of compared) byId.set(skill.id, skill);
+    return activeIds.flatMap((id) => {
+      const skill = byId.get(id);
+      return skill ? [skill] : [];
+    });
+  }, [activeIds, compared, picked]);
   const canAdd = visible.length < 3;
   const columns = visible.length + (canAdd ? 1 : 0);
-  const candidates = skills.filter((skill) => !activeIds.includes(skill.id));
+  const excludeKey = activeIds.join(",");
+  const loadOptions = useCallback(
+    (query: string) => suggestSkills(query, excludeKey ? excludeKey.split(",") : []),
+    [excludeKey],
+  );
 
   function verdictCell(skill: Skill): Cell {
     const verdict = reviewsForSkill(skill.id)[0]?.runs[skill.id]?.verdict;
@@ -180,7 +197,12 @@ export function ComparePage({
                   {visible.length < 2 ? t("needAtLeastTwo") : t("oneMoreSlot")}
                 </small>
                 <SearchableSkillSelect
-                  skills={candidates}
+                  loadOptions={loadOptions}
+                  onPick={(skill) =>
+                    setPicked((prev) =>
+                      prev.some((item) => item.id === skill.id) ? prev : [...prev, skill],
+                    )
+                  }
                   onSelect={toggleCompare}
                   ariaLabel={t("selectSkillAria")}
                   placeholder={t("selectPlaceholder")}

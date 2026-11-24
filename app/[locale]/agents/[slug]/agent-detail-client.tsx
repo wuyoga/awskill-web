@@ -1,12 +1,11 @@
 "use client";
 
 import { useParams } from "next/navigation";
-import { useMemo } from "react";
 import { useTranslations } from "next-intl";
 import { useAppActions } from "@/components/app-state";
 import { Icon, AgentMark, compatTone } from "@/components/ui";
 import { NotFound } from "@/components/pages/compare-page";
-import { AGENTS, AGENT_META, type AgentName, agentProfiles } from "@/lib/data";
+import { AGENTS, AGENT_META, type AgentName, agentProfiles, type Skill } from "@/lib/data";
 import { agentSlug, searchHref, skillHref } from "@/lib/routes";
 import { Link } from "@/i18n/navigation";
 import { useEnumLabel } from "@/i18n/format";
@@ -16,22 +15,14 @@ function resolveAgent(slug: string): AgentName | undefined {
   return AGENTS.find((agent) => agentSlug(agent) === slug.toLowerCase());
 }
 
-export default function AgentDetailRoute() {
+export default function AgentDetailRoute({ related }: { related: Skill[] }) {
   const params = useParams<{ slug: string }>();
   const slug = decodeURIComponent(params.slug ?? "");
   const agent = resolveAgent(slug);
   const actions = useAppActions();
   const t = useTranslations("agents");
   const l = useEnumLabel();
-  const { skills, agentCopy } = useData();
-
-  const related = useMemo(() => {
-    if (!agent) return [];
-    return [...skills]
-      .filter((skill) => skill.compat[agent].status !== "未验证")
-      .sort((a, b) => b.installs - a.installs)
-      .slice(0, 12);
-  }, [agent, skills]);
+  const { agentCopy } = useData();
 
   if (!agent) return <NotFound go={actions.go} />;
 

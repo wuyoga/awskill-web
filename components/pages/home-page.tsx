@@ -5,15 +5,15 @@ import { useLocale, useTranslations } from "next-intl";
 import {
   AGENTS,
   CATEGORIES,
-  catalogCounts,
   categoryMeta,
   lastVerifiedDays,
   permissionLevel,
+  type Category,
+  type Skill,
 } from "@/lib/data";
 import { searchHref, skillHref } from "@/lib/routes";
 import { getPathname, Link } from "@/i18n/navigation";
 import { useEnumLabel, useI18nFormat } from "@/i18n/format";
-import { useData } from "@/lib/use-data";
 import { useAppActions } from "@/components/app-state";
 import { AgentMark, Icon, SkillCard } from "@/components/ui";
 
@@ -24,19 +24,22 @@ const QUICK_SEARCH_KEYS = [
   "slides",
 ] as const;
 
-export function HomePage() {
+export function HomePage({
+  sample,
+  featured,
+  catalogCounts,
+}: {
+  sample: Skill;
+  featured: Skill[];
+  catalogCounts: Record<Category, number>;
+}) {
   const { go, compareIds, toggleCompare } = useAppActions();
   const locale = useLocale();
   const shortcut = useSyncExternalStore(() => () => {}, () => (/Mac|iPhone|iPad/.test(navigator.platform) ? "⌘ K" : "Ctrl K"), () => "Ctrl K");
   const t = useTranslations("home");
   const l = useEnumLabel();
   const { ago } = useI18nFormat();
-  const { skills, getSkill } = useData();
   const [query, setQuery] = useState("");
-  const sample = getSkill("frontend-design") ?? skills[0]!;
-  const featuredVerified = skills.filter((skill) => skill.status === "任务已实测").slice(0, 3);
-  const featured =
-    featuredVerified.length > 0 ? featuredVerified : skills.filter((s) => s.id !== sample.id).slice(0, 3);
   const skillsAction = getPathname({ locale, href: "/skills" });
 
   return (

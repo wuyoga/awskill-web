@@ -168,15 +168,20 @@ function skillMatchesQuery(skill: Skill, query: string) {
 
 /** Searchable Skill picker for compare add-slot (name + owner/repo). */
 export function SearchableSkillSelect({
-  skills,
+  skills = [],
+  loadOptions,
   onSelect,
+  onPick,
   placeholder,
   searchPlaceholder,
   emptyLabel,
   ariaLabel,
 }: {
-  skills: Skill[];
+  skills?: Skill[];
+  /** When set, the list comes from the server instead of `skills`. */
+  loadOptions?: (query: string) => Promise<Skill[]>;
   onSelect: (id: string) => void;
+  onPick?: (skill: Skill) => void;
   placeholder: string;
   searchPlaceholder: string;
   emptyLabel: string;
@@ -185,10 +190,14 @@ export function SearchableSkillSelect({
   const [open, setOpen] = useState(false);
   const [query, setQuery] = useState("");
   const [active, setActive] = useState(0);
+  const [remote, setRemote] = useState<Skill[]>([]);
   const rootRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLInputElement>(null);
+  const requestRef = useRef(0);
   const listId = useId();
-  const filtered = skills.filter((skill) => skillMatchesQuery(skill, query));
+  const filtered = loadOptions
+    ? remote
+    : skills.filter((skill) => skillMatchesQuery(skill, query));
   const close = () => {
     setOpen(false);
     setQuery("");
@@ -207,8 +216,24 @@ export function SearchableSkillSelect({
     setActive(0);
   }, [query]);
 
-  function pick(id: string) {
-    onSelect(id);
+  useEffect(() => {
+    if (!open || !loadOptions) return;
+    const request = ++requestRef.current;
+    const handle = window.setTimeout(() => {
+      void loadOptions(query)
+        .then((items) => {
+          if (requestRef.current === request) setRemote(items);
+        })
+        .catch(() => {
+          /* keep the previous suggestions */
+        });
+    }, 200);
+    return () => window.clearTimeout(handle);
+  }, [open, query, loadOptions]);
+
+  function pick(skill: Skill) {
+    onPick?.(skill);
+    onSelect(skill.id);
     close();
   }
 
@@ -229,7 +254,7 @@ export function SearchableSkillSelect({
     } else if (event.key === "Enter") {
       event.preventDefault();
       const skill = filtered[active];
-      if (skill) pick(skill.id);
+      if (skill) pick(skill);
     }
   }
 
@@ -277,7 +302,7 @@ export function SearchableSkillSelect({
                   aria-selected={index === active}
                   className={`skill-picker-option${index === active ? " active" : ""}`}
                   onMouseEnter={() => setActive(index)}
-                  onClick={() => pick(skill.id)}
+                  onClick={() => pick(skill)}
                 >
                   <strong>{skill.name}</strong>
                   <small>

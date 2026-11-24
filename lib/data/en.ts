@@ -1,4 +1,4 @@
-import type { AgentName } from "@/lib/data/catalog";
+import type { AgentName } from "@/lib/data/model";
 
 const NONE = "Not found by static scan or manual review";
 const PENDING = "Security assessment not completed yet";

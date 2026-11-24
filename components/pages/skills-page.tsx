@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useEffect, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { usePathname, useSearchParams } from "next/navigation";
 import {
@@ -8,66 +8,28 @@ import {
   type AgentName,
   CATEGORIES,
   type Category,
-  catalogCounts,
-  lastVerifiedDays,
-  needsNetwork,
-  needsShell,
   OUTPUT_FORMATS,
   type OutputFormat,
   type RiskLevel,
-  type Skill,
   type VerifyStatus,
 } from "@/lib/data";
+import type { SkillQueryResult } from "@/lib/data/skill-result";
 import { useRouter } from "@/i18n/navigation";
-import { parseCsvParam, searchHref, skillHref } from "@/lib/routes";
+import { parseCsvParam, SEARCH_PAGE_MAX, SEARCH_PAGE_SIZE, searchHref, skillHref } from "@/lib/routes";
 import { stripLocale, type Locale } from "@/i18n/locale";
 import { useEnumLabel } from "@/i18n/format";
-import { searchIndex, useData } from "@/lib/use-data";
 import { type AppActions, type Route } from "@/components/shared";
 import { Icon, MenuSelect, SkillCard } from "@/components/ui";
 
-const SEARCH_PAGE_SIZE = 24;
-
 const STATUS_OPTIONS: VerifyStatus[] = ["任务已实测", "安装已验证", "待验证"];
 const RISK_OPTIONS: RiskLevel[] = ["低风险", "中风险", "未评估"];
-const REQUIREMENTS = {
-  "无需 API Key": (skill: Skill) => !skill.needsApiKey,
-  免费使用: (skill: Skill) => !skill.paid,
-  "无需执行 Shell": (skill: Skill) => !needsShell(skill),
-  无需访问网络: (skill: Skill) => !needsNetwork(skill),
-} as const;
-type Requirement = keyof typeof REQUIREMENTS;
+const REQUIREMENTS = ["无需 API Key", "免费使用", "无需执行 Shell", "无需访问网络"] as const;
+type Requirement = (typeof REQUIREMENTS)[number];
 const SORTS = ["综合推荐", "最近验证", "最多使用", "最新收录"] as const;
 type Sort = (typeof SORTS)[number];
 
 function toggleIn<T>(list: T[], item: T) {
   return list.includes(item) ? list.filter((value) => value !== item) : [...list, item];
-}
-
-function matchesQuery(skill: Skill, query: string) {
-  const normalized = query.trim().toLowerCase();
-  if (!normalized) return true;
-  const haystack = searchIndex[skill.id] ?? "";
-  return (
-    haystack.includes(normalized) ||
-    normalized.split(/\s+/).every((token) => haystack.includes(token))
-  );
-}
-
-const STATUS_RANK: Record<VerifyStatus, number> = { 任务已实测: 0, 安装已验证: 1, 待验证: 2 };
-
-function sortSkills(list: Skill[], sort: Sort) {
-  const copy = [...list];
-  if (sort === "最近验证")
-    return copy.sort((a, b) => (lastVerifiedDays(a) ?? 1e9) - (lastVerifiedDays(b) ?? 1e9));
-  if (sort === "最多使用") return copy.sort((a, b) => b.installs - a.installs);
-  if (sort === "最新收录") return copy.sort((a, b) => b.addedAt.localeCompare(a.addedAt));
-  return copy.sort(
-    (a, b) =>
-      STATUS_RANK[a.status] - STATUS_RANK[b.status] ||
-      RISK_OPTIONS.indexOf(a.risk) - RISK_OPTIONS.indexOf(b.risk) ||
-      b.installs - a.installs,
-  );
 }
 
 function parseSearchCategory(params: URLSearchParams): Category | "全部" {
@@ -89,7 +51,15 @@ function filterKnown<T extends string>(values: string[], allowed: readonly T[]):
   return values.filter((item): item is T => (allowed as readonly string[]).includes(item));
 }
 
-export function SearchPage({ route, actions }: { route: Route; actions: AppActions }) {
+export function SearchPage({
+  route,
+  actions,
+  result,
+}: {
+  route: Route;
+  actions: AppActions;
+  result: SkillQueryResult;
+}) {
   const { go, compareIds, toggleCompare } = actions;
   const router = useRouter();
   const pathname = usePathname();
@@ -97,7 +67,6 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
   const lang = useLocale() as Locale;
   const t = useTranslations("skills");
   const l = useEnumLabel();
-  const { skills } = useData();
   const paramsKey = route.params.toString();
   const [query, setQuery] = useState(route.params.get("q") ?? "");
   const [category, setCategory] = useState<Category | "全部">(() => parseSearchCategory(route.params));
@@ -109,14 +78,13 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
     filterKnown(parseCsvParam(route.params, "risk"), RISK_OPTIONS),
   );
   const [requirements, setRequirements] = useState<Requirement[]>(() =>
-    filterKnown(parseCsvParam(route.params, "req"), Object.keys(REQUIREMENTS) as Requirement[]),
+    filterKnown(parseCsvParam(route.params, "req"), REQUIREMENTS),
   );
   const [outputs, setOutputs] = useState<OutputFormat[]>(() =>
     filterKnown(parseCsvParam(route.params, "out"), OUTPUT_FORMATS),
   );
   const [sort, setSort] = useState<Sort>(() => parseSearchSort(route.params));
   const [filterOpen, setFilterOpen] = useState(false);
-  const [visibleCount, setVisibleCount] = useState(SEARCH_PAGE_SIZE);
 
   useEffect(() => {
     document.body.classList.toggle("sheet-open", filterOpen);
@@ -131,7 +99,7 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
     setStatuses(filterKnown(parseCsvParam(route.params, "status"), STATUS_OPTIONS));
     setRisks(filterKnown(parseCsvParam(route.params, "risk"), RISK_OPTIONS));
     setRequirements(
-      filterKnown(parseCsvParam(route.params, "req"), Object.keys(REQUIREMENTS) as Requirement[]),
+      filterKnown(parseCsvParam(route.params, "req"), REQUIREMENTS),
     );
     setOutputs(filterKnown(parseCsvParam(route.params, "out"), OUTPUT_FORMATS));
     setSort(parseSearchSort(route.params));
@@ -151,8 +119,10 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
       out: outputs,
       sort,
     });
-    const qs = searchParams.toString();
-    const current = `${barePath}${qs ? `?${qs}` : ""}`;
+    const currentParams = new URLSearchParams(searchParams.toString());
+    currentParams.delete("limit");
+    const currentQs = currentParams.toString();
+    const current = `${barePath}${currentQs ? `?${currentQs}` : ""}`;
     if (current === next) return;
     router.replace(next, { scroll: false });
   }, [
@@ -170,41 +140,15 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
     router,
   ]);
 
-  const matches = useCallback(
-    (skill: Skill, ignoreCategory = false) =>
-      matchesQuery(skill, query) &&
-      (ignoreCategory || category === "全部" || skill.category === category) &&
-      (agent === "全部" || skill.compat[agent].status !== "未验证") &&
-      (!statuses.length || statuses.includes(skill.status)) &&
-      (!risks.length || risks.includes(skill.risk)) &&
-      requirements.every((item) => REQUIREMENTS[item](skill)) &&
-      (!outputs.length || outputs.some((item) => skill.outputs.includes(item))),
-    [query, category, agent, statuses, risks, requirements, outputs],
-  );
-
-  const filtered = useMemo(
-    () =>
-      sortSkills(
-        skills.filter((skill) => matches(skill)),
-        sort,
-      ),
-    [skills, matches, sort],
-  );
-
-  useEffect(() => {
-    setVisibleCount(SEARCH_PAGE_SIZE);
-  }, [query, category, agent, statuses, risks, requirements, outputs, sort]);
-
-  const visibleSkills = filtered.slice(0, visibleCount);
-  const hasMore = visibleCount < filtered.length;
-  const categoryCounts = useMemo(() => {
-    const pool = skills.filter((skill) => matches(skill, true));
-    return Object.fromEntries(
-      CATEGORIES.map((item) => [item, pool.filter((skill) => skill.category === item).length]),
-    ) as Record<Category, number>;
-  }, [skills, matches]);
-  const poolTotal = Object.values(categoryCounts).reduce((sum, value) => sum + value, 0);
-  const catalogTotal = Object.values(catalogCounts).reduce((a, b) => a + b, 0);
+  const {
+    items: visibleSkills,
+    total,
+    poolTotal,
+    categoryCounts,
+    catalogTotal,
+    limit,
+  } = result;
+  const hasMore = visibleSkills.length < total;
 
   const chips: { label: string; clear: () => void }[] = [
     ...(query ? [{ label: `“${query}”`, clear: () => setQuery("") }] : []),
@@ -351,7 +295,7 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
             {checkboxGroup(t("riskLevel"), RISK_OPTIONS, risks, setRisks)}
             {checkboxGroup(
               t("requirements"),
-              Object.keys(REQUIREMENTS) as Requirement[],
+              REQUIREMENTS,
               requirements,
               setRequirements,
             )}
@@ -362,17 +306,17 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
               {t("clear")}
             </button>
             <button className="primary" onClick={() => setFilterOpen(false)}>
-              {t("showResults", { count: filtered.length })}
+              {t("showResults", { count: total })}
             </button>
           </div>
         </aside>
         <section className="results" aria-live="polite">
           <div className="results-top">
             <span>
-              {filtered.length
+              {total
                 ? t("showingResults", {
                     visible: visibleSkills.length,
-                    total: filtered.length,
+                    total,
                     catalog: catalogTotal,
                   })
                 : t("zeroResults", { catalog: catalogTotal })}
@@ -398,7 +342,7 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
               </button>
             </div>
           )}
-          {filtered.length ? (
+          {total ? (
             <>
               <div className="result-list">
                 {visibleSkills.map((skill) => (
@@ -416,10 +360,23 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
                   <button
                     className="secondary"
                     onClick={() =>
-                      setVisibleCount((count) => Math.min(count + SEARCH_PAGE_SIZE, filtered.length))
+                      router.replace(
+                        searchHref({
+                          q: query,
+                          category,
+                          agent,
+                          status: statuses,
+                          risk: risks,
+                          req: requirements,
+                          out: outputs,
+                          sort,
+                          limit: Math.min(SEARCH_PAGE_MAX, limit + SEARCH_PAGE_SIZE),
+                        }),
+                        { scroll: false },
+                      )
                     }
                   >
-                    {t("loadMore", { remaining: filtered.length - visibleSkills.length })}
+                    {t("loadMore", { remaining: total - visibleSkills.length })}
                   </button>
                 </div>
               )}

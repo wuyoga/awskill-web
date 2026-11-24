@@ -690,16 +690,18 @@ export function WorkflowDetailPage({
 
 const AGENT_MATRIX_LIMIT = 24;
 
-export function AgentsPage() {
+export function AgentsPage({
+  matrixSkills,
+  catalogTotal,
+}: {
+  matrixSkills: Skill[];
+  catalogTotal: number;
+}) {
   const { go, soon } = useAppActions();
   const t = useTranslations("agents");
   const tFooter = useTranslations("footer");
   const l = useEnumLabel();
-  const { skills, agentCopy } = useData();
-  const matrixSkills = useMemo(
-    () => [...skills].sort((a, b) => b.installs - a.installs).slice(0, AGENT_MATRIX_LIMIT),
-    [skills],
-  );
+  const { agentCopy } = useData();
   return (
     <>
       <main className="hub-page container">
@@ -829,9 +831,9 @@ export function AgentsPage() {
               </div>
             ))}
           </div>
-          {skills.length > AGENT_MATRIX_LIMIT && (
+          {catalogTotal > AGENT_MATRIX_LIMIT && (
             <p className="matrix-footnote">
-              {t("matrix.footnote", { limit: AGENT_MATRIX_LIMIT, total: skills.length })}
+              {t("matrix.footnote", { limit: AGENT_MATRIX_LIMIT, total: catalogTotal })}
             </p>
           )}
         </section>

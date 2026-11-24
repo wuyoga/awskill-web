@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 
+import { getDetailSkill } from "@/lib/data/query";
 import { detailMetadata, metaMessages, resolveLocale, skillDetailCopy } from "@/lib/seo";
 import SkillDetailClient from "./skill-detail-client";
 
@@ -19,6 +20,13 @@ export async function generateMetadata({
   return detailMetadata(locale, `/skills/${encodeURIComponent(slug)}`, { title, description });
 }
 
-export default function SkillDetailPage() {
-  return <SkillDetailClient />;
+export default async function SkillDetailPage({
+  params,
+}: {
+  params: Promise<{ locale: string; slug: string }>;
+}) {
+  const { locale: raw, slug: rawSlug } = await params;
+  const slug = decodeURIComponent(rawSlug);
+  const skill = getDetailSkill(resolveLocale(raw), slug) ?? null;
+  return <SkillDetailClient skill={skill} />;
 }

@@ -6,6 +6,17 @@ export {
   sameCompareIds,
 } from "./compare-url";
 
+export const SEARCH_PAGE_SIZE = 24;
+export const SEARCH_PAGE_MAX = 480;
+
+/** Page size written to `?limit=`. Missing or invalid values stay on the first page. */
+export function parseSkillLimit(raw: string | null | undefined) {
+  const n = Number(raw);
+  if (!Number.isFinite(n) || n <= SEARCH_PAGE_SIZE) return SEARCH_PAGE_SIZE;
+  const snapped = Math.floor(n / SEARCH_PAGE_SIZE) * SEARCH_PAGE_SIZE;
+  return Math.min(SEARCH_PAGE_MAX, snapped);
+}
+
 export type SearchHrefParams = {
   q?: string;
   category?: string;
@@ -15,6 +26,7 @@ export type SearchHrefParams = {
   req?: string[];
   out?: string[];
   sort?: string;
+  limit?: number;
 };
 
 export function parseCsvParam(params: URLSearchParams, key: string): string[] {
@@ -37,6 +49,9 @@ export function searchHref(params: SearchHrefParams = {}) {
   if (params.req?.length) query.set("req", params.req.join(","));
   if (params.out?.length) query.set("out", params.out.join(","));
   if (params.sort && params.sort !== "综合推荐") query.set("sort", params.sort);
+  if (params.limit && params.limit > SEARCH_PAGE_SIZE) {
+    query.set("limit", String(parseSkillLimit(String(params.limit))));
+  }
   const text = query.toString();
   return `/skills${text ? `?${text}` : ""}`;
 }

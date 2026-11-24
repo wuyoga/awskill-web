@@ -3,7 +3,8 @@ import type { Metadata } from "next";
 import { type Locale, htmlLang, isLocale, DEFAULT_LOCALE } from "@/i18n/locale";
 import enMeta from "@/i18n/messages/en/meta.json";
 import zhMeta from "@/i18n/messages/zh/meta.json";
-import { getSkill, reviewEn, reviews, skillEn, workflowEn, workflows } from "@/lib/data";
+import { reviewEn, reviews, skillEn, workflowEn, workflows } from "@/lib/data";
+import { getSkill } from "@/lib/data/catalog";
 
 export const SITE_NAME = "awskill";
 export const SITE_URL =

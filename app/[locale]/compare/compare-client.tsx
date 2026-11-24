@@ -5,9 +5,16 @@ import { useSearchParams } from "next/navigation";
 
 import { useAppActions } from "@/components/app-state";
 import { ComparePage } from "@/components/pages/compare-page";
+import type { Skill } from "@/lib/data";
 import { parseCompareSkillIds, sameCompareIds } from "@/lib/routes";
 
-function CompareInner({ initialSkills }: { initialSkills: string }) {
+function CompareInner({
+  initialSkills,
+  compared,
+}: {
+  initialSkills: string;
+  compared: Skill[];
+}) {
   const actions = useAppActions();
   const { compareIds, compareHydrated, seedCompare } = actions;
   const searchParams = useSearchParams();
@@ -29,13 +36,19 @@ function CompareInner({ initialSkills }: { initialSkills: string }) {
     if (!sameCompareIds(compareIds, urlIds)) seedCompare(urlIds);
   }, [urlIds, compareIds, compareHydrated, seedCompare]);
 
-  return <ComparePage actions={actions} urlIds={urlIds} />;
+  return <ComparePage actions={actions} urlIds={urlIds} compared={compared} />;
 }
 
-export default function CompareRoute({ initialSkills = "" }: { initialSkills?: string }) {
+export default function CompareRoute({
+  initialSkills = "",
+  compared = [],
+}: {
+  initialSkills?: string;
+  compared?: Skill[];
+}) {
   return (
     <Suspense fallback={<main className="container compare-page" />}>
-      <CompareInner initialSkills={initialSkills} />
+      <CompareInner initialSkills={initialSkills} compared={compared} />
     </Suspense>
   );
 }
