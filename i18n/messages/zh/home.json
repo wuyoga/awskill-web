@@ -29,7 +29,7 @@
   },
   "skillsCount": "{count} 个 Skills",
   "trust": {
-    "title": "先了解它会做什么，再决定是否安装",
+    "title": "先了解会做什么，再决定安装",
     "copy": "awskill 将复杂的权限和风险转化成清晰、可执行的中文说明。安全等级不是一个模糊分数，每个结论都有原因。",
     "howWeReview": "了解评测标准",
     "sampleSecuritySummary": "示例安全摘要",
