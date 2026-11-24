@@ -10,7 +10,7 @@ Target stack is Next.js **16.x** (App Router). APIs and conventions may differ f
 - **Docs (source of truth)**: `doc/PRD.md`（做什么）、`doc/analysis.md`（为什么）、`doc/README.md`（索引）。`AGENTS.md` 只是 Agent 摘要，产品细节以 `doc/` 为准。
 - **Current code**: Next.js **16.2** App Router + React **19.2** + Tailwind CSS **v4**；静态数据在 `lib/data*`；路由 `app/[locale]/…`（`/zh` · `/en`）
 - **Target stack**: 同上前端；后续 Strapi + PostgreSQL + Meilisearch
-- **Package manager**: **pnpm**（本仓锁定；勿擅自改 npm/yarn）
+- **Package manager**: **pnpm**（本仓锁定；勿擅自改 npm/yarn）。构建脚本审批在 `pnpm-workspace.yaml` → `allowBuilds`（必须是 `true`/`false`，禁止占位字符串；见 `code-conventions`）
 - **First Agents**: Claude Code、Codex、Cursor、Windsurf
 - **Default locale**: 简体中文；英文为完整可切换版本
 

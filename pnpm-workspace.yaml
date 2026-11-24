@@ -1,2 +1,8 @@
+# pnpm 11+: allowBuilds values MUST be boolean true|false.
+# Never leave "set this to true or false" placeholders (breaks install with ERR_PNPM_IGNORED_BUILDS).
+# See .cursor/rules/code-conventions.mdc
 allowBuilds:
+  "@parcel/watcher": true
+  "@swc/core": true
   sharp: true
+
