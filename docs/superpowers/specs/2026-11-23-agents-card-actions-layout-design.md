@@ -1,7 +1,7 @@
 # Agent 卡片页脚「查看详情 / 浏览 Skills」布局优化 — 设计说明
 
 **Date**: 2026-11-23  
-**Status**: Approved (pending implementation)  
+**Status**: Implemented  
 **Scope**: PAGE-09 `/agents` Agent 列表卡片页脚  
 **Approach**: 方案 1 — 微调现状（左链右钮）
 
@@ -59,10 +59,10 @@ Agent 中心卡片页脚两个入口视觉权重接近、垂直对齐不稳，�
 
 ## 验收
 
-- [ ] 四张卡片：左「查看详情」文字链、右「浏览 Skills」实心钮，垂直居中对齐
-- [ ] 点击分别进入 Agent 详情 / 带该 Agent 的 Skills 列表（行为与现网一致）
-- [ ] 中英文切换不出现页脚换行错位（英文略紧可接受）
-- [ ] `pnpm lint` 通过；手测 `http://localhost:3000/zh/agents`
+- [x] 四张卡片：左「查看详情」文字链、右「浏览 Skills」实心钮，垂直居中对齐
+- [x] 点击分别进入 Agent 详情 / 带该 Agent 的 Skills 列表（行为与现网一致）
+- [x] 中英文切换不出现页脚换行错位（英文略紧可接受）
+- [x] `pnpm lint` 通过；手测 `http://localhost:13001/zh/agents`
 
 ## 后续备选（本次不做）
 

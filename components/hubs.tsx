@@ -800,11 +800,19 @@ export function AgentsPage({ actions }: { actions: AppActions }) {
                   {t(`实测覆盖 ${coverage}% · 安装目录`, `${coverage}% tested · path`)}{" "}
                   <code>{AGENT_META[agent].installDir("<skill>")}</code>
                 </small>
-                <div className="agent-card-actions" style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
-                  <button type="button" onClick={() => go(agentHref(agentSlug(agent)))}>
+                <div className="agent-card-actions">
+                  <button
+                    type="button"
+                    className="agent-card-link"
+                    onClick={() => go(agentHref(agentSlug(agent)))}
+                  >
                     {t("查看详情", "Details")} <Icon name="arrow" size={15} />
                   </button>
-                  <button type="button" className="secondary" onClick={() => go(searchHref({ agent }))}>
+                  <button
+                    type="button"
+                    className="primary small"
+                    onClick={() => go(searchHref({ agent }))}
+                  >
                     {t(`浏览 Skills`, `Browse Skills`)}
                   </button>
                 </div>
