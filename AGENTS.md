@@ -23,7 +23,9 @@ Target stack is Next.js **16.x** (App Router). APIs and conventions may differ f
 | | `change-scope` | 样式任务边界；评审建议 ≠ 实现许可 |
 | | `workflow` | 阶段 DoD、验收；P*↔PRD M* |
 | | `progress-log` | `doc/进度记录.md` 模板 |
+| | `commit-attribution` | 提交说明不写 Cursor 共同作者 |
 | | `figma-honesty` | 不编造节点、不提交 MCP 临时图（涉及 Figma 时） |
+| Skills | `.cursor/skills/commit` | 按本仓历史写提交说明 |
 
 Progress: 每个可复述工作单元倒序追加 `doc/进度记录.md`。  
 Daily: 只打开本仓窗口。

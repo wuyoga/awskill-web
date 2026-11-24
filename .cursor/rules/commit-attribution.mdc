@@ -1,0 +1,14 @@
+---
+description: 提交说明禁止带上 Cursor 共同作者
+alwaysApply: true
+---
+
+# 提交归属
+
+提交说明只保留提交者自己的信息。
+
+- 禁止 `Co-authored-by: Cursor <cursoragent@cursor.com>`
+- 禁止 `Made-with: Cursor`
+- `git commit` 不要加 `--trailer` 写入上述两行
+- 钩子源文件是 `.githooks/commit-msg`。它只删这两行，其它共同作者保留
+- 提交前确认 `.git/hooks/commit-msg` 与源文件一致。不要为此修改 git config
