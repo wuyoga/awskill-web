@@ -1,0 +1,59 @@
+{
+  "noReview": "No review",
+  "groups": {
+    "basics": "Basics",
+    "verification": "Verification",
+    "compatibility": "Compatibility",
+    "safety": "Security & requirements"
+  },
+  "rows": {
+    "repository": "Repository",
+    "category": "Category",
+    "output": "Output",
+    "status": "Status",
+    "taskResult": "Task result",
+    "lastVerified": "Last verified",
+    "sourceUpdated": "Source updated",
+    "underReview": "under review",
+    "riskLevel": "Risk level",
+    "apiKey": "API key",
+    "required": "Required",
+    "notNeeded": "Not needed"
+  },
+  "breadcrumb": {
+    "discover": "Discover",
+    "compare": "Compare"
+  },
+  "title": "Pick the Skill that fits",
+  "empty": {
+    "title": "Nothing to compare yet",
+    "body": "Tap “Compare” on a list or detail page. Up to 3 at once.",
+    "discoverCta": "Discover Skills"
+  },
+  "criteria": "Criteria",
+  "removeSkill": "Remove {name}",
+  "details": "Details",
+  "addSkill": "Add a Skill",
+  "needAtLeastTwo": "Add at least 2 to compare",
+  "oneMoreSlot": "1 more slot",
+  "selectSkillAria": "Choose a Skill to compare",
+  "selectPlaceholder": "Choose…",
+  "searchPlaceholder": "Search name or repo",
+  "noMatchingSkills": "No matching Skills",
+  "tip": {
+    "title": "How to read this",
+    "body": "Medium risk doesn't mean unsafe—it usually means the Skill runs commands, edits files or uses the network. Check the reasons before installing."
+  },
+  "dock": {
+    "ariaLabel": "Compare tray",
+    "inCompare": "In compare",
+    "maxThree": "max 3",
+    "clear": "Clear",
+    "startCompare": "Compare"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "body": "The link may be broken, or the Skill has been removed.",
+    "backToDiscover": "Back to Discover"
+  }
+}

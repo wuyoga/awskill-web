@@ -1,0 +1,125 @@
+{
+  "format": {
+    "cursorMdc": "Auto-converted to a .mdc project rule",
+    "windsurfRule": "Auto-converted to a Windsurf rule file",
+    "nativeSkillMd": "Native SKILL.md, no conversion"
+  },
+  "tabs": {
+    "install": "Install",
+    "usage": "Use cases",
+    "compat": "Compatibility",
+    "security": "Security",
+    "mcp": "MCP",
+    "evaluation": "Task review",
+    "skillmd": "SKILL.md"
+  },
+  "trustSignals": {
+    "sourceListed": "Source listed",
+    "installVerified": "Install verified",
+    "securityAssessed": "Security assessed",
+    "taskTested": "Task-tested",
+    "authorVerified": "Author verified"
+  },
+  "badges": {
+    "prototypeDemo": "Prototype demo",
+    "collectedDraft": "Collected draft"
+  },
+  "meta": {
+    "sourceRepoStarsTitle": "Source repo GitHub stars",
+    "repo": "Repo",
+    "notVerifiedYet": "Not verified yet",
+    "verifiedLabel": "Verified"
+  },
+  "notices": {
+    "draftTitle": "Collected draft · conclusions pending review.",
+    "draftBody": "Compatibility, security and review fields come from heuristics or benchmark snapshots—not official awskill verification.",
+    "staleTitle": "Source updated; conclusions under review.",
+    "staleRepoUpdated": "The repo has new commits since verification (latest ",
+    "staleBasedOn": "). Current conclusions are based on ",
+    "staleReverify": " and will be re-verified within 72 hours."
+  },
+  "actions": {
+    "inCompare": "In compare",
+    "addToCompare": "Add to compare",
+    "removeBookmark": "Remove bookmark",
+    "bookmark": "Bookmark",
+    "bookmarked": "Bookmarked"
+  },
+  "onThisPage": "On this page",
+  "installSection": {
+    "title": "Install & use",
+    "intro": "Install paths and formats differ by Agent. Pick the one you use.",
+    "chooseAgent": "Choose Agent",
+    "notVerifiedOnAgent": "Not yet verified on {agent}. The command below follows generic rules and is for reference only.",
+    "verifiedOnAgent": "Verified on {agent} {agentVersion} · {os} ({verifiedAgo}){noteSuffix}",
+    "verifiedNoteSuffix": ". {note}",
+    "requires": "Requires",
+    "apiKeyRequired": "Required",
+    "apiKeyNotNeeded": "Not needed",
+    "path": "Path",
+    "formatLabel": "Format",
+    "uninstall": "Uninstall"
+  },
+  "usageSection": {
+    "title": "What it's good for",
+    "intro": "Based on the original docs and our own tests.",
+    "notForLabel": "Not for: "
+  },
+  "compatSection": {
+    "title": "Compatibility",
+    "intro": "Every result is tied to an Agent version and environment. “Unverified” doesn't mean unsupported.",
+    "status": "Status",
+    "environment": "Environment",
+    "lastVerified": "Last verified"
+  },
+  "securitySection": {
+    "title": "Security & permissions",
+    "intro": "Low risk isn't zero risk. Confirm the permission scope before installing.",
+    "overallRisk": "Overall risk",
+    "assessmentPending": "Security assessment pending",
+    "scanAndReview": "Automated static scan + manual review",
+    "basedOnCommit": "Based on"
+  },
+  "mcpSection": {
+    "title": "Related MCP servers",
+    "intro": "Shown only on Skill detail—no standalone MCP directory (D-07).",
+    "siteRepo": "Site / repo",
+    "required": "Required",
+    "optional": "Optional",
+    "setupLabel": "Setup",
+    "envLabel": "Env",
+    "emptyTitle": "No MCP links recorded",
+    "emptyBody": "This Skill has no required or optional MCP links yet. When present, purpose and setup prerequisites appear here."
+  },
+  "evaluationSection": {
+    "title": "Task review",
+    "prototypeIntro": "Prototype demo data, not an official review conclusion.",
+    "draftIntro": "Collected drafts usually have no task review yet—don't treat empty results as official tests.",
+    "vsBaseline": "vs. no-Skill baseline",
+    "headToHead": "Head-to-head",
+    "completed": "Completed",
+    "interventions": "Interventions",
+    "interventionsUnit": "",
+    "duration": "Duration",
+    "environment": "Environment",
+    "viewFullReview": "View full review",
+    "emptyTitle": "No task review yet",
+    "emptyBody": "Current status: “{status}”. Once installs are verified, similar Skills are scheduled for a shared task review.",
+    "browseReviews": "Browse reviews"
+  },
+  "skillMdSection": {
+    "excerptLabel": "Original file excerpt · from commit"
+  },
+  "aside": {
+    "sourceTitle": "Source",
+    "author": "Author",
+    "repository": "Repository",
+    "license": "License",
+    "listed": "Listed",
+    "sourceUpdated": "Source updated",
+    "verifiedCommit": "Verified commit",
+    "latestCommit": "Latest commit",
+    "viewOnGitHub": "View on GitHub",
+    "trustTitle": "Trust signals"
+  }
+}

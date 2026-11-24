@@ -1,0 +1,39 @@
+{
+  "eyebrow": "Agent Skill reviews and discovery",
+  "hero": {
+    "titlePrefix": "Find the",
+    "titleSuffix": " that fit",
+    "copy": "Look past popularity. Check compatibility, security risk and real task results before you install."
+  },
+  "search": {
+    "placeholder": "Describe a task, e.g. browser automation",
+    "ariaLabel": "Search Skills",
+    "submit": "Search"
+  },
+  "popularLabel": "Popular:",
+  "quickSearches": {
+    "frontendDesign": "Frontend design",
+    "codeReview": "Code review",
+    "browserAutomation": "Browser automation",
+    "slides": "Slides"
+  },
+  "supports": "Supports",
+  "verified": {
+    "title": "Verified, not just listed",
+    "copy": "Every conclusion states its test environment, Agent version and verification date.",
+    "viewAll": "View all"
+  },
+  "demoNote": "Review content is prototype demo data. At launch it will be bound to real test environments and commits.",
+  "explore": {
+    "title": "Start from the task at hand"
+  },
+  "skillsCount": "{count} Skills",
+  "trust": {
+    "title": "Know what it does before you install",
+    "copy": "awskill turns complex permissions and risks into clear, actionable explanations. A risk level is never a vague score—every conclusion comes with a reason.",
+    "howWeReview": "How we review",
+    "sampleSecuritySummary": "Sample security summary",
+    "automatedScanManualReview": "Automated scan + manual review",
+    "verifiedLabel": "Verified"
+  }
+}

@@ -22,7 +22,9 @@ import {
   type Skill,
   type VerifyStatus,
 } from "@/lib/data";
-import { useI18n } from "@/lib/i18n";
+import { useTranslations } from "next-intl";
+
+import { useEnumLabel } from "@/i18n/format";
 
 function useDismissible(open: boolean, onClose: () => void, rootRef: RefObject<HTMLElement | null>) {
   useEffect(() => {
@@ -440,7 +442,7 @@ export function Icon({
 export { BrandMark } from "@/components/brand-mark";
 
 export function StatusPill({ status }: { status: VerifyStatus }) {
-  const { l } = useI18n();
+  const l = useEnumLabel();
   return (
     <span className={`status-pill ${status === "待验证" ? "muted" : ""}`}>
       <Icon name={status === "待验证" ? "clock" : "check"} size={13} strokeWidth={2.2} />
@@ -450,7 +452,7 @@ export function StatusPill({ status }: { status: VerifyStatus }) {
 }
 
 export function RiskPill({ risk }: { risk: RiskLevel }) {
-  const { l } = useI18n();
+  const l = useEnumLabel();
   return (
     <span
       className={`risk-pill ${risk === "中风险" ? "medium" : risk === "未评估" ? "muted" : ""}`}
@@ -475,9 +477,10 @@ export function AgentMark({ agent, size = "md" }: { agent: AgentName; size?: "sm
 
 /** Compact per-Agent compatibility row used on cards. */
 export function AgentSupport({ skill }: { skill: Skill }) {
-  const { t, l } = useI18n();
+  const t = useTranslations("ui");
+  const l = useEnumLabel();
   return (
-    <div className="card-agents" aria-label={t("Agent 兼容性", "Agent compatibility")}>
+    <div className="card-agents" aria-label={t("agentCompatibility")}>
       {AGENTS.map((agent) => {
         const status = skill.compat[agent].status;
         return (
@@ -501,7 +504,7 @@ const LEVEL_STEPS: Record<Level, number> = { 优秀: 4, 良好: 3, 一般: 2, �
 
 /** Discrete four-step level indicator. Deliberately not a percentage score. */
 export function LevelMeter({ level }: { level: Level }) {
-  const { l } = useI18n();
+  const l = useEnumLabel();
   const steps = LEVEL_STEPS[level];
   return (
     <span className={`level-meter l${steps}`}>
@@ -526,7 +529,7 @@ export function SkillCard({
   onOpen: () => void;
   onCompare: () => void;
 }) {
-  const { t } = useI18n();
+  const t = useTranslations("ui");
   const draft = !isPrototypeSkill(skill.id);
   return (
     <article className="skill-card">
@@ -540,7 +543,7 @@ export function SkillCard({
               <button className="card-link" onClick={onOpen}>
                 {skill.name}
               </button>
-              {draft && <span className="demo-tag">{t("采集草稿", "Draft")}</span>}
+              {draft && <span className="demo-tag">{t("draftTag")}</span>}
             </h3>
             <p className="repo-line">
               {skill.owner} / {skill.repo}
@@ -563,22 +566,23 @@ export function SkillCard({
         <div className="card-actions">
           <span
             className="star-count"
-            title={t("来源仓库 GitHub Star", "Source repo GitHub stars")}
+            title={t("sourceRepoStarsTitle")}
           >
             <Icon name="star" size={14} /> {skill.stars}
           </span>
           <button
             className={`compare-add ${selected ? "selected" : ""}`}
+            type="button"
             onClick={onCompare}
             aria-pressed={selected}
             aria-label={
               selected
-                ? t(`将 ${skill.name} 移出对比`, `Remove ${skill.name} from compare`)
-                : t(`将 ${skill.name} 加入对比`, `Add ${skill.name} to compare`)
+                ? t("compare.removeFromCompare", { name: skill.name })
+                : t("compare.addToCompare", { name: skill.name })
             }
           >
             <Icon name={selected ? "check" : "plus"} size={15} />
-            {selected ? t("已加入", "Added") : t("对比", "Compare")}
+            {selected ? t("compare.added") : t("compare.compare")}
           </button>
         </div>
       </div>
@@ -597,16 +601,18 @@ export function CopyBlock({
   onCopy: () => void;
   multiline?: boolean;
 }) {
-  const { t } = useI18n();
+  const t = useTranslations("ui");
   return (
     <div className={`code-block ${multiline ? "multi" : ""}`}>
       <div>
         <span>$</span>
         <code>{text}</code>
       </div>
-      <button onClick={onCopy} aria-label={t("复制命令", "Copy command")}>
+      <button onClick={onCopy} aria-label={t("copyBlock.copyCommand")}>
         <Icon name={copied ? "check" : "copy"} size={17} />
-        <span className="copy-label">{copied ? t("已复制", "Copied") : t("复制", "Copy")}</span>
+        <span className="copy-label">
+          {copied ? t("copyBlock.copied") : t("copyBlock.copy")}
+        </span>
       </button>
     </div>
   );

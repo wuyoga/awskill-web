@@ -1,6 +1,7 @@
 "use client";
 
 import { type CSSProperties } from "react";
+import { useTranslations } from "next-intl";
 import {
   AGENTS,
   isStale,
@@ -9,7 +10,7 @@ import {
   type Skill,
 } from "@/lib/data";
 import { compareHref, skillHref } from "@/lib/routes";
-import { useI18n } from "@/lib/i18n";
+import { useEnumLabel, useI18nFormat } from "@/i18n/format";
 import { useData } from "@/lib/use-data";
 import { type AppActions } from "@/components/shared";
 import { compatTone, Icon, SearchableSkillSelect } from "@/components/ui";
@@ -23,18 +24,29 @@ function levelTone(level: string): Cell["tone"] {
   return undefined;
 }
 
-export function ComparePage({ actions }: { actions: AppActions }) {
-  const { go, compareIds, toggleCompare } = actions;
-  const { t, l, ago, list } = useI18n();
+export function ComparePage({
+  actions,
+  urlIds = [],
+}: {
+  actions: AppActions;
+  /** Skills from `?skills=` — used when context has not hydrated yet. */
+  urlIds?: string[];
+}) {
+  const { go, compareIds, compareHydrated, toggleCompare } = actions;
+  const t = useTranslations("compare");
+  const l = useEnumLabel();
+  const { ago, list } = useI18nFormat();
   const { skills, getSkill, reviewsForSkill } = useData();
-  const visible = compareIds.map((id) => getSkill(id)).filter((s): s is Skill => Boolean(s));
+  // Before hydrate, show share-link ids to avoid an empty flash; after that, state wins.
+  const activeIds = compareHydrated ? compareIds : urlIds.length > 0 ? urlIds : compareIds;
+  const visible = activeIds.map((id) => getSkill(id)).filter((s): s is Skill => Boolean(s));
   const canAdd = visible.length < 3;
   const columns = visible.length + (canAdd ? 1 : 0);
-  const candidates = skills.filter((skill) => !compareIds.includes(skill.id));
+  const candidates = skills.filter((skill) => !activeIds.includes(skill.id));
 
   function verdictCell(skill: Skill): Cell {
     const verdict = reviewsForSkill(skill.id)[0]?.runs[skill.id]?.verdict;
-    if (!verdict) return { text: t("暂无评测", "No review"), tone: "muted" };
+    if (!verdict) return { text: t("noReview"), tone: "muted" };
     return { text: l(verdict), tone: verdict === "推荐" ? "good" : "warn" };
   }
   function permissionCell(skill: Skill, label: string): Cell {
@@ -42,43 +54,43 @@ export function ComparePage({ actions }: { actions: AppActions }) {
     return { text: l(level), tone: levelTone(level) };
   }
 
-  const basics = t("基本信息", "Basics");
-  const verification = t("验证", "Verification");
-  const compatibility = t("兼容性", "Compatibility");
-  const safety = t("安全与要求", "Security & requirements");
+  const basics = t("groups.basics");
+  const verification = t("groups.verification");
+  const compatibility = t("groups.compatibility");
+  const safety = t("groups.safety");
   const rows: { group: string; label: string; cell: (skill: Skill) => Cell }[] = [
     {
       group: basics,
-      label: t("来源仓库", "Repository"),
+      label: t("rows.repository"),
       cell: (s) => ({ text: `${s.owner}/${s.repo}` }),
     },
-    { group: basics, label: t("分类", "Category"), cell: (s) => ({ text: l(s.category) }) },
+    { group: basics, label: t("rows.category"), cell: (s) => ({ text: l(s.category) }) },
     {
       group: basics,
-      label: t("输出格式", "Output"),
+      label: t("rows.output"),
       cell: (s) => ({ text: list(s.outputs.map(l)) }),
     },
     {
       group: verification,
-      label: t("验证状态", "Status"),
+      label: t("rows.status"),
       cell: (s) => ({
         text: l(s.status),
         tone: s.status === "任务已实测" ? "good" : s.status === "待验证" ? "muted" : undefined,
       }),
     },
-    { group: verification, label: t("任务表现", "Task result"), cell: verdictCell },
+    { group: verification, label: t("rows.taskResult"), cell: verdictCell },
     {
       group: verification,
-      label: t("最近验证", "Last verified"),
+      label: t("rows.lastVerified"),
       cell: (s) => ({ text: ago(lastVerifiedDays(s)) }),
     },
     {
       group: verification,
-      label: t("来源更新", "Source updated"),
+      label: t("rows.sourceUpdated"),
       cell: (s) =>
         isStale(s) && s.verifiedCommit !== "—"
           ? {
-              text: `${ago(s.sourceUpdatedDaysAgo)} · ${t("结论待复核", "under review")}`,
+              text: `${ago(s.sourceUpdatedDaysAgo)} · ${t("rows.underReview")}`,
               tone: "warn",
             }
           : { text: ago(s.sourceUpdatedDaysAgo) },
@@ -93,7 +105,7 @@ export function ComparePage({ actions }: { actions: AppActions }) {
     })),
     {
       group: safety,
-      label: t("安全等级", "Risk level"),
+      label: t("rows.riskLevel"),
       cell: (s) => ({
         text: l(s.risk),
         tone: s.risk === "低风险" ? "good" : s.risk === "中风险" ? "warn" : "muted",
@@ -103,51 +115,46 @@ export function ComparePage({ actions }: { actions: AppActions }) {
     { group: safety, label: l("访问网络"), cell: (s) => permissionCell(s, "访问网络") },
     {
       group: safety,
-      label: t("需要 API Key", "API key"),
+      label: t("rows.apiKey"),
       cell: (s) =>
         s.needsApiKey
-          ? { text: t("需要", "Required"), tone: "warn" }
-          : { text: t("不需要", "Not needed"), tone: "good" },
+          ? { text: t("rows.required"), tone: "warn" }
+          : { text: t("rows.notNeeded"), tone: "good" },
     },
   ];
 
   return (
     <main className="compare-page container">
       <div className="breadcrumb">
-        <button onClick={() => go("/skills")}>{t("发现 Skill", "Discover")}</button>
+        <button onClick={() => go("/skills")}>{t("breadcrumb.discover")}</button>
         <Icon name="chevron" size={13} />
-        <strong>{t("对比", "Compare")}</strong>
+        <strong>{t("breadcrumb.compare")}</strong>
       </div>
       <div className="page-title">
         <span className="section-kicker">COMPARE</span>
-        <h1>{t("选择更适合你的 Skill", "Pick the Skill that fits")}</h1>
+        <h1>{t("title")}</h1>
       </div>
       {visible.length === 0 ? (
         <div className="empty-state">
           <span className="empty-icon">
             <Icon name="plus" size={25} />
           </span>
-          <h3>{t("还没有加入对比的 Skill", "Nothing to compare yet")}</h3>
-          <p>
-            {t(
-              "在列表或详情页点击“对比”，最多可同时对比 3 个。",
-              "Tap “Compare” on a list or detail page. Up to 3 at once.",
-            )}
-          </p>
+          <h3>{t("empty.title")}</h3>
+          <p>{t("empty.body")}</p>
           <button className="secondary" onClick={() => go("/skills")}>
-            {t("去发现 Skill", "Discover Skills")}
+            {t("empty.discoverCta")}
           </button>
         </div>
       ) : (
         <div className="compare-table-wrap">
           <div className="compare-head" style={{ "--columns": columns } as CSSProperties}>
-            <div className="compare-label-cell">{t("对比项目", "Criteria")}</div>
+            <div className="compare-label-cell">{t("criteria")}</div>
             {visible.map((skill) => (
               <div className="compare-skill-head" key={skill.id}>
                 <button
                   className="remove-compare"
                   onClick={() => toggleCompare(skill.id)}
-                  aria-label={t(`将 ${skill.name} 移出对比`, `Remove ${skill.name}`)}
+                  aria-label={t("removeSkill", { name: skill.name })}
                 >
                   <Icon name="x" size={15} />
                 </button>
@@ -159,7 +166,7 @@ export function ComparePage({ actions }: { actions: AppActions }) {
                   {skill.owner}/{skill.repo}
                 </small>
                 <button className="primary small" onClick={() => go(skillHref(skill.id))}>
-                  {t("查看详情", "Details")}
+                  {t("details")}
                 </button>
               </div>
             ))}
@@ -168,19 +175,17 @@ export function ComparePage({ actions }: { actions: AppActions }) {
                 <span className="skill-icon slate">
                   <Icon name="plus" size={21} />
                 </span>
-                <strong>{t("添加 Skill", "Add a Skill")}</strong>
+                <strong>{t("addSkill")}</strong>
                 <small>
-                  {visible.length < 2
-                    ? t("至少需要 2 个才能对比", "Add at least 2 to compare")
-                    : t("还可以添加 1 个", "1 more slot")}
+                  {visible.length < 2 ? t("needAtLeastTwo") : t("oneMoreSlot")}
                 </small>
                 <SearchableSkillSelect
                   skills={candidates}
                   onSelect={toggleCompare}
-                  ariaLabel={t("选择要加入对比的 Skill", "Choose a Skill to compare")}
-                  placeholder={t("选择 Skill…", "Choose…")}
-                  searchPlaceholder={t("搜索名称或仓库", "Search name or repo")}
-                  emptyLabel={t("无匹配 Skill", "No matching Skills")}
+                  ariaLabel={t("selectSkillAria")}
+                  placeholder={t("selectPlaceholder")}
+                  searchPlaceholder={t("searchPlaceholder")}
+                  emptyLabel={t("noMatchingSkills")}
                 />
               </div>
             )}
@@ -216,13 +221,8 @@ export function ComparePage({ actions }: { actions: AppActions }) {
       <div className="compare-tip">
         <Icon name="shield" size={19} />
         <div>
-          <strong>{t("如何理解对比结果？", "How to read this")}</strong>
-          <p>
-            {t(
-              "中风险不等于不安全，它通常表示 Skill 需要执行命令、修改文件或访问网络。安装前请查看具体权限原因。",
-              "Medium risk doesn't mean unsafe—it usually means the Skill runs commands, edits files or uses the network. Check the reasons before installing.",
-            )}
-          </p>
+          <strong>{t("tip.title")}</strong>
+          <p>{t("tip.body")}</p>
         </div>
       </div>
     </main>
@@ -231,27 +231,27 @@ export function ComparePage({ actions }: { actions: AppActions }) {
 
 export function CompareDock({ actions }: { actions: AppActions }) {
   const { compareIds, go, toggleCompare } = actions;
-  const { t } = useI18n();
+  const t = useTranslations("compare");
   if (!compareIds.length) return null;
   return (
-    <div className="compare-dock" role="region" aria-label={t("对比栏", "Compare tray")}>
+    <div className="compare-dock" role="region" aria-label={t("dock.ariaLabel")}>
       <div>
         <span className="compare-count">{compareIds.length}</span>
-        <span>{t("已加入对比", "In compare")}</span>
+        <span>{t("dock.inCompare")}</span>
         <small>
-          {compareIds.join(", ")} · {t("最多 3 个", "max 3")}
+          {compareIds.join(", ")} · {t("dock.maxThree")}
         </small>
       </div>
       <div className="dock-actions">
         <button className="text-button" onClick={() => compareIds.forEach(toggleCompare)}>
-          {t("清空", "Clear")}
+          {t("dock.clear")}
         </button>
         <button
           className="primary"
           disabled={compareIds.length < 2}
           onClick={() => go(compareHref(compareIds))}
         >
-          {t("开始对比", "Compare")} <Icon name="arrow" size={17} />
+          {t("dock.startCompare")} <Icon name="arrow" size={17} />
         </button>
       </div>
     </div>
@@ -261,24 +261,17 @@ export function CompareDock({ actions }: { actions: AppActions }) {
 
 
 export function NotFound({ go }: { go: (href: string) => void }) {
-  const { t } = useI18n();
+  const t = useTranslations("compare");
   return (
     <main className="container empty-state not-found">
       <span className="empty-icon">
         <Icon name="search" size={25} />
       </span>
-      <h3>{t("页面不存在", "Page not found")}</h3>
-      <p>
-        {t(
-          "链接可能已失效，或该 Skill 已被下架。",
-          "The link may be broken, or the Skill has been removed.",
-        )}
-      </p>
+      <h3>{t("notFound.title")}</h3>
+      <p>{t("notFound.body")}</p>
       <button className="secondary" onClick={() => go("/skills")}>
-        {t("返回发现 Skill", "Back to Discover")}
+        {t("notFound.backToDiscover")}
       </button>
     </main>
   );
 }
-
-

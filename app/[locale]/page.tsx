@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { HomePageClient } from "./home-client";
+import { HomePage } from "@/components/pages/home-page";
 import { homeMetadata, resolveLocale } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -12,5 +12,5 @@ export async function generateMetadata({
 }
 
 export default function LocaleHomePage() {
-  return <HomePageClient />;
+  return <HomePage />;
 }

@@ -1,0 +1,16 @@
+{
+  "agentCompatibility": "Agent compatibility",
+  "draftTag": "Draft",
+  "sourceRepoStarsTitle": "Source repo GitHub stars",
+  "compare": {
+    "removeFromCompare": "Remove {name} from compare",
+    "addToCompare": "Add {name} to compare",
+    "added": "Added",
+    "compare": "Compare"
+  },
+  "copyBlock": {
+    "copyCommand": "Copy command",
+    "copied": "Copied",
+    "copy": "Copy"
+  }
+}

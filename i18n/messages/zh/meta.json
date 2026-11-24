@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "awskill · Agent Skill 评测与发现",
+    "description": "中文 AI Agent Skill 评测与发现平台。安装前确认兼容性、安全风险和真实任务表现。"
+  },
+  "skills": {
+    "title": "发现 Skill · awskill",
+    "description": "按任务、Agent、安全与验证状态筛选 AI Agent Skills，安装前先看兼容性与风险。"
+  },
+  "compare": {
+    "title": "Skill 对比 · awskill",
+    "description": "并排对比最多 3 个 Skill 的兼容性、安全权限与评测维度。"
+  },
+  "reviews": {
+    "title": "评测中心 · awskill",
+    "description": "按固定任务与环境查看分维度评测，不做模糊综合总分。"
+  },
+  "workflows": {
+    "title": "工作流 · awskill",
+    "description": "多 Skill 工作流的步骤、输入输出、组合风险与按 Agent 安装命令。"
+  },
+  "agents": {
+    "title": "Agent 兼容性 · awskill",
+    "description": "Claude Code、Codex、Cursor、Windsurf 的安装差异与 Skill 覆盖。"
+  },
+  "skillDetail": {
+    "title": "{name} · Skill 详情",
+    "fallbackDescription": "查看兼容性、安全权限与安装方式。"
+  },
+  "reviewDetail": {
+    "title": "{name} · 评测",
+    "fallbackDescription": "分维度评测详情。"
+  },
+  "workflowDetail": {
+    "title": "{name} · 工作流",
+    "fallbackDescription": "工作流步骤与安装命令。"
+  },
+  "agentDetail": {
+    "title": "{name} · Agent",
+    "description": "{name} 的安装差异、覆盖与相关 Skill。"
+  }
+}

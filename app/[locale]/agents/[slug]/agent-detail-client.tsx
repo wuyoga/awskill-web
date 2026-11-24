@@ -1,14 +1,15 @@
 "use client";
 
-import Link from "next/link";
 import { useParams } from "next/navigation";
 import { useMemo } from "react";
+import { useTranslations } from "next-intl";
 import { useAppActions } from "@/components/app-state";
 import { Icon, AgentMark, compatTone } from "@/components/ui";
 import { NotFound } from "@/components/pages/compare-page";
 import { AGENTS, AGENT_META, type AgentName, agentProfiles } from "@/lib/data";
-import { agentSlug, localized, searchHref, skillHref } from "@/lib/routes";
-import { useI18n } from "@/lib/i18n";
+import { agentSlug, searchHref, skillHref } from "@/lib/routes";
+import { Link } from "@/i18n/navigation";
+import { useEnumLabel } from "@/i18n/format";
 import { useData } from "@/lib/use-data";
 
 function resolveAgent(slug: string): AgentName | undefined {
@@ -20,7 +21,8 @@ export default function AgentDetailRoute() {
   const slug = decodeURIComponent(params.slug ?? "");
   const agent = resolveAgent(slug);
   const actions = useAppActions();
-  const { t, l, lang } = useI18n();
+  const t = useTranslations("agents");
+  const l = useEnumLabel();
   const { skills, agentCopy } = useData();
 
   const related = useMemo(() => {
@@ -37,7 +39,7 @@ export default function AgentDetailRoute() {
   const coverage = Math.round((profile.verified / profile.compatible) * 100);
   const meta = AGENT_META[agent];
 
-  const coverageLabel = t(`实测覆盖 ${coverage}%`, `${coverage}% tested`);
+  const coverageLabel = t("coverageTested", { coverage });
 
   return (
     <main className="hub-page container agent-detail">
@@ -57,14 +59,14 @@ export default function AgentDetailRoute() {
             <div>
               <h1>{agent}</h1>
               <span className="agent-detail-status">
-                <i /> {t("正在维护", "Maintained")}
+                <i /> {t("maintained")}
               </span>
             </div>
           </div>
           <p>{agentCopy(agent)}</p>
           <div className="agent-detail-actions">
             <button type="button" className="primary" onClick={() => actions.go(searchHref({ agent }))}>
-              {t("浏览 Skills", "Browse Skills")} <Icon name="arrow" size={15} />
+              {t("browseSkills")} <Icon name="arrow" size={15} />
             </button>
           </div>
         </div>
@@ -73,11 +75,11 @@ export default function AgentDetailRoute() {
           <div className="agent-metrics">
             <div>
               <strong>{profile.verified}</strong>
-              <span>{t("已实测", "Tested")}</span>
+              <span>{t("tested")}</span>
             </div>
             <div>
               <strong>{profile.compatible}</strong>
-              <span>{t("兼容 Skills", "Compatible")}</span>
+              <span>{t("compatibleSkills")}</span>
             </div>
           </div>
           <div
@@ -91,7 +93,7 @@ export default function AgentDetailRoute() {
             <span style={{ width: `${coverage}%` }} />
           </div>
           <small className="coverage-label">
-            {t(`实测覆盖 ${coverage}% · 安装目录`, `${coverage}% tested · path`)}{" "}
+            {t("coverageTestedPath", { coverage })}{" "}
             <code>{meta.installDir("<skill>")}</code>
           </small>
           <div className="compat-legend">
@@ -112,13 +114,8 @@ export default function AgentDetailRoute() {
         <div className="section-heading compact">
           <div>
             <span className="section-kicker">SKILLS</span>
-            <h2>{t(`在 ${agent} 上可用的 Skill`, `Skills available on ${agent}`)}</h2>
-            <p>
-              {t(
-                "按安装量排序；“未验证”条目不在此列表中。",
-                "Sorted by installs; unverified entries are omitted.",
-              )}
-            </p>
+            <h2>{t("detail.skillsOnAgent", { agent })}</h2>
+            <p>{t("detail.skillsListIntro")}</p>
           </div>
         </div>
         <div className="skill-list">
@@ -126,7 +123,7 @@ export default function AgentDetailRoute() {
             const compat = skill.compat[agent];
             const tone = compatTone(compat.status);
             return (
-              <Link className="skill-row" key={skill.id} href={localized(lang, skillHref(skill.id))}>
+              <Link className="skill-row" key={skill.id} href={skillHref(skill.id)}>
                 <span className={`mini-skill-dot ${skill.tone}`} aria-hidden="true" />
                 <span className="skill-row-body">
                   <strong>{skill.name}</strong>

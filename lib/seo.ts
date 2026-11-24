@@ -1,78 +1,23 @@
 import type { Metadata } from "next";
-import { type Locale, htmlLang, isLocale, DEFAULT_LOCALE } from "@/lib/locale";
+
+import { type Locale, htmlLang, isLocale, DEFAULT_LOCALE } from "@/i18n/locale";
+import enMeta from "@/i18n/messages/en/meta.json";
+import zhMeta from "@/i18n/messages/zh/meta.json";
+import { getSkill, reviewEn, reviews, skillEn, workflowEn, workflows } from "@/lib/data";
 
 export const SITE_NAME = "awskill";
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") || "https://awskill.com";
 
-const HOME_COPY = {
-  zh: {
-    title: "awskill · Agent Skill 评测与发现",
-    description: "中文 AI Agent Skill 评测与发现平台。安装前确认兼容性、安全风险和真实任务表现。",
-  },
-  en: {
-    title: "awskill · Agent Skill reviews & discovery",
-    description:
-      "Discover and evaluate AI Agent Skills. Check compatibility, security risk, and real-task performance before you install.",
-  },
-} as const;
+const META = { zh: zhMeta, en: enMeta } as const;
 
-const PAGE_COPY: Record<
-  string,
-  { zh: { title: string; description: string }; en: { title: string; description: string } }
-> = {
-  "/": HOME_COPY,
-  "/skills": {
-    zh: {
-      title: "发现 Skill · awskill",
-      description: "按任务、Agent、安全与验证状态筛选 AI Agent Skills，安装前先看兼容性与风险。",
-    },
-    en: {
-      title: "Discover Skills · awskill",
-      description:
-        "Filter AI Agent Skills by task, Agent, security and verification before you install.",
-    },
-  },
-  "/compare": {
-    zh: {
-      title: "Skill 对比 · awskill",
-      description: "并排对比最多 3 个 Skill 的兼容性、安全权限与评测维度。",
-    },
-    en: {
-      title: "Compare Skills · awskill",
-      description: "Compare up to 3 Skills side by side on compatibility, security and review dimensions.",
-    },
-  },
-  "/reviews": {
-    zh: {
-      title: "评测中心 · awskill",
-      description: "按固定任务与环境查看分维度评测，不做模糊综合总分。",
-    },
-    en: {
-      title: "Reviews · awskill",
-      description: "Dimension-based Skill reviews on fixed tasks and environments — no blurry aggregate scores.",
-    },
-  },
-  "/workflows": {
-    zh: {
-      title: "工作流 · awskill",
-      description: "多 Skill 工作流的步骤、输入输出、组合风险与按 Agent 安装命令。",
-    },
-    en: {
-      title: "Workflows · awskill",
-      description: "Multi-Skill workflows with steps, I/O, combined risk and per-Agent install commands.",
-    },
-  },
-  "/agents": {
-    zh: {
-      title: "Agent 兼容性 · awskill",
-      description: "Claude Code、Codex、Cursor、Windsurf 的安装差异与 Skill 覆盖。",
-    },
-    en: {
-      title: "Agent compatibility · awskill",
-      description: "Install differences and Skill coverage for Claude Code, Codex, Cursor and Windsurf.",
-    },
-  },
+const HUB_PATH_TO_KEY: Record<string, keyof typeof zhMeta> = {
+  "/": "home",
+  "/skills": "skills",
+  "/compare": "compare",
+  "/reviews": "reviews",
+  "/workflows": "workflows",
+  "/agents": "agents",
 };
 
 export function resolveLocale(raw: string): Locale {
@@ -113,12 +58,14 @@ export function pageMetadata(
 }
 
 export function homeMetadata(locale: Locale): Metadata {
-  return pageMetadata(locale, "/", HOME_COPY[locale]);
+  const copy = META[locale].home;
+  return pageMetadata(locale, "/", copy);
 }
 
 export function hubMetadata(locale: Locale, barePath: string): Metadata {
-  const entry = PAGE_COPY[barePath] ?? HOME_COPY;
-  return pageMetadata(locale, barePath, entry[locale]);
+  const key = HUB_PATH_TO_KEY[barePath] ?? "home";
+  const entry = META[locale][key] as { title: string; description: string };
+  return pageMetadata(locale, barePath, entry);
 }
 
 export function detailMetadata(
@@ -127,4 +74,38 @@ export function detailMetadata(
   copy: { title: string; description: string },
 ): Metadata {
   return pageMetadata(locale, barePath, copy);
+}
+
+export function metaMessages(locale: Locale) {
+  return META[locale];
+}
+
+export function skillDetailCopy(locale: Locale, slug: string) {
+  const skill = getSkill(slug);
+  if (!skill) return null;
+  const en = locale === "en" ? skillEn[skill.id] : undefined;
+  return {
+    name: skill.name,
+    description: en?.description ?? skill.description,
+  };
+}
+
+export function reviewDetailCopy(locale: Locale, slug: string) {
+  const review = reviews.find((item) => item.id === slug);
+  if (!review) return null;
+  const en = locale === "en" ? reviewEn[review.id] : undefined;
+  return {
+    name: en?.title ?? review.title,
+    description: en?.summary ?? review.summary,
+  };
+}
+
+export function workflowDetailCopy(locale: Locale, slug: string) {
+  const workflow = workflows.find((item) => item.id === slug);
+  if (!workflow) return null;
+  const en = locale === "en" ? workflowEn[workflow.id] : undefined;
+  return {
+    name: en?.title ?? workflow.title,
+    description: en?.summary ?? workflow.summary,
+  };
 }

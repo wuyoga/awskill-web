@@ -1,0 +1,22 @@
+{
+  "tagline": "发现、评测并安全使用适合你的 Agent Skills。",
+  "discover": "发现",
+  "allSkills": "全部 Skills",
+  "latestReviews": "最新评测",
+  "workflows": "工作流",
+  "agentCompatibility": "Agent 兼容性",
+  "resources": "资源",
+  "reviewMethod": "评测标准",
+  "securityGuide": "安全指南",
+  "agentGuide": "Agent 入门",
+  "agentGuideSoon": "Agent 入门指南",
+  "about": "关于",
+  "aboutAwskill": "关于 awskill",
+  "submitSkill": "提交 Skill",
+  "contact": "联系我们",
+  "copyright": "© 2026 awskill. 独立的 Agent Skill 评测与发现平台。",
+  "privacy": "隐私",
+  "privacySoon": "隐私政策",
+  "terms": "条款",
+  "termsSoon": "服务条款"
+}

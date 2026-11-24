@@ -1,0 +1,16 @@
+{
+  "time": {
+    "today": "今天",
+    "yesterday": "昨天",
+    "daysAgo": "{count} 天前",
+    "weeksAgo": "{count} 周前",
+    "emDash": "—"
+  },
+  "listSeparator": "、",
+    "soonToast": "“{feature}”将在正式版开放，原型阶段暂不可用。",
+    "baselineName": "无 Skill 基线",
+    "compareMax": "最多同时对比 3 个 Skill，请先移出一个。",
+    "bookmarked": "已收藏 {name}",
+    "unbookmarked": "已取消收藏 {name}",
+    "evidenceSoon": "评测证据：{item}"
+  }

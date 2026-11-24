@@ -16,7 +16,10 @@ import {
   workflowEn,
   agentCopyEn,
 } from "@/lib/data";
-import { enLabel, type Lang, useI18n } from "@/lib/i18n";
+import { useLocale, useTranslations } from "next-intl";
+
+import { enLabel } from "@/i18n/client";
+import type { Locale } from "@/i18n/locale";
 
 function localizeSkill(skill: Skill): Skill {
   const en = skillEn[skill.id];
@@ -81,7 +84,7 @@ function localizeWorkflow(workflow: Workflow): Workflow {
   };
 }
 
-function build(lang: Lang) {
+function build(lang: Locale, baselineName: string) {
   const zh = lang === "zh";
   const skills = zh ? baseSkills : baseSkills.map(localizeSkill);
   const reviews = zh ? baseReviews : baseReviews.map(localizeReview);
@@ -96,15 +99,17 @@ function build(lang: Lang) {
     getSkill: (id: string) => byId.get(id),
     reviewsForSkill: (id: string) => reviews.filter((review) => review.participants.includes(id)),
     participantName: (id: string) =>
-      id === BASELINE ? (zh ? "无 Skill 基线" : "No-Skill baseline") : (byId.get(id)?.name ?? id),
+      id === BASELINE ? baselineName : (byId.get(id)?.name ?? id),
   };
 }
 
-const cache: Partial<Record<Lang, ReturnType<typeof build>>> = {};
+const cache: Partial<Record<Locale, ReturnType<typeof build>>> = {};
 
 export function useData() {
-  const { lang } = useI18n();
-  return useMemo(() => (cache[lang] ??= build(lang)), [lang]);
+  const lang = useLocale() as Locale;
+  const t = useTranslations("common");
+  const baselineName = t("baselineName");
+  return useMemo(() => (cache[lang] ??= build(lang, baselineName)), [lang, baselineName]);
 }
 
 /** Bilingual search text so queries in either language match. */

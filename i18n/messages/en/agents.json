@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": "The right setup for your Agent",
+    "copy": "The same Skill may need different paths, commands and config per Agent. We verify each one."
+  },
+  "maintained": "Maintained",
+  "tested": "Tested",
+  "compatibleSkills": "Compatible",
+  "coverageTested": "{coverage}% tested",
+  "coverageTestedPath": "{coverage}% tested · path",
+  "details": "Details",
+  "browseSkills": "Browse Skills",
+  "matrix": {
+    "title": "Popular Skill compatibility",
+    "intro": "“Unverified” doesn't mean unsupported—we just haven't tested that environment yet.",
+    "partial": "Partial",
+    "footnote": "Top {limit} by installs · {total} total"
+  },
+  "guide": {
+    "title": "Not sure which Agent to start with?",
+    "copy": "Read the starter guide for install methods, Skill paths and key differences.",
+    "readGuide": "Read the guide"
+  },
+  "detail": {
+    "skillsOnAgent": "Skills available on {agent}",
+    "skillsListIntro": "Sorted by installs; unverified entries are omitted."
+  }
+}

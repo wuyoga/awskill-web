@@ -1,0 +1,125 @@
+{
+  "format": {
+    "cursorMdc": "自动转换为 .mdc 项目规则",
+    "windsurfRule": "自动转换为 Windsurf 规则文件",
+    "nativeSkillMd": "原生 SKILL.md，无需转换"
+  },
+  "tabs": {
+    "install": "安装",
+    "usage": "适用场景",
+    "compat": "兼容性",
+    "security": "安全与权限",
+    "mcp": "MCP 关联",
+    "evaluation": "任务评测",
+    "skillmd": "SKILL.md"
+  },
+  "trustSignals": {
+    "sourceListed": "来源已收录",
+    "installVerified": "安装已验证",
+    "securityAssessed": "安全已评估",
+    "taskTested": "任务已实测",
+    "authorVerified": "作者已认证"
+  },
+  "badges": {
+    "prototypeDemo": "原型演示",
+    "collectedDraft": "采集草稿"
+  },
+  "meta": {
+    "sourceRepoStarsTitle": "来源仓库 GitHub Star",
+    "repo": "来源仓库",
+    "notVerifiedYet": "尚未验证",
+    "verifiedLabel": "验证于"
+  },
+  "notices": {
+    "draftTitle": "采集草稿 · 结论待审。",
+    "draftBody": "兼容性、安全与评测字段来自启发式或对标站快照，非正式本站验证结论。",
+    "staleTitle": "来源已更新，结论待复核。",
+    "staleRepoUpdated": "仓库在验证后有新提交（最新 ",
+    "staleBasedOn": "），当前结论基于 ",
+    "staleReverify": "，平台将在 72 小时内重新验证。"
+  },
+  "actions": {
+    "inCompare": "已加入对比",
+    "addToCompare": "加入对比",
+    "removeBookmark": "取消收藏",
+    "bookmark": "收藏",
+    "bookmarked": "已收藏"
+  },
+  "onThisPage": "页面目录",
+  "installSection": {
+    "title": "安装与使用",
+    "intro": "不同 Agent 的安装目录与格式不同，请选择你使用的 Agent。",
+    "chooseAgent": "选择 Agent",
+    "notVerifiedOnAgent": "尚未在 {agent} 中验证，以下命令按通用规则生成，仅供参考。",
+    "verifiedOnAgent": "已在 {agent} {agentVersion} · {os} 验证（{verifiedAgo}）{noteSuffix}",
+    "verifiedNoteSuffix": "：{note}",
+    "requires": "前置条件",
+    "apiKeyRequired": "需要",
+    "apiKeyNotNeeded": "不需要",
+    "path": "安装位置",
+    "formatLabel": "格式",
+    "uninstall": "卸载"
+  },
+  "usageSection": {
+    "title": "适合做什么",
+    "intro": "基于原始说明与平台实测整理。",
+    "notForLabel": "不适合："
+  },
+  "compatSection": {
+    "title": "兼容性",
+    "intro": "每项结论都绑定 Agent 版本和验证环境。“未验证”不等于不支持。",
+    "status": "状态",
+    "environment": "验证环境",
+    "lastVerified": "最近验证"
+  },
+  "securitySection": {
+    "title": "安全与权限",
+    "intro": "低风险不代表零风险，请在安装前确认权限范围。",
+    "overallRisk": "综合风险等级",
+    "assessmentPending": "尚未完成安全评估",
+    "scanAndReview": "自动静态扫描 + 平台人工复核",
+    "basedOnCommit": "基于"
+  },
+  "mcpSection": {
+    "title": "依赖或搭配的 MCP",
+    "intro": "仅在详情关联展示，不做独立 MCP 目录（D-07）。",
+    "siteRepo": "官网 / 仓库",
+    "required": "必需",
+    "optional": "可选增强",
+    "setupLabel": "配置",
+    "envLabel": "环境变量",
+    "emptyTitle": "暂无登记的 MCP 关联",
+    "emptyBody": "该 Skill 当前未登记必需或可选 MCP。有依赖时会在此列出用途与配置前置条件。"
+  },
+  "evaluationSection": {
+    "title": "任务评测",
+    "prototypeIntro": "以下为原型演示数据，不代表正式评测结论。",
+    "draftIntro": "采集草稿通常尚无任务评测；有结论前请勿当作正式实测。",
+    "vsBaseline": "对比无 Skill 基线",
+    "headToHead": "同类横向对比",
+    "completed": "任务完成",
+    "interventions": "人工干预",
+    "interventionsUnit": "次",
+    "duration": "运行时间",
+    "environment": "测试环境",
+    "viewFullReview": "查看完整评测记录",
+    "emptyTitle": "暂无任务评测",
+    "emptyBody": "当前状态为“{status}”。完成安装验证后，同类 Skill 将进入统一任务评测排期。",
+    "browseReviews": "浏览已有评测"
+  },
+  "skillMdSection": {
+    "excerptLabel": "原始文件摘录 · 来自 Commit"
+  },
+  "aside": {
+    "sourceTitle": "来源信息",
+    "author": "作者",
+    "repository": "来源仓库",
+    "license": "许可证",
+    "listed": "收录时间",
+    "sourceUpdated": "来源更新",
+    "verifiedCommit": "验证 Commit",
+    "latestCommit": "最新 Commit",
+    "viewOnGitHub": "在 GitHub 查看",
+    "trustTitle": "数据可信度"
+  }
+}

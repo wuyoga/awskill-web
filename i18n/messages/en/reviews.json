@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "title": "Real tasks, open results",
+    "copy": "Similar Skills are tested on the same task and environment. Every result is tied to an Agent, version and commit."
+  },
+  "stats": {
+    "taskReviews": "Task reviews",
+    "installChecks": "Install checks",
+    "agentSetups": "Agent setups"
+  },
+  "featured": {
+    "tag": "Deep dive of the week",
+    "blurb": "{participant} and a no-Skill baseline run from the same brief and codebase. We compare visual decisions, code completeness, responsiveness and human interventions.",
+    "readMinutes": "{minutes} min read",
+    "sameEnvironment": "Same environment",
+    "seeResults": "See results",
+    "perDimension": "Per-dimension results · no overall score",
+    "interventionsLine": ": {count} interventions",
+    "prototypeNote": "Prototype demo data · official reviews will publish environment and evidence"
+  },
+  "latest": {
+    "title": "Latest reviews",
+    "filterAria": "Filter reviews by category",
+    "allCategories": "All categories",
+    "headToHead": "Head-to-head",
+    "readReport": "Read report"
+  },
+  "method": {
+    "title": "How we reach conclusions",
+    "intro": "No vague overall score. Install, task results, stability, security and cost are recorded separately.",
+    "steps": {
+      "fixedTasks": {
+        "title": "Fixed tasks",
+        "copy": "Similar Skills get the same input and acceptance criteria"
+      },
+      "isolatedRuns": {
+        "title": "Isolated runs",
+        "copy": "Agent, model, OS and commit are recorded"
+      },
+      "keptEvidence": {
+        "title": "Kept evidence",
+        "copy": "Results, timing and interventions are saved"
+      },
+      "independent": {
+        "title": "Independent",
+        "copy": "Payment can't change test or security results"
+      }
+    }
+  },
+  "detail": {
+    "breadcrumb": "Reviews",
+    "completed": "Completed",
+    "interventions": "Interventions",
+    "interventionsCount": "{count}",
+    "duration": "Duration",
+    "verdict": "Verdict",
+    "control": "Control",
+    "model": "Model",
+    "os": "OS",
+    "tested": "Tested",
+    "skillVersions": "Skill versions",
+    "acceptanceCriteria": "Acceptance criteria",
+    "dimension": "Dimension",
+    "noSkillLoaded": "Same task, no Skill loaded",
+    "quality": "Quality",
+    "runLog": "Run log",
+    "viewSkill": "View Skill",
+    "publicEvidence": "Public evidence",
+    "independenceTitle": "Independence statement",
+    "independenceBody": "This review accepted no sponsorship from Skill authors; paid promotion never changes test or security results. Prototype demo data."
+  }
+}

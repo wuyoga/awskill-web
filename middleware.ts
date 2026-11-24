@@ -1,18 +1,24 @@
+import createMiddleware from "next-intl/middleware";
 import { NextResponse, type NextRequest } from "next/server";
+
+import { routing } from "@/i18n/routing";
 import {
+  getLocaleFromPathname,
   LOCALE_HEADER,
-  isLocale,
   localeRedirectPath,
   shouldSkipLocaleRedirect,
-} from "@/lib/locale";
+} from "@/i18n/locale";
 
-export function middleware(request: NextRequest) {
+const handleI18nRouting = createMiddleware(routing);
+
+export default function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
 
   if (shouldSkipLocaleRedirect(pathname)) {
     return NextResponse.next();
   }
 
+  // Product requires permanent 308 for bare paths → /zh/...
   const redirectTo = localeRedirectPath(pathname);
   if (redirectTo) {
     const url = request.nextUrl.clone();
@@ -20,16 +26,10 @@ export function middleware(request: NextRequest) {
     return NextResponse.redirect(url, 308);
   }
 
-  const first = pathname.split("/").filter(Boolean)[0];
-  if (first && isLocale(first)) {
-    const requestHeaders = new Headers(request.headers);
-    requestHeaders.set(LOCALE_HEADER, first);
-    return NextResponse.next({
-      request: { headers: requestHeaders },
-    });
-  }
+  const locale = getLocaleFromPathname(pathname);
+  if (locale) request.headers.set(LOCALE_HEADER, locale);
 
-  return NextResponse.next();
+  return handleI18nRouting(request);
 }
 
 export const config = {

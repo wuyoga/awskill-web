@@ -1,6 +1,6 @@
 import type { MetadataRoute } from "next";
 import { AGENTS, prototypeSkills, reviews, workflows } from "@/lib/data";
-import { LOCALES } from "@/lib/locale";
+import { LOCALES } from "@/i18n/locale";
 import { agentSlug } from "@/lib/routes";
 import { SITE_URL } from "@/lib/seo";
 

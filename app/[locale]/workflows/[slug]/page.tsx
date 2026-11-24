@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { workflows } from "@/lib/data";
-import { detailMetadata, resolveLocale } from "@/lib/seo";
+
+import { detailMetadata, metaMessages, resolveLocale, workflowDetailCopy } from "@/lib/seo";
 import WorkflowDetailClient from "./workflow-detail-client";
 
 export async function generateMetadata({
@@ -11,14 +11,11 @@ export async function generateMetadata({
   const { locale: raw, slug: rawSlug } = await params;
   const locale = resolveLocale(raw);
   const slug = decodeURIComponent(rawSlug);
-  const workflow = workflows.find((item) => item.id === slug);
-  const title =
-    locale === "zh"
-      ? `${workflow?.title ?? slug} · 工作流`
-      : `${workflow?.title ?? slug} · Workflow`;
-  const description =
-    workflow?.summary ??
-    (locale === "zh" ? "工作流步骤与安装命令。" : "Workflow steps and install commands.");
+  const copy = workflowDetailCopy(locale, slug);
+  const meta = metaMessages(locale).workflowDetail;
+  const name = copy?.name ?? slug;
+  const title = meta.title.replace("{name}", name);
+  const description = copy?.description ?? meta.fallbackDescription;
   return detailMetadata(locale, `/workflows/${encodeURIComponent(slug)}`, { title, description });
 }
 

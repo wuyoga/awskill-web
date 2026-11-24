@@ -11,16 +11,23 @@ import {
   useState,
   useSyncExternalStore,
 } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useTranslations } from "next-intl";
 import { AppStateProvider } from "@/components/app-state";
-import { I18nProvider, type Lang } from "@/lib/i18n";
-import { htmlLang, swapLocaleInHref, type Locale } from "@/lib/locale";
+import { htmlLang, swapLocaleInHref, type Locale } from "@/i18n/locale";
 
-type ThemeCtx = { dark: boolean; toggleTheme: () => void; soon: (zh: string, en: string) => void };
+type ThemeCtx = {
+  dark: boolean;
+  toggleTheme: () => void;
+  /** Show "coming soon" toast; `feature` is already localized display text. */
+  soon: (feature: string) => void;
+  setLang: (next: Locale) => void;
+};
+
 const ThemeContext = createContext<ThemeCtx>({
   dark: false,
   toggleTheme: () => {},
   soon: () => {},
+  setLang: () => {},
 });
 
 export function useThemeActions() {
@@ -43,6 +50,11 @@ let prefsBootstrapped = false;
 function bootstrapPrefs() {
   if (prefsBootstrapped || typeof window === "undefined") return;
   prefsBootstrapped = true;
+  const attr = document.documentElement.dataset.theme;
+  if (attr === "dark" || attr === "light") {
+    darkStore = attr === "dark";
+    return;
+  }
   darkStore = readJSON(
     "awskill:dark",
     window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false,
@@ -52,8 +64,14 @@ function bootstrapPrefs() {
 function subscribeDark(listener: () => void) {
   bootstrapPrefs();
   darkListeners.add(listener);
+  const onExternal = () => {
+    darkStore = document.documentElement.dataset.theme === "dark";
+    listener();
+  };
+  window.addEventListener("awskill-theme", onExternal);
   return () => {
     darkListeners.delete(listener);
+    window.removeEventListener("awskill-theme", onExternal);
   };
 }
 
@@ -64,21 +82,19 @@ function getDarkSnapshot() {
 
 function setDarkStore(next: boolean) {
   darkStore = next;
-  localStorage.setItem("awskill:dark", JSON.stringify(next));
+  document.documentElement.dataset.theme = next ? "dark" : "light";
+  try {
+    localStorage.setItem("awskill:dark", JSON.stringify(next));
+  } catch {
+    /* private mode */
+  }
   darkListeners.forEach((listener) => listener());
 }
 
 function LocaleAwareProviders({ locale, children }: { locale: Locale; children: ReactNode }) {
-  const router = useRouter();
-  const pathname = usePathname();
-  const searchParams = useSearchParams();
   const dark = useSyncExternalStore(subscribeDark, getDarkSnapshot, () => false);
   const [toast, setToast] = useState<string | null>(null);
-  const lang = locale as Lang;
-
-  useEffect(() => {
-    document.documentElement.dataset.theme = dark ? "dark" : "light";
-  }, [dark]);
+  const tCommon = useTranslations("common");
 
   useEffect(() => {
     document.documentElement.lang = htmlLang(locale);
@@ -90,27 +106,21 @@ function LocaleAwareProviders({ locale, children }: { locale: Locale; children: 
     return () => window.clearTimeout(timer);
   }, [toast]);
 
-  const setLang = useCallback(
-    (next: Lang) => {
-      const qs = searchParams.toString();
-      const hash = typeof window !== "undefined" ? window.location.hash : "";
-      const href = swapLocaleInHref(`${pathname}${qs ? `?${qs}` : ""}${hash}`, next);
-      router.push(href);
-    },
-    [pathname, router, searchParams],
-  );
+  const setLang = useCallback((next: Locale) => {
+    const href = swapLocaleInHref(
+      `${window.location.pathname}${window.location.search}${window.location.hash}`,
+      next,
+    );
+    window.location.assign(href);
+  }, []);
 
   const toggleTheme = useCallback(() => setDarkStore(!getDarkSnapshot()), []);
 
   const soon = useCallback(
-    (zh: string, en: string) => {
-      setToast(
-        lang === "zh"
-          ? `“${zh}”将在正式版开放，原型阶段暂不可用。`
-          : `“${en}” will be available at launch; it's disabled in this prototype.`,
-      );
+    (feature: string) => {
+      setToast(tCommon("soonToast", { feature }));
     },
-    [lang],
+    [tCommon],
   );
 
   const themeValue = useMemo(
@@ -118,23 +128,22 @@ function LocaleAwareProviders({ locale, children }: { locale: Locale; children: 
       dark,
       toggleTheme,
       soon,
+      setLang,
     }),
-    [dark, soon, toggleTheme],
+    [dark, soon, toggleTheme, setLang],
   );
 
   return (
-    <I18nProvider value={{ lang, setLang }}>
-      <ThemeContext.Provider value={themeValue}>
-        <AppStateProvider>
-          {children}
-          {toast ? (
-            <div className="toast" role="status">
-              {toast}
-            </div>
-          ) : null}
-        </AppStateProvider>
-      </ThemeContext.Provider>
-    </I18nProvider>
+    <ThemeContext.Provider value={themeValue}>
+      <AppStateProvider>
+        {children}
+        {toast ? (
+          <div className="toast" role="status">
+            {toast}
+          </div>
+        ) : null}
+      </AppStateProvider>
+    </ThemeContext.Provider>
   );
 }
 

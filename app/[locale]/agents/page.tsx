@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import AgentsClient from "./agents-client";
+import { AgentsPage } from "@/components/hubs";
 import { hubMetadata, resolveLocale } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -11,6 +11,6 @@ export async function generateMetadata({
   return hubMetadata(resolveLocale(locale), "/agents");
 }
 
-export default function AgentsPage() {
-  return <AgentsClient />;
+export default function AgentsRoute() {
+  return <AgentsPage />;
 }

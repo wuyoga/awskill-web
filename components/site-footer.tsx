@@ -1,13 +1,14 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from "next-intl";
+
 import { BrandMark } from "@/components/brand-mark";
 import { useThemeActions } from "@/components/providers";
-import { useI18n } from "@/lib/i18n";
-import { localized, reviewsHref, searchHref } from "@/lib/routes";
+import { Link } from "@/i18n/navigation";
+import { reviewsHref, searchHref } from "@/lib/routes";
 
 export function SiteFooter() {
-  const { t, lang } = useI18n();
+  const t = useTranslations("footer");
   const { soon } = useThemeActions();
 
   return (
@@ -18,58 +19,48 @@ export function SiteFooter() {
             <BrandMark />
             <span>awskill</span>
           </div>
-          <p>
-            {t(
-              "发现、评测并安全使用适合你的 AI Agent Skills。",
-              "Discover, evaluate and safely use the AI Agent Skills that fit you.",
-            )}
-          </p>
+          <p>{t("tagline")}</p>
           <small>Agent Workflow Skills</small>
         </div>
         <div>
-          <strong>{t("发现", "Discover")}</strong>
-          <Link href={localized(lang, searchHref())}>{t("全部 Skills", "All Skills")}</Link>
-          <Link href={localized(lang, reviewsHref())}>{t("最新评测", "Latest reviews")}</Link>
-          <Link href={localized(lang, "/workflows")}>{t("工作流", "Workflows")}</Link>
-          <Link href={localized(lang, "/agents")}>{t("Agent 兼容性", "Agent compatibility")}</Link>
+          <strong>{t("discover")}</strong>
+          <Link href={searchHref()}>{t("allSkills")}</Link>
+          <Link href={reviewsHref()}>{t("latestReviews")}</Link>
+          <Link href="/workflows">{t("workflows")}</Link>
+          <Link href="/agents">{t("agentCompatibility")}</Link>
         </div>
         <div>
-          <strong>{t("资源", "Resources")}</strong>
-          <Link href={localized(lang, reviewsHref("method"))}>{t("评测标准", "Review method")}</Link>
-          <button type="button" onClick={() => soon("安全指南", "Security guide")}>
-            {t("安全指南", "Security guide")}
+          <strong>{t("resources")}</strong>
+          <Link href={reviewsHref("method")}>{t("reviewMethod")}</Link>
+          <button type="button" onClick={() => soon(t("securityGuide"))}>
+            {t("securityGuide")}
           </button>
-          <button type="button" onClick={() => soon("Agent 入门指南", "Agent starter guide")}>
-            {t("Agent 入门", "Agent guide")}
+          <button type="button" onClick={() => soon(t("agentGuideSoon"))}>
+            {t("agentGuide")}
           </button>
         </div>
         <div>
-          <strong>{t("关于", "About")}</strong>
-          <button type="button" onClick={() => soon("关于 awskill", "About awskill")}>
-            {t("关于 awskill", "About awskill")}
+          <strong>{t("about")}</strong>
+          <button type="button" onClick={() => soon(t("aboutAwskill"))}>
+            {t("aboutAwskill")}
           </button>
-          <button type="button" onClick={() => soon("提交 Skill", "Submit a Skill")}>
-            {t("提交 Skill", "Submit a Skill")}
+          <button type="button" onClick={() => soon(t("submitSkill"))}>
+            {t("submitSkill")}
           </button>
-          <button type="button" onClick={() => soon("联系我们", "Contact")}>
-            {t("联系我们", "Contact")}
+          <button type="button" onClick={() => soon(t("contact"))}>
+            {t("contact")}
           </button>
         </div>
       </div>
       <div className="container footer-bottom">
+        <span>{t("copyright")}</span>
         <span>
-          {t(
-            "© 2026 awskill. 独立的 Agent Skill 评测与发现平台。",
-            "© 2026 awskill. An independent Agent Skill review and discovery platform.",
-          )}
-        </span>
-        <span>
-          <button type="button" onClick={() => soon("隐私政策", "Privacy policy")}>
-            {t("隐私", "Privacy")}
+          <button type="button" onClick={() => soon(t("privacySoon"))}>
+            {t("privacy")}
           </button>{" "}
           ·{" "}
-          <button type="button" onClick={() => soon("服务条款", "Terms of service")}>
-            {t("条款", "Terms")}
+          <button type="button" onClick={() => soon(t("termsSoon"))}>
+            {t("terms")}
           </button>
         </span>
       </div>

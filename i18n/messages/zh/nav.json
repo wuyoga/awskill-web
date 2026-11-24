@@ -1,0 +1,16 @@
+{
+  "mainNav": "主导航",
+  "skills": "发现 Skill",
+  "reviews": "评测",
+  "workflows": "工作流",
+  "agents": "Agent",
+  "submitSkill": "提交 Skill",
+  "signIn": "登录",
+  "switchToEn": "Switch to English",
+  "switchToZh": "切换到中文",
+  "toggleTheme": "切换主题",
+  "compare": "对比",
+  "compareCount": "对比（{count}）",
+  "menu": "菜单",
+  "closeMenu": "关闭菜单"
+}

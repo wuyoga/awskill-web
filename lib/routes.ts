@@ -1,4 +1,10 @@
-import { localizeHref, type Locale } from "@/lib/locale";
+export {
+  compareHref,
+  compareSearchMatches,
+  parseCompareSkillIds,
+  resolveCompareSkillIds,
+  sameCompareIds,
+} from "./compare-url";
 
 export type SearchHrefParams = {
   q?: string;
@@ -39,14 +45,6 @@ export function skillHref(id: string) {
   return `/skills/${encodeURIComponent(id)}`;
 }
 
-export function compareHref(ids: string[]) {
-  const skills = ids.filter(Boolean).slice(0, 3);
-  if (!skills.length) return "/compare";
-  const query = new URLSearchParams();
-  query.set("skills", skills.join(","));
-  return `/compare?${query.toString()}`;
-}
-
 export function reviewHref(id: string) {
   return `/reviews/${encodeURIComponent(id)}`;
 }
@@ -64,15 +62,6 @@ export function workflowHref(id: string) {
 
 export function agentHref(slug: string) {
   return `/agents/${encodeURIComponent(slug)}`;
-}
-
-export function homeHref(locale: Locale) {
-  return localizeHref(locale, "/");
-}
-
-/** Prefix a bare app href for `<Link href>`. */
-export function localized(locale: Locale, href: string) {
-  return localizeHref(locale, href);
 }
 
 /** Stable URL slug for an Agent display name. */

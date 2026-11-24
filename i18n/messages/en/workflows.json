@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "Don't just install—combine",
+    "copy": "Chain Skills in the right order into reusable flows that take one goal all the way to done.",
+    "findSkills": "Find Skills"
+  },
+  "featured": {
+    "recommendedLabel": "Recommended workflow",
+    "meta": "{count} Skills · combined risk: {risk}",
+    "verifiedOn": "Verified on {agents}",
+    "seeAllSteps": "See all steps"
+  },
+  "browse": {
+    "title": "Start from a goal",
+    "open": "Open"
+  },
+  "stepLabel": "Step {step}",
+  "detail": {
+    "breadcrumb": "Workflows",
+    "endToEndVerified": "End-to-end verified on {agents}",
+    "input": "Input",
+    "output": "Output",
+    "viewSkill": "View Skill",
+    "bulkInstallTitle": "Install every Skill at once",
+    "bulkInstallIntro": "Commands are generated for the selected Agent.",
+    "chooseAgent": "Choose Agent",
+    "unsupportedOnAgent": "{skills} not yet verified on {agent}; the full flow may not run end to end."
+  }
+}

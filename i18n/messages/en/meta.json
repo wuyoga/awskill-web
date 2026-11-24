@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "awskill · Agent Skill reviews & discovery",
+    "description": "Discover and evaluate AI Agent Skills. Check compatibility, security risk, and real-task performance before you install."
+  },
+  "skills": {
+    "title": "Discover Skills · awskill",
+    "description": "Filter AI Agent Skills by task, Agent, security and verification before you install."
+  },
+  "compare": {
+    "title": "Compare Skills · awskill",
+    "description": "Compare up to 3 Skills side by side on compatibility, security and review dimensions."
+  },
+  "reviews": {
+    "title": "Reviews · awskill",
+    "description": "Dimension-based Skill reviews on fixed tasks and environments — no blurry aggregate scores."
+  },
+  "workflows": {
+    "title": "Workflows · awskill",
+    "description": "Multi-Skill workflows with steps, I/O, combined risk and per-Agent install commands."
+  },
+  "agents": {
+    "title": "Agent compatibility · awskill",
+    "description": "Install differences and Skill coverage for Claude Code, Codex, Cursor and Windsurf."
+  },
+  "skillDetail": {
+    "title": "{name} · Skill detail",
+    "fallbackDescription": "Check compatibility, security permissions and install steps."
+  },
+  "reviewDetail": {
+    "title": "{name} · Review",
+    "fallbackDescription": "Dimension-based review detail."
+  },
+  "workflowDetail": {
+    "title": "{name} · Workflow",
+    "fallbackDescription": "Workflow steps and install commands."
+  },
+  "agentDetail": {
+    "title": "{name} · Agent",
+    "description": "Install differences, coverage and related Skills for {name}."
+  }
+}

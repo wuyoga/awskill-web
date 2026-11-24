@@ -1,0 +1,59 @@
+{
+  "noReview": "暂无评测",
+  "groups": {
+    "basics": "基本信息",
+    "verification": "验证",
+    "compatibility": "兼容性",
+    "safety": "安全与要求"
+  },
+  "rows": {
+    "repository": "来源仓库",
+    "category": "分类",
+    "output": "输出格式",
+    "status": "验证状态",
+    "taskResult": "任务表现",
+    "lastVerified": "最近验证",
+    "sourceUpdated": "来源更新",
+    "underReview": "结论待复核",
+    "riskLevel": "安全等级",
+    "apiKey": "需要 API Key",
+    "required": "需要",
+    "notNeeded": "不需要"
+  },
+  "breadcrumb": {
+    "discover": "发现 Skill",
+    "compare": "对比"
+  },
+  "title": "选择更适合你的 Skill",
+  "empty": {
+    "title": "还没有加入对比的 Skill",
+    "body": "在列表或详情页点击“对比”，最多可同时对比 3 个。",
+    "discoverCta": "去发现 Skill"
+  },
+  "criteria": "对比项目",
+  "removeSkill": "将 {name} 移出对比",
+  "details": "查看详情",
+  "addSkill": "添加 Skill",
+  "needAtLeastTwo": "至少需要 2 个才能对比",
+  "oneMoreSlot": "还可以添加 1 个",
+  "selectSkillAria": "选择要加入对比的 Skill",
+  "selectPlaceholder": "选择 Skill…",
+  "searchPlaceholder": "搜索名称或仓库",
+  "noMatchingSkills": "无匹配 Skill",
+  "tip": {
+    "title": "如何理解对比结果？",
+    "body": "中风险不等于不安全，它通常表示 Skill 需要执行命令、修改文件或访问网络。安装前请查看具体权限原因。"
+  },
+  "dock": {
+    "ariaLabel": "对比栏",
+    "inCompare": "已加入对比",
+    "maxThree": "最多 3 个",
+    "clear": "清空",
+    "startCompare": "开始对比"
+  },
+  "notFound": {
+    "title": "页面不存在",
+    "body": "链接可能已失效，或该 Skill 已被下架。",
+    "backToDiscover": "返回发现 Skill"
+  }
+}

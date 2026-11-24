@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import WorkflowsClient from "./workflows-client";
+import { WorkflowsPage } from "@/components/hubs";
 import { hubMetadata, resolveLocale } from "@/lib/seo";
 
 export async function generateMetadata({
@@ -11,6 +11,6 @@ export async function generateMetadata({
   return hubMetadata(resolveLocale(locale), "/workflows");
 }
 
-export default function WorkflowsPage() {
-  return <WorkflowsClient />;
+export default function WorkflowsRoute() {
+  return <WorkflowsPage />;
 }

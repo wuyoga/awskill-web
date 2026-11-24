@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": "为你的 Agent 找到正确版本",
+    "copy": "同一个 Skill 在不同 Agent 中可能需要不同目录、命令和配置。我们分别验证。"
+  },
+  "maintained": "正在维护",
+  "tested": "已实测",
+  "compatibleSkills": "兼容 Skills",
+  "coverageTested": "实测覆盖 {coverage}%",
+  "coverageTestedPath": "实测覆盖 {coverage}% · 安装目录",
+  "details": "查看详情",
+  "browseSkills": "浏览 Skills",
+  "matrix": {
+    "title": "热门 Skill 兼容情况",
+    "intro": "“未验证”不等于不支持，只表示平台尚未完成对应环境测试。",
+    "partial": "部分",
+    "footnote": "按安装量展示前 {limit} 个 · 共 {total} 个"
+  },
+  "guide": {
+    "title": "不知道从哪个 Agent 开始？",
+    "copy": "阅读中文 Agent 入门指南，了解安装方式、Skill 目录和主要差异。",
+    "readGuide": "查看入门指南"
+  },
+  "detail": {
+    "skillsOnAgent": "在 {agent} 上可用的 Skill",
+    "skillsListIntro": "按安装量排序；“未验证”条目不在此列表中。"
+  }
+}

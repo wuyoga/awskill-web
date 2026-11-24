@@ -1,28 +1,32 @@
 "use client";
 
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { useSearchParams } from "next/navigation";
+import { useLocale, useTranslations } from "next-intl";
 import { useState } from "react";
+
 import { useAppActions } from "@/components/app-state";
 import { BrandMark } from "@/components/brand-mark";
 import { Icon } from "@/components/icon";
 import { useThemeActions } from "@/components/providers";
-import { compareHref, homeHref } from "@/lib/routes";
-import { useI18n } from "@/lib/i18n";
-import { stripLocale } from "@/lib/locale";
+import { Link, usePathname } from "@/i18n/navigation";
+import { compareHref } from "@/lib/routes";
 
-const NAV: { path: string; key: string; zh: string; en: string }[] = [
-  { path: "/skills", key: "skills", zh: "发现 Skill", en: "Discover" },
-  { path: "/reviews", key: "reviews", zh: "评测", en: "Reviews" },
-  { path: "/workflows", key: "workflows", zh: "工作流", en: "Workflows" },
-  { path: "/agents", key: "agents", zh: "Agent", en: "Agent" },
+const NAV: { path: string; key: "skills" | "reviews" | "workflows" | "agents" }[] = [
+  { path: "/skills", key: "skills" },
+  { path: "/reviews", key: "reviews" },
+  { path: "/workflows", key: "workflows" },
+  { path: "/agents", key: "agents" },
 ];
 
 export function SiteHeader() {
   const pathname = usePathname();
-  const barePath = stripLocale(pathname);
-  const { t, lang, setLang } = useI18n();
-  const { dark, toggleTheme, soon } = useThemeActions();
+  const searchParams = useSearchParams();
+  const locale = useLocale();
+  const t = useTranslations("nav");
+  const { dark, soon } = useThemeActions();
+  const nextLocale = locale === "zh" ? "en" : "zh";
+  const qs = searchParams.toString();
+  const switchHref = qs ? `${pathname}?${qs}` : pathname;
   const { compareIds, go } = useAppActions();
   const [mobileOpen, setMobileOpen] = useState(false);
   const [menuPath, setMenuPath] = useState(pathname);
@@ -32,99 +36,105 @@ export function SiteHeader() {
     setMobileOpen(false);
   }
 
-  const section = barePath.startsWith("/skills")
+  const section = pathname.startsWith("/skills")
     ? "skills"
-    : barePath.startsWith("/compare")
+    : pathname.startsWith("/compare")
       ? "skills"
-      : barePath.startsWith("/reviews")
+      : pathname.startsWith("/reviews")
         ? "reviews"
-        : barePath.startsWith("/workflows")
+        : pathname.startsWith("/workflows")
           ? "workflows"
-          : barePath.startsWith("/agents")
+          : pathname.startsWith("/agents")
             ? "agents"
             : "";
 
   return (
     <header className={`site-header ${mobileOpen ? "menu-open" : ""}`}>
       <div className="header-inner">
-        <Link className="brand" href={homeHref(lang)}>
+        <Link className="brand" href="/" aria-label="awskill">
           <BrandMark />
-          <span>awskill</span>
         </Link>
         <nav
           className={mobileOpen ? "nav-links open" : "nav-links"}
-          aria-label={t("主导航", "Main")}
+          aria-label={t("mainNav")}
         >
           {NAV.map((item) => (
             <Link
               key={item.key}
-              href={`/${lang}${item.path}`}
+              href={item.path}
               className={section === item.key ? "active" : ""}
               aria-current={section === item.key ? "page" : undefined}
               onClick={() => setMobileOpen(false)}
             >
-              {t(item.zh, item.en)}
+              {t(item.key)}
             </Link>
           ))}
           <div className="mobile-menu-actions">
             <button
               className="secondary"
               type="button"
-              onClick={() => soon("提交 Skill", "Submit a Skill")}
+              onClick={() => soon(t("submitSkill"))}
             >
-              {t("提交 Skill", "Submit a Skill")}
+              {t("submitSkill")}
             </button>
-            <button className="primary" type="button" onClick={() => soon("登录", "Sign in")}>
-              {t("登录", "Sign in")}
+            <button className="primary" type="button" onClick={() => soon(t("signIn"))}>
+              {t("signIn")}
             </button>
           </div>
         </nav>
         <div className="header-actions">
-          <button
+          <Link
             className="icon-button lang-toggle"
-            type="button"
-            onClick={() => setLang(lang === "zh" ? "en" : "zh")}
-            aria-label={t("Switch to English", "切换到中文")}
-            title={t("Switch to English", "切换到中文")}
+            href={switchHref}
+            locale={nextLocale}
+            hrefLang={nextLocale}
+            aria-label={locale === "zh" ? t("switchToEn") : t("switchToZh")}
+            title={locale === "zh" ? t("switchToEn") : t("switchToZh")}
           >
-            {lang === "zh" ? "EN" : "中"}
-          </button>
+            {locale === "zh" ? "EN" : "中"}
+          </Link>
           <button
             className="icon-button"
             type="button"
-            onClick={toggleTheme}
-            aria-label={t("切换主题", "Toggle theme")}
+            data-theme-toggle=""
+            aria-pressed={dark}
+            aria-label={t("toggleTheme")}
           >
-            <Icon name={dark ? "sun" : "moon"} size={18} />
+            <span className="theme-icon theme-icon-moon">
+              <Icon name="moon" size={18} />
+            </span>
+            <span className="theme-icon theme-icon-sun">
+              <Icon name="sun" size={18} />
+            </span>
           </button>
           <button
             className="text-button compare-link"
             type="button"
             onClick={() => go(compareHref(compareIds))}
-            aria-label={t(`对比（${compareIds.length}）`, `Compare (${compareIds.length})`)}
+            aria-label={t("compareCount", { count: compareIds.length })}
           >
-            <span className="compare-link-label">{t("对比", "Compare")}</span>
+            <span className="compare-link-label">{t("compare")}</span>
             <Icon name="grid" size={17} />
             {compareIds.length > 0 && <span className="header-count">{compareIds.length}</span>}
           </button>
           <button
             className="text-button desktop-only"
             type="button"
-            onClick={() => soon("提交 Skill", "Submit a Skill")}
+            onClick={() => soon(t("submitSkill"))}
           >
-            {t("提交 Skill", "Submit a Skill")}
+            {t("submitSkill")}
           </button>
           <button
             className="primary small desktop-only"
             type="button"
-            onClick={() => soon("登录", "Sign in")}
+            onClick={() => soon(t("signIn"))}
           >
-            {t("登录", "Sign in")}
+            {t("signIn")}
           </button>
           <button
             className="mobile-menu"
             type="button"
-            aria-label={t("菜单", "Menu")}
+            aria-label={t("menu")}
             aria-expanded={mobileOpen}
             onClick={() => setMobileOpen((open) => !open)}
           >
@@ -136,7 +146,7 @@ export function SiteHeader() {
         <button
           className="menu-scrim"
           type="button"
-          aria-label={t("关闭菜单", "Close menu")}
+          aria-label={t("closeMenu")}
           onClick={() => setMobileOpen(false)}
         />
       )}

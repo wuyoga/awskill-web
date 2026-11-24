@@ -1,0 +1,16 @@
+{
+  "mainNav": "Main",
+  "skills": "Discover",
+  "reviews": "Reviews",
+  "workflows": "Workflows",
+  "agents": "Agent",
+  "submitSkill": "Submit a Skill",
+  "signIn": "Sign in",
+  "switchToEn": "Switch to English",
+  "switchToZh": "切换到中文",
+  "toggleTheme": "Toggle theme",
+  "compare": "Compare",
+  "compareCount": "Compare ({count})",
+  "menu": "Menu",
+  "closeMenu": "Close menu"
+}

@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
+
 import { AGENTS } from "@/lib/data";
 import { agentSlug } from "@/lib/routes";
-import { detailMetadata, resolveLocale } from "@/lib/seo";
+import { detailMetadata, metaMessages, resolveLocale } from "@/lib/seo";
 import AgentDetailClient from "./agent-detail-client";
 
 export async function generateMetadata({
@@ -14,12 +15,9 @@ export async function generateMetadata({
   const slug = decodeURIComponent(rawSlug);
   const agent = AGENTS.find((item) => agentSlug(item) === slug.toLowerCase());
   const name = agent ?? slug;
-  const title =
-    locale === "zh" ? `${name} · Agent` : `${name} · Agent`;
-  const description =
-    locale === "zh"
-      ? `${name} 的安装差异、覆盖与相关 Skill。`
-      : `Install differences, coverage and related Skills for ${name}.`;
+  const meta = metaMessages(locale).agentDetail;
+  const title = meta.title.replace("{name}", name);
+  const description = meta.description.replaceAll("{name}", name);
   return detailMetadata(locale, `/agents/${encodeURIComponent(slug)}`, { title, description });
 }
 

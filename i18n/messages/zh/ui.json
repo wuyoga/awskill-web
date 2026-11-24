@@ -1,0 +1,16 @@
+{
+  "agentCompatibility": "Agent 兼容性",
+  "draftTag": "采集草稿",
+  "sourceRepoStarsTitle": "来源仓库 GitHub Star",
+  "compare": {
+    "removeFromCompare": "将 {name} 移出对比",
+    "addToCompare": "将 {name} 加入对比",
+    "added": "已加入",
+    "compare": "对比"
+  },
+  "copyBlock": {
+    "copyCommand": "复制命令",
+    "copied": "已复制",
+    "copy": "复制"
+  }
+}

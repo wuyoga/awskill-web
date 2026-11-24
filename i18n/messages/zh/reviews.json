@@ -1,0 +1,72 @@
+{
+  "hero": {
+    "title": "真实任务，透明结论",
+    "copy": "同类 Skill 使用统一任务和环境测试。每份结论都绑定 Agent、版本与 Commit。"
+  },
+  "stats": {
+    "taskReviews": "完整任务评测",
+    "installChecks": "安装验证",
+    "agentSetups": "Agent 环境"
+  },
+  "featured": {
+    "tag": "本周深度评测",
+    "blurb": "让 {participant} 与无 Skill 基线在同一个需求和代码起点上运行，比较视觉决策、代码完成度、响应式表现和人工干预次数。",
+    "readMinutes": "{minutes} 分钟阅读",
+    "sameEnvironment": "统一测试环境",
+    "seeResults": "查看评测结果",
+    "perDimension": "分维度结果 · 不合成总分",
+    "interventionsLine": "：人工干预 {count} 次",
+    "prototypeNote": "原型演示数据 · 正式评测将公开环境与证据"
+  },
+  "latest": {
+    "title": "最新评测",
+    "filterAria": "按分类筛选评测",
+    "allCategories": "全部分类",
+    "headToHead": "横向对比",
+    "readReport": "查看报告"
+  },
+  "method": {
+    "title": "结论是如何得出的",
+    "intro": "不使用模糊总分。安装、任务效果、稳定性、安全和成本分别记录。",
+    "steps": {
+      "fixedTasks": {
+        "title": "固定任务",
+        "copy": "同类 Skill 使用相同输入和验收标准"
+      },
+      "isolatedRuns": {
+        "title": "隔离环境",
+        "copy": "记录 Agent、模型、系统和 Commit"
+      },
+      "keptEvidence": {
+        "title": "保留证据",
+        "copy": "保存结果、耗时和人工干预记录"
+      },
+      "independent": {
+        "title": "独立结论",
+        "copy": "付费不能改变测试和安全结论"
+      }
+    }
+  },
+  "detail": {
+    "breadcrumb": "评测",
+    "completed": "任务完成",
+    "interventions": "人工干预",
+    "interventionsCount": "{count} 次",
+    "duration": "运行时间",
+    "verdict": "结论",
+    "control": "对照组",
+    "model": "模型",
+    "os": "系统",
+    "tested": "测试时间",
+    "skillVersions": "Skill 版本",
+    "acceptanceCriteria": "验收标准",
+    "dimension": "评测维度",
+    "noSkillLoaded": "相同任务，不加载任何 Skill",
+    "quality": "质量维度",
+    "runLog": "运行记录",
+    "viewSkill": "查看 Skill 详情",
+    "publicEvidence": "公开证据",
+    "independenceTitle": "独立性声明",
+    "independenceBody": "本评测未接受任何 Skill 作者赞助，付费推广不会改变测试与安全结论。当前为原型演示数据。"
+  }
+}

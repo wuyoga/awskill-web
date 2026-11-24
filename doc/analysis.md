@@ -46,7 +46,7 @@ awskill 是面向中文 AI Agent 重度用户的 Skill 评测与发现平台。�
 
 - Next.js 16.2、React 19、TypeScript 5.7、Tailwind CSS 4。
 - 静态数据在 `lib/data/`（`catalog.ts` / `en.ts` + `skills.collected.json`）。
-- `lib/use-data.ts` 负责中英文数据组装和双语搜索索引；`lib/i18n.tsx` 负责枚举及界面文案切换。
+- `lib/use-data.ts` 负责中英文数据组装和双语搜索索引；界面文案在 `i18n/messages/`，枚举与格式在 `i18n/client.tsx`、`i18n/format.ts`。
 - 真实路径路由（`app/[locale]/…`）；语言在 URL：`/zh`、`/en`；尚无 CMS / Meilisearch / 后端 API。
 - 收藏与主题保存在 `localStorage`；**语言以 URL 为准**（登录同步后置）。
 - 登录、提交 Skill、评测证据、安全指南等入口仍为演示占位。

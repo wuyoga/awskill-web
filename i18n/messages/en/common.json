@@ -1,0 +1,16 @@
+{
+  "time": {
+    "today": "today",
+    "yesterday": "yesterday",
+    "daysAgo": "{count} days ago",
+    "weeksAgo": "{count} weeks ago",
+    "emDash": "—"
+  },
+  "listSeparator": ", ",
+    "soonToast": "“{feature}” will be available at launch; it's disabled in this prototype.",
+    "baselineName": "No-Skill baseline",
+    "compareMax": "You can compare up to 3 Skills. Remove one first.",
+    "bookmarked": "Bookmarked {name}",
+    "unbookmarked": "Removed {name} from bookmarks",
+    "evidenceSoon": "Evidence: {item}"
+  }

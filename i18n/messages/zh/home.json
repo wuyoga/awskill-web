@@ -1,0 +1,39 @@
+{
+  "eyebrow": "中文 Agent Skill 评测与发现平台",
+  "hero": {
+    "titlePrefix": "找到真正适合你的",
+    "titleSuffix": "",
+    "copy": "不只看热度。安装前先确认兼容性、安全风险和真实任务表现。"
+  },
+  "search": {
+    "placeholder": "描述你想完成的任务，例如：浏览器自动化",
+    "ariaLabel": "搜索 Skill",
+    "submit": "搜索"
+  },
+  "popularLabel": "热门：",
+  "quickSearches": {
+    "frontendDesign": "前端设计",
+    "codeReview": "代码审查",
+    "browserAutomation": "浏览器自动化",
+    "slides": "制作演示"
+  },
+  "supports": "已支持",
+  "verified": {
+    "title": "经过验证，而不是简单收录",
+    "copy": "每个结论都标明测试环境、Agent 版本和验证日期。",
+    "viewAll": "查看全部"
+  },
+  "demoNote": "评测内容为原型演示数据，正式上线后将绑定真实测试环境与 Commit。",
+  "explore": {
+    "title": "从你要完成的任务开始"
+  },
+  "skillsCount": "{count} 个 Skills",
+  "trust": {
+    "title": "先了解它会做什么，再决定是否安装",
+    "copy": "awskill 将复杂的权限和风险转化成清晰、可执行的中文说明。安全等级不是一个模糊分数，每个结论都有原因。",
+    "howWeReview": "了解评测标准",
+    "sampleSecuritySummary": "示例安全摘要",
+    "automatedScanManualReview": "自动扫描 + 人工复核",
+    "verifiedLabel": "验证于"
+  }
+}

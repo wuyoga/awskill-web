@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { getSkill } from "@/lib/data";
-import { detailMetadata, resolveLocale } from "@/lib/seo";
+
+import { detailMetadata, metaMessages, resolveLocale, skillDetailCopy } from "@/lib/seo";
 import SkillDetailClient from "./skill-detail-client";
 
 export async function generateMetadata({
@@ -11,16 +11,11 @@ export async function generateMetadata({
   const { locale: raw, slug: rawSlug } = await params;
   const locale = resolveLocale(raw);
   const slug = decodeURIComponent(rawSlug);
-  const skill = getSkill(slug);
-  const title =
-    locale === "zh"
-      ? `${skill?.name ?? slug} · Skill 详情`
-      : `${skill?.name ?? slug} · Skill detail`;
-  const description =
-    skill?.description ??
-    (locale === "zh"
-      ? "查看兼容性、安全权限与安装方式。"
-      : "Check compatibility, security permissions and install steps.");
+  const copy = skillDetailCopy(locale, slug);
+  const meta = metaMessages(locale).skillDetail;
+  const name = copy?.name ?? slug;
+  const title = meta.title.replace("{name}", name);
+  const description = copy?.description ?? meta.fallbackDescription;
   return detailMetadata(locale, `/skills/${encodeURIComponent(slug)}`, { title, description });
 }
 

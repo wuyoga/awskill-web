@@ -1,7 +1,8 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { useLocale, useTranslations } from "next-intl";
+import { usePathname, useSearchParams } from "next/navigation";
 import {
   AGENTS,
   type AgentName,
@@ -17,8 +18,10 @@ import {
   type Skill,
   type VerifyStatus,
 } from "@/lib/data";
-import { localized, parseCsvParam, searchHref, skillHref } from "@/lib/routes";
-import { useI18n } from "@/lib/i18n";
+import { useRouter } from "@/i18n/navigation";
+import { parseCsvParam, searchHref, skillHref } from "@/lib/routes";
+import { stripLocale, type Locale } from "@/i18n/locale";
+import { useEnumLabel } from "@/i18n/format";
 import { searchIndex, useData } from "@/lib/use-data";
 import { type AppActions, type Route } from "@/components/shared";
 import { Icon, MenuSelect, SkillCard } from "@/components/ui";
@@ -91,7 +94,9 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const { t, l, lang } = useI18n();
+  const lang = useLocale() as Locale;
+  const t = useTranslations("skills");
+  const l = useEnumLabel();
   const { skills } = useData();
   const paramsKey = route.params.toString();
   const [query, setQuery] = useState(route.params.get("q") ?? "");
@@ -134,21 +139,20 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
 
   useEffect(() => {
     if (route.page !== "search") return;
-    const next = localized(
-      lang,
-      searchHref({
-        q: query,
-        category,
-        agent,
-        status: statuses,
-        risk: risks,
-        req: requirements,
-        out: outputs,
-        sort,
-      }),
-    );
+    // next-intl router expects locale-free paths; barePath avoids locale thrash.
+    const barePath = stripLocale(pathname);
+    const next = searchHref({
+      q: query,
+      category,
+      agent,
+      status: statuses,
+      risk: risks,
+      req: requirements,
+      out: outputs,
+      sort,
+    });
     const qs = searchParams.toString();
-    const current = `${pathname}${qs ? `?${qs}` : ""}`;
+    const current = `${barePath}${qs ? `?${qs}` : ""}`;
     if (current === next) return;
     router.replace(next, { scroll: false });
   }, [
@@ -161,7 +165,6 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
     requirements,
     outputs,
     sort,
-    lang,
     pathname,
     searchParams,
     router,
@@ -207,7 +210,7 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
     ...(query ? [{ label: `“${query}”`, clear: () => setQuery("") }] : []),
     ...(category !== "全部" ? [{ label: l(category), clear: () => setCategory("全部") }] : []),
     ...(agent !== "全部"
-      ? [{ label: t(`兼容 ${agent}`, `Works with ${agent}`), clear: () => setAgent("全部") }]
+      ? [{ label: t("worksWithAgent", { agent }), clear: () => setAgent("全部") }]
       : []),
     ...statuses.map((item) => ({
       label: l(item),
@@ -219,7 +222,9 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
       clear: () => setRequirements(toggleIn(requirements, item)),
     })),
     ...outputs.map((item) => ({
-      label: t(`输出${item}`, `Outputs ${l(item).toLowerCase()}`),
+      label: t("outputPrefix", {
+        format: lang === "zh" ? item : l(item).toLowerCase(),
+      }),
       clear: () => setOutputs(toggleIn(outputs, item)),
     })),
   ];
@@ -263,7 +268,7 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
       <div className="search-page-head">
         <div className="page-title">
           <span className="section-kicker">DISCOVER</span>
-          <h1>{t("发现值得安装的 Skill", "Discover Skills worth installing")}</h1>
+          <h1>{t("title")}</h1>
         </div>
         <div className="search-toolbar">
           <div className="search-field">
@@ -272,11 +277,11 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
               id="global-search"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
-              placeholder={t("搜索 Skill 或任务", "Search Skills or tasks")}
-              aria-label={t("搜索 Skill 或任务", "Search Skills or tasks")}
+              placeholder={t("searchPlaceholder")}
+              aria-label={t("searchAriaLabel")}
             />
             {query && (
-              <button onClick={() => setQuery("")} aria-label={t("清空搜索", "Clear search")}>
+              <button onClick={() => setQuery("")} aria-label={t("clearSearch")}>
                 <Icon name="x" size={16} />
               </button>
             )}
@@ -286,7 +291,7 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
             onClick={() => setFilterOpen(!filterOpen)}
             aria-expanded={filterOpen}
           >
-            <Icon name="filter" size={18} /> {t("筛选", "Filters")}
+            <Icon name="filter" size={18} /> {t("filters")}
             {filterCount > 0 && <span className="header-count">{filterCount}</span>}
           </button>
         </div>
@@ -295,27 +300,27 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
         {filterOpen && (
           <button
             className="sheet-scrim"
-            aria-label={t("关闭筛选", "Close filters")}
+            aria-label={t("closeFilters")}
             onClick={() => setFilterOpen(false)}
           />
         )}
         <aside
           className={filterOpen ? "filters open" : "filters"}
-          aria-label={t("筛选条件", "Filters")}
+          aria-label={t("filterConditions")}
         >
           <div className="sheet-head">
-            <strong>{t("筛选", "Filters")}</strong>
+            <strong>{t("filters")}</strong>
             <button
               className="icon-button"
               onClick={() => setFilterOpen(false)}
-              aria-label={t("关闭筛选", "Close filters")}
+              aria-label={t("closeFilters")}
             >
               <Icon name="x" size={17} />
             </button>
           </div>
           <div className="sheet-body">
             <div className="filter-group category-filter-group">
-              <div className="filter-label">{t("分类", "Category")}</div>
+              <div className="filter-label">{t("category")}</div>
               {(["全部", ...CATEGORIES] as const).map((item) => (
                 <button
                   key={item}
@@ -323,7 +328,7 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
                   aria-pressed={category === item}
                   onClick={() => setCategory(item)}
                 >
-                  <span>{item === "全部" ? t("全部 Skills", "All Skills") : l(item)}</span>
+                  <span>{item === "全部" ? t("allSkills") : l(item)}</span>
                   <small>{item === "全部" ? poolTotal : categoryCounts[item]}</small>
                 </button>
               ))}
@@ -338,26 +343,26 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
                     checked={agent === item}
                     onChange={() => setAgent(item)}
                   />
-                  <span>{item === "全部" ? t("全部 Agent", "All Agents") : item}</span>
+                  <span>{item === "全部" ? t("allAgents") : item}</span>
                 </label>
               ))}
             </fieldset>
-            {checkboxGroup(t("验证状态", "Verification"), STATUS_OPTIONS, statuses, setStatuses)}
-            {checkboxGroup(t("安全等级", "Risk level"), RISK_OPTIONS, risks, setRisks)}
+            {checkboxGroup(t("verification"), STATUS_OPTIONS, statuses, setStatuses)}
+            {checkboxGroup(t("riskLevel"), RISK_OPTIONS, risks, setRisks)}
             {checkboxGroup(
-              t("使用要求", "Requirements"),
+              t("requirements"),
               Object.keys(REQUIREMENTS) as Requirement[],
               requirements,
               setRequirements,
             )}
-            {checkboxGroup(t("输出格式", "Output format"), OUTPUT_FORMATS, outputs, setOutputs)}
+            {checkboxGroup(t("outputFormat"), OUTPUT_FORMATS, outputs, setOutputs)}
           </div>
           <div className="sheet-foot">
             <button className="secondary" onClick={clearAll}>
-              {t("清除", "Clear")}
+              {t("clear")}
             </button>
             <button className="primary" onClick={() => setFilterOpen(false)}>
-              {t(`查看 ${filtered.length} 个结果`, `Show ${filtered.length} results`)}
+              {t("showResults", { count: filtered.length })}
             </button>
           </div>
         </aside>
@@ -365,21 +370,19 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
           <div className="results-top">
             <span>
               {filtered.length
-                ? t(
-                    `已显示 ${visibleSkills.length} / ${filtered.length} · 目录 ${catalogTotal}`,
-                    `Showing ${visibleSkills.length} / ${filtered.length} · catalog ${catalogTotal}`,
-                  )
-                : t(
-                    `0 个结果 · 目录共 ${catalogTotal} 个`,
-                    `0 results · ${catalogTotal} in catalog`,
-                  )}
+                ? t("showingResults", {
+                    visible: visibleSkills.length,
+                    total: filtered.length,
+                    catalog: catalogTotal,
+                  })
+                : t("zeroResults", { catalog: catalogTotal })}
             </span>
             <MenuSelect
               className="sort-select"
               value={sort}
               options={SORTS}
               onChange={setSort}
-              ariaLabel={t("排序", "Sort")}
+              ariaLabel={t("sort")}
               getLabel={(item) => l(item)}
             />
           </div>
@@ -391,7 +394,7 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
                 </button>
               ))}
               <button className="clear-all" onClick={clearAll}>
-                {t("清除全部", "Clear all")}
+                {t("clearAll")}
               </button>
             </div>
           )}
@@ -416,10 +419,7 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
                       setVisibleCount((count) => Math.min(count + SEARCH_PAGE_SIZE, filtered.length))
                     }
                   >
-                    {t(
-                      `加载更多（剩余 ${filtered.length - visibleSkills.length}）`,
-                      `Load more (${filtered.length - visibleSkills.length} left)`,
-                    )}
+                    {t("loadMore", { remaining: filtered.length - visibleSkills.length })}
                   </button>
                 </div>
               )}
@@ -429,15 +429,10 @@ export function SearchPage({ route, actions }: { route: Route; actions: AppActio
               <span className="empty-icon">
                 <Icon name="search" size={25} />
               </span>
-              <h3>{t("没有找到完全匹配的 Skill", "No exact matches")}</h3>
-              <p>
-                {t(
-                  "试试更简短的任务描述，或清除部分筛选条件。",
-                  "Try a shorter task description or clear some filters.",
-                )}
-              </p>
+              <h3>{t("noExactMatches")}</h3>
+              <p>{t("tryShorterQuery")}</p>
               <button className="secondary" onClick={clearAll}>
-                {t("清除全部条件", "Clear all filters")}
+                {t("clearAllFilters")}
               </button>
             </div>
           )}

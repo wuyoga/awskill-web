@@ -12,12 +12,25 @@ alwaysApply: true
 | 项 | 约定 |
 |----|------|
 | 框架 | Next.js 16 App Router |
-| 包管理 | **pnpm** |
+| 包管理 | **pnpm**（本仓锁定；勿改 npm/yarn） |
 | 本机端口 | `13001`（`pnpm dev`） |
 | CMS（后续） | Strapi；浏览器只走本站 rewrite，禁止硬编码 IP/域名 |
 | 搜索（后续） | Meilisearch；服务端/代理访问，禁止浏览器直连管理端口 |
 | 密钥 | 仅服务端 env；**禁止** `NEXT_PUBLIC_*` 放 secret |
 | 本地 env | `.env*`（除示例）不入库；从 `.env.example` 复制 |
+
+## pnpm `allowBuilds`（反复踩坑，必须遵守）
+
+pnpm **11+** 默认拦截依赖的 install/build 脚本；审批名单在 **[`pnpm-workspace.yaml`](pnpm-workspace.yaml)** 的 `allowBuilds`（**不是** `package.json` 的 `pnpm` 字段——该字段已被 pnpm 忽略）。
+
+| 约束 | 说明 |
+|------|------|
+| 值只能是 boolean | 仅 `true` / `false` |
+| **禁止**占位文案 | 不得保留 `set this to true or false` 等字符串；会导致 `ERR_PNPM_IGNORED_BUILDS`，`pnpm install` / `pnpm dev` 失败 |
+| 新包要跑脚本时 | 先在 `allowBuilds` 显式加 `包名: true`，再 install；或本机 `pnpm approve-builds` 后把结果写回 yaml 入库 |
+| 当前已放行 | `@parcel/watcher`、`@swc/core`、`sharp`（Next / 图片相关；改名单时同步本条） |
+
+遇到 `Ignored build scripts: …` / `Run "pnpm approve-builds"`：先修 `pnpm-workspace.yaml`，不要改包管理器或盲目 `dangerouslyAllowAllBuilds`。
 
 ## 工程硬约束
 
@@ -33,9 +46,26 @@ alwaysApply: true
 
 ## i18n（已冻结）
 
+界面语言只放在 `i18n/`。页面仍是一套 `app/[locale]/`，不要为中英文各建一套路由目录。
+
+| 路径 | 职责 |
+|---|---|
+| `i18n/routing.ts` `request.ts` `navigation.ts` | next-intl 路由与文案加载 |
+| `i18n/locale.ts` | 语言类型、路径前缀 |
+| `i18n/format.ts` `client.tsx` | 枚举标签、相对时间 |
+| `i18n/messages/{zh,en}/*.json` | 界面文案（按命名空间拆分，不是重复页面） |
+| `lib/data/en.ts` | 目录内容的英文覆盖，跟 `catalog.ts` 放在一起 |
+
 - 双语路径前缀：`/zh/...`、`/en/...`；`/` 与无前缀旧链 **308** → `/zh/...`。
 - 语言切换只改路径前缀，保留 query；不使用 `?lang=`。
 - 中英文切换须不丢当前页；`hreflang` / `canonical` 见 `lib/seo.ts`。
+
+## 图片
+
+| 路径 | 职责 |
+|---|---|
+| `public/favicon.ico` `public/favicon.png` `public/apple-icon.png` | 浏览器图标；`app/layout.tsx` 的 `metadata.icons` 指向这里 |
+| `public/brand/` | 品牌源图。页头 logo 用 `components/brand-mark.tsx` 内联 SVG，不引用这些位图 |
 
 ## UI 结构
 
@@ -44,5 +74,5 @@ alwaysApply: true
 
 ## 本仓优先
 
-- 目录与分层以本仓约定为准：`app` / `components` / `lib`。
+- 目录与分层以本仓约定为准：`app` / `components` / `lib`；界面多语言集中在 `i18n/`。
 - 品牌 Token、IA、文案只服从 awskill 产品文档与本仓设计，不引入其它站点的样式或业务结构。

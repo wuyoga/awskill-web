@@ -1,0 +1,29 @@
+{
+  "hero": {
+    "title": "不要只安装，开始组合",
+    "copy": "将多个 Skill 按正确顺序组合成可复用流程，从一个目标出发完成整项工作。",
+    "findSkills": "查找所需 Skill"
+  },
+  "featured": {
+    "recommendedLabel": "推荐工作流",
+    "meta": "{count} 个 Skills · 组合风险 {risk}",
+    "verifiedOn": "{agents} 已验证",
+    "seeAllSteps": "查看完整步骤"
+  },
+  "browse": {
+    "title": "从目标开始",
+    "open": "查看"
+  },
+  "stepLabel": "步骤 {step}",
+  "detail": {
+    "breadcrumb": "工作流",
+    "endToEndVerified": "{agents} 已整体验证",
+    "input": "输入",
+    "output": "输出",
+    "viewSkill": "查看 Skill 详情",
+    "bulkInstallTitle": "一次安装全部 Skill",
+    "bulkInstallIntro": "按所选 Agent 生成安装命令。",
+    "chooseAgent": "选择 Agent",
+    "unsupportedOnAgent": "{skills} 尚未在 {agent} 中验证，组合流程可能无法完整运行。"
+  }
+}

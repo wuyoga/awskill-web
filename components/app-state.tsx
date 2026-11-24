@@ -10,17 +10,36 @@ import {
   useState,
   useSyncExternalStore,
 } from "react";
-import { usePathname, useRouter, useSearchParams } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
 import { type AppActions } from "@/components/shared";
 import { CompareDock } from "@/components/pages/compare-page";
 import { useThemeActions } from "@/components/providers";
-import { compareHref, parseCsvParam } from "@/lib/routes";
-import { useI18n } from "@/lib/i18n";
-import { localizeHref, stripLocale } from "@/lib/locale";
+import { useTranslations } from "next-intl";
+
+import { useRouter } from "@/i18n/navigation";
+import {
+  compareHref,
+  compareSearchMatches,
+  parseCompareSkillIds,
+  resolveCompareSkillIds,
+  sameCompareIds,
+} from "@/lib/routes";
+import { stripLocale } from "@/i18n/locale";
 import type { Skill } from "@/lib/data";
 
-function sameIds(a: string[], b: string[]) {
-  return a.length === b.length && a.every((id, index) => id === b[index]);
+function barePathOf(pathname: string) {
+  return stripLocale(pathname).replace(/\/$/, "") || "/";
+}
+
+/** Address bar, only while `useSearchParams` has not caught up on a hard load. */
+function compareSkillsFromWindow(): string[] | null {
+  if (typeof window === "undefined") return null;
+  if (barePathOf(window.location.pathname) !== "/compare") return null;
+  return parseCompareSkillIds(new URLSearchParams(window.location.search).get("skills"));
+}
+
+function resolveCompareSkillsFromQuery(skillsQuery: string): string[] {
+  return resolveCompareSkillIds(skillsQuery, compareSkillsFromWindow());
 }
 
 type FavoritesCtx = {
@@ -39,7 +58,9 @@ const CompareContext = createContext<AppActions>({
   go: () => {},
   soon: () => {},
   compareIds: [],
+  compareHydrated: false,
   toggleCompare: () => {},
+  seedCompare: () => {},
 });
 
 function readJSON<T>(key: string, fallback: T): T {
@@ -94,7 +115,7 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   const router = useRouter();
   const pathname = usePathname();
   const searchParams = useSearchParams();
-  const { lang } = useI18n();
+  const t = useTranslations("common");
   const { soon } = useThemeActions();
   const favorites = useSyncExternalStore(subscribeFav, getFavSnapshot, () => EMPTY_FAVORITES);
   const [compareIds, setCompareIds] = useState<string[]>([]);
@@ -102,66 +123,72 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
   const [compareHydrated, setCompareHydrated] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
 
-  const tt = useCallback((zh: string, en: string) => (lang === "zh" ? zh : en), [lang]);
-
   useEffect(() => {
     if (!toast) return;
     const timer = window.setTimeout(() => setToast(null), 2800);
     return () => window.clearTimeout(timer);
   }, [toast]);
 
-  const barePath = stripLocale(pathname);
-  const skillsQuery = barePath === "/compare" ? (searchParams.get("skills") ?? "") : null;
+  const barePath = barePathOf(pathname);
+  const onCompare = barePath === "/compare";
+  const skillsQuery = onCompare ? (searchParams.get("skills") ?? "") : null;
 
-  // Seed compare from URL when on /compare (incl. query-only changes)
+  // Seed from URL when entering /compare or when the share query changes (e.g. back/forward).
   useEffect(() => {
-    if (barePath !== "/compare" || skillsQuery === null) {
+    if (!onCompare || skillsQuery === null) {
       setCompareHydrated(false);
       return;
     }
-    const params = new URLSearchParams();
-    if (skillsQuery) params.set("skills", skillsQuery);
-    const fromUrl = parseCsvParam(params, "skills").slice(0, 3);
-    setCompareIds((current) => (sameIds(current, fromUrl) ? current : fromUrl));
+    const fromUrl = resolveCompareSkillsFromQuery(skillsQuery);
+    setCompareIds((current) => {
+      if (fromUrl.length > 0) {
+        return sameCompareIds(current, fromUrl) ? current : fromUrl;
+      }
+      // Bare `/compare`: keep in-memory selection (dock → compare) on first enter.
+      if (!compareHydrated && current.length > 0) return current;
+      return sameCompareIds(current, fromUrl) ? current : fromUrl;
+    });
     setCompareHydrated(true);
-  }, [barePath, skillsQuery]);
+    // compareHydrated intentionally omitted: only gates the "keep memory on bare enter" branch.
+    // eslint-disable-next-line react-hooks/exhaustive-deps -- seed on route/query, not hydrate flips
+  }, [onCompare, skillsQuery]);
 
-  // Keep /compare URL in sync with selection — only after seed
+  // Keep /compare URL in sync with selection — only after seed. Empty selection clears query.
   useEffect(() => {
-    if (barePath !== "/compare" || !compareHydrated) return;
-    const next = localizeHref(lang, compareHref(compareIds));
-    const current = `${window.location.pathname}${window.location.search}`;
-    if (current !== next) {
-      router.replace(next, { scroll: false });
+    if (!onCompare || !compareHydrated) return;
+    if (!compareSearchMatches(window.location.search, compareIds)) {
+      router.replace(compareHref(compareIds), { scroll: false });
     }
-  }, [barePath, compareHydrated, compareIds, lang, router]);
+  }, [onCompare, compareHydrated, compareIds, router]);
 
   const go = useCallback(
     (href: string) => {
-      router.push(localizeHref(lang, href));
+      // next-intl router expects locale-free paths (`/skills?q=…`).
+      router.push(href);
     },
-    [lang, router],
+    [router],
   );
 
   const notify = useCallback((text: string) => setToast(text), []);
+
+  const seedCompare = useCallback((ids: string[]) => {
+    const next = ids.filter(Boolean).slice(0, 3);
+    setCompareIds((current) => (sameCompareIds(current, next) ? current : next));
+    setCompareHydrated(true);
+  }, []);
 
   const toggleCompare = useCallback(
     (id: string) => {
       setCompareIds((current) => {
         if (current.includes(id)) return current.filter((item) => item !== id);
         if (current.length >= 3) {
-          notify(
-            tt(
-              "最多同时对比 3 个 Skill，请先移出一个。",
-              "You can compare up to 3 Skills. Remove one first.",
-            ),
-          );
+          notify(t("compareMax"));
           return current;
         }
         return [...current, id];
       });
     },
-    [notify, tt],
+    [notify, t],
   );
 
   const toggleFavorite = useCallback(
@@ -173,12 +200,10 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
           : getFavSnapshot().filter((id) => id !== skill.id),
       );
       notify(
-        next
-          ? tt(`已收藏 ${skill.name}`, `Bookmarked ${skill.name}`)
-          : tt(`已取消收藏 ${skill.name}`, `Removed ${skill.name} from bookmarks`),
+        next ? t("bookmarked", { name: skill.name }) : t("unbookmarked", { name: skill.name }),
       );
     },
-    [notify, tt],
+    [notify, t],
   );
 
   const favoritesValue = useMemo<FavoritesCtx>(
@@ -195,13 +220,14 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
       go,
       soon,
       compareIds,
+      compareHydrated,
       toggleCompare,
+      seedCompare,
     }),
-    [go, soon, compareIds, toggleCompare],
+    [go, soon, compareIds, compareHydrated, toggleCompare, seedCompare],
   );
 
-  const showCompareDock =
-    compareIds.length > 0 && (barePath === "/skills" || barePath.startsWith("/skills/"));
+  const showCompareDock = compareIds.length > 0 && !onCompare;
 
   useEffect(() => {
     const shell = document.getElementById("app-shell");
@@ -217,14 +243,14 @@ export function AppStateProvider({ children }: { children: ReactNode }) {
         const input = document.getElementById("global-search");
         if (input) input.focus();
         else {
-          router.push(localizeHref(lang, "/skills"));
+          router.push("/skills");
           window.setTimeout(() => document.getElementById("global-search")?.focus(), 60);
         }
       }
     }
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [lang, router]);
+  }, [router]);
 
   return (
     <FavoritesContext.Provider value={favoritesValue}>
