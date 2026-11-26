@@ -1,0 +1,42 @@
+{
+  "meta": {
+    "title": "Privacy Policy · awskill",
+    "description": "How awskill collects and uses visitor data: analytics cookies, local favorites, and your choices."
+  },
+  "title": "Privacy Policy",
+  "lead": "How awskill collects and uses visitor data.",
+  "updated": "Last updated: November 26, 2026",
+  "overview": {
+    "heading": "Overview",
+    "body": "This policy explains what visitor data awskill collects, why, and the choices you have. The short version: we run analytics to understand which Skills, reviews, and workflows are useful; we do not sell data and we do not run advertising."
+  },
+  "collect": {
+    "heading": "What we collect",
+    "intro": "awskill uses two analytics providers and stores anonymous favorites on your device. Neither analytics provider is used to identify you personally, and Google Analytics only writes cookies after the consent rules below are satisfied.",
+    "ga": "Google Analytics 4 — sets first-party cookies (_ga, _ga_*) to distinguish visitors and sessions. Cookies are only written when consent is granted.",
+    "vercel": "Vercel Analytics — cookieless, aggregate page-view counts. It stores no identifiers in your browser.",
+    "favorites": "Local favorites — anonymous favorites stay in this device’s localStorage and are not synced to a server (signed-in sync comes later)."
+  },
+  "consent": {
+    "heading": "Consent",
+    "eea": "Analytics cookies (Google Analytics) are off by default: no _ga cookies are written until you press Accept on the consent banner.",
+    "other": "The banner lets you accept or decline; your choice applies immediately and is remembered on this device. You can reset it on this page at any time to bring the banner back."
+  },
+  "use": {
+    "heading": "How we use the data",
+    "body": "Analytics data is used only to improve awskill: which Skills and reviews people open, which language they browse in, which sites refer visitors, and the core funnel (search → detail → switch Agent → copy install command). Analytics must not capture private parameters inside Skill install commands.",
+    "ads": "awskill does not currently serve ads or share analytics data with advertising products. If that ever changes, this policy will be updated first, and visitors in consent-required regions will be asked again before any advertising cookie is set."
+  },
+  "retention": {
+    "heading": "Data retention and processors",
+    "body": "GA4 event data is retained according to its retention setting (at most 14 months). Vercel Analytics keeps only short-lived aggregates. Local favorites disappear when you clear this site’s data in the browser.",
+    "processors": "Data is processed by Google LLC (Google Analytics 4) and Vercel Corp. (hosting and cookieless analytics). These providers may process data outside your country of residence."
+  },
+  "rights": {
+    "heading": "Your rights and contact",
+    "body": "Depending on where you live, you may have rights to access, correct, or delete data about you. The reset button below withdraws your stored consent choice and brings the banner back immediately when analytics is configured; you can also block or delete cookies in your browser settings, or clear this site’s local favorites.",
+    "contact": "Questions about this policy or your data can be raised via the Contact link in the site footer once that channel is available."
+  },
+  "reset": "Reset my consent choice",
+  "resetDone": "Consent choice cleared. If analytics is configured, the consent banner will show again immediately."
+}

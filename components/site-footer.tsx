@@ -55,10 +55,8 @@ export function SiteFooter() {
       <div className="container footer-bottom">
         <span>{t("copyright")}</span>
         <span>
-          <button type="button" onClick={() => soon(t("privacySoon"))}>
-            {t("privacy")}
-          </button>{" "}
-          ·{" "}
+          <Link href="/privacy">{t("privacy")}</Link>
+          {" · "}
           <button type="button" onClick={() => soon(t("termsSoon"))}>
             {t("terms")}
           </button>

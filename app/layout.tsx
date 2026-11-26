@@ -29,6 +29,11 @@ export default async function RootLayout({ children }: { children: ReactNode }) 
             __html: `(function(){if(window.__awskillThemeBound)return;window.__awskillThemeBound=1;var root=document.documentElement;function stored(){try{var raw=localStorage.getItem("awskill:dark");if(raw==null)return matchMedia("(prefers-color-scheme: dark)").matches;return JSON.parse(raw)===true;}catch(e){return false;}}if(!root.getAttribute("data-theme"))root.setAttribute("data-theme",stored()?"dark":"light");document.addEventListener("click",function(event){var node=event.target&&event.target.closest&&event.target.closest("[data-theme-toggle]");if(!node)return;var next=root.getAttribute("data-theme")!=="dark";root.setAttribute("data-theme",next?"dark":"light");try{localStorage.setItem("awskill:dark",JSON.stringify(next));}catch(e){}node.setAttribute("aria-pressed",next?"true":"false");window.dispatchEvent(new Event("awskill-theme"));},true);})();`,
           }}
         />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `(function(){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}window.gtag=window.gtag||gtag;gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',wait_for_update:500});try{if(localStorage.getItem('awskill:analytics-consent')==='granted'){gtag('consent','update',{analytics_storage:'granted'});}}catch(e){}})();`,
+          }}
+        />
         {children}
       </body>
     </html>

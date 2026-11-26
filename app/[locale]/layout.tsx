@@ -4,6 +4,7 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
 import type { ReactNode } from "react";
 
+import { SiteAnalytics } from "@/components/analytics/site-analytics";
 import { SiteFooter } from "@/components/site-footer";
 import { SiteHeader } from "@/components/site-header";
 import { Providers } from "@/components/providers";
@@ -45,6 +46,7 @@ export default async function LocaleLayout({
           {children}
           <SiteFooter />
         </div>
+        <SiteAnalytics />
       </Providers>
     </NextIntlClientProvider>
   );
