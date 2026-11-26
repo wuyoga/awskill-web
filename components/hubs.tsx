@@ -399,7 +399,10 @@ export function ReviewDetailPage({ review, actions }: { review: Review; actions:
           <div>
             {review.evidence.map((item) => (
               <button key={item} onClick={() => soon(tCommon("evidenceSoon", { item }))}>
-                <Icon name="file" size={16} /> {item}
+                <span className="evidence-mark" aria-hidden="true">
+                  <Icon name="file" size={16} />
+                </span>
+                {item}
               </button>
             ))}
           </div>

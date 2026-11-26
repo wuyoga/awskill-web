@@ -4914,26 +4914,44 @@ a.github-link {
 .evidence > div {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 10px;
+  gap: 12px;
 }
 
 .evidence button {
-  min-height: 52px;
+  min-height: 112px;
   display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 0 14px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 16px;
   border: 1px solid var(--line);
-  border-radius: 10px;
-  color: var(--text-2);
+  border-radius: 13px;
+  color: var(--text);
   background: var(--surface);
-  font-size: 12px;
+  font-size: 13px;
+  font-weight: 650;
+  line-height: 1.45;
   text-align: left;
+}
+
+.evidence-mark {
+  width: 32px;
+  height: 32px;
+  display: grid;
+  place-items: center;
+  flex: none;
+  border-radius: 8px;
+  color: var(--brand-dark);
+  background: var(--brand-soft);
 }
 
 .evidence button:hover {
   border-color: var(--brand);
-  color: var(--text);
+}
+
+.evidence button:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
 }
 
 /* ---------- Workflow detail ---------- */
