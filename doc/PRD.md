@@ -64,6 +64,7 @@ awskill 是中文 AI Agent Skill 评测与发现平台，通过 Agent 兼容性�
 | PAGE-14 | 评测标准 | `/methodology` |
 | PAGE-15 | 安全指南 | `/security` |
 | PAGE-16 | 隐私政策 | `/privacy` |
+| PAGE-17 | 服务条款 | `/terms` |
 
 ### 3.2 后台模块
 

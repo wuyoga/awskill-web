@@ -57,9 +57,7 @@ export function SiteFooter() {
         <span>
           <Link href="/privacy">{t("privacy")}</Link>
           {" · "}
-          <button type="button" onClick={() => soon(t("termsSoon"))}>
-            {t("terms")}
-          </button>
+          <Link href="/terms">{t("terms")}</Link>
         </span>
       </div>
     </footer>

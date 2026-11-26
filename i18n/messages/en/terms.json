@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Terms of Service · awskill",
+    "description": "Terms for using the awskill site and content: discovery and reviews, install responsibility, third-party Skills, and disclaimers."
+  },
+  "title": "Terms of Service",
+  "lead": "The terms that apply when you use the awskill website and its public content.",
+  "updated": "Last updated: November 26, 2026",
+  "acceptance": {
+    "heading": "Acceptance",
+    "body": "By accessing or using awskill (awskill.com and its localized paths), you agree to these Terms and the Privacy Policy. If you do not agree, do not use the site."
+  },
+  "service": {
+    "heading": "What awskill provides",
+    "body": "awskill helps you discover AI Agent Skills and review compatibility notes, security permission explanations, evaluations, and workflow information before you install.",
+    "not": "The site does not host or run Skills online, and it is not a paid marketplace, revenue-share store, or official endorsement network. Install commands are shown for the Agent you select and are meant to be run on your own machine."
+  },
+  "demo": {
+    "heading": "Demo and placeholder content",
+    "body": "Some pages may be labeled as demo or placeholder data. Those counts, review conclusions, and relative dates must not be treated as production-verified facts. Formal conclusions are those tied to a stated source, evaluation environment, and Commit / Agent version."
+  },
+  "thirdParty": {
+    "heading": "Third-party Skills and links",
+    "body": "Skills in the catalog usually come from third-party repositories or other public sources. awskill does not own those upstream projects and does not guarantee they remain available, safe, or fit for your purpose.",
+    "install": "You are responsible for any install / uninstall commands, paths, and formats you copy and run in your Agent environment. Read upstream licenses and security notices, and assess permissions and risk yourself."
+  },
+  "reviews": {
+    "heading": "Reviews and security conclusions",
+    "body": "Reviews are shown by dimension — there is no blurry aggregate score. Security conclusions should be explainable (permission facts plus reasons) and may be bound to a Commit, Agent version, and environment; when the source updates and those bindings no longer match, the page may show an outdated-conclusion notice.",
+    "disclaimer": "Review and security information is for reference only. It is not a warranty, guarantee, or professional security audit. You still decide whether to install and use a Skill."
+  },
+  "accounts": {
+    "heading": "Favorites and accounts",
+    "body": "You can save anonymous favorites locally today; signed-in sync comes later. If accounts are offered later, you are responsible for your credentials and activity under the account, and for any supplemental rules published then."
+  },
+  "acceptable": {
+    "heading": "Acceptable use",
+    "intro": "You must not use the site for unlawful or abusive activity, including but not limited to:",
+    "items": {
+      "scrape": "large-scale scraping, attacks, or bypassing access controls in a way that disrupts the service;",
+      "misrepresent": "presenting demo or unreviewed content as production-verified conclusions, or misrepresenting the awskill brand or review independence;",
+      "malware": "attempting to distribute malicious, fraudulent, or rights-infringing material through submissions or other channels (including once submission is available)."
+    }
+  },
+  "ip": {
+    "heading": "Intellectual property",
+    "body": "The awskill brand, UI copy, and original editorial arrangement are protected under applicable law. Third-party Skill names, code, and docs remain with their respective rights holders. If you believe content on this site infringes your rights, use the Contact link in the footer once that channel is available."
+  },
+  "liability": {
+    "heading": "Disclaimer and limitation of liability",
+    "body": "To the fullest extent permitted by law, awskill provides information and services “as is” and is not liable for direct or indirect losses arising from use of (or inability to use) the site, third-party Skills, install commands, or review information. Where some jurisdictions disallow certain exclusions, those mandatory rules control."
+  },
+  "changes": {
+    "heading": "Changes",
+    "body": "We may update these Terms and will revise the “Last updated” date on this page. For material changes, we will give reasonable notice on the site where practical. Continued use after an update means you accept the revised Terms."
+  },
+  "contact": {
+    "heading": "Contact and privacy",
+    "beforePrivacy": "How we handle visitor data is described in the",
+    "afterPrivacy": ". Other questions can be raised via the Contact link in the footer once that channel is available.",
+    "privacyLink": "Privacy Policy"
+  }
+}

@@ -12,6 +12,7 @@ const NAMESPACES = [
   "workflows",
   "agents",
   "privacy",
+  "terms",
   "consent",
   "enums",
   "meta",
